@@ -30,6 +30,7 @@ complejidad con otros campos.
 
 - [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md)
 - [Criptografía y complejidad](02-criptografia-y-complejidad.md)
+- [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 
 ## Resultado esperado
 

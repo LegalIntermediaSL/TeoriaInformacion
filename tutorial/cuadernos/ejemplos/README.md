@@ -10,6 +10,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Códigos prefijo y longitud media](04-codigos-prefijo-longitud-media.ipynb)
 - [Información mutua y entropía condicional](05-informacion-mutua-entropia-condicional.ipynb)
 - [Compresión y redundancia](06-compresion-y-redundancia.ipynb)
+- [Divergencia KL y entropía cruzada](07-divergencia-kl-entropia-cruzada.ipynb)
+- [Código de repetición y corrección de errores](08-codigos-repeticion-correccion.ipynb)
 
 ## Ideas iniciales
 
@@ -20,3 +22,5 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - Ejemplos de codificación y longitud media.
 - Codificación de canal con códigos de repetición.
 - Estimación experimental de información mutua.
+- Comparación de modelos probabilísticos mediante KL.
+- Códigos correctores más allá de repetición simple.

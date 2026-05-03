@@ -10,6 +10,18 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Nueva tanda de artículos:
+  - grafos y estructuras discretas;
+  - divergencia KL y entropía cruzada;
+  - códigos correctores de errores;
+  - máquinas de Turing;
+  - complejidad espacial;
+  - aprendizaje automático e información.
+- Nuevos cuadernos Jupyter:
+  - divergencia KL y entropía cruzada;
+  - código de repetición y corrección de errores;
+  - grafos y alcanzabilidad;
+  - memoria en BFS y DFS.
 - Nueva expansión de artículos:
   - combinatoria y conteo;
   - codificación de fuente;

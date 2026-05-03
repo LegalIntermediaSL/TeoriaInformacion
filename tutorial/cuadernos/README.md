@@ -25,6 +25,8 @@ Para preparar un entorno local, consulta la guía de
 - [Códigos prefijo y longitud media](ejemplos/04-codigos-prefijo-longitud-media.ipynb)
 - [Información mutua y entropía condicional](ejemplos/05-informacion-mutua-entropia-condicional.ipynb)
 - [Compresión y redundancia](ejemplos/06-compresion-y-redundancia.ipynb)
+- [Divergencia KL y entropía cruzada](ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
+- [Código de repetición y corrección de errores](ejemplos/08-codigos-repeticion-correccion.ipynb)
 
 ### Ejercicios
 
@@ -32,6 +34,8 @@ Para preparar un entorno local, consulta la guía de
 - [Verificación de certificados en NP](ejercicios/02-verificacion-certificados-np.ipynb)
 - [Práctica de códigos prefijo](ejercicios/03-practica-codigos-prefijo.ipynb)
 - [Búsqueda exhaustiva para SAT](ejercicios/04-busqueda-sat.ipynb)
+- [Grafos y alcanzabilidad](ejercicios/05-grafos-alcanzabilidad.ipynb)
+- [Memoria en BFS y DFS](ejercicios/06-memoria-bfs-dfs.ipynb)
 
 ## Convenciones recomendadas
 

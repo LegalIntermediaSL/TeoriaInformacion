@@ -16,6 +16,41 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Grafos, KL, corrección de errores y espacio
+
+Se amplía el tutorial con nuevos temas de soporte matemático, información,
+computabilidad, complejidad y aplicaciones, junto con cuadernos asociados.
+
+Avances:
+
+- Redacción del artículo `04-grafos-y-estructuras-discretas.md`.
+- Redacción de los artículos `05-divergencia-kl-y-entropia-cruzada.md` y
+  `06-codigos-correctores-de-errores.md`.
+- Redacción del artículo `04-maquinas-de-turing.md`.
+- Redacción del artículo `04-complejidad-espacial.md`.
+- Redacción del artículo `03-aprendizaje-automatico-e-informacion.md`.
+- Creación de cuadernos de ejemplo sobre divergencia KL y códigos de repetición.
+- Creación de cuadernos de ejercicios sobre alcanzabilidad en grafos y memoria
+  en BFS/DFS.
+- Actualización de índices generales, índices de módulos y sección de cuadernos.
+
+Decisiones:
+
+- Añadir grafos como puente hacia problemas de complejidad y recorridos
+  algorítmicos.
+- Introducir KL y entropía cruzada antes de profundizar más en aprendizaje
+  automático.
+- Presentar corrección de errores con repetición antes de códigos más
+  sofisticados.
+- Conectar complejidad espacial con experimentos simples de frontera en BFS y
+  DFS.
+
+Pendientes:
+
+- Añadir un artículo sobre complejidad temporal de algoritmos básicos.
+- Crear un cuaderno de máquinas de Turing simples o autómatas finitos.
+- Añadir soluciones comentadas para los cuadernos de ejercicios.
+
 ### 2026-05-03 - Segunda expansión de tutorial y cuadernos
 
 Se continúa la ampliación del material con artículos de desarrollo y una nueva
