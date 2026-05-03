@@ -30,6 +30,7 @@ Módulo sobre los límites formales de lo que puede ser calculado.
 ## Artículos
 
 - [El problema de la parada](01-problema-de-la-parada.md)
+- [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
 
 ## Resultado esperado
 

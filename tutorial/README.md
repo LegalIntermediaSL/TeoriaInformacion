@@ -26,9 +26,14 @@ información y computación, y termina con conexiones entre áreas.
 
 - [Mapa del territorio: información, cálculo y dificultad](00-presentacion/01-mapa-del-territorio.md)
 - [Logaritmos, probabilidad y crecimiento](01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+- [Conjuntos, funciones y relaciones](01-fundamentos-matematicos/02-conjuntos-funciones-y-relaciones.md)
 - [Entropía: medir incertidumbre](02-teoria-informacion/01-entropia-incertidumbre.md)
+- [Información mutua](02-teoria-informacion/02-informacion-mutua.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
+- [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
+- [Reducciones polinómicas](04-complejidad-computacional/02-reducciones-polinomicas.md)
+- [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
 
 ## Convenciones de cada módulo
 

@@ -32,6 +32,7 @@ computacionales.
 ## Artículos
 
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Reducciones polinómicas](02-reducciones-polinomicas.md)
 
 ## Resultado esperado
 

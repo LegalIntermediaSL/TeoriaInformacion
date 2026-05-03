@@ -10,6 +10,22 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Cuadernos Jupyter adicionales:
+  - canal binario simétrico;
+  - códigos prefijo y longitud media;
+  - ejercicios de entropía y fuentes discretas;
+  - ejercicios de verificación de certificados en NP.
+- Artículos nuevos del tutorial:
+  - conjuntos, funciones y relaciones;
+  - información mutua;
+  - decidibilidad y reconocibilidad;
+  - reducciones polinómicas;
+  - complejidad de Kolmogorov.
+- Primeros cuadernos Jupyter de ejemplo:
+  - entropía de distribuciones discretas;
+  - comparación de crecimiento asintótico.
+- Archivo `.gitignore` para checkpoints de Jupyter, entornos locales y archivos
+  generados comunes.
 - Carpeta `tutorial/cuadernos` para notebooks Jupyter.
 - Subcarpetas `tutorial/cuadernos/ejemplos` y
   `tutorial/cuadernos/ejercicios`.
@@ -29,8 +45,9 @@ de un repositorio de estudio y documentación.
 
 ### Pendiente
 
-- Desarrollar los contenidos de cada módulo.
-- Crear los primeros materiales sobre entropía, computabilidad y complejidad.
+- Seguir desarrollando artículos de segundo nivel en cada módulo.
+- Añadir ejercicios resueltos, pistas y notebooks de práctica.
+- Asociar referencias específicas a los artículos existentes.
 
 ## [0.1.0] - 2026-05-03
 

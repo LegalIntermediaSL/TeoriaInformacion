@@ -16,6 +16,70 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Nuevos cuadernos de canales, códigos y NP
+
+Se amplía la colección de cuadernos Jupyter para cubrir ejemplos prácticos de
+teoría de la información y ejercicios guiados de complejidad.
+
+Avances:
+
+- Creación del cuaderno `03-canal-binario-simetrico.ipynb`.
+- Creación del cuaderno `04-codigos-prefijo-longitud-media.ipynb`.
+- Creación del cuaderno de ejercicios `01-entropia-y-fuentes-discretas.ipynb`.
+- Creación del cuaderno de ejercicios
+  `02-verificacion-certificados-np.ipynb`.
+- Actualización de los índices de ejemplos, ejercicios y cuadernos.
+
+Decisiones:
+
+- Usar implementaciones pequeñas con Python estándar para que los notebooks sean
+  fáciles de ejecutar en entornos mínimos.
+- Mantener `matplotlib` como mejora opcional en los cuadernos con gráficas.
+- Separar claramente notebooks demostrativos y notebooks de práctica.
+
+Pendientes:
+
+- Añadir un cuaderno sobre información mutua y entropía condicional.
+- Añadir un cuaderno sobre compresión y redundancia en cadenas.
+- Crear una guía breve de ejecución local para Jupyter.
+
+### 2026-05-03 - Expansión inicial de artículos y notebooks
+
+Se amplía el tutorial con contenidos de segundo nivel y con los primeros
+cuadernos Jupyter demostrativos.
+
+Avances:
+
+- Redacción de un artículo de fundamentos sobre conjuntos, funciones y
+  relaciones.
+- Redacción de un artículo de teoría de la información sobre información mutua.
+- Redacción de un artículo de computabilidad sobre decidibilidad y
+  reconocibilidad.
+- Redacción de un artículo de complejidad sobre reducciones polinómicas.
+- Redacción de un artículo de conexiones sobre complejidad de Kolmogorov.
+- Creación de un cuaderno de ejemplo para calcular entropía en distribuciones
+  discretas.
+- Creación de un cuaderno de ejemplo para comparar órdenes de crecimiento
+  asintótico.
+- Actualización de índices de módulos y de la sección de cuadernos.
+- Inclusión de `.gitignore` para evitar checkpoints, entornos locales y archivos
+  generados habituales.
+
+Decisiones:
+
+- Ampliar primero los conceptos que actúan como puentes entre módulos:
+  lenguajes, información compartida, reconocibilidad, reducciones y compresión
+  algorítmica.
+- Mantener notebooks sin salidas guardadas para que el repositorio siga ligero.
+- Usar solo Python estándar en el núcleo de los cuadernos y tratar `matplotlib`
+  como dependencia opcional.
+
+Pendientes:
+
+- Añadir ejercicios resueltos asociados a los nuevos artículos.
+- Crear notebooks de práctica en `tutorial/cuadernos/ejercicios`.
+- Asociar referencias específicas a cada artículo nuevo.
+
 ### 2026-05-03 - Carpeta para cuadernos Jupyter
 
 Se crea un espacio específico para cuadernos Jupyter dentro del tutorial.

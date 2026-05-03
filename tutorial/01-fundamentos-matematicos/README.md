@@ -27,6 +27,7 @@ Módulo de preparación matemática para los temas principales del tutorial.
 ## Artículos
 
 - [Logaritmos, probabilidad y crecimiento](01-logaritmos-probabilidad-y-crecimiento.md)
+- [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
 
 ## Resultado esperado
 

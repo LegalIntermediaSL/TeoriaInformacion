@@ -26,6 +26,10 @@ complejidad con otros campos.
 - Interpretación informacional de modelos predictivos.
 - Problemas criptográficos basados en dificultad computacional.
 
+## Artículos
+
+- [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md)
+
 ## Resultado esperado
 
 Al terminar este módulo, la persona lectora debería tener una visión integrada

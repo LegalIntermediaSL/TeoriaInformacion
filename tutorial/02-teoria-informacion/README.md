@@ -31,6 +31,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 ## Artículos
 
 - [Entropía: medir incertidumbre](01-entropia-incertidumbre.md)
+- [Información mutua](02-informacion-mutua.md)
 
 ## Resultado esperado
 

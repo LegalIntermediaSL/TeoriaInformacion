@@ -12,6 +12,20 @@ experimentos pequeños que acompañen los artículos teóricos.
 - [Ejercicios](ejercicios/): cuadernos para practicar conceptos del tutorial,
   con enunciados, celdas preparadas y soluciones cuando proceda.
 
+## Cuadernos disponibles
+
+### Ejemplos
+
+- [Entropía de distribuciones discretas](ejemplos/01-entropia-distribuciones.ipynb)
+- [Comparación de crecimiento asintótico](ejemplos/02-crecimiento-asintotico.ipynb)
+- [Canal binario simétrico](ejemplos/03-canal-binario-simetrico.ipynb)
+- [Códigos prefijo y longitud media](ejemplos/04-codigos-prefijo-longitud-media.ipynb)
+
+### Ejercicios
+
+- [Entropía y fuentes discretas](ejercicios/01-entropia-y-fuentes-discretas.ipynb)
+- [Verificación de certificados en NP](ejercicios/02-verificacion-certificados-np.ipynb)
+
 ## Convenciones recomendadas
 
 - Nombrar los cuadernos con prefijo numérico y tema, por ejemplo
