@@ -1,0 +1,32 @@
+# 05 - Conexiones y aplicaciones
+
+Módulo dedicado a conectar teoría de la información, computabilidad y
+complejidad con otros campos.
+
+## Objetivos
+
+- Mostrar cómo las tres áreas se iluminan entre sí.
+- Introducir nociones de información algorítmica y aleatoriedad.
+- Relacionar los fundamentos teóricos con aplicaciones modernas.
+- Preparar rutas de profundización.
+
+## Contenidos previstos
+
+- Complejidad de Kolmogorov.
+- Aleatoriedad algorítmica.
+- Compresión e incomputabilidad.
+- Criptografía y complejidad.
+- Aprendizaje automático e información.
+- Física, termodinámica e información.
+- Información cuántica como ruta de ampliación.
+
+## Ejemplos previstos
+
+- Cadenas compresibles e incompresibles.
+- Interpretación informacional de modelos predictivos.
+- Problemas criptográficos basados en dificultad computacional.
+
+## Resultado esperado
+
+Al terminar este módulo, la persona lectora debería tener una visión integrada
+de los límites, medidas y costes asociados al procesamiento de información.
