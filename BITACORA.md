@@ -16,6 +16,30 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Carpeta para cuadernos Jupyter
+
+Se crea un espacio específico para cuadernos Jupyter dentro del tutorial.
+
+Avances:
+
+- Creación de la carpeta `tutorial/cuadernos`.
+- Separación inicial entre `tutorial/cuadernos/ejemplos` y
+  `tutorial/cuadernos/ejercicios`.
+- Inclusión de README orientativos para definir convenciones y posibles temas.
+- Enlace a los cuadernos desde el índice principal del tutorial.
+
+Decisiones:
+
+- Ubicar los cuadernos dentro de `tutorial` para mantener juntos teoría,
+  ejercicios, ejemplos y material ejecutable.
+- Separar ejemplos demostrativos y ejercicios prácticos desde el inicio.
+
+Pendientes:
+
+- Crear los primeros cuadernos `.ipynb`.
+- Definir dependencias mínimas para ejecutar los ejemplos.
+- Añadir indicaciones de entorno cuando se incorporen notebooks reales.
+
 ### 2026-05-03 - Primeros artículos del tutorial
 
 Se inicia la redacción de contenidos del tutorial con un primer conjunto de

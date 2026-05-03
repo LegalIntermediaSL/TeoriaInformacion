@@ -18,6 +18,7 @@ información y computación, y termina con conexiones entre áreas.
 
 ## Material de apoyo
 
+- [Cuadernos Jupyter](cuadernos/README.md)
 - [Ejercicios](ejercicios/README.md)
 - [Referencias](referencias/README.md)
 

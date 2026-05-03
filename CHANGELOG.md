@@ -10,6 +10,10 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Carpeta `tutorial/cuadernos` para notebooks Jupyter.
+- Subcarpetas `tutorial/cuadernos/ejemplos` y
+  `tutorial/cuadernos/ejercicios`.
+- README orientativos para organizar cuadernos de ejemplos y ejercicios.
 - Primeros artículos del tutorial:
   - mapa general de información, cálculo y dificultad;
   - logaritmos, probabilidad y crecimiento;

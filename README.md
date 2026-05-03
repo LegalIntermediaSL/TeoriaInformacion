@@ -1,4 +1,4 @@
-# TeoriaInformacion
+# Teoría de la Información, Computabilidad y Complejidad
 
 Repositorio de información, notas y tutoriales sobre teoría de la información,
 computabilidad y complejidad computacional.
