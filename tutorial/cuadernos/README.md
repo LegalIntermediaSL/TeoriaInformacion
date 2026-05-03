@@ -27,6 +27,8 @@ Para preparar un entorno local, consulta la guía de
 - [Compresión y redundancia](ejemplos/06-compresion-y-redundancia.ipynb)
 - [Divergencia KL y entropía cruzada](ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
 - [Código de repetición y corrección de errores](ejemplos/08-codigos-repeticion-correccion.ipynb)
+- [Entropía conjunta y condicional](ejemplos/09-entropia-conjunta-condicional.ipynb)
+- [Autómata finito para paridad](ejemplos/10-automata-finito-paridad.ipynb)
 
 ### Ejercicios
 
@@ -36,6 +38,8 @@ Para preparar un entorno local, consulta la guía de
 - [Búsqueda exhaustiva para SAT](ejercicios/04-busqueda-sat.ipynb)
 - [Grafos y alcanzabilidad](ejercicios/05-grafos-alcanzabilidad.ipynb)
 - [Memoria en BFS y DFS](ejercicios/06-memoria-bfs-dfs.ipynb)
+- [Tablas de verdad](ejercicios/07-tablas-de-verdad.ipynb)
+- [Medición de complejidad temporal](ejercicios/08-medicion-complejidad-temporal.ipynb)
 
 ## Convenciones recomendadas
 

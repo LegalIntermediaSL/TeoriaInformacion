@@ -10,6 +10,18 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Artículos adicionales:
+  - lógica booleana y proposicional;
+  - entropía conjunta y condicional;
+  - autómatas finitos y lenguajes regulares;
+  - complejidad temporal de algoritmos;
+  - aproximación y heurísticas;
+  - información cuántica.
+- Cuadernos Jupyter adicionales:
+  - entropía conjunta y condicional;
+  - autómata finito para paridad;
+  - tablas de verdad;
+  - medición de complejidad temporal.
 - Nueva tanda de artículos:
   - grafos y estructuras discretas;
   - divergencia KL y entropía cruzada;

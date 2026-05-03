@@ -10,6 +10,8 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Búsqueda exhaustiva para SAT](04-busqueda-sat.ipynb)
 - [Grafos y alcanzabilidad](05-grafos-alcanzabilidad.ipynb)
 - [Memoria en BFS y DFS](06-memoria-bfs-dfs.ipynb)
+- [Tablas de verdad](07-tablas-de-verdad.ipynb)
+- [Medición de complejidad temporal](08-medicion-complejidad-temporal.ipynb)
 
 ## Ideas iniciales
 
@@ -22,3 +24,5 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - Modificar fórmulas SAT y observar el crecimiento de la búsqueda.
 - Explorar grafos con BFS y DFS.
 - Comparar consumo de memoria en recorridos de árboles.
+- Construir tablas de verdad para fórmulas booleanas.
+- Medir empíricamente funciones lineales y cuadráticas.

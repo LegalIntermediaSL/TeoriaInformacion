@@ -35,6 +35,8 @@ computacionales.
 - [Reducciones polinómicas](02-reducciones-polinomicas.md)
 - [SAT y 3-SAT](03-sat-y-3-sat.md)
 - [Complejidad espacial](04-complejidad-espacial.md)
+- [Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md)
+- [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
 
 ## Resultado esperado
 

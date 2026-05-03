@@ -33,6 +33,7 @@ Módulo sobre los límites formales de lo que puede ser calculado.
 - [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
 - [Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md)
 - [Máquinas de Turing](04-maquinas-de-turing.md)
+- [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md)
 
 ## Resultado esperado
 

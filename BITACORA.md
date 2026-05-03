@@ -16,6 +16,37 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Lógica, autómatas y medición temporal
+
+Se amplía el tutorial con nuevas piezas formales y notebooks de apoyo para
+conectar lógica, entropía conjunta, modelos finitos y análisis temporal.
+
+Avances:
+
+- Redacción del artículo `05-logica-booleana-y-proposicional.md`.
+- Redacción del artículo `07-entropia-conjunta-y-condicional.md`.
+- Redacción del artículo `05-automatas-finitos-y-lenguajes-regulares.md`.
+- Redacción de los artículos `05-complejidad-temporal-de-algoritmos.md` y
+  `06-aproximacion-y-heuristicas.md`.
+- Redacción del artículo `04-informacion-cuantica.md`.
+- Creación de cuadernos sobre entropía conjunta y autómatas finitos.
+- Creación de cuadernos de ejercicios sobre tablas de verdad y medición temporal.
+- Actualización de índices generales, módulos y sección de cuadernos.
+
+Decisiones:
+
+- Introducir lógica booleana como fundamento explícito para SAT y circuitos.
+- Añadir autómatas finitos antes de seguir hacia modelos más potentes.
+- Separar complejidad temporal, aproximación y heurísticas para distinguir
+  garantías formales de estrategias prácticas.
+- Presentar información cuántica como una ruta de ampliación conceptual.
+
+Pendientes:
+
+- Crear ejercicios resueltos para lógica booleana, autómatas y SAT.
+- Añadir un artículo específico sobre circuitos booleanos.
+- Añadir un cuaderno introductorio de compuertas lógicas.
+
 ### 2026-05-03 - Grafos, KL, corrección de errores y espacio
 
 Se amplía el tutorial con nuevos temas de soporte matemático, información,

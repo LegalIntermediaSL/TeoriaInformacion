@@ -30,6 +30,7 @@ Módulo de preparación matemática para los temas principales del tutorial.
 - [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
 - [Combinatoria y conteo](03-combinatoria-y-conteo.md)
 - [Grafos y estructuras discretas](04-grafos-y-estructuras-discretas.md)
+- [Lógica booleana y proposicional](05-logica-booleana-y-proposicional.md)
 
 ## Resultado esperado
 

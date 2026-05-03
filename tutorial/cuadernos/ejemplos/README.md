@@ -12,6 +12,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Compresión y redundancia](06-compresion-y-redundancia.ipynb)
 - [Divergencia KL y entropía cruzada](07-divergencia-kl-entropia-cruzada.ipynb)
 - [Código de repetición y corrección de errores](08-codigos-repeticion-correccion.ipynb)
+- [Entropía conjunta y condicional](09-entropia-conjunta-condicional.ipynb)
+- [Autómata finito para paridad](10-automata-finito-paridad.ipynb)
 
 ## Ideas iniciales
 
@@ -24,3 +26,5 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - Estimación experimental de información mutua.
 - Comparación de modelos probabilísticos mediante KL.
 - Códigos correctores más allá de repetición simple.
+- Autómatas finitos para patrones de cadenas.
+- Experimentos sencillos con entropía conjunta.

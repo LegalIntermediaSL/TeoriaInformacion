@@ -36,6 +36,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
 - [Divergencia KL y entropía cruzada](05-divergencia-kl-y-entropia-cruzada.md)
 - [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
 
 ## Resultado esperado
 
