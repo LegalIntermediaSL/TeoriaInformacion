@@ -32,6 +32,8 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 
 - [Entropía: medir incertidumbre](01-entropia-incertidumbre.md)
 - [Información mutua](02-informacion-mutua.md)
+- [Codificación de fuente](03-codificacion-de-fuente.md)
+- [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
 
 ## Resultado esperado
 

@@ -12,6 +12,9 @@ experimentos pequeños que acompañen los artículos teóricos.
 - [Ejercicios](ejercicios/): cuadernos para practicar conceptos del tutorial,
   con enunciados, celdas preparadas y soluciones cuando proceda.
 
+Para preparar un entorno local, consulta la guía de
+[ejecución local](ejecucion-local.md).
+
 ## Cuadernos disponibles
 
 ### Ejemplos
@@ -20,11 +23,15 @@ experimentos pequeños que acompañen los artículos teóricos.
 - [Comparación de crecimiento asintótico](ejemplos/02-crecimiento-asintotico.ipynb)
 - [Canal binario simétrico](ejemplos/03-canal-binario-simetrico.ipynb)
 - [Códigos prefijo y longitud media](ejemplos/04-codigos-prefijo-longitud-media.ipynb)
+- [Información mutua y entropía condicional](ejemplos/05-informacion-mutua-entropia-condicional.ipynb)
+- [Compresión y redundancia](ejemplos/06-compresion-y-redundancia.ipynb)
 
 ### Ejercicios
 
 - [Entropía y fuentes discretas](ejercicios/01-entropia-y-fuentes-discretas.ipynb)
 - [Verificación de certificados en NP](ejercicios/02-verificacion-certificados-np.ipynb)
+- [Práctica de códigos prefijo](ejercicios/03-practica-codigos-prefijo.ipynb)
+- [Búsqueda exhaustiva para SAT](ejercicios/04-busqueda-sat.ipynb)
 
 ## Convenciones recomendadas
 

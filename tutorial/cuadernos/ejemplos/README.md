@@ -8,6 +8,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Comparación de crecimiento asintótico](02-crecimiento-asintotico.ipynb)
 - [Canal binario simétrico](03-canal-binario-simetrico.ipynb)
 - [Códigos prefijo y longitud media](04-codigos-prefijo-longitud-media.ipynb)
+- [Información mutua y entropía condicional](05-informacion-mutua-entropia-condicional.ipynb)
+- [Compresión y redundancia](06-compresion-y-redundancia.ipynb)
 
 ## Ideas iniciales
 
@@ -16,5 +18,5 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - Visualización de crecimiento `log n`, `n`, `n^2` y `2^n`.
 - Simulación de canales binarios con ruido.
 - Ejemplos de codificación y longitud media.
-- Información mutua y entropía condicional.
-- Compresión y redundancia en cadenas simples.
+- Codificación de canal con códigos de repetición.
+- Estimación experimental de información mutua.

@@ -33,6 +33,7 @@ computacionales.
 
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
 - [Reducciones polinómicas](02-reducciones-polinomicas.md)
+- [SAT y 3-SAT](03-sat-y-3-sat.md)
 
 ## Resultado esperado
 

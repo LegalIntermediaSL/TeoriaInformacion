@@ -10,6 +10,20 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Nueva expansión de artículos:
+  - combinatoria y conteo;
+  - codificación de fuente;
+  - canales discretos y capacidad;
+  - reducciones e indecidibilidad;
+  - SAT y 3-SAT;
+  - criptografía y complejidad.
+- Nuevos cuadernos Jupyter:
+  - información mutua y entropía condicional;
+  - compresión y redundancia;
+  - práctica de códigos prefijo;
+  - búsqueda exhaustiva para SAT.
+- `requirements.txt` para preparar un entorno Jupyter básico.
+- Guía de ejecución local para cuadernos.
 - Cuadernos Jupyter adicionales:
   - canal binario simétrico;
   - códigos prefijo y longitud media;

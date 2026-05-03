@@ -29,6 +29,7 @@ complejidad con otros campos.
 ## Artículos
 
 - [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md)
+- [Criptografía y complejidad](02-criptografia-y-complejidad.md)
 
 ## Resultado esperado
 

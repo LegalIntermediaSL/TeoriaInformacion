@@ -18,6 +18,13 @@ fundamentos hasta sus aplicaciones teóricas y prácticas.
 La estructura base del tutorial está disponible en la carpeta
 [tutorial](tutorial/README.md).
 
+## Cuadernos Jupyter
+
+El tutorial incluye cuadernos ejecutables en
+[tutorial/cuadernos](tutorial/cuadernos/README.md). Para preparar el entorno,
+puede consultarse la guía de
+[ejecución local](tutorial/cuadernos/ejecucion-local.md).
+
 ## Temas principales
 
 - Teoría de la información: entropía, información mutua, codificación,

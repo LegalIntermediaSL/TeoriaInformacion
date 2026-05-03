@@ -16,6 +16,39 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Segunda expansión de tutorial y cuadernos
+
+Se continúa la ampliación del material con artículos de desarrollo y una nueva
+tanda de cuadernos de ejemplo y práctica.
+
+Avances:
+
+- Redacción del artículo `03-combinatoria-y-conteo.md`.
+- Redacción de los artículos `03-codificacion-de-fuente.md` y
+  `04-canales-discretos-y-capacidad.md`.
+- Redacción del artículo `03-reducciones-e-indecidibilidad.md`.
+- Redacción del artículo `03-sat-y-3-sat.md`.
+- Redacción del artículo `02-criptografia-y-complejidad.md`.
+- Creación de los cuadernos de ejemplo sobre información mutua y compresión.
+- Creación de los cuadernos de ejercicios sobre códigos prefijo y SAT.
+- Inclusión de `requirements.txt` y guía de ejecución local para Jupyter.
+- Actualización de índices generales, índices de módulos y sección de cuadernos.
+
+Decisiones:
+
+- Profundizar en los conceptos que conectan directamente con los notebooks:
+  conteo, codificación, canales, satisfacibilidad y seguridad computacional.
+- Mantener los cuadernos centrados en implementaciones pequeñas, transparentes y
+  modificables por la persona lectora.
+- Añadir una guía de entorno sin imponer herramientas pesadas de publicación.
+
+Pendientes:
+
+- Añadir soluciones comentadas para algunos ejercicios.
+- Incorporar referencias específicas al final de cada artículo.
+- Crear un cuaderno sobre códigos correctores de errores.
+- Crear un cuaderno sobre búsqueda exhaustiva frente a heurísticas simples.
+
 ### 2026-05-03 - Nuevos cuadernos de canales, códigos y NP
 
 Se amplía la colección de cuadernos Jupyter para cubrir ejemplos prácticos de

@@ -27,13 +27,19 @@ información y computación, y termina con conexiones entre áreas.
 - [Mapa del territorio: información, cálculo y dificultad](00-presentacion/01-mapa-del-territorio.md)
 - [Logaritmos, probabilidad y crecimiento](01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
 - [Conjuntos, funciones y relaciones](01-fundamentos-matematicos/02-conjuntos-funciones-y-relaciones.md)
+- [Combinatoria y conteo](01-fundamentos-matematicos/03-combinatoria-y-conteo.md)
 - [Entropía: medir incertidumbre](02-teoria-informacion/01-entropia-incertidumbre.md)
 - [Información mutua](02-teoria-informacion/02-informacion-mutua.md)
+- [Codificación de fuente](02-teoria-informacion/03-codificacion-de-fuente.md)
+- [Canales discretos y capacidad](02-teoria-informacion/04-canales-discretos-y-capacidad.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
+- [Reducciones e indecidibilidad](03-computabilidad/03-reducciones-e-indecidibilidad.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [Reducciones polinómicas](04-complejidad-computacional/02-reducciones-polinomicas.md)
+- [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
 - [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
+- [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
 
 ## Convenciones de cada módulo
 
