@@ -2,6 +2,10 @@
 
 Bibliografía y recursos recomendados para ampliar el tutorial.
 
+## Mapas de lectura
+
+- [Referencias por artículo](por-articulo.md)
+
 ## Teoría de la información
 
 - Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*.
@@ -25,4 +29,4 @@ Bibliografía y recursos recomendados para ampliar el tutorial.
 
 - Clasificar referencias por nivel: introductorio, intermedio y avanzado.
 - Añadir recursos abiertos y materiales complementarios.
-- Asociar referencias específicas a cada módulo del tutorial.
+- Ampliar las referencias por artículo con recursos abiertos cuando proceda.

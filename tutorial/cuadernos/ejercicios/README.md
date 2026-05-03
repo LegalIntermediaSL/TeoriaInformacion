@@ -12,6 +12,8 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Memoria en BFS y DFS](06-memoria-bfs-dfs.ipynb)
 - [Tablas de verdad](07-tablas-de-verdad.ipynb)
 - [Medición de complejidad temporal](08-medicion-complejidad-temporal.ipynb)
+- [Dovetailing de reconocedores](09-dovetailing-reconocedores.ipynb)
+- [Selección de modelos con KL](10-seleccion-modelos-kl.ipynb)
 
 ## Ideas iniciales
 
@@ -26,3 +28,5 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - Comparar consumo de memoria en recorridos de árboles.
 - Construir tablas de verdad para fórmulas booleanas.
 - Medir empíricamente funciones lineales y cuadráticas.
+- Simular ejecución intercalada de reconocedores.
+- Comparar modelos probabilísticos con entropía cruzada.

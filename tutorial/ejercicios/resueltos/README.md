@@ -19,6 +19,10 @@ razonamiento.
 - [Grafos y alcanzabilidad](04-grafos-alcanzabilidad.md)
 - [SAT y verificación de asignaciones](05-sat-verificacion.md)
 - [Complejidad temporal básica](06-complejidad-temporal-basica.md)
+- [Decidibilidad y reconocibilidad](07-decidibilidad-y-reconocibilidad.md)
+- [Reducciones e indecidibilidad](08-reducciones-e-indecidibilidad.md)
+- [Canales y capacidad](09-canales-y-capacidad.md)
+- [KL y entropía cruzada](10-kl-y-entropia-cruzada.md)
 
 ## Relación con cuadernos
 

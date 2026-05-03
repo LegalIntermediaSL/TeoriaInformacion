@@ -87,6 +87,7 @@ Práctica recomendada:
 - [Cuadernos Jupyter](cuadernos/README.md)
 - [Ejercicios](ejercicios/README.md)
 - [Referencias](referencias/README.md)
+- [Referencias por artículo](referencias/por-articulo.md)
 
 ## Artículos iniciales
 

@@ -16,6 +16,40 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-04 - Ejercicios avanzados, referencias y notebooks
+
+Se ejecuta la siguiente mejora pedagógica del tutorial: ampliar ejercicios
+resueltos, asociar referencias específicas por artículo y añadir notebooks más
+avanzados.
+
+Avances:
+
+- Redacción de ejercicios resueltos sobre decidibilidad, reducciones,
+  canales/capacidad y divergencia KL.
+- Creación del mapa `tutorial/referencias/por-articulo.md`.
+- Enlace del mapa de referencias desde el índice de referencias y el índice del
+  tutorial.
+- Creación de notebooks avanzados sobre Huffman, Hamming (7,4), dovetailing de
+  reconocedores y selección de modelos con entropía cruzada.
+- Actualización de índices de cuadernos, ejercicios y referencias.
+
+Decisiones:
+
+- Mantener las referencias por artículo en un archivo central para evitar repetir
+  bibliografía en cada capítulo.
+- Priorizar notebooks avanzados que conecten teoría con algoritmos concretos:
+  codificación óptima, corrección de errores, reconocibilidad y modelado
+  probabilístico.
+- Conservar implementaciones con biblioteca estándar de Python para facilitar la
+  ejecución local.
+
+Pendientes:
+
+- Añadir ejercicios resueltos sobre máquinas de Turing y autómatas.
+- Añadir un artículo específico sobre Huffman y otro sobre Hamming si la ruta
+  requiere más profundidad teórica.
+- Incorporar recursos abiertos con enlaces en la bibliografía.
+
 ### 2026-05-03 - Ruta de estudio y ejercicios resueltos
 
 Se consolida el material existente con una ruta de estudio más explícita y una

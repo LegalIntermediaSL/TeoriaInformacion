@@ -33,6 +33,6 @@ Cada ejercicio debería indicar:
 ## Pendientes
 
 - Ampliar la colección resuelta con máquinas de Turing y decidibilidad.
-- Añadir ejercicios sobre reducciones e indecidibilidad.
-- Añadir ejercicios sobre canales y capacidad.
+- Añadir más ejercicios sobre máquinas de Turing y autómatas.
+- Añadir ejercicios sobre Huffman y Hamming.
 - Añadir retos de ampliación por módulo.

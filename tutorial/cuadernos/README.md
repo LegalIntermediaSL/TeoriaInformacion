@@ -32,6 +32,8 @@ Los ejercicios resueltos en Markdown están en
 - [Código de repetición y corrección de errores](ejemplos/08-codigos-repeticion-correccion.ipynb)
 - [Entropía conjunta y condicional](ejemplos/09-entropia-conjunta-condicional.ipynb)
 - [Autómata finito para paridad](ejemplos/10-automata-finito-paridad.ipynb)
+- [Huffman paso a paso](ejemplos/11-huffman-paso-a-paso.ipynb)
+- [Código de Hamming (7,4)](ejemplos/12-hamming-7-4.ipynb)
 
 ### Ejercicios
 
@@ -43,6 +45,8 @@ Los ejercicios resueltos en Markdown están en
 - [Memoria en BFS y DFS](ejercicios/06-memoria-bfs-dfs.ipynb)
 - [Tablas de verdad](ejercicios/07-tablas-de-verdad.ipynb)
 - [Medición de complejidad temporal](ejercicios/08-medicion-complejidad-temporal.ipynb)
+- [Dovetailing de reconocedores](ejercicios/09-dovetailing-reconocedores.ipynb)
+- [Selección de modelos con KL](ejercicios/10-seleccion-modelos-kl.ipynb)
 
 ## Convenciones recomendadas
 

@@ -14,6 +14,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Código de repetición y corrección de errores](08-codigos-repeticion-correccion.ipynb)
 - [Entropía conjunta y condicional](09-entropia-conjunta-condicional.ipynb)
 - [Autómata finito para paridad](10-automata-finito-paridad.ipynb)
+- [Huffman paso a paso](11-huffman-paso-a-paso.ipynb)
+- [Código de Hamming (7,4)](12-hamming-7-4.ipynb)
 
 ## Ideas iniciales
 
@@ -28,3 +30,5 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - Códigos correctores más allá de repetición simple.
 - Autómatas finitos para patrones de cadenas.
 - Experimentos sencillos con entropía conjunta.
+- Codificación de Huffman para fuentes no uniformes.
+- Códigos de Hamming y síndromes de error.

@@ -10,6 +10,17 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Ejercicios resueltos adicionales:
+  - decidibilidad y reconocibilidad;
+  - reducciones e indecidibilidad;
+  - canales y capacidad;
+  - KL y entropía cruzada.
+- Mapa de referencias específicas por artículo.
+- Notebooks avanzados:
+  - Huffman paso a paso;
+  - código de Hamming (7,4);
+  - dovetailing de reconocedores;
+  - selección de modelos con KL.
 - Ruta de estudio por niveles en el índice del tutorial.
 - Carpeta `tutorial/ejercicios/resueltos` con soluciones comentadas.
 - Ejercicios resueltos sobre:
@@ -93,8 +104,9 @@ de un repositorio de estudio y documentación.
 ### Pendiente
 
 - Seguir desarrollando artículos de segundo nivel en cada módulo.
-- Ampliar ejercicios resueltos con decidibilidad, reducciones, canales y KL.
-- Asociar referencias específicas a los artículos existentes.
+- Ampliar ejercicios resueltos con máquinas de Turing, autómatas, Huffman y
+  Hamming.
+- Ampliar referencias con recursos abiertos y enlaces cuando proceda.
 
 ## [0.1.0] - 2026-05-03
 
