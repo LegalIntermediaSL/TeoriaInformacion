@@ -16,6 +16,72 @@ información y computación, y termina con conexiones entre áreas.
 5. [Complejidad computacional](04-complejidad-computacional/README.md)
 6. [Conexiones y aplicaciones](05-conexiones-y-aplicaciones/README.md)
 
+## Ruta de estudio
+
+### Nivel 1 - Orientación y herramientas
+
+- [Mapa del territorio](00-presentacion/01-mapa-del-territorio.md)
+- [Logaritmos, probabilidad y crecimiento](01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+- [Conjuntos, funciones y relaciones](01-fundamentos-matematicos/02-conjuntos-funciones-y-relaciones.md)
+- [Combinatoria y conteo](01-fundamentos-matematicos/03-combinatoria-y-conteo.md)
+- [Grafos y estructuras discretas](01-fundamentos-matematicos/04-grafos-y-estructuras-discretas.md)
+- [Lógica booleana y proposicional](01-fundamentos-matematicos/05-logica-booleana-y-proposicional.md)
+
+Práctica recomendada:
+
+- [Comparación de crecimiento asintótico](cuadernos/ejemplos/02-crecimiento-asintotico.ipynb)
+- [Grafos y alcanzabilidad](cuadernos/ejercicios/05-grafos-alcanzabilidad.ipynb)
+- [Tablas de verdad](cuadernos/ejercicios/07-tablas-de-verdad.ipynb)
+- [Complejidad temporal básica](ejercicios/resueltos/06-complejidad-temporal-basica.md)
+
+### Nivel 2 - Información, codificación y canales
+
+- [Entropía: medir incertidumbre](02-teoria-informacion/01-entropia-incertidumbre.md)
+- [Entropía conjunta y condicional](02-teoria-informacion/07-entropia-conjunta-y-condicional.md)
+- [Información mutua](02-teoria-informacion/02-informacion-mutua.md)
+- [Codificación de fuente](02-teoria-informacion/03-codificacion-de-fuente.md)
+- [Canales discretos y capacidad](02-teoria-informacion/04-canales-discretos-y-capacidad.md)
+- [Divergencia KL y entropía cruzada](02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
+- [Códigos correctores de errores](02-teoria-informacion/06-codigos-correctores-de-errores.md)
+
+Práctica recomendada:
+
+- [Entropía de distribuciones discretas](cuadernos/ejemplos/01-entropia-distribuciones.ipynb)
+- [Información mutua y entropía condicional](cuadernos/ejemplos/05-informacion-mutua-entropia-condicional.ipynb)
+- [Códigos prefijo y longitud media](cuadernos/ejemplos/04-codigos-prefijo-longitud-media.ipynb)
+- [Código de repetición y corrección de errores](cuadernos/ejemplos/08-codigos-repeticion-correccion.ipynb)
+- [Entropía de fuentes discretas](ejercicios/resueltos/01-entropia-fuentes-discretas.md)
+
+### Nivel 3 - Computabilidad y complejidad
+
+- [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
+- [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
+- [Reducciones e indecidibilidad](03-computabilidad/03-reducciones-e-indecidibilidad.md)
+- [Máquinas de Turing](03-computabilidad/04-maquinas-de-turing.md)
+- [Autómatas finitos y lenguajes regulares](03-computabilidad/05-automatas-finitos-y-lenguajes-regulares.md)
+- [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
+- [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
+- [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
+
+Práctica recomendada:
+
+- [Autómata finito para paridad](cuadernos/ejemplos/10-automata-finito-paridad.ipynb)
+- [Búsqueda exhaustiva para SAT](cuadernos/ejercicios/04-busqueda-sat.ipynb)
+- [Medición de complejidad temporal](cuadernos/ejercicios/08-medicion-complejidad-temporal.ipynb)
+- [SAT y verificación de asignaciones](ejercicios/resueltos/05-sat-verificacion.md)
+
+### Nivel 4 - Conexiones y ampliaciones
+
+- [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
+- [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
+- [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
+- [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
+
+Práctica recomendada:
+
+- [Compresión y redundancia](cuadernos/ejemplos/06-compresion-y-redundancia.ipynb)
+- [Divergencia KL y entropía cruzada](cuadernos/ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
+
 ## Material de apoyo
 
 - [Cuadernos Jupyter](cuadernos/README.md)

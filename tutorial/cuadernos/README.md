@@ -15,6 +15,9 @@ experimentos pequeños que acompañen los artículos teóricos.
 Para preparar un entorno local, consulta la guía de
 [ejecución local](ejecucion-local.md).
 
+Los ejercicios resueltos en Markdown están en
+[tutorial/ejercicios/resueltos](../ejercicios/resueltos/README.md).
+
 ## Cuadernos disponibles
 
 ### Ejemplos

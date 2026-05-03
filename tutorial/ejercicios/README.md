@@ -2,6 +2,16 @@
 
 Espacio para recopilar ejercicios del tutorial.
 
+## Colecciones
+
+- [Ejercicios resueltos](resueltos/README.md): soluciones comentadas para una
+  primera selección de temas clave.
+- Ejercicios en artículos: cada artículo incluye preguntas de práctica o
+  reflexión al final.
+- Ejercicios en Jupyter: la carpeta
+  [cuadernos/ejercicios](../cuadernos/ejercicios/README.md) incluye prácticas
+  ejecutables.
+
 ## Organización prevista
 
 - Ejercicios por módulo.
@@ -22,7 +32,7 @@ Cada ejercicio debería indicar:
 
 ## Pendientes
 
-- Crear una colección inicial de ejercicios para fundamentos matemáticos.
-- Añadir ejercicios de entropía y codificación.
-- Añadir ejercicios de máquinas de Turing y decidibilidad.
-- Añadir ejercicios de análisis de complejidad y reducciones.
+- Ampliar la colección resuelta con máquinas de Turing y decidibilidad.
+- Añadir ejercicios sobre reducciones e indecidibilidad.
+- Añadir ejercicios sobre canales y capacidad.
+- Añadir retos de ampliación por módulo.

@@ -16,6 +16,38 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-03 - Ruta de estudio y ejercicios resueltos
+
+Se consolida el material existente con una ruta de estudio más explícita y una
+primera colección de ejercicios resueltos.
+
+Avances:
+
+- Creación de la carpeta `tutorial/ejercicios/resueltos`.
+- Redacción de ejercicios resueltos sobre entropía, información mutua, códigos
+  prefijo, grafos, SAT y complejidad temporal.
+- Actualización del `README.md` principal para enlazar ejercicios resueltos.
+- Reorganización del índice del tutorial con una ruta por niveles.
+- Enlace entre artículos, cuadernos y ejercicios dentro del recorrido sugerido.
+- Actualización del README de ejercicios con colecciones disponibles y nuevos
+  pendientes.
+
+Decisiones:
+
+- Priorizar soluciones comentadas sobre más contenido nuevo para reforzar el uso
+  pedagógico del repositorio.
+- Organizar la ruta de estudio en cuatro niveles: fundamentos, información,
+  computabilidad/complejidad y conexiones.
+- Mantener los ejercicios resueltos en Markdown para que sean fáciles de revisar
+  desde GitHub sin ejecutar notebooks.
+
+Pendientes:
+
+- Ampliar ejercicios resueltos para máquinas de Turing, decidibilidad y
+  reducciones.
+- Añadir ejercicios resueltos sobre canales, KL y códigos correctores.
+- Incorporar referencias específicas al final de los artículos principales.
+
 ### 2026-05-03 - Lógica, autómatas y medición temporal
 
 Se amplía el tutorial con nuevas piezas formales y notebooks de apoyo para

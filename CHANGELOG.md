@@ -10,6 +10,15 @@ de un repositorio de estudio y documentación.
 
 ### Añadido
 
+- Ruta de estudio por niveles en el índice del tutorial.
+- Carpeta `tutorial/ejercicios/resueltos` con soluciones comentadas.
+- Ejercicios resueltos sobre:
+  - entropía de fuentes discretas;
+  - información mutua y dependencia;
+  - códigos prefijo y longitud media;
+  - grafos y alcanzabilidad;
+  - SAT y verificación de asignaciones;
+  - complejidad temporal básica.
 - Artículos adicionales:
   - lógica booleana y proposicional;
   - entropía conjunta y condicional;
@@ -84,7 +93,7 @@ de un repositorio de estudio y documentación.
 ### Pendiente
 
 - Seguir desarrollando artículos de segundo nivel en cada módulo.
-- Añadir ejercicios resueltos, pistas y notebooks de práctica.
+- Ampliar ejercicios resueltos con decidibilidad, reducciones, canales y KL.
 - Asociar referencias específicas a los artículos existentes.
 
 ## [0.1.0] - 2026-05-03
