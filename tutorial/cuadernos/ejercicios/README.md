@@ -19,6 +19,7 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Complejidad aleatoria y tests probabilísticos](13-complejidad-aleatoria.ipynb)
 - [Tasa-distorsión](14-tasa-distorsion.ipynb)
 - [Universalidad, quines y autorreferencia](15-universalidad-y-quines.ipynb)
+- [Complejidad parametrizada: k-Vertex Cover](16-complejidad-parametrizada.ipynb)
 
 ## Ideas iniciales
 

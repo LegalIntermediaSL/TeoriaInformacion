@@ -88,6 +88,7 @@ Práctica recomendada:
 - [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
+- [Información en el aprendizaje estadístico](05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md)
 
 Práctica recomendada:
 
@@ -95,6 +96,9 @@ Práctica recomendada:
 - [Divergencia KL y entropía cruzada](cuadernos/ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
 - [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/14-cadenas-de-markov-entropia.ipynb)
 - [Compresión universal: LZ78](cuadernos/ejemplos/16-compresion-lz78.ipynb)
+- [Simulación de códigos LDPC](cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb)
+- [Estimación de información mutua](cuadernos/ejemplos/19-informacion-mutua-estimacion.ipynb)
+- [Complejidad parametrizada: k-Vertex Cover](cuadernos/ejercicios/16-complejidad-parametrizada.ipynb)
 
 ## Material de apoyo
 
@@ -121,6 +125,7 @@ Práctica recomendada:
 - [Teorema de Shannon y capacidad de canal](02-teoria-informacion/08-teorema-de-shannon-capacidad.md)
 - [Teoría de la tasa-distorsión](02-teoria-informacion/09-teoria-tasa-distorsion.md)
 - [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
+- [Códigos LDPC y Turbo: hacia la capacidad de Shannon](02-teoria-informacion/11-codigos-ldpc-y-turbo.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
 
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
@@ -139,10 +144,12 @@ Práctica recomendada:
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
 - [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)
 - [El teorema PCP y la dureza de aproximación](04-complejidad-computacional/09-teorema-pcp.md)
+- [Complejidad parametrizada](04-complejidad-computacional/10-complejidad-parametrizada.md)
 - [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
 - [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
+- [Información en el aprendizaje estadístico](05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md)
 
 ## Convenciones de cada módulo
 

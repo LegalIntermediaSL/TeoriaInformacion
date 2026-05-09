@@ -16,6 +16,43 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-09 - Cuarta ronda: LDPC, complejidad parametrizada, aprendizaje estadístico
+
+Avances:
+
+- Artículo `02-teoria-informacion/11-codigos-ldpc-y-turbo.md`: LDPC y grafo de Tanner,
+  decodificador BP (sum-product) en LLR, density evolution, turbo codes con BCJR,
+  códigos polares y polarización de canal, tabla comparativa hasta la capacidad de Shannon.
+- Artículo `04-complejidad-computacional/10-complejidad-parametrizada.md`: FPT y la
+  jerarquía W, árbol de búsqueda acotado para k-Vertex Cover, kernelización con reglas
+  de reducción de grado, ancho de árbol y teorema de Courcelle (MSO → FPT by tw), ETH.
+- Artículo `05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md`: MDL y
+  descripción mínima, cota de Occam, dimensión VC y función de crecimiento, cuello de
+  botella informacional (Tishby 1999), estimadores MINE y KSG, ML ≡ minKL, No Free Lunch.
+- Notebook `cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb`: BP decoder en LLR,
+  grafo de Tanner, detección de ciclos de longitud 4, BER vs. probabilidad de volteo.
+- Notebook `cuadernos/ejemplos/19-informacion-mutua-estimacion.ipynb`: estimadores
+  por binning y KSG, gaussiana bivariada I(X;Y)=−½log(1−ρ²), convergencia con n.
+- Notebook `cuadernos/ejercicios/16-complejidad-parametrizada.ipynb`: árbol de búsqueda
+  acotado, kernelización por grado alto, benchmarks FPT vs. fuerza bruta.
+- Actualización de todos los índices README y BITACORA.md.
+
+Decisiones:
+
+- El módulo 02 queda completo con la cadena: Shannon → códigos → capacidad →
+  tasa-distorsión → entropía diferencial → LDPC/polares.
+- El módulo 04 cierra con la perspectiva FPT: no todo lo NP-difícil es impracticable
+  en el rango de parámetros que aparece en la práctica.
+- El artículo de aprendizaje estadístico completa el módulo 05 conectando teoría de
+  la información con ML moderno (cuello de botella, MINE, MDL).
+
+Pendientes:
+
+- Notebook sobre el cuello de botella informacional (variacional).
+- Ejercicios resueltos adicionales en módulo 04 (aproximación, PCP).
+- Artículo sobre información en física estadística (entropía de Boltzmann, segundo
+  principio, paradoja de Maxwell).
+
 ### 2026-05-09 - Tercera ronda: entropía diferencial, PCP, complejidad descriptiva y quines
 
 Avances:

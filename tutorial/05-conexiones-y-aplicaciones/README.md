@@ -32,6 +32,7 @@ complejidad con otros campos.
 - [Criptografía y complejidad](02-criptografia-y-complejidad.md)
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](04-informacion-cuantica.md)
+- [Información en el aprendizaje estadístico](05-informacion-en-aprendizaje.md)
 
 ## Resultado esperado
 

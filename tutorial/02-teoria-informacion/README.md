@@ -40,6 +40,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Teorema de Shannon y capacidad de canal](08-teorema-de-shannon-capacidad.md)
 - [Teoría de la tasa-distorsión](09-teoria-tasa-distorsion.md)
 - [Entropía diferencial y fuentes continuas](10-entropia-diferencial.md)
+- [Códigos LDPC y Turbo: hacia la capacidad de Shannon](11-codigos-ldpc-y-turbo.md)
 
 ## Resultado esperado
 

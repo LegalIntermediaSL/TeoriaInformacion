@@ -21,6 +21,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Simulación de circuitos booleanos](15-circuitos-booleanos-simulacion.ipynb)
 - [Compresión universal: LZ78](16-compresion-lz78.ipynb)
 - [Entropía diferencial y distribuciones continuas](17-entropia-diferencial-gaussiana.ipynb)
+- [Simulación de códigos LDPC y Belief Propagation](18-codigos-ldpc-simulacion.ipynb)
+- [Estimación de información mutua (binning y kNN)](19-informacion-mutua-estimacion.ipynb)
 
 ## Ideas iniciales
 
