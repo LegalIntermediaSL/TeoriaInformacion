@@ -38,6 +38,7 @@ computacionales.
 - [Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md)
 - [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
 - [Circuitos booleanos y complejidad de circuitos](07-circuitos-booleanos.md)
+- [Complejidad aleatoria](08-complejidad-aleatoria.md)
 
 ## Resultado esperado
 

@@ -61,17 +61,21 @@ Práctica recomendada:
 - [Máquinas de Turing](03-computabilidad/04-maquinas-de-turing.md)
 - [Autómatas finitos y lenguajes regulares](03-computabilidad/05-automatas-finitos-y-lenguajes-regulares.md)
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
+- [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
 - [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
+- [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)
 
 Práctica recomendada:
 
 - [Simulación de máquinas de Turing](cuadernos/ejemplos/13-maquina-de-turing-simulacion.ipynb)
+- [Simulación de circuitos booleanos](cuadernos/ejemplos/15-circuitos-booleanos-simulacion.ipynb)
 - [Autómata finito para paridad](cuadernos/ejemplos/10-automata-finito-paridad.ipynb)
 - [Máquinas de Turing básicas](cuadernos/ejercicios/11-maquinas-de-turing-basicas.ipynb)
 - [Autómatas y lenguajes formales](cuadernos/ejercicios/12-automatas-y-lenguajes.ipynb)
+- [Complejidad aleatoria y tests probabilísticos](cuadernos/ejercicios/13-complejidad-aleatoria.ipynb)
 - [Búsqueda exhaustiva para SAT](cuadernos/ejercicios/04-busqueda-sat.ipynb)
 - [Medición de complejidad temporal](cuadernos/ejercicios/08-medicion-complejidad-temporal.ipynb)
 - [Máquinas de Turing: ejercicios resueltos](ejercicios/resueltos/11-maquinas-de-turing.md)
@@ -90,6 +94,7 @@ Práctica recomendada:
 - [Compresión y redundancia](cuadernos/ejemplos/06-compresion-y-redundancia.ipynb)
 - [Divergencia KL y entropía cruzada](cuadernos/ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
 - [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/14-cadenas-de-markov-entropia.ipynb)
+- [Compresión universal: LZ78](cuadernos/ejemplos/16-compresion-lz78.ipynb)
 
 ## Material de apoyo
 
@@ -114,12 +119,15 @@ Práctica recomendada:
 - [Códigos correctores de errores](02-teoria-informacion/06-codigos-correctores-de-errores.md)
 - [Entropía conjunta y condicional](02-teoria-informacion/07-entropia-conjunta-y-condicional.md)
 - [Teorema de Shannon y capacidad de canal](02-teoria-informacion/08-teorema-de-shannon-capacidad.md)
+- [Teoría de la tasa-distorsión](02-teoria-informacion/09-teoria-tasa-distorsion.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
+
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
 - [Reducciones e indecidibilidad](03-computabilidad/03-reducciones-e-indecidibilidad.md)
 - [Máquinas de Turing](03-computabilidad/04-maquinas-de-turing.md)
 - [Autómatas finitos y lenguajes regulares](03-computabilidad/05-automatas-finitos-y-lenguajes-regulares.md)
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
+- [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [Reducciones polinómicas](04-complejidad-computacional/02-reducciones-polinomicas.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
@@ -127,6 +135,7 @@ Práctica recomendada:
 - [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
 - [Aproximación y heurísticas](04-complejidad-computacional/06-aproximacion-y-heuristicas.md)
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
+- [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)
 - [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
 - [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)

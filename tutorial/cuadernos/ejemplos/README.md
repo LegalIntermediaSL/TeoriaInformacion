@@ -18,6 +18,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Código de Hamming (7,4)](12-hamming-7-4.ipynb)
 - [Simulación de máquinas de Turing](13-maquina-de-turing-simulacion.ipynb)
 - [Cadenas de Markov y tasa de entropía](14-cadenas-de-markov-entropia.ipynb)
+- [Simulación de circuitos booleanos](15-circuitos-booleanos-simulacion.ipynb)
+- [Compresión universal: LZ78](16-compresion-lz78.ipynb)
 
 ## Ideas iniciales
 

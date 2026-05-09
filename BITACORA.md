@@ -16,6 +16,47 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-09 - Expansión: complejidad aleatoria, tasa-distorsión, universalidad y LZ78
+
+Segunda ronda de ampliación en la misma sesión.
+
+Avances:
+
+- Artículo `04-complejidad-computacional/08-complejidad-aleatoria.md`: BPP, RP,
+  ZPP, amplificación, Miller-Rabin, Schwartz-Zippel, IP=PSPACE, desaleatorización.
+- Artículo `02-teoria-informacion/09-teoria-tasa-distorsion.md`: función $R(D)$,
+  ejemplos Bernoulli y Gaussiana, dualidad con capacidad, JPEG/MP3.
+- Artículo `03-computabilidad/07-universalidad-y-autorreferencia.md`: UTM, teorema
+  del punto fijo, diagonalización del problema de la parada, teorema de Rice,
+  conexión con incompletitud de Gödel.
+- Notebook `cuadernos/ejemplos/15-circuitos-booleanos-simulacion.ipynb`: clase
+  Circuit con AND/OR/NOT/XOR; semisumador, sumador de 4 bits, DNF, árbol XOR,
+  comparativa tamaño-profundidad.
+- Notebook `cuadernos/ejemplos/16-compresion-lz78.ipynb`: implementación
+  completa de LZ78, convergencia a la entropía para fuentes i.i.d. y Markov,
+  crecimiento del diccionario como $n/\log n$.
+- Notebook `cuadernos/ejercicios/13-complejidad-aleatoria.ipynb`: ejercicios
+  para Miller-Rabin (test de primalidad) y Freivalds (verificación matricial)
+  con soluciones de referencia y estudio de amplificación.
+- Actualización de todos los índices README y BITACORA.md.
+
+Decisiones:
+
+- LZ78 en lugar de LZ77 porque su estructura de diccionario explícito es más
+  sencilla de implementar y analizar pedagógicamente; la convergencia teórica
+  es la misma.
+- Tasa-distorsión completa el módulo 02 con la compresión con pérdida, que era
+  el hueco más relevante tras el teorema de canal.
+- Universalidad y autorreferencia formaliza la UTM y el teorema de Rice, que son
+  necesarios para cerrar el módulo 03 con rigor.
+
+Pendientes:
+
+- Ejercicio resuelto sobre complejidad aleatoria (Miller-Rabin manual).
+- Notebook sobre el teorema de Shannon: verificación empírica de la capacidad.
+- Artículo sobre complejidad de descripción (Kolmogorov) — ya existe en 05 pero
+  podría ampliarse con la conexión a compresión universal.
+
 ### 2026-05-09 - Nuevos artículos, notebooks y ejercicios resueltos
 
 Ampliación del tutorial con contenidos que cubrían huecos identificados en la

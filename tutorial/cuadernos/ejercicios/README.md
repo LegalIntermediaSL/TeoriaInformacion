@@ -16,6 +16,7 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Selección de modelos con KL](10-seleccion-modelos-kl.ipynb)
 - [Máquinas de Turing básicas](11-maquinas-de-turing-basicas.ipynb)
 - [Autómatas y lenguajes formales](12-automatas-y-lenguajes.ipynb)
+- [Complejidad aleatoria y tests probabilísticos](13-complejidad-aleatoria.ipynb)
 
 ## Ideas iniciales
 
