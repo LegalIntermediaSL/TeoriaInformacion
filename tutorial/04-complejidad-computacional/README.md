@@ -37,6 +37,7 @@ computacionales.
 - [Complejidad espacial](04-complejidad-espacial.md)
 - [Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md)
 - [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
+- [Circuitos booleanos y complejidad de circuitos](07-circuitos-booleanos.md)
 
 ## Resultado esperado
 

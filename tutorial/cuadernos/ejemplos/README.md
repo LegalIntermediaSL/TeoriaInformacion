@@ -16,6 +16,8 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Autómata finito para paridad](10-automata-finito-paridad.ipynb)
 - [Huffman paso a paso](11-huffman-paso-a-paso.ipynb)
 - [Código de Hamming (7,4)](12-hamming-7-4.ipynb)
+- [Simulación de máquinas de Turing](13-maquina-de-turing-simulacion.ipynb)
+- [Cadenas de Markov y tasa de entropía](14-cadenas-de-markov-entropia.ipynb)
 
 ## Ideas iniciales
 

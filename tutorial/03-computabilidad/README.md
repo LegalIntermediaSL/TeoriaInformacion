@@ -34,6 +34,7 @@ Módulo sobre los límites formales de lo que puede ser calculado.
 - [Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md)
 - [Máquinas de Turing](04-maquinas-de-turing.md)
 - [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md)
+- [Gramáticas y la jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md)
 
 ## Resultado esperado
 

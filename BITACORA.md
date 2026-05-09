@@ -16,6 +16,55 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-09 - Nuevos artículos, notebooks y ejercicios resueltos
+
+Ampliación del tutorial con contenidos que cubrían huecos identificados en la
+sesión anterior.
+
+Avances:
+
+- Artículo `02-teoria-informacion/08-teorema-de-shannon-capacidad.md`: teorema
+  de codificación de canal, BSC, BEC, AEP, Shannon-Hartley, separación
+  fuente-canal.
+- Artículo `03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md`: tipos 0-3,
+  gramáticas libres de contexto, autómatas de pila, lemas de bombeo.
+- Artículo `04-complejidad-computacional/07-circuitos-booleanos.md`: tamaño y
+  profundidad, P/poly, AC0, NC, teorema de Håstad (paridad ∉ AC0), TC0.
+- Notebook `cuadernos/ejemplos/13-maquina-de-turing-simulacion.ipynb`:
+  simulador completo con trazas paso a paso; palíndromos, paridad, unario.
+- Notebook `cuadernos/ejemplos/14-cadenas-de-markov-entropia.ipynb`: clase
+  MarkovChain, distribución estacionaria, tasa de entropía, estimación empírica.
+- Notebook `cuadernos/ejercicios/11-maquinas-de-turing-basicas.ipynb`:
+  ejercicios para $a^n b^n$ y $0^*1^*$ con soluciones de referencia y conteo
+  de pasos.
+- Notebook `cuadernos/ejercicios/12-automatas-y-lenguajes.ipynb`: clase DFA
+  con run/trace; DFA para terminar en '01', divisibilidad mod 3, pumping lemma.
+- Ejercicio resuelto `ejercicios/resueltos/11-maquinas-de-turing.md`: diseño
+  completo con tablas de transición, trazas y análisis de complejidad.
+- Ejercicio resuelto `ejercicios/resueltos/12-automatas-finitos.md`: DFA
+  mínimos, pumping lemma para $a^n b^n$, minimización de estados.
+- Actualización de todos los índices README (cuadernos, ejercicios, módulos
+  02-04, tutorial principal) y de la bitácora.
+
+Decisiones:
+
+- El teorema de Shannon de codificación de canal era el artículo central que
+  faltaba en el módulo 02; complementa los artículos de capacidad y codificación
+  ya existentes.
+- Los circuitos booleanos completan el módulo 04 con la perspectiva no uniforme
+  (P/poly) y la jerarquía de circuitos (AC0, NC, TC0).
+- La jerarquía de Chomsky cierra la conexión entre autómatas y gramáticas en el
+  módulo 03.
+- Los notebooks de ejercicios 11 y 12 siguen el mismo patrón de los anteriores:
+  esqueleto de implementación + solución de referencia descomentable.
+
+Pendientes:
+
+- Añadir ejercicios resueltos sobre circuitos booleanos (ejercicio 13).
+- Incorporar un notebook de ejemplo sobre el teorema de Shannon (prueba empírica
+  de la cota de capacidad).
+- Ampliar referencias bibliográficas para los tres nuevos artículos.
+
 ### 2026-05-04 - Ejercicios avanzados, referencias y notebooks
 
 Se ejecuta la siguiente mejora pedagógica del tutorial: ampliar ejercicios

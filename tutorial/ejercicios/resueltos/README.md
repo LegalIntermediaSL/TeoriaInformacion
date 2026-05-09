@@ -23,6 +23,8 @@ razonamiento.
 - [Reducciones e indecidibilidad](08-reducciones-e-indecidibilidad.md)
 - [Canales y capacidad](09-canales-y-capacidad.md)
 - [KL y entropía cruzada](10-kl-y-entropia-cruzada.md)
+- [Máquinas de Turing](11-maquinas-de-turing.md)
+- [Autómatas finitos y lenguajes regulares](12-automatas-finitos.md)
 
 ## Relación con cuadernos
 

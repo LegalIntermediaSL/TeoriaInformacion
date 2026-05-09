@@ -14,6 +14,8 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Medición de complejidad temporal](08-medicion-complejidad-temporal.ipynb)
 - [Dovetailing de reconocedores](09-dovetailing-reconocedores.ipynb)
 - [Selección de modelos con KL](10-seleccion-modelos-kl.ipynb)
+- [Máquinas de Turing básicas](11-maquinas-de-turing-basicas.ipynb)
+- [Autómatas y lenguajes formales](12-automatas-y-lenguajes.ipynb)
 
 ## Ideas iniciales
 
