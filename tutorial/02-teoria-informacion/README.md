@@ -39,6 +39,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
 - [Teorema de Shannon y capacidad de canal](08-teorema-de-shannon-capacidad.md)
 - [Teoría de la tasa-distorsión](09-teoria-tasa-distorsion.md)
+- [Entropía diferencial y fuentes continuas](10-entropia-diferencial.md)
 
 ## Resultado esperado
 

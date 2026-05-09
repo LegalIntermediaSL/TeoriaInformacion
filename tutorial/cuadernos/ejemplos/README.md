@@ -20,6 +20,7 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Cadenas de Markov y tasa de entropía](14-cadenas-de-markov-entropia.ipynb)
 - [Simulación de circuitos booleanos](15-circuitos-booleanos-simulacion.ipynb)
 - [Compresión universal: LZ78](16-compresion-lz78.ipynb)
+- [Entropía diferencial y distribuciones continuas](17-entropia-diferencial-gaussiana.ipynb)
 
 ## Ideas iniciales
 

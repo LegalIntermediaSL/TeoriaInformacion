@@ -16,6 +16,41 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-09 - Tercera ronda: entropía diferencial, PCP, complejidad descriptiva y quines
+
+Avances:
+
+- Artículo `02-teoria-informacion/10-entropia-diferencial.md`: entropía diferencial
+  $h(X) = -\int f\log f$, máxima entropía Gaussiana, EPI, información de Fisher,
+  canal Gaussiano aditivo, AEP continuo.
+- Artículo `03-computabilidad/08-complejidad-descriptiva.md`: FO = AC0, P = FO+LFP,
+  teorema de Fagin (NP = ∃SO), PSPACE = FO+PFP, lenguajes regulares = MSO.
+- Artículo `04-complejidad-computacional/09-teorema-pcp.md`: PCP$(log n, 1)$ = NP,
+  Max-3SAT y ratio 7/8, gap amplification, UGC, SNARKs.
+- Notebook `cuadernos/ejemplos/17-entropia-diferencial-gaussiana.ipynb`: entropías
+  analíticas, comparación misma varianza, invarianza por escala, capacidad Gaussiana,
+  estimación numérica.
+- Notebook `cuadernos/ejercicios/14-tasa-distorsion.ipynb`: R(D) para Bernoulli y
+  Gaussiana, comparación de distribuciones, separación fuente-canal.
+- Notebook `cuadernos/ejercicios/15-universalidad-y-quines.ipynb`: quines en Python,
+  teorema de Rice experimental, diagonalización de Cantor, puntos fijos numéricos.
+- Actualización de todos los índices README y BITACORA.md.
+
+Decisiones:
+
+- La complejidad descriptiva es avanzada pero cierra el módulo de computabilidad
+  con la perspectiva lógica (NP = ∃SO), que conecta directamente con las gramáticas.
+- El teorema PCP es el resultado más importante no cubierto en complejidad; justifica
+  los límites de aproximación de los mejores algoritmos conocidos.
+- El notebook de quines es experimental y pedagógico: permite observar la autorreferencia
+  directamente en Python sin necesidad de implementar una UTM completa.
+
+Pendientes:
+
+- Artículo sobre complejidad parametrizada (FPT, W[1]-hardness, kernelización).
+- Notebook sobre el teorema AEP empírico para fuentes continuas.
+- Ejercicios resueltos sobre complejidad aleatoria y tasa-distorsión.
+
 ### 2026-05-09 - Expansión: complejidad aleatoria, tasa-distorsión, universalidad y LZ78
 
 Segunda ronda de ampliación en la misma sesión.

@@ -36,6 +36,7 @@ Módulo sobre los límites formales de lo que puede ser calculado.
 - [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md)
 - [Gramáticas y la jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md)
 - [Universalidad y autorreferencia](07-universalidad-y-autorreferencia.md)
+- [Complejidad descriptiva](08-complejidad-descriptiva.md)
 
 ## Resultado esperado
 

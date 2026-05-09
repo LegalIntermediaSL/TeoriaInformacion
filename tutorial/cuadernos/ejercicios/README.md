@@ -17,6 +17,8 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Máquinas de Turing básicas](11-maquinas-de-turing-basicas.ipynb)
 - [Autómatas y lenguajes formales](12-automatas-y-lenguajes.ipynb)
 - [Complejidad aleatoria y tests probabilísticos](13-complejidad-aleatoria.ipynb)
+- [Tasa-distorsión](14-tasa-distorsion.ipynb)
+- [Universalidad, quines y autorreferencia](15-universalidad-y-quines.ipynb)
 
 ## Ideas iniciales
 

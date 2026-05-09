@@ -39,6 +39,7 @@ computacionales.
 - [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
 - [Circuitos booleanos y complejidad de circuitos](07-circuitos-booleanos.md)
 - [Complejidad aleatoria](08-complejidad-aleatoria.md)
+- [El teorema PCP y la dureza de aproximación](09-teorema-pcp.md)
 
 ## Resultado esperado
 

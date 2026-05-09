@@ -120,6 +120,7 @@ Práctica recomendada:
 - [Entropía conjunta y condicional](02-teoria-informacion/07-entropia-conjunta-y-condicional.md)
 - [Teorema de Shannon y capacidad de canal](02-teoria-informacion/08-teorema-de-shannon-capacidad.md)
 - [Teoría de la tasa-distorsión](02-teoria-informacion/09-teoria-tasa-distorsion.md)
+- [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
 
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
@@ -128,6 +129,7 @@ Práctica recomendada:
 - [Autómatas finitos y lenguajes regulares](03-computabilidad/05-automatas-finitos-y-lenguajes-regulares.md)
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
 - [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
+- [Complejidad descriptiva](03-computabilidad/08-complejidad-descriptiva.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [Reducciones polinómicas](04-complejidad-computacional/02-reducciones-polinomicas.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
@@ -136,6 +138,7 @@ Práctica recomendada:
 - [Aproximación y heurísticas](04-complejidad-computacional/06-aproximacion-y-heuristicas.md)
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
 - [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)
+- [El teorema PCP y la dureza de aproximación](04-complejidad-computacional/09-teorema-pcp.md)
 - [Complejidad de Kolmogorov](05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
 - [Criptografía y complejidad](05-conexiones-y-aplicaciones/02-criptografia-y-complejidad.md)
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
