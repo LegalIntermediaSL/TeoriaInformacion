@@ -41,6 +41,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Teoría de la tasa-distorsión](09-teoria-tasa-distorsion.md)
 - [Entropía diferencial y fuentes continuas](10-entropia-diferencial.md)
 - [Códigos LDPC y Turbo: hacia la capacidad de Shannon](11-codigos-ldpc-y-turbo.md)
+- [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
 
 ## Resultado esperado
 

@@ -16,6 +16,48 @@ qué temas conviene abordar después.
 
 ## Entradas
 
+### 2026-05-10 - Quinta ronda: prioridades altas — Markov, PDA y termodinámica
+
+Avances:
+
+- Artículo `02-teoria-informacion/12-cadenas-de-markov-y-tasa-de-entropia.md`:
+  propiedad de Markov, distribución estacionaria, tasa de entropía $\bar{H} = \sum_i \pi_i H(\text{fila}_i)$,
+  AEP ergódico (McMillan 1953), estimación de $\bar{H}_k$ por k-gramas, LZ78 y convergencia
+  a $\bar{H}$, HMM y algoritmo forward.
+- Artículo `03-computabilidad/09-automatas-de-pila-y-lenguajes-contexto-libre.md`:
+  definición formal del PDA, ejemplo $\{a^n b^n\}$ con traza, equivalencia PDA ↔ CFG,
+  lema de bombeo para CFL con prueba de $\{a^n b^n c^n\} \notin$ CFL, algoritmo CYK,
+  propiedades de cierre, posición en jerarquía de Chomsky.
+- Artículo `05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md`:
+  equivalencia $S = k_B \ln 2 \cdot H$, demonio de Maxwell, argumento de Szilard (1929),
+  principio de Landauer (1961), computación reversible y puerta de Toffoli,
+  trabajo extraíble = $k_B T \ln 2 \cdot D_{KL}(p\|q)$, biofísica.
+- Notebook `cuadernos/ejemplos/20-cadenas-de-markov-tasa-entropia.ipynb`: distribución
+  estacionaria por iteración de potencia, convergencia AEP empírica, estimación $\bar{H}_k$,
+  comparación $H(X_1)$ vs $\bar{H}$.
+- Notebook `cuadernos/ejemplos/21-automatas-de-pila.ipynb`: simulador PDA por BFS,
+  PDA para $a^n b^n$, palíndromos, algoritmo CYK, verificación del lema de bombeo
+  para $a^n b^n c^n$.
+- Notebook `cuadernos/ejemplos/22-informacion-y-termodinamica.ipynb`: equivalencia
+  Shannon-Boltzmann con factor $k_B \ln 2$, límite de Landauer vs. procesadores reales
+  ($10^4$–$10^8$× por encima del límite), puerta de Toffoli, KL divergencia y trabajo.
+- Actualización de todos los índices README y BITACORA.md.
+
+Decisiones:
+
+- El artículo de cadenas de Markov cierra el hueco entre el notebook 14 (que ya existía)
+  y la teoría; además enlaza con LZ78 (notebook 16) y AEP (artículo 08).
+- El artículo de PDA completa la jerarquía de Chomsky: ahora los cuatro niveles tienen
+  artículo propio (regulares 05, CFL 09, sensibles al contexto implícito en 06, RE en 01-04).
+- La termodinámica cierra el módulo 05 con una de las conexiones más sorprendentes:
+  que borrar información tiene un coste energético medible y con límite físico.
+
+Pendientes:
+
+- Artículo de síntesis/cierre: mapa de conexiones entre los cuatro módulos.
+- Ejercicios resueltos: tasa-distorsión, complejidad aleatoria, complejidad parametrizada.
+- Notebooks de prioridad media: codificación aritmética, #P y conteo.
+
 ### 2026-05-09 - Cuarta ronda: LDPC, complejidad parametrizada, aprendizaje estadístico
 
 Avances:

@@ -33,6 +33,7 @@ complejidad con otros campos.
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](04-informacion-cuantica.md)
 - [Información en el aprendizaje estadístico](05-informacion-en-aprendizaje.md)
+- [Información y termodinámica](06-informacion-y-termodinamica.md)
 
 ## Resultado esperado
 

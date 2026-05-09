@@ -62,6 +62,7 @@ Práctica recomendada:
 - [Autómatas finitos y lenguajes regulares](03-computabilidad/05-automatas-finitos-y-lenguajes-regulares.md)
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
 - [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
+- [Autómatas de pila y lenguajes independientes del contexto](03-computabilidad/09-automatas-de-pila-y-lenguajes-contexto-libre.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
 - [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
@@ -73,6 +74,7 @@ Práctica recomendada:
 - [Simulación de máquinas de Turing](cuadernos/ejemplos/13-maquina-de-turing-simulacion.ipynb)
 - [Simulación de circuitos booleanos](cuadernos/ejemplos/15-circuitos-booleanos-simulacion.ipynb)
 - [Autómata finito para paridad](cuadernos/ejemplos/10-automata-finito-paridad.ipynb)
+- [Autómatas de pila: PDA y CYK](cuadernos/ejemplos/21-automatas-de-pila.ipynb)
 - [Máquinas de Turing básicas](cuadernos/ejercicios/11-maquinas-de-turing-basicas.ipynb)
 - [Autómatas y lenguajes formales](cuadernos/ejercicios/12-automatas-y-lenguajes.ipynb)
 - [Complejidad aleatoria y tests probabilísticos](cuadernos/ejercicios/13-complejidad-aleatoria.ipynb)
@@ -89,6 +91,7 @@ Práctica recomendada:
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
 - [Información en el aprendizaje estadístico](05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md)
+- [Información y termodinámica](05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md)
 
 Práctica recomendada:
 
@@ -96,6 +99,8 @@ Práctica recomendada:
 - [Divergencia KL y entropía cruzada](cuadernos/ejemplos/07-divergencia-kl-entropia-cruzada.ipynb)
 - [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/14-cadenas-de-markov-entropia.ipynb)
 - [Compresión universal: LZ78](cuadernos/ejemplos/16-compresion-lz78.ipynb)
+- [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/20-cadenas-de-markov-tasa-entropia.ipynb)
+- [Información y termodinámica](cuadernos/ejemplos/22-informacion-y-termodinamica.ipynb)
 - [Simulación de códigos LDPC](cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb)
 - [Estimación de información mutua](cuadernos/ejemplos/19-informacion-mutua-estimacion.ipynb)
 - [Complejidad parametrizada: k-Vertex Cover](cuadernos/ejercicios/16-complejidad-parametrizada.ipynb)
@@ -126,6 +131,7 @@ Práctica recomendada:
 - [Teoría de la tasa-distorsión](02-teoria-informacion/09-teoria-tasa-distorsion.md)
 - [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
 - [Códigos LDPC y Turbo: hacia la capacidad de Shannon](02-teoria-informacion/11-codigos-ldpc-y-turbo.md)
+- [Cadenas de Markov y tasa de entropía](02-teoria-informacion/12-cadenas-de-markov-y-tasa-de-entropia.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
 
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)
@@ -135,6 +141,7 @@ Práctica recomendada:
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
 - [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
 - [Complejidad descriptiva](03-computabilidad/08-complejidad-descriptiva.md)
+- [Autómatas de pila y lenguajes independientes del contexto](03-computabilidad/09-automatas-de-pila-y-lenguajes-contexto-libre.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [Reducciones polinómicas](04-complejidad-computacional/02-reducciones-polinomicas.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
@@ -150,6 +157,7 @@ Práctica recomendada:
 - [Aprendizaje automático e información](05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
 - [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
 - [Información en el aprendizaje estadístico](05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md)
+- [Información y termodinámica](05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md)
 
 ## Convenciones de cada módulo
 

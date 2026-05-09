@@ -23,6 +23,9 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Entropía diferencial y distribuciones continuas](17-entropia-diferencial-gaussiana.ipynb)
 - [Simulación de códigos LDPC y Belief Propagation](18-codigos-ldpc-simulacion.ipynb)
 - [Estimación de información mutua (binning y kNN)](19-informacion-mutua-estimacion.ipynb)
+- [Cadenas de Markov y tasa de entropía](20-cadenas-de-markov-tasa-entropia.ipynb)
+- [Autómatas de pila: PDA y CYK](21-automatas-de-pila.ipynb)
+- [Información y termodinámica: principio de Landauer](22-informacion-y-termodinamica.ipynb)
 
 ## Ideas iniciales
 
