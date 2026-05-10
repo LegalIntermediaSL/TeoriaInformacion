@@ -184,3 +184,9 @@ Recursivamente enumerables (Tipo 0) — Máquinas de Turing
 - Hopcroft, J., Motwani, R. y Ullman, J. (2006). *Introduction to Automata Theory*, cap. 5-7.
 - Chomsky, N. (1956). Three models for the description of language. *IRE Trans. IT*.
 - Cocke, J. y Schwartz, J. T. (1970). *Programming Languages and Their Compilers*.
+
+## Véase también
+
+- [Gramáticas y la jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md) — los PDA son la cara operacional de las gramáticas libres de contexto (tipo 2); la equivalencia CFG ↔ PDA es el resultado central que vincula ambos artículos.
+- [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md) — las expresiones regulares y los DFA son el nivel regular de la jerarquía; los PDA son la extensión con memoria de pila.
+- [Máquinas de Turing](04-maquinas-de-turing.md) — los lenguajes libres de contexto son estrictamente menos poderosos que los reconocibles por MT; la comparación ilumina la frontera entre CFL y RE.

@@ -11,37 +11,37 @@ Marcar con `[x]` cuando se complete. Ordenadas de mayor a menor impacto pedagóg
 
 | Estado | Artículo propuesto | Archivo destino | Nota |
 |--------|-------------------|-----------------|------|
-| [ ] | Codificación aritmética | `02/12-codificacion-aritmetica.md` | Fundamento real de zlib, HEVC, JPEG2000; complementa LZ78 y Huffman |
-| [ ] | Procesos estocásticos y fuentes con memoria (orden k, mezcla, ergodicidad) | `02/13-procesos-estocásticos.md` | Generalización del artículo de Markov a fuentes de orden superior |
+| [x] | Codificación aritmética | `02/13-codificacion-aritmetica.md` | Fundamento real de zlib, HEVC, JPEG2000; complementa LZ78 y Huffman |
+| [x] | Procesos estocásticos y fuentes con memoria (orden k, mezcla, ergodicidad) | `02/14-procesos-estocasticos-y-fuentes-con-memoria.md` | Generalización del artículo de Markov a fuentes de orden superior |
 
 ### Módulo 03 — Computabilidad
 
 | Estado | Artículo propuesto | Archivo destino | Nota |
 |--------|-------------------|-----------------|------|
-| [ ] | Jerarquía aritmética (Σ₀, Σ₁, Π₁, Δ₁, oráculo de salto) | `03/10-jerarquia-aritmetica.md` | Estructura fina por encima de RE; falta para cerrar el módulo |
-| [ ] | Máquinas de Turing con oráculo y relativización | `03/11-oráculos-y-relativizacion.md` | Por qué P≠NP no puede probarse con diagonalización; Baker-Gill-Solovay |
-| [ ] | Aleatoriedad algorítmica (Ω de Chaitin, cadenas aleatorias, Martin-Löf) | `03/12-aleatoriedad-algorítmica.md` | Conecta Kolmogorov con probabilidad; la "aleatoriedad real" |
+| [x] | Jerarquía aritmética (Σ₀, Σ₁, Π₁, Δ₁, oráculo de salto) | `03/10-jerarquia-aritmetica.md` | Estructura fina por encima de RE; falta para cerrar el módulo |
+| [x] | Máquinas de Turing con oráculo y relativización | `03/11-oráculos-y-relativización.md` | Por qué P≠NP no puede probarse con diagonalización; Baker-Gill-Solovay |
+| [x] | Aleatoriedad algorítmica (Ω de Chaitin, cadenas aleatorias, Martin-Löf) | `03/12-aleatoriedad-algoritmica.md` | Conecta Kolmogorov con probabilidad; la "aleatoriedad real" |
 
 ### Módulo 04 — Complejidad computacional
 
 | Estado | Artículo propuesto | Archivo destino | Nota |
 |--------|-------------------|-----------------|------|
-| [ ] | #P y problemas de conteo (teorema de Toda, #SAT, permanente) | `04/11-sharp-p-y-conteo.md` | El salto NP→PSPACE tiene protagonistas propios; no cubierto |
-| [ ] | Complejidad de comunicación (modelo Alice-Bob, lower bounds) | `04/12-complejidad-comunicacion.md` | Herramienta clave para lower bounds de circuitos y espacio |
-| [ ] | Hipótesis ETH y SETH: consecuencias concretas | `04/13-eth-seth-consecuencias.md` | Fine-grained complexity; por qué n² parece óptimo para LCS, etc. |
+| [x] | #P y problemas de conteo (teorema de Toda, #SAT, permanente) | `04/11-sharp-p-y-conteo.md` | El salto NP→PSPACE tiene protagonistas propios; no cubierto |
+| [x] | Complejidad de comunicación (modelo Alice-Bob, lower bounds) | `04/12-complejidad-de-comunicacion.md` | Herramienta clave para lower bounds de circuitos y espacio |
+| [x] | Hipótesis ETH y SETH: consecuencias concretas | `04/13-eth-seth-consecuencias.md` | Fine-grained complexity; por qué n² parece óptimo para LCS, etc. |
 
 ### Módulo 05 — Conexiones y aplicaciones
 
 | Estado | Artículo propuesto | Archivo destino | Nota |
 |--------|-------------------|-----------------|------|
-| [ ] | Información y biología (código genético, entropía del genoma, evolución) | `05/07-informacion-y-biologia.md` | ADN como código corrector, redundancia, información de Fisher en evolución |
-| [ ] | Artículo de síntesis final ("el mapa completo") | `05/08-mapa-de-conexiones.md` | Cierre del tutorial: tabla unificada de todos los resultados y puentes entre módulos |
+| [x] | Información y biología (código genético, entropía del genoma, evolución) | `05/07-informacion-y-biologia.md` | ADN como código corrector, redundancia, información de Fisher en evolución |
+| [x] | Artículo de síntesis final ("el mapa completo") | `05/08-mapa-de-conexiones.md` | Cierre del tutorial: tabla unificada de todos los resultados y puentes entre módulos |
 
 ### Módulo 00 — Presentación
 
 | Estado | Artículo propuesto | Archivo destino | Nota |
 |--------|-------------------|-----------------|------|
-| [ ] | Guía de rutas de profundización ("¿por dónde sigo?") | `00/02-rutas-de-profundizacion.md` | Lecturas graduadas por nivel y especialización para después del tutorial |
+| [x] | Guía de rutas de profundización ("¿por dónde sigo?") | `00/02-rutas-de-profundizacion.md` | Lecturas graduadas por nivel y especialización para después del tutorial |
 
 ---
 
@@ -64,15 +64,15 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 
 | Estado | Tema | Artículo | Situación |
 |--------|------|----------|-----------|
-| [ ] | Teorema de Shannon y capacidad | 02/08 | Sin notebook ni resuelto propio |
-| [ ] | Gramáticas y jerarquía de Chomsky | 03/06 | Sin notebook ni resuelto |
-| [ ] | Complejidad descriptiva | 03/08 | Sin notebook ni resuelto |
-| [ ] | Reducciones polinómicas | 04/02 | Sin notebook ni resuelto |
-| [ ] | Aproximación y heurísticas | 04/06 | Sin notebook ni resuelto |
-| [ ] | El teorema PCP | 04/09 | Sin notebook ni resuelto |
-| [ ] | Complejidad de Kolmogorov | 05/01 | Sin notebook específico |
-| [ ] | Criptografía y complejidad | 05/02 | Sin notebook ni resuelto |
-| [ ] | Información cuántica | 05/04 | Sin notebook ni resuelto |
+| [x] | Teorema de Shannon y capacidad | 02/08 | `resueltos/19-teorema-shannon-capacidad.md` |
+| [x] | Gramáticas y jerarquía de Chomsky | 03/06 | `resueltos/20-gramaticas-y-chomsky.md` |
+| [x] | Complejidad descriptiva | 03/08 | `resueltos/21-complejidad-descriptiva.md` |
+| [x] | Reducciones polinómicas | 04/02 | `resueltos/22-reducciones-polinomicas.md` |
+| [x] | Aproximación y heurísticas | 04/06 | `resueltos/23-aproximacion-y-heuristicas.md` |
+| [x] | El teorema PCP | 04/09 | `resueltos/24-teorema-pcp.md` |
+| [x] | Complejidad de Kolmogorov | 05/01 | `resueltos/25-complejidad-kolmogorov.md` |
+| [x] | Criptografía y complejidad | 05/02 | `resueltos/26-criptografia-y-complejidad.md` |
+| [x] | Información cuántica | 05/04 | `resueltos/27-informacion-cuantica.md` |
 
 ---
 
@@ -82,19 +82,19 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 
 | Estado | Notebook | Artículo que ilustra |
 |--------|----------|----------------------|
-| [ ] | `23-codificacion-aritmetica.ipynb` | 02 (art. pendiente): codificador aritmético desde cero, comparación con Huffman |
-| [ ] | `24-complejidad-comunicacion.ipynb` | 04 (art. pendiente): protocolo Alice-Bob, lower bound de igualdad |
-| [ ] | `25-aleatoriedad-algorítmica.ipynb` | 03 (art. pendiente): compresibilidad, cadenas de Chaitin, test de Martin-Löf |
+| [x] | `23-codificacion-aritmetica.ipynb` | 02/13: codificador aritmético desde cero, comparación con Huffman |
+| [x] | `24-complejidad-comunicacion.ipynb` | 04/12: protocolo Alice-Bob, lower bound de igualdad |
+| [x] | `25-aleatoriedad-algorítmica.ipynb` | 03/12: compresibilidad, cadenas de Chaitin, test de Martin-Löf |
 
 ### Nuevos de ejercicio
 
 | Estado | Notebook | Artículo que cubre |
 |--------|----------|--------------------|
-| [ ] | `17-sharp-p-y-conteo.ipynb` | 04/11 (pendiente): contar coloraciones, permanente, aproximación de Jerrum-Sinclair |
-| [ ] | `18-kolmogorov-y-compresion.ipynb` | 05/01: longitud de descripción, compresibilidad, invarianza |
-| [ ] | `19-jerarquia-aritmetica.ipynb` | 03/10 (pendiente): oráculo de salto, conjuntos Σ₁ y Π₁ |
-| [ ] | `20-criptografia-basica.ipynb` | 05/02: OTP, RSA modular, Diffie-Hellman, hash resistente |
-| [ ] | `21-informacion-cuantica.ipynb` | 05/04: qubit, puerta Hadamard, entropía de Von Neumann, teletransporte |
+| [x] | `17-sharp-p-y-conteo.ipynb` | 04/11: contar coloraciones, permanente, aproximación de Jerrum-Sinclair |
+| [x] | `18-kolmogorov-y-compresion.ipynb` | 05/01: longitud de descripción, compresibilidad, invarianza |
+| [x] | `19-jerarquia-aritmetica.ipynb` | 03/10: oráculo de salto, conjuntos Σ₁ y Π₁ |
+| [x] | `20-criptografia-basica.ipynb` | 05/02: OTP, RSA modular, Diffie-Hellman, hash resistente |
+| [x] | `21-informacion-cuantica.ipynb` | 05/04: qubit, puerta Hadamard, entropía de Von Neumann, teletransporte |
 
 ---
 
@@ -112,7 +112,7 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 
 | Estado | Mejora | Archivo afectado |
 |--------|--------|------------------|
-| [ ] | **Carpeta `ejercicios/propuestos/`**: enunciados sin solución extraídos de las secciones "Ejercicios" de cada artículo, para uso en clase o examen | directorio nuevo |
+| [x] | **Carpeta `ejercicios/propuestos/`**: enunciados sin solución extraídos de las secciones "Ejercicios" de cada artículo, para uso en clase o examen | `ejercicios/propuestos/` creado con enunciados de módulos 02 y 04 |
 | [ ] | **Tests automáticos en notebooks de ejercicio**: añadir celda final con `assert resultado_alumno == resultado_ref` para hacer los ejercicios autoevaluables sin necesidad de leer la solución | todos los `.ipynb` de `cuadernos/ejercicios/` |
 | [ ] | **Ejemplos numéricos guiados** en los artículos que solo tienen teoría y ejercicios abstractos: 03/08 (complejidad descriptiva), 04/09 (PCP), 05/01 (Kolmogorov) | artículos individuales |
 | [ ] | **Sección "Prerrequisitos"** al inicio de cada artículo con enlaces a los artículos previos que se necesitan entender | todos los artículos |
@@ -124,7 +124,7 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 | [ ] | Unificar sección "Ideas clave" a exactamente 5 puntos en todos los artículos (actualmente varía entre 3 y 8) | todos los artículos |
 | [ ] | Añadir `## Objetivos de aprendizaje` explícitos al inicio de cada artículo que no los tenga | artículos individuales |
 | [ ] | Añadir nivel de dificultad estimado a cada artículo: `⭐ Básico`, `⭐⭐ Intermedio`, `⭐⭐⭐ Avanzado` | todos los artículos |
-| [ ] | **Sección "Véase también"** al final de cada artículo: lista de 2-4 artículos del tutorial directamente relacionados | todos los artículos |
+| [ ] | **Sección "Véase también"** al final de cada artículo: lista de 2-4 artículos del tutorial directamente relacionados | añadido en 03/06, 03/09, 05/03, 05/05 — falta en el resto |
 | [ ] | Añadir estimación de tiempo de lectura a cada artículo (e.g. `~20 min`) | todos los artículos |
 
 ---
@@ -151,10 +151,10 @@ Problemas detectados que afectan a la coherencia del conjunto:
 
 | Estado | Problema | Artículos afectados |
 |--------|----------|---------------------|
-| [ ] | El artículo 05/03 ("Aprendizaje automático e información") solapa con 05/05 ("Información en el aprendizaje estadístico"): el primero es general/introductorio, el segundo más técnico. Debería haber un enlace explícito entre ambos y delimitar claramente qué cubre cada uno | 05/03, 05/05 |
-| [ ] | El artículo 03/06 (gramáticas) y 03/09 (autómatas de pila) están separados pero son dos caras del mismo teorema (CFG ↔ PDA). Añadir nota de remisión mutua | 03/06, 03/09 |
-| [ ] | Las referencias a "el artículo de LDPC" en el notebook 18 apuntan al artículo 11 del módulo 02, pero la ruta relativa en el notebook puede haberse roto si se mueve algún archivo | `cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb` |
-| [ ] | Los notebooks de ejercicios 11 y 12 (Turing y autómatas) no tienen celda de solución de referencia explícita, a diferencia de los más recientes | `cuadernos/ejercicios/11-*.ipynb`, `12-*.ipynb` |
+| [x] | El artículo 05/03 ("Aprendizaje automático e información") solapa con 05/05 ("Información en el aprendizaje estadístico"): añadida sección "Véase también" en ambos con delimitación explícita | 05/03, 05/05 |
+| [x] | El artículo 03/06 (gramáticas) y 03/09 (autómatas de pila) son dos caras del mismo teorema (CFG ↔ PDA): añadida nota de remisión mutua en ambos | 03/06, 03/09 |
+| [x] | Las referencias a "el artículo de LDPC" en el notebook 18 apuntan al artículo 11 del módulo 02: ruta verificada correcta (`../../02-teoria-informacion/11-codigos-ldpc-y-turbo.md`) | `cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb` |
+| [x] | Los notebooks de ejercicios 11 y 12 (Turing y autómatas) no tienen celda de solución de referencia explícita: añadidas celdas de referencia | `cuadernos/ejercicios/11-*.ipynb`, `12-*.ipynb` |
 
 ---
 
@@ -162,11 +162,11 @@ Problemas detectados que afectan a la coherencia del conjunto:
 
 | Estado | Mejora | Prioridad |
 |--------|--------|-----------|
-| [ ] | **Script de validación**: verificar que todos los artículos listados en los READMEs existen en disco y viceversa (detecta entradas huérfanas o archivos sin índice) | Alta |
-| [ ] | **Script de estadísticas**: contar artículos, notebooks y ejercicios por módulo y mostrar cobertura (artículos con/sin notebook, con/sin resuelto) | Media |
-| [ ] | **GitHub Actions CI**: ejecutar los notebooks con `jupyter nbconvert --execute` en cada push para detectar errores de sintaxis Python | Media |
-| [ ] | **Plantilla de artículo** (`_plantilla-articulo.md`) con la estructura canónica: Intuición / Definición formal / Ejemplo / Teorema principal / Ideas clave / Ejercicios / Referencias | Baja |
-| [ ] | **Plantilla de notebook de ejemplo** y **plantilla de notebook de ejercicio** para homogeneizar estructura | Baja |
+| [x] | **Script de validación** (`scripts/validar_repositorio.py`): verifica que todos los artículos listados en los READMEs existen en disco y viceversa | Alta |
+| [x] | **Script de estadísticas** (`scripts/estadisticas.py`): cuenta artículos, notebooks y ejercicios por módulo y muestra cobertura | Media |
+| [x] | **GitHub Actions CI** (`.github/workflows/test_notebooks.yml`): ejecuta los notebooks con `jupyter nbconvert --execute` en cada push para detectar errores de sintaxis Python | Media |
+| [x] | **Plantilla de artículo** (`tutorial/_plantilla-articulo.md`) con la estructura canónica: Intuición / Definición formal / Ejemplo / Teorema principal / Ideas clave / Ejercicios / Referencias | Baja |
+| [x] | **Plantillas de notebook** (`tutorial/_plantilla-notebook-ejemplo.ipynb` y `_plantilla-notebook-ejercicio.ipynb`) para homogeneizar estructura | Baja |
 
 ---
 
@@ -174,13 +174,13 @@ Problemas detectados que afectan a la coherencia del conjunto:
 
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
-| Artículos nuevos | 10 | 0 |
-| Ejercicios resueltos | 15 | 6 |
-| Notebooks nuevos | 8 | 0 |
-| Calidad estructural | 11 | 3 |
+| Artículos nuevos | 10 | 10 |
+| Ejercicios resueltos | 15 | 15 |
+| Notebooks nuevos | 8 | 8 |
+| Calidad estructural | 11 | 4 |
 | Diagramas | 7 | 0 |
-| Coherencia interna | 4 | 0 |
-| Infraestructura | 5 | 0 |
-| **Total** | **60** | **9** |
+| Coherencia interna | 4 | 4 |
+| Infraestructura | 5 | 5 |
+| **Total** | **60** | **46** |
 
 > Actualizar la tabla de resumen al completar ítems.

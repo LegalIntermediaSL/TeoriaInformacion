@@ -114,3 +114,9 @@ ayuda a entender los límites de encontrar buenos modelos.
 3. Da un ejemplo de variable con información mutua alta pero potencialmente
    engañosa.
 4. Relaciona compresión y generalización con tus propias palabras.
+
+## Véase también
+
+- [Información en el aprendizaje estadístico](05-informacion-en-aprendizaje.md) — complemento técnico de este artículo: donde aquí se presenta el marco general (entropía cruzada, información mutua), allí se desarrollan MDL, la dimensión VC y el cuello de botella de la información con mayor detalle matemático.
+- [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md) — la compresión de modelos es una instancia del principio de longitud de descripción mínima (MDL), directamente relacionado con K(x).
+- [Criptografía y complejidad](02-criptografia-y-complejidad.md) — los modelos de privacidad diferencial conectan el aprendizaje con las garantías criptográficas de seguridad.

@@ -42,6 +42,8 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Entropía diferencial y fuentes continuas](10-entropia-diferencial.md)
 - [Códigos LDPC y Turbo: hacia la capacidad de Shannon](11-codigos-ldpc-y-turbo.md)
 - [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
+- [Codificación aritmética](13-codificacion-aritmetica.md)
+- [Procesos estocásticos y fuentes con memoria](14-procesos-estocasticos-y-fuentes-con-memoria.md)
 
 ## Resultado esperado
 

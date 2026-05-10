@@ -126,3 +126,9 @@ Ejemplo: la expresión regular `(a|b)*abb` describe el lenguaje de cadenas sobre
 - Sipser, M. (2013). *Introduction to the Theory of Computation*, 3ª ed., capítulos 1, 2 y 5.
 - Hopcroft, J.E., Motwani, R. y Ullman, J.D. (2007). *Introduction to Automata Theory, Languages, and Computation*, 3ª ed.
 - Chomsky, N. (1956). Three models for the description of language. *IRE Transactions on Information Theory*, 2(3), 113–124.
+
+## Véase también
+
+- [Autómatas de pila y lenguajes libres de contexto](09-automatas-de-pila-y-lenguajes-contexto-libre.md) — los PDA son exactamente la cara operacional de las gramáticas libres de contexto: el teorema de equivalencia CFG ↔ PDA cierra el cuadro de esta jerarquía.
+- [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md) — el nivel más bajo de la jerarquía; los expresiones regulares y los DFA son la herramienta práctica de las gramáticas de tipo 3.
+- [Complejidad descriptiva](08-complejidad-descriptiva.md) — la lógica de primer orden captura exactamente los lenguajes en PTIME; una conexión profunda con la jerarquía de Chomsky.

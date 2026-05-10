@@ -1,0 +1,52 @@
+name: Test Notebooks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tutorial/cuadernos/**/*.ipynb'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tutorial/cuadernos/**/*.ipynb'
+  workflow_dispatch:
+
+jobs:
+  test-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install jupyter nbconvert numpy
+
+      - name: Execute example notebooks
+        run: |
+          for nb in tutorial/cuadernos/ejemplos/*.ipynb; do
+            echo "Ejecutando: $nb"
+            jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 "$nb" \
+              --output /tmp/$(basename "$nb") \
+            && echo "  ✅ OK" \
+            || echo "  ❌ FALLO: $nb"
+          done
+
+      - name: Execute exercise notebooks (best-effort)
+        continue-on-error: true
+        run: |
+          for nb in tutorial/cuadernos/ejercicios/*.ipynb; do
+            echo "Ejecutando: $nb"
+            jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 "$nb" \
+              --output /tmp/$(basename "$nb") \
+            && echo "  ✅ OK" \
+            || echo "  ⚠️  Advertencia (puede tener TODOs): $nb"
+          done
+
+      - name: Validate repository structure
+        run: python scripts/validar_repositorio.py

@@ -20,6 +20,11 @@ Cuadernos de práctica para resolver ejercicios con apoyo computacional.
 - [Tasa-distorsión](14-tasa-distorsion.ipynb)
 - [Universalidad, quines y autorreferencia](15-universalidad-y-quines.ipynb)
 - [Complejidad parametrizada: k-Vertex Cover](16-complejidad-parametrizada.ipynb)
+- [#P y problemas de conteo](17-sharp-p-y-conteo.ipynb)
+- [Complejidad de Kolmogorov y compresión](18-kolmogorov-y-compresion.ipynb)
+- [Jerarquía aritmética y oráculos](19-jerarquia-aritmetica.ipynb)
+- [Criptografía básica: OTP, RSA y Diffie-Hellman](20-criptografia-basica.ipynb)
+- [Información cuántica: qubits y entropía de Von Neumann](21-informacion-cuantica.ipynb)
 
 ## Ideas iniciales
 

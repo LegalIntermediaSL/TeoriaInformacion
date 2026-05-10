@@ -154,3 +154,9 @@ la regularización o el kernel— es lo que permite la generalización. Sin comp
 - Valiant, L. (1984). A theory of the learnable. *CACM*.
 - Belghazi, M. et al. (2018). Mutual information neural estimation. *ICML 2018*.
 - Cover, T. y Thomas, J. (2006). *Elements of Information Theory*, capítulo 5.
+
+## Véase también
+
+- [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md) — introducción más accesible al mismo tema: entropía cruzada como función de pérdida, información mutua y compresión. Este artículo (05/05) es la continuación técnica con MDL, VC y el cuello de botella.
+- [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md) — el MDL es la versión práctica del principio de Kolmogorov aplicado a la selección de modelos.
+- [El mapa de conexiones](08-mapa-de-conexiones.md) — cuadro unificado de todos los resultados del tutorial, incluido el papel de la información en el aprendizaje.

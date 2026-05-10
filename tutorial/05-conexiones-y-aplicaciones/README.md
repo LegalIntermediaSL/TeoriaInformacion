@@ -34,6 +34,8 @@ complejidad con otros campos.
 - [Información cuántica](04-informacion-cuantica.md)
 - [Información en el aprendizaje estadístico](05-informacion-en-aprendizaje.md)
 - [Información y termodinámica](06-informacion-y-termodinamica.md)
+- [Información y biología](07-informacion-y-biologia.md)
+- [El mapa de conexiones](08-mapa-de-conexiones.md)
 
 ## Resultado esperado
 

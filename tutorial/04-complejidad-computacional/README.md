@@ -41,6 +41,9 @@ computacionales.
 - [Complejidad aleatoria](08-complejidad-aleatoria.md)
 - [El teorema PCP y la dureza de aproximación](09-teorema-pcp.md)
 - [Complejidad parametrizada](10-complejidad-parametrizada.md)
+- [#P y problemas de conteo](11-sharp-p-y-conteo.md)
+- [Complejidad de comunicación](12-complejidad-de-comunicacion.md)
+- [Hipótesis ETH y SETH: consecuencias](13-eth-seth-consecuencias.md)
 
 ## Resultado esperado
 

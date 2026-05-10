@@ -26,6 +26,9 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Cadenas de Markov y tasa de entropía](20-cadenas-de-markov-tasa-entropia.ipynb)
 - [Autómatas de pila: PDA y CYK](21-automatas-de-pila.ipynb)
 - [Información y termodinámica: principio de Landauer](22-informacion-y-termodinamica.ipynb)
+- [Codificación aritmética desde cero](23-codificacion-aritmetica.ipynb)
+- [Complejidad de comunicación: protocolo Alice-Bob](24-complejidad-comunicacion.ipynb)
+- [Aleatoriedad algorítmica: Kolmogorov y tests de aleatoriedad](25-aleatoriedad-algoritmica.ipynb)
 
 ## Ideas iniciales
 

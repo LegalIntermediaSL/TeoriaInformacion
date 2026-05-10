@@ -48,6 +48,8 @@ Práctica recomendada:
 - [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
 - [Códigos LDPC y Turbo: hacia la capacidad de Shannon](02-teoria-informacion/11-codigos-ldpc-y-turbo.md)
 - [Cadenas de Markov y tasa de entropía](02-teoria-informacion/12-cadenas-de-markov-y-tasa-de-entropia.md)
+- [Codificación aritmética](02-teoria-informacion/13-codificacion-aritmetica.md)
+- [Procesos estocásticos y fuentes con memoria](02-teoria-informacion/14-procesos-estocasticos-y-fuentes-con-memoria.md)
 
 Práctica recomendada:
 
@@ -56,9 +58,11 @@ Práctica recomendada:
 - [Códigos prefijo y longitud media](cuadernos/ejemplos/04-codigos-prefijo-longitud-media.ipynb)
 - [Código de repetición y corrección de errores](cuadernos/ejemplos/08-codigos-repeticion-correccion.ipynb)
 - [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/20-cadenas-de-markov-tasa-entropia.ipynb)
+- [Codificación aritmética](cuadernos/ejemplos/23-codificacion-aritmetica.ipynb)
 - [Tasa-distorsión](cuadernos/ejercicios/14-tasa-distorsion.ipynb)
 - [Entropía de fuentes discretas](ejercicios/resueltos/01-entropia-fuentes-discretas.md)
 - [Tasa-distorsión: ejercicios resueltos](ejercicios/resueltos/14-tasa-distorsion.md)
+- [Teorema de Shannon y capacidad: ejercicios resueltos](ejercicios/resueltos/19-teorema-shannon-capacidad.md)
 
 ### Nivel 3 - Computabilidad y complejidad
 
@@ -70,12 +74,18 @@ Práctica recomendada:
 - [Gramáticas y la jerarquía de Chomsky](03-computabilidad/06-gramaticas-y-jerarquia-chomsky.md)
 - [Universalidad y autorreferencia](03-computabilidad/07-universalidad-y-autorreferencia.md)
 - [Autómatas de pila y lenguajes independientes del contexto](03-computabilidad/09-automatas-de-pila-y-lenguajes-contexto-libre.md)
+- [Jerarquía aritmética](03-computabilidad/10-jerarquia-aritmetica.md)
+- [Máquinas de Turing con oráculo y relativización](03-computabilidad/11-oráculos-y-relativización.md)
+- [Aleatoriedad algorítmica](03-computabilidad/12-aleatoriedad-algoritmica.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
 - [Complejidad parametrizada](04-complejidad-computacional/10-complejidad-parametrizada.md)
 - [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
 - [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)
+- [#P y problemas de conteo](04-complejidad-computacional/11-sharp-p-y-conteo.md)
+- [Complejidad de comunicación](04-complejidad-computacional/12-complejidad-de-comunicacion.md)
+- [Hipótesis ETH y SETH: consecuencias](04-complejidad-computacional/13-eth-seth-consecuencias.md)
 
 Práctica recomendada:
 
@@ -83,14 +93,19 @@ Práctica recomendada:
 - [Simulación de circuitos booleanos](cuadernos/ejemplos/15-circuitos-booleanos-simulacion.ipynb)
 - [Autómata finito para paridad](cuadernos/ejemplos/10-automata-finito-paridad.ipynb)
 - [Autómatas de pila: PDA y CYK](cuadernos/ejemplos/21-automatas-de-pila.ipynb)
+- [Aleatoriedad algorítmica](cuadernos/ejemplos/25-aleatoriedad-algoritmica.ipynb)
+- [Complejidad de comunicación](cuadernos/ejemplos/24-complejidad-comunicacion.ipynb)
 - [Máquinas de Turing básicas](cuadernos/ejercicios/11-maquinas-de-turing-basicas.ipynb)
 - [Autómatas y lenguajes formales](cuadernos/ejercicios/12-automatas-y-lenguajes.ipynb)
 - [Complejidad aleatoria y tests probabilísticos](cuadernos/ejercicios/13-complejidad-aleatoria.ipynb)
 - [Búsqueda exhaustiva para SAT](cuadernos/ejercicios/04-busqueda-sat.ipynb)
 - [Medición de complejidad temporal](cuadernos/ejercicios/08-medicion-complejidad-temporal.ipynb)
+- [#P y conteo](cuadernos/ejercicios/17-sharp-p-y-conteo.ipynb)
+- [Jerarquía aritmética](cuadernos/ejercicios/19-jerarquia-aritmetica.ipynb)
 - [Máquinas de Turing: ejercicios resueltos](ejercicios/resueltos/11-maquinas-de-turing.md)
 - [Autómatas finitos: ejercicios resueltos](ejercicios/resueltos/12-automatas-finitos.md)
 - [SAT y verificación de asignaciones](ejercicios/resueltos/05-sat-verificacion.md)
+- [Reducciones polinómicas: ejercicios resueltos](ejercicios/resueltos/22-reducciones-polinomicas.md)
 
 ### Nivel 4 - Conexiones y ampliaciones
 
@@ -100,6 +115,9 @@ Práctica recomendada:
 - [Información cuántica](05-conexiones-y-aplicaciones/04-informacion-cuantica.md)
 - [Información en el aprendizaje estadístico](05-conexiones-y-aplicaciones/05-informacion-en-aprendizaje.md)
 - [Información y termodinámica](05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md)
+- [Información y biología](05-conexiones-y-aplicaciones/07-informacion-y-biologia.md)
+- [El mapa de conexiones](05-conexiones-y-aplicaciones/08-mapa-de-conexiones.md)
+- [Rutas de profundización](00-presentacion/02-rutas-de-profundizacion.md)
 
 Práctica recomendada:
 
@@ -112,6 +130,11 @@ Práctica recomendada:
 - [Simulación de códigos LDPC](cuadernos/ejemplos/18-codigos-ldpc-simulacion.ipynb)
 - [Estimación de información mutua](cuadernos/ejemplos/19-informacion-mutua-estimacion.ipynb)
 - [Complejidad parametrizada: k-Vertex Cover](cuadernos/ejercicios/16-complejidad-parametrizada.ipynb)
+- [Kolmogorov y compresión](cuadernos/ejercicios/18-kolmogorov-y-compresion.ipynb)
+- [Criptografía básica](cuadernos/ejercicios/20-criptografia-basica.ipynb)
+- [Información cuántica](cuadernos/ejercicios/21-informacion-cuantica.ipynb)
+- [Criptografía y complejidad: ejercicios resueltos](ejercicios/resueltos/26-criptografia-y-complejidad.md)
+- [Información cuántica: ejercicios resueltos](ejercicios/resueltos/27-informacion-cuantica.md)
 
 ## Material de apoyo
 
@@ -140,6 +163,8 @@ Práctica recomendada:
 - [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
 - [Códigos LDPC y Turbo: hacia la capacidad de Shannon](02-teoria-informacion/11-codigos-ldpc-y-turbo.md)
 - [Cadenas de Markov y tasa de entropía](02-teoria-informacion/12-cadenas-de-markov-y-tasa-de-entropia.md)
+- [Codificación aritmética](02-teoria-informacion/13-codificacion-aritmetica.md)
+- [Procesos estocásticos y fuentes con memoria](02-teoria-informacion/14-procesos-estocasticos-y-fuentes-con-memoria.md)
 - [El problema de la parada](03-computabilidad/01-problema-de-la-parada.md)
 
 - [Decidibilidad y reconocibilidad](03-computabilidad/02-decidibilidad-y-reconocibilidad.md)

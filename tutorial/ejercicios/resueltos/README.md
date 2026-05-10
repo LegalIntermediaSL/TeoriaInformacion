@@ -31,6 +31,15 @@ razonamiento.
 - [Autómatas de pila y lenguajes independientes del contexto](16-automatas-de-pila.md)
 - [Complejidad parametrizada y kernelización](17-complejidad-parametrizada.md)
 - [Universalidad, quines y teorema de Rice](18-universalidad-y-quines.md)
+- [Teorema de Shannon y capacidad de canal](19-teorema-shannon-capacidad.md)
+- [Gramáticas y jerarquía de Chomsky](20-gramaticas-y-chomsky.md)
+- [Complejidad descriptiva](21-complejidad-descriptiva.md)
+- [Reducciones polinómicas y NP-completitud](22-reducciones-polinomicas.md)
+- [Aproximación y heurísticas](23-aproximacion-y-heuristicas.md)
+- [El teorema PCP](24-teorema-pcp.md)
+- [Complejidad de Kolmogorov y MDL](25-complejidad-kolmogorov.md)
+- [Criptografía y complejidad](26-criptografia-y-complejidad.md)
+- [Información cuántica](27-informacion-cuantica.md)
 
 ## Relación con cuadernos
 

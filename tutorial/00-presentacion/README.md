@@ -20,6 +20,7 @@ Módulo introductorio del tutorial.
 ## Artículos
 
 - [Mapa del territorio: información, cálculo y dificultad](01-mapa-del-territorio.md)
+- [Rutas de profundización](02-rutas-de-profundizacion.md)
 
 ## Resultado esperado
 
