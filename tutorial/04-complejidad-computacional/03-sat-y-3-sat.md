@@ -1,11 +1,26 @@
 # 03 - SAT y 3-SAT
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 SAT es uno de los problemas centrales de la complejidad computacional. Pregunta
 si una fórmula booleana puede hacerse verdadera mediante alguna asignación de
 valores a sus variables.
 
 Su importancia no viene solo de su definición, sino de su papel histórico: SAT
 fue el primer problema demostrado NP-completo.
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Lógica booleana](../01-fundamentos-matematicos/05-logica-booleana-y-proposicional.md)
+
+## Objetivos de aprendizaje
+
+1. Definir SAT, 3-SAT y sus variantes (MAX-SAT, k-SAT).
+2. Reducir SAT a 3-SAT en tiempo polinomial.
+3. Aplicar la reducción de 3-SAT a otros problemas NP-completos.
+
 
 ## Variables y literales
 
@@ -123,6 +138,15 @@ SAT pregunta si existe una asignación que haga verdadera una fórmula. Es el
 problema canónico de NP-completitud: verificar es fácil, encontrar puede ser
 difícil.
 
+## Ideas clave
+
+- SAT (satisfacibilidad booleana) es el primer problema NP-completo por el teorema de Cook-Levin (1971).
+- 3-SAT restringe SAT a cláusulas de exactamente 3 literales; sigue siendo NP-completo y es la reducción de partida más usada.
+- 2-SAT es resoluble en tiempo lineal (implicación de grafos + componentes fuertemente conexas); la frontera P/NP pasa entre k=2 y k=3.
+- MAX-SAT (maximizar cláusulas satisfechas) es NP-difícil de aproximar más allá de 7/8 por el teorema PCP de Håstad.
+- k-SAT crece en dificultad con k: la ETH conjetura que k-SAT requiere tiempo 2^{Ω(n)} para todo k≥3.
+
+
 ## Ejercicios
 
 1. Da una asignación que satisfaga `(x or y) and (not x or z)`.
@@ -130,3 +154,9 @@ difícil.
 3. ¿Cuántas asignaciones hay para una fórmula con 12 variables?
 4. ¿Por qué el hecho de que 2-SAT esté en P no contradice que 3-SAT sea
    NP-completo?
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [El teorema PCP](09-teorema-pcp.md)
+

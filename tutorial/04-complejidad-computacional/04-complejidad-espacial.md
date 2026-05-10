@@ -1,10 +1,24 @@
 # 04 - Complejidad espacial
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 La complejidad temporal mide cuántos pasos necesita un algoritmo. La complejidad
 espacial mide cuánta memoria utiliza.
 
 Ambas medidas son importantes. Un algoritmo puede ser rápido pero consumir mucha
 memoria, o ser lento pero usar muy poco espacio.
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir las clases PSPACE, L y NL y sus relaciones con P y NP.
+2. Enunciar el teorema de Savitch: NPSPACE = PSPACE.
+3. Demostrar que PSPACE-completitud mediante el problema TQBF.
+
 
 ## Espacio como recurso
 
@@ -110,9 +124,24 @@ La memoria también es un límite computacional. La complejidad espacial permite
 estudiar problemas donde el obstáculo principal no es solo cuánto tarda un
 algoritmo, sino cuánta información necesita mantener mientras trabaja.
 
+## Ideas clave
+
+- PSPACE es la clase de problemas decidibles con espacio polinomial; contiene NP y co-NP.
+- El teorema de Savitch: NPSPACE = PSPACE; el no determinismo solo cuadra el espacio.
+- TQBF (verdad de fórmulas booleanas cuantificadas) es PSPACE-completo; generaliza SAT añadiendo cuantificadores ∀.
+- L y NL son las clases de espacio logarítmico; NL = co-NL por el teorema de Immerman-Szelepcsényi.
+- La jerarquía de espacio es estricta (DSPACE(s(n)) ⊊ DSPACE(s'(n)) si s' ≫ s), a diferencia del tiempo donde el análogo es abierto.
+
+
 ## Ejercicios
 
 1. Da un ejemplo de algoritmo que use espacio lineal.
 2. ¿Por qué `P` está contenido en `PSPACE`?
 3. Explica por qué BFS puede usar más memoria que DFS.
 4. ¿Qué significa que un problema sea PSPACE-completo?
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Circuitos booleanos](07-circuitos-booleanos.md)
+

@@ -1,11 +1,26 @@
 # 05 - Divergencia KL y entropía cruzada
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~15 min
+
+
 La entropía mide incertidumbre de una distribución. La información mutua mide
 dependencia entre variables. La divergencia de Kullback-Leibler, o divergencia
 KL, compara dos distribuciones de probabilidad.
 
 Esta comparación es central en estadística, aprendizaje automático, compresión y
 modelado probabilístico.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+- [Información mutua](02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Calcular la divergencia KL D(P‖Q) y la entropía cruzada H(P,Q).
+2. Entender por qué la KL no es una distancia pero mide disimilitud.
+3. Conectar la entropía cruzada con la función de pérdida en modelos generativos.
+
 
 ## Dos distribuciones
 
@@ -126,9 +141,24 @@ costes de codificación.
 La entropía cruzada mide cuánto cuesta codificar datos reales usando un modelo.
 La divergencia KL mide el exceso de coste frente al modelo ideal.
 
+## Ideas clave
+
+- D_KL(P‖Q) = ∑ P(x) log[P(x)/Q(x)] mide cuánta información se pierde al usar Q como modelo cuando la realidad es P.
+- La KL no es simétrica: D_KL(P‖Q) ≠ D_KL(Q‖P) en general; esta asimetría tiene interpretación estadística.
+- La desigualdad de Gibbs: D_KL(P‖Q) ≥ 0 con igualdad solo si P = Q; se prueba con la concavidad del logaritmo.
+- La entropía cruzada H(P,Q) = H(P) + D_KL(P‖Q) es la función de pérdida estándar en clasificación multiclase.
+- La KL aparece en compresión (longitud extra al usar código incorrecto), en estadística (pruebas de hipótesis) y en variational inference.
+
+
 ## Ejercicios
 
 1. ¿Por qué `D_KL(P || Q)` no suele ser igual a `D_KL(Q || P)`?
 2. Explica qué ocurre si `Q(x) = 0` para un evento con `P(x) > 0`.
 3. Interpreta la entropía cruzada como longitud media de código.
 4. Da un ejemplo de modelo probabilístico malo para una fuente real.
+
+## Véase también
+
+- [Información mutua](02-informacion-mutua.md)
+- [Aprendizaje automático e información](../05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
+

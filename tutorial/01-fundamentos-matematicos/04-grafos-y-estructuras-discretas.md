@@ -1,11 +1,25 @@
 # 04 - Grafos y estructuras discretas
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~20 min
+
+
 Un grafo es una forma de representar objetos y relaciones entre ellos. Aparece
 en rutas de comunicación, dependencias entre tareas, redes, autómatas, estados de
 un programa, reducciones y muchos problemas clásicos de complejidad.
 
 Los grafos son importantes porque convierten preguntas abstractas en estructuras
 visuales y discretas.
+
+## Prerrequisitos
+
+- [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
+
+## Objetivos de aprendizaje
+
+1. Representar problemas como grafos y reconocer sus propiedades básicas.
+2. Aplicar recorridos BFS/DFS para resolver problemas de conectividad.
+3. Identificar grafos bipartitos, árboles y grafos planares.
+
 
 ## Vértices y aristas
 
@@ -149,9 +163,24 @@ Un grafo representa objetos y conexiones. Muchas preguntas sobre cálculo,
 comunicación y dificultad pueden convertirse en preguntas sobre caminos,
 conectividad o estructuras dentro de grafos.
 
+## Ideas clave
+
+- Un grafo G=(V,E) modela relaciones entre objetos; es la estructura central de los problemas NP-completos (Clique, Coloring, VC).
+- BFS calcula distancias mínimas en grafos no ponderados en O(V+E); DFS detecta ciclos y componentes conexas.
+- Un árbol es un grafo conexo sin ciclos; tiene exactamente n−1 aristas para n vértices y aparece en códigos de Huffman y PDA.
+- Los grafos bipartitos (dos particiones, aristas solo entre ellas) modelan códigos LDPC y el problema de matching.
+- La coloración de grafos, el ciclo hamiltoniano y el problema del viajante son NP-completos; ilustran la dureza de los problemas combinatorios.
+
+
 ## Ejercicios
 
 1. Dibuja un grafo dirigido con cuatro vértices y cinco aristas.
 2. Da un ejemplo cotidiano de grafo no dirigido.
 3. Explica la diferencia entre lista de adyacencia y matriz de adyacencia.
 4. ¿Por qué un espacio de estados puede representarse como grafo?
+
+## Véase también
+
+- [Combinatoria y conteo](03-combinatoria-y-conteo.md)
+- [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+

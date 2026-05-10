@@ -1,11 +1,25 @@
 # 02 - Decidibilidad y reconocibilidad
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~15 min
+
+
 El problema de la parada muestra que no todos los problemas bien definidos
 pueden resolverse mediante un algoritmo general. Para precisar este límite,
 conviene distinguir entre problemas decidibles y problemas reconocibles.
 
 La diferencia parece pequeña, pero es una de las fronteras centrales de la
 computabilidad.
+
+## Prerrequisitos
+
+- [El problema de la parada](01-problema-de-la-parada.md)
+
+## Objetivos de aprendizaje
+
+1. Distinguir lenguajes decidibles, reconocibles y no reconocibles.
+2. Demostrar que el complemento de un lenguaje RE que no es decidible no es RE.
+3. Clasificar problemas estándar en la jerarquía de decidibilidad.
+
 
 ## Problemas como lenguajes
 
@@ -119,6 +133,15 @@ Decidir exige terminar siempre con una respuesta correcta. Reconocer solo exige
 terminar cuando la respuesta es afirmativa. Entre ambas nociones vive buena
 parte de la teoría de la computabilidad.
 
+## Ideas clave
+
+- Un lenguaje L es decidible si existe una MT que acepta si w∈L y rechaza si w∉L, siempre terminando.
+- Un lenguaje es reconocible (RE) si hay una MT que acepta todas las palabras del lenguaje pero puede no terminar para las que no están.
+- L es decidible ↔ L y su complemento L̄ son ambos reconocibles (teorema de Kleene).
+- HALT es reconocible pero no decidible; su complemento co-HALT no es reconocible.
+- La jerarquía RE ⊂ co-RE ⊂ todos los lenguajes estratifica los lenguajes por su grado de computabilidad.
+
+
 ## Ejercicios
 
 1. Explica con tus palabras la diferencia entre decidir y reconocer.
@@ -126,3 +149,9 @@ parte de la teoría de la computabilidad.
 3. Describe un reconocedor para `HALT`.
 4. Si un lenguaje y su complemento son reconocibles, ¿por qué el lenguaje es
    decidible?
+
+## Véase también
+
+- [El problema de la parada](01-problema-de-la-parada.md)
+- [Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md)
+

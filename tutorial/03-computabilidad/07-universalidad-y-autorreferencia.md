@@ -1,5 +1,20 @@
 # Universalidad y Autorreferencia
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+- [El problema de la parada](01-problema-de-la-parada.md)
+
+## Objetivos de aprendizaje
+
+1. Construir una máquina de Turing universal (UTM).
+2. Comprender el teorema del punto fijo de Kleene (teorema del quine).
+3. Relacionar la autorreferencia con la indecidibilidad y los quines.
+
+
 ## Intuición
 
 Una máquina de Turing puede simular a otra: basta con codificar la descripción de la máquina simulada en la cinta. Esta idea —que un programa puede operar sobre otros programas— está en el corazón de la computación moderna y de los resultados más profundos sobre los límites del cómputo.
@@ -109,6 +124,7 @@ El problema de determinar si una MT de 2 estados y 3 símbolos es universal fue 
 - El teorema del punto fijo garantiza que siempre existen programas autorreferenciales con cualquier propiedad computable.
 - La indecidibilidad del problema de la parada y el teorema de Rice muestran los límites del análisis estático de programas.
 - La estructura de autorreferencia diagonal es la herramienta matemática unificadora de la incompletitud de Gödel y la indecidibilidad de Turing.
+- Los quines (programas que imprimen su propio código) existen en cualquier lenguaje Turing-completo; son consecuencia directa del teorema del punto fijo de Kleene.
 
 ## Ejercicios
 
@@ -117,6 +133,12 @@ El problema de determinar si una MT de 2 estados y 3 símbolos es universal fue 
 3. Aplica el teorema de Rice para demostrar que es indecidible si la MT $M$ acepta exactamente las cadenas de longitud par.
 4. ¿Por qué el análisis estático de programas (linting, verificación formal) no puede ser completo? Relaciona con el teorema de Rice.
 5. Esboza la diferencia entre los formalismos de Church (cálculo lambda) y Turing (MT): ¿son equivalentes? ¿Qué establece la tesis de Church-Turing?
+
+## Véase también
+
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+- [Complejidad de Kolmogorov](../05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
+
 
 ## Referencias
 

@@ -1,5 +1,20 @@
 # El Teorema PCP y la Dureza de Aproximación
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Reducciones polinómicas](02-reducciones-polinomicas.md)
+- [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
+
+## Objetivos de aprendizaje
+
+1. Enunciar el teorema PCP: NP = PCP(log n, 1).
+2. Entender cómo el teorema PCP implica cotas de inaproximabilidad.
+3. Relacionar la conjetura del juego único (UGC) con los límites de aproximación.
+
+
 ## Intuición
 
 El teorema PCP (Probabilistically Checkable Proofs) es uno de los resultados más profundos de la
@@ -158,6 +173,12 @@ Los sistemas PCP tienen conexiones profundas con la **criptografía**:
    ningún algoritmo polinomial puede superar este ratio. ¿Qué dice esto sobre la estructura
    de los problemas de corte en grafos?
 5. Investiga qué es un SNARK y en qué sentido utiliza ideas de los sistemas PCP.
+
+## Véase también
+
+- [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
+- [Complejidad descriptiva](../03-computabilidad/08-complejidad-descriptiva.md)
+
 
 ## Referencias
 

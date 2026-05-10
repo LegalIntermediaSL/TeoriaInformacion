@@ -1,9 +1,23 @@
 # 01 - Logaritmos, probabilidad y crecimiento
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~15 min
+
+
 Antes de estudiar entropía, computabilidad y complejidad conviene fijar tres
 herramientas básicas: logaritmos, probabilidad discreta y crecimiento
 asintótico. Aparecen una y otra vez porque permiten medir información, modelar
 incertidumbre y comparar costes computacionales.
+
+## Prerrequisitos
+
+Ninguno — este artículo es punto de entrada.
+
+## Objetivos de aprendizaje
+
+1. Manejar con soltura el logaritmo en distintas bases y sus propiedades.
+2. Calcular probabilidades básicas y aplicar el teorema de Bayes.
+3. Identificar tasas de crecimiento (exponencial, polinómica, logarítmica).
+
 
 ## Logaritmos como medida de escala
 
@@ -118,6 +132,15 @@ incertidumbre. El crecimiento asintótico permite hablar de eficiencia.
 Estas tres herramientas forman una pequeña gramática común para el resto del
 recorrido.
 
+## Ideas clave
+
+- El logaritmo en base 2 es la unidad natural de la información: log₂(n) bits distinguen n equiprobables.
+- Probabilidad y entropía comparten la misma base matemática; dominar P(A) y P(A|B) es imprescindible antes del módulo de información.
+- Las notaciones O, Ω, Θ describen el comportamiento asintótico y son el lenguaje universal de la complejidad.
+- Las funciones exponencial y logarítmica son inversas; invertir exp dará el tamaño de entradas factibles para un algoritmo.
+- El teorema de Bayes es la herramienta central para razonar con incertidumbre y aparece en inferencia, codificación y aprendizaje.
+
+
 ## Ejercicios
 
 1. ¿Cuántos bits hacen falta para distinguir entre 16 opciones equiprobables?
@@ -125,3 +148,9 @@ recorrido.
 3. Ordena de menor a mayor crecimiento: `n^2`, `log n`, `2^n`, `n`.
 4. Considera una moneda con `P(cara) = 0.99`. ¿Qué resultado aporta más sorpresa:
    cara o cruz?
+
+## Véase también
+
+- [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+

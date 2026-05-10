@@ -1,5 +1,20 @@
 # Códigos LDPC y Turbo: Hacia la Capacidad de Shannon
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
+- [Canales discretos](04-canales-discretos-y-capacidad.md)
+
+## Objetivos de aprendizaje
+
+1. Comprender la estructura del grafo de Tanner para códigos LDPC.
+2. Describir el algoritmo de propagación de creencias (belief propagation).
+3. Entender por qué los códigos polares de Arıkan alcanzan la capacidad de Shannon.
+
+
 ## Intuición
 
 Durante casi 50 años tras el teorema de Shannon (1948), los códigos existentes quedaban
@@ -136,6 +151,12 @@ Los códigos polares son el estándar en 5G (control plane, canal de control de 
 3. Explica intuitivamente por qué los ciclos cortos en el grafo de Tanner degradan el rendimiento del decodificador BP.
 4. ¿Por qué el entrelazador es esencial en los códigos turbo? ¿Qué ocurriría si los dos codificadores procesaran los bits en el mismo orden?
 5. Los códigos polares alcanzan la capacidad pero tienen mal rendimiento en longitudes cortas. ¿Qué técnica práctica se usa para mejorarlos en ese régimen?
+
+## Véase también
+
+- [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
+- [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
+
 
 ## Referencias
 

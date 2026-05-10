@@ -1,11 +1,25 @@
 # 01 - Entropía: medir incertidumbre
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 La entropía es una medida de incertidumbre. En teoría de la información, permite
 cuantificar cuánta información esperamos recibir al observar el resultado de una
 fuente aleatoria.
 
 La idea intuitiva es sencilla: cuanto más impredecible es una fuente, más
 información puede aportar cada observación.
+
+## Prerrequisitos
+
+- [Logaritmos, probabilidad y crecimiento](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+
+## Objetivos de aprendizaje
+
+1. Calcular la entropía de Shannon H(X) para distribuciones discretas.
+2. Interpretar la entropía como medida de incertidumbre e información promedio.
+3. Demostrar que la entropía se maximiza con la distribución uniforme.
+
 
 ## Sorpresa de un resultado
 
@@ -109,6 +123,15 @@ codificación y ruido con precisión matemática.
 La entropía mide la incertidumbre promedio de una fuente. Una fuente predecible
 tiene baja entropía; una fuente impredecible tiene alta entropía.
 
+## Ideas clave
+
+- La entropía H(X) = −∑ p(x) log₂ p(x) mide la incertidumbre promedio de una variable aleatoria en bits.
+- H(X) se maximiza con la distribución uniforme y vale 0 cuando el resultado es determinista.
+- Un bit es la cantidad de información que resuelve una pregunta binaria equiprobable.
+- La entropía es la cota inferior para la longitud media de cualquier código sin pérdida (primer teorema de Shannon).
+- La entropía de Shannon y la entropía de Boltzmann describen la misma magnitud con un factor de escala kB ln 2.
+
+
 ## Ejercicios
 
 1. Calcula la entropía de una fuente que produce cuatro símbolos equiprobables.
@@ -116,3 +139,9 @@ tiene baja entropía; una fuente impredecible tiene alta entropía.
    `P(cara) = 0.8`?
 3. Explica por qué una fuente completamente predecible tiene entropía cero.
 4. ¿Por qué la entropía se relaciona con la compresión sin pérdida?
+
+## Véase también
+
+- [Información mutua y divergencia KL](02-informacion-mutua.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+

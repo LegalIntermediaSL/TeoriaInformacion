@@ -1,8 +1,22 @@
 # 01 - El problema de la parada
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~15 min
+
+
 El problema de la parada es uno de los resultados más importantes de la teoría
 de la computabilidad. Muestra que existen preguntas perfectamente precisas que
 ningún algoritmo general puede responder siempre de forma correcta.
+
+## Prerrequisitos
+
+- [Conjuntos, funciones y relaciones](../01-fundamentos-matematicos/02-conjuntos-funciones-y-relaciones.md)
+
+## Objetivos de aprendizaje
+
+1. Enunciar y demostrar la indecidibilidad del problema de la parada.
+2. Explicar el argumento de diagonalización de Turing.
+3. Distinguir entre problemas decidibles y problemas semidecidibles.
+
 
 ## Planteamiento
 
@@ -101,6 +115,15 @@ todas las propiedades relacionadas con la ejecución de programas.
 Hay problemas bien formulados que no pueden resolverse por ningún algoritmo
 general. La computabilidad estudia exactamente esa frontera.
 
+## Ideas clave
+
+- El problema de la parada (HALT) no es decidible: no existe ningún algoritmo que determine para todo par (M,w) si M se detiene con entrada w.
+- La prueba usa diagonalización: construir una máquina D que hace lo contrario a lo que predice cualquier decididor hipotético.
+- Todo lenguaje decidible es reconocible, pero hay lenguajes reconocibles que no son decidibles (HALT es el ejemplo canónico).
+- La indecidibilidad es una propiedad semántica: muchas preguntas sobre el comportamiento de programas son indecidibles por el teorema de Rice.
+- HALT reduce a docenas de problemas prácticos (verificación formal, análisis estático, equivalencia de programas), propagando la indecidibilidad.
+
+
 ## Ejercicios
 
 1. Explica con tus palabras qué tendría que hacer un supuesto algoritmo `HALT`.
@@ -108,3 +131,9 @@ general. La computabilidad estudia exactamente esa frontera.
 3. ¿Qué significa que un problema sea indecidible?
 4. Busca un ejemplo práctico donde sea útil aproximar una respuesta aunque no
    pueda existir una solución perfecta y general.
+
+## Véase también
+
+- [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+

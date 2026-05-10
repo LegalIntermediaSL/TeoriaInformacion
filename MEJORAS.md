@@ -115,17 +115,17 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 | [x] | **Carpeta `ejercicios/propuestos/`**: enunciados sin solución extraídos de las secciones "Ejercicios" de cada artículo, para uso en clase o examen | `ejercicios/propuestos/` creado con enunciados de módulos 02 y 04 |
 | [x] | **Tests automáticos en notebooks de ejercicio**: añadir celda final con `assert resultado_alumno == resultado_ref` para hacer los ejercicios autoevaluables sin necesidad de leer la solución | todos los `.ipynb` de `cuadernos/ejercicios/` |
 | [x] | **Ejemplos numéricos guiados** en los artículos que solo tienen teoría y ejercicios abstractos: 03/08 (complejidad descriptiva), 04/09 (PCP), 05/01 (Kolmogorov) | artículos individuales |
-| [ ] | **Sección "Prerrequisitos"** al inicio de cada artículo con enlaces a los artículos previos que se necesitan entender | todos los artículos |
+| [x] | **Sección "Prerrequisitos"** al inicio de cada artículo con enlaces a los artículos previos que se necesitan entender | todos los artículos |
 
 ### Baja prioridad
 
 | Estado | Mejora | Archivo afectado |
 |--------|--------|------------------|
-| [ ] | Unificar sección "Ideas clave" a exactamente 5 puntos en todos los artículos (actualmente varía entre 3 y 8) | todos los artículos |
-| [ ] | Añadir `## Objetivos de aprendizaje` explícitos al inicio de cada artículo que no los tenga | artículos individuales |
-| [ ] | Añadir nivel de dificultad estimado a cada artículo: `⭐ Básico`, `⭐⭐ Intermedio`, `⭐⭐⭐ Avanzado` | todos los artículos |
-| [ ] | **Sección "Véase también"** al final de cada artículo: lista de 2-4 artículos del tutorial directamente relacionados | añadido en 03/06, 03/09, 05/03, 05/05 — falta en el resto |
-| [ ] | Añadir estimación de tiempo de lectura a cada artículo (e.g. `~20 min`) | todos los artículos |
+| [x] | Unificar sección "Ideas clave" a exactamente 5 puntos en todos los artículos (actualmente varía entre 3 y 8) | todos los artículos |
+| [x] | Añadir `## Objetivos de aprendizaje` explícitos al inicio de cada artículo que no los tenga | artículos individuales |
+| [x] | Añadir nivel de dificultad estimado a cada artículo: `⭐ Básico`, `⭐⭐ Intermedio`, `⭐⭐⭐ Avanzado` | todos los artículos |
+| [x] | **Sección "Véase también"** al final de cada artículo: lista de 2-4 artículos del tutorial directamente relacionados | todos los artículos |
+| [x] | Añadir estimación de tiempo de lectura a cada artículo (e.g. `~20 min`) | todos los artículos |
 
 ---
 
@@ -177,10 +177,10 @@ Problemas detectados que afectan a la coherencia del conjunto:
 | Artículos nuevos | 10 | 10 |
 | Ejercicios resueltos | 15 | 15 |
 | Notebooks nuevos | 8 | 8 |
-| Calidad estructural | 11 | 6 |
+| Calidad estructural | 11 | 11 |
 | Diagramas | 7 | 7 |
 | Coherencia interna | 4 | 4 |
 | Infraestructura | 5 | 5 |
-| **Total** | **60** | **55** |
+| **Total** | **60** | **60** |
 
 > Actualizar la tabla de resumen al completar ítems.

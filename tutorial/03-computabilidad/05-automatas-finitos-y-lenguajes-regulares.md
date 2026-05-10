@@ -1,11 +1,25 @@
 # 05 - Autómatas finitos y lenguajes regulares
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Los autómatas finitos son modelos de computación con memoria limitada. Son mucho
 más simples que las máquinas de Turing, pero resultan fundamentales para estudiar
 patrones, analizadores léxicos, expresiones regulares y protocolos sencillos.
 
 Un autómata finito no puede recordar una cantidad arbitraria de información.
 Esa limitación lo hace fácil de analizar.
+
+## Prerrequisitos
+
+- [Conjuntos, funciones y relaciones](../01-fundamentos-matematicos/02-conjuntos-funciones-y-relaciones.md)
+
+## Objetivos de aprendizaje
+
+1. Construir DFA y NFA para lenguajes regulares sencillos.
+2. Aplicar la construcción de subconjuntos para pasar de NFA a DFA.
+3. Usar el lema de bombeo para demostrar que un lenguaje no es regular.
+
 
 ## Estados
 
@@ -99,9 +113,24 @@ afecta la decidibilidad.
 Un autómata finito reconoce patrones con memoria limitada. Su simplicidad lo hace
 menos poderoso que una máquina de Turing, pero mucho más manejable.
 
+## Ideas clave
+
+- Un DFA reconoce exactamente los lenguajes regulares; un NFA es equivalente al DFA pero puede tener transiciones no deterministas.
+- La construcción de subconjuntos convierte cualquier NFA en un DFA equivalente con a lo sumo 2^n estados.
+- El lema de bombeo para regulares: si L es regular y w∈L con |w|≥p, entonces w = xyz con |xy|≤p y xy^iz∈L para todo i≥0.
+- Los lenguajes regulares son cerrados bajo unión, concatenación, clausura de Kleene, intersección y complemento.
+- Las expresiones regulares describen exactamente los lenguajes regulares; las regexes en programación son una extensión práctica.
+
+
 ## Ejercicios
 
 1. Diseña estados para reconocer cadenas binarias que terminan en `1`.
 2. Explica por qué leer `0` no cambia la paridad del número de unos.
 3. Da un ejemplo de patrón regular cotidiano.
 4. ¿Por qué `{0^n 1^n}` no parece regular?
+
+## Véase también
+
+- [Gramáticas y jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md)
+- [Autómatas de pila y lenguajes libres de contexto](09-automatas-de-pila-y-lenguajes-contexto-libre.md)
+

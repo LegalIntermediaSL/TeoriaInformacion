@@ -1,5 +1,20 @@
 # Autómatas de Pila y Lenguajes Independientes del Contexto
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Gramáticas y jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md)
+- [Autómatas finitos](05-automatas-finitos-y-lenguajes-regulares.md)
+
+## Objetivos de aprendizaje
+
+1. Definir un autómata de pila (PDA) y simular su cómputo paso a paso.
+2. Demostrar la equivalencia entre PDA y gramáticas libres de contexto.
+3. Usar el lema de bombeo para CFL para probar que {aⁿbⁿcⁿ} no es CFL.
+
+
 ## Intuición
 
 Los autómatas finitos (DFA/NFA) solo pueden contar módulo un número fijo: no pueden

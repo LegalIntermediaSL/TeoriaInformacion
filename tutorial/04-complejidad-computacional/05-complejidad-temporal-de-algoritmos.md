@@ -1,11 +1,25 @@
 # 05 - Complejidad temporal de algoritmos
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~15 min
+
+
 La complejidad temporal estudia cómo crece el número de pasos de un algoritmo
 cuando aumenta el tamaño de la entrada. No busca medir segundos exactos, sino
 comparar ritmos de crecimiento.
 
 Esta mirada permite distinguir algoritmos que escalan bien de algoritmos que se
 vuelven inviables.
+
+## Prerrequisitos
+
+- [Logaritmos y crecimiento](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+
+## Objetivos de aprendizaje
+
+1. Analizar la complejidad temporal de algoritmos con notación O, Ω, Θ.
+2. Resolver recurrencias con el teorema maestro.
+3. Clasificar problemas estándar según su complejidad asintótica.
+
 
 ## Tamaño de entrada
 
@@ -123,9 +137,24 @@ La complejidad teórica suele centrarse en el peor caso porque ofrece garantías
 La complejidad temporal no pregunta cuánto tarda hoy un programa concreto, sino
 cómo crecerá su coste mañana cuando la entrada sea mucho mayor.
 
+## Ideas clave
+
+- La notación O(f(n)) describe el peor caso asintótico; Ω(f(n)) el mejor caso; Θ(f(n)) cuando coinciden.
+- El teorema maestro resuelve recurrencias T(n)=aT(n/b)+f(n) que aparecen en divide y vencerás.
+- Los algoritmos de ordenación basados en comparaciones tienen cota inferior Ω(n log n) por el argumento del árbol de decisión.
+- La distinción entre polinomial (tractable) y exponencial (intractable) es la frontera práctica de la eficiencia.
+- El análisis amortizado (potential method) da cotas precisas para estructuras de datos con operaciones de coste variable.
+
+
 ## Ejercicios
 
 1. ¿Qué coste tiene recorrer una lista una vez?
 2. ¿Por qué dos bucles anidados suelen sugerir `O(n^2)`?
 3. Explica por qué búsqueda binaria requiere datos ordenados.
 4. ¿Cuántas asignaciones tiene una fórmula con 20 variables?
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Combinatoria y conteo](../01-fundamentos-matematicos/03-combinatoria-y-conteo.md)
+

@@ -1,11 +1,26 @@
 # 03 - Aprendizaje automático e información
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
 El aprendizaje automático puede verse como un proceso de extracción de
 regularidades a partir de datos. Esa descripción lo conecta de forma natural con
 la teoría de la información, la compresión y la complejidad.
 
 Un modelo útil no memoriza sin más. Aprende una representación que permite
 generalizar.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+- [Información mutua](../02-teoria-informacion/02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Conectar la entropía de Shannon con la función de pérdida en clasificación.
+2. Interpretar el entrenamiento de redes neuronales como minimización de entropía cruzada.
+3. Distinguir este artículo de 05/05 (información en aprendizaje estadístico).
+
 
 ## Datos como señales
 
@@ -106,6 +121,15 @@ La información útil y la información sensible no siempre son fáciles de sepa
 Aprender es transformar datos en representaciones útiles. La teoría de la
 información ayuda a medir incertidumbre, dependencia y compresión; la complejidad
 ayuda a entender los límites de encontrar buenos modelos.
+
+## Ideas clave
+
+- La función de pérdida de entropía cruzada −∑ y_i log ŷ_i minimiza la divergencia KL entre la distribución real y la predicha.
+- La mutua información I(X;Y) cuantifica cuánta información sobre la etiqueta Y aporta el atributo X; base de árboles de decisión.
+- La regularización L2 equivale a imponer una prior gaussiana (MAP = MLE + KL respecto de la prior).
+- El principio de longitud de descripción mínima (MDL) selecciona el modelo que comprime mejor los datos.
+- Las redes neuronales como estimadores de densidad implícitos minimizan la divergencia KL entre datos y modelo.
+
 
 ## Ejercicios
 

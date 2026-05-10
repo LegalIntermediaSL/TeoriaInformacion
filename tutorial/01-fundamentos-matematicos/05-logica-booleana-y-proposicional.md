@@ -1,10 +1,24 @@
 # 05 - Lógica booleana y proposicional
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~15 min
+
+
 La lógica booleana es el lenguaje de las proposiciones que pueden ser verdaderas
 o falsas. Aparece en circuitos, condiciones de programas, satisfacibilidad,
 verificación y muchas reducciones de complejidad.
 
 Antes de estudiar SAT con más detalle, conviene fijar sus piezas básicas.
+
+## Prerrequisitos
+
+- [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
+
+## Objetivos de aprendizaje
+
+1. Evaluar fórmulas proposicionales y construir tablas de verdad.
+2. Simplificar expresiones booleanas con álgebra de Boole.
+3. Entender la base lógica del diseño de circuitos y la satisfacibilidad.
+
 
 ## Valores de verdad
 
@@ -150,9 +164,24 @@ La lógica booleana permite convertir afirmaciones en objetos manipulables. SAT,
 circuitos, verificadores y reducciones usan este lenguaje para hablar de
 condiciones que pueden satisfacerse o no.
 
+## Ideas clave
+
+- Las conectivas AND, OR, NOT forman un sistema completo: cualquier función booleana se expresa con ellas.
+- Una fórmula en CNF (conjunción de disyunciones) es la forma normal relevante para SAT y 3-SAT.
+- El álgebra de Boole permite simplificar circuitos; las leyes de De Morgan son las transformaciones más usadas.
+- SAT (¿es satisfacible una fórmula booleana?) fue el primer problema demostrado NP-completo (Cook-Levin, 1971).
+- Los circuitos lógicos implementan funciones booleanas en hardware; su tamaño y profundidad corresponden al tiempo y espacio de cómputo.
+
+
 ## Ejercicios
 
 1. Construye la tabla de verdad de `x or y`.
 2. Verifica con una tabla la ley `not (x and y) = (not x) or (not y)`.
 3. Escribe la implicación `x -> y` usando solo `not` y `or`.
 4. Convierte una condición cotidiana en una fórmula booleana.
+
+## Véase también
+
+- [SAT y 3-SAT](../04-complejidad-computacional/03-sat-y-3-sat.md)
+- [Circuitos booleanos](../04-complejidad-computacional/07-circuitos-booleanos.md)
+

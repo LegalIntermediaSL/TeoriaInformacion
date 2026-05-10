@@ -1,5 +1,8 @@
 # 01 - Mapa del territorio: información, cálculo y dificultad
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~10 min
+
+
 La teoría de la información, la computabilidad y la complejidad computacional
 pueden estudiarse como tres respuestas complementarias a una misma pregunta:
 ¿qué significa procesar información?
@@ -8,6 +11,17 @@ La teoría de la información mide incertidumbre, transmisión, compresión y
 redundancia. La computabilidad pregunta qué puede ser calculado por un
 procedimiento mecánico. La complejidad computacional estudia cuántos recursos
 son necesarios para resolver un problema cuando ese problema sí es computable.
+
+## Prerrequisitos
+
+Ninguno — este artículo es punto de entrada.
+
+## Objetivos de aprendizaje
+
+1. Comprender la estructura global del tutorial y la relación entre sus módulos.
+2. Identificar qué temas son imprescindibles y cuáles opcionales según tu perfil.
+3. Elegir la ruta de estudio más adecuada para tus objetivos.
+
 
 ## Tres preguntas centrales
 
@@ -104,3 +118,17 @@ lenguaje formal necesario para hablar de todo ello con precisión.
    resolver algorítmicamente?
 3. ¿Por qué un algoritmo correcto puede no ser útil en la práctica?
 4. ¿Qué relación intuitiva hay entre compresión e identificación de patrones?
+
+## Véase también
+
+- [Logaritmos, probabilidad y crecimiento](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+
+## Ideas clave
+
+- La información, la computabilidad y la complejidad son tres facetas de un mismo problema fundamental: ¿qué se puede calcular y a qué coste?
+- El tutorial se organiza en cinco módulos que se refuerzan mutuamente; no es necesario seguirlos en orden estricto.
+- La entropía de Shannon, la indecidibilidad de Turing y la NP-completitud son los tres resultados más influyentes del siglo XX en informática teórica.
+- Cada módulo tiene un artículo de apertura que sirve de mapa local; léelo antes de adentrarte en los detalles.
+- Las conexiones entre módulos (complejidad descriptiva, SNARKs, Kolmogorov) son tan importantes como los contenidos de cada módulo por separado.
+

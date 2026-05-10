@@ -1,5 +1,20 @@
 # Cadenas de Markov y Tasa de Entropía
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+
+## Objetivos de aprendizaje
+
+1. Definir una cadena de Markov homogénea y su distribución estacionaria.
+2. Calcular la tasa de entropía de una fuente de Markov.
+3. Aplicar el teorema ergódico para relacionar tiempo y esperanza.
+
+
 ## Intuición
 
 Hasta ahora hemos medido la entropía de fuentes sin memoria: cada símbolo se elige
@@ -149,6 +164,12 @@ de régimen (intrusión en red, fallo en sensor, cambio de idioma).
 4. Demuestra que $\bar{H} \leq H(X_1)$ usando la desigualdad de cadena de la entropía.
 5. Dado un HMM con 2 estados ocultos, 3 símbolos observables y matrices de transición
    y emisión aleatorias, ¿cómo usarías el algoritmo forward para estimar $\bar{H}$?
+
+## Véase también
+
+- [Procesos estocásticos y fuentes con memoria](14-procesos-estocasticos-y-fuentes-con-memoria.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+
 
 ## Referencias
 

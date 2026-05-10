@@ -1,5 +1,20 @@
 # Aleatoriedad algorítmica
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Complejidad de Kolmogorov](../05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la aleatoriedad de Martin-Löf mediante tests de nulidad.
+2. Entender la constante Ω de Chaitin como número real no computable.
+3. Relacionar la aleatoriedad algorítmica con la incompresibilidad de Kolmogorov.
+
+
 ## Intuición
 
 ¿Qué significa que una cadena sea verdaderamente aleatoria? Una cadena como `0101010101` parece demasiado regular para ser aleatoria, pero según la definición probabilística clásica tiene exactamente la misma probabilidad que cualquier otra cadena de 10 bits. La **aleatoriedad algorítmica** da una respuesta satisfactoria: una cadena es aleatoria si no puede ser comprimida, si supera todos los tests estadísticos computables, y si no puede predecirse mejor que al azar por ningún algoritmo. Estos tres criterios distintos resultan ser equivalentes.
@@ -113,6 +128,12 @@ La complejidad de Kolmogorov y la entropía de Shannon están relacionadas pero 
 3. ¿Es la secuencia $0^n 1^n 0^n 1^n \ldots$ aleatoria de Martin-Löf? ¿Por qué?
 
 4. La secuencia de dígitos de $\pi$ en base 2, ¿es aleatoria de Martin-Löf? (Esta es una pregunta abierta en matemáticas; discute qué se sabe y por qué es difícil.)
+
+## Véase también
+
+- [Complejidad de Kolmogorov](../05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
+- [Jerarquía aritmética](10-jerarquia-aritmetica.md)
+
 
 ## Referencias
 

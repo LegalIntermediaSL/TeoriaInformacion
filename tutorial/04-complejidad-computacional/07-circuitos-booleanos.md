@@ -1,5 +1,20 @@
 # Circuitos Booleanos y Complejidad de Circuitos
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Lógica booleana](../01-fundamentos-matematicos/05-logica-booleana-y-proposicional.md)
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir circuitos booleanos, tamaño y profundidad.
+2. Relacionar las clases de circuitos AC0, NC1 con la jerarquía de complejidad.
+3. Entender el programa de circuitos como enfoque hacia la separación P/NP.
+
+
 ## Intuición
 
 Un circuito booleano es un programa sin bucles: una red de compuertas lógicas (AND, OR, NOT) que transforma una entrada de $n$ bits en una salida de $m$ bits. La **complejidad de circuitos** estudia cuántas compuertas necesita un circuito para resolver un problema, y cómo ese número escala con el tamaño de la entrada.
@@ -97,13 +112,12 @@ Tamaño: 4 compuertas. Profundidad: 3 (para $s$). El sumador completo (con acarr
 Para sumar dos números de $n$ bits encadenando $n$ sumadores completos se obtiene profundidad $\mathcal{O}(n)$. Usando suma por adelanto de acarreo (carry-lookahead) se baja a profundidad $\mathcal{O}(\log n)$ con tamaño $\mathcal{O}(n \log n)$.
 
 ## Ideas clave
-
 - Un circuito booleano es un DAG de compuertas que computa una función $\{0,1\}^n \to \{0,1\}$.
 - Tamaño mide el coste secuencial; profundidad mide el tiempo paralelo.
 - Cualquier función booleana tiene un circuito (DNF), pero puede ser de tamaño exponencial.
 - P/poly captura los lenguajes reconocibles por circuitos de tamaño polinomial (posiblemente no uniformes).
 - AC0 son los circuitos de profundidad constante; la paridad no está en AC0 (Håstad).
-- TC0 con compuertas de umbral captura la multiplicación y las redes neuronales de profundidad constante.
+
 
 ## Ejercicios
 
@@ -112,6 +126,12 @@ Para sumar dos números de $n$ bits encadenando $n$ sumadores completos se obtie
 3. Calcular el tamaño y la profundidad del circuito que implementa la suma de dos números de 4 bits con sumadores completos encadenados.
 4. ¿Por qué la familia de circuitos $C_n = $ "circuito que acepta todo" reconoce el lenguaje del problema de la parada? ¿Qué condición falta para que esto sea un algoritmo legítimo?
 5. Mostrar que si un problema tiene un algoritmo determinista de tiempo $T(n)$, existe una familia de circuitos de tamaño $\mathcal{O}(T(n)^2)$ que lo resuelve.
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Complejidad descriptiva](../03-computabilidad/08-complejidad-descriptiva.md)
+
 
 ## Referencias
 

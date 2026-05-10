@@ -1,10 +1,24 @@
 # 06 - Códigos correctores de errores
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Los canales reales introducen ruido. Un bit enviado como `0` puede recibirse como
 `1`, un paquete puede perderse y una señal puede deformarse.
 
 Los códigos correctores de errores añaden redundancia controlada para detectar o
 corregir errores durante la transmisión o el almacenamiento.
+
+## Prerrequisitos
+
+- [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
+
+## Objetivos de aprendizaje
+
+1. Definir distancia de Hamming y radio de corrección de un código.
+2. Construir y decodificar códigos de Hamming lineales.
+3. Enunciar la cota de Singleton y la cota de Hamming (sphere-packing).
+
 
 ## Redundancia útil
 
@@ -117,6 +131,15 @@ La compresión elimina redundancia para ahorrar bits. La corrección de errores
 añade redundancia para resistir ruido. Ambas ideas se entienden mejor cuando se
 ven como usos complementarios de la información.
 
+## Ideas clave
+
+- La distancia de Hamming d_H(u,v) cuenta posiciones distintas; un código con distancia mínima d corrige ⌊(d−1)/2⌋ errores.
+- El código de Hamming (7,4) añade 3 bits de paridad a 4 de datos; corrige 1 error y su tasa es 4/7.
+- La cota de Hamming (sphere-packing): el número de palabras código no puede superar 2^n dividido por el volumen de la bola de errores.
+- La cota de Singleton: d ≤ n−k+1; los códigos MDS (Reed-Solomon) la alcanzan con igualdad.
+- La distinción entre tasa R = k/n y distancia relativa δ = d/n determina el compromiso fundamental de los códigos.
+
+
 ## Ejercicios
 
 1. Calcula la distancia de Hamming entre `10101` y `11100`.
@@ -124,3 +147,9 @@ ven como usos complementarios de la información.
 3. Explica por qué el código de repetición de longitud 3 falla si dos bits se
    invierten.
 4. Da un ejemplo de sistema cotidiano que use corrección de errores.
+
+## Véase también
+
+- [Códigos LDPC y turbo](11-codigos-ldpc-y-turbo.md)
+- [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
+

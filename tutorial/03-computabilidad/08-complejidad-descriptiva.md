@@ -1,5 +1,20 @@
 # Complejidad Descriptiva
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+- [P y NP](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Enunciar el teorema de Fagin: NP = ∃SO.
+2. Expresar 3-colorabilidad como una fórmula de segundo orden existencial.
+3. Entender cómo la lógica de punto fijo captura la clase P.
+
+
 ## Intuición
 
 La complejidad computacional habitual mide cuántos pasos necesita un algoritmo. La
@@ -147,6 +162,7 @@ reconocibles por autómatas sin ciclos.
   inducción matemática (punto fijo) con la computación polinomial.
 - La ausencia de orden en la estructura puede hacer que lenguajes más ricos sean no expresables
   en FO; el orden actúa como "memoria" para la lógica.
+- Los sistemas de model checking (CTL, LTL) son fragmentos de FO con complejidad P-completa y PSPACE-completa respectivamente.
 
 ## Ejercicios
 
@@ -159,6 +175,12 @@ reconocibles por autómatas sin ciclos.
    sumo $|A|$ pasos para un grafo con $|A|$ nodos.
 5. Explica la conexión entre el teorema de Fagin y la definición de NP como "decidible por
    una MT no determinista en tiempo polinomial".
+
+## Véase también
+
+- [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+- [El teorema PCP](../04-complejidad-computacional/09-teorema-pcp.md)
+
 
 ## Referencias
 

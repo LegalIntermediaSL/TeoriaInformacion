@@ -1,5 +1,19 @@
 # Complejidad Parametrizada
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la clase FPT y distinguirla de XP.
+2. Aplicar la técnica de árbol de búsqueda acotado a k-Vertex Cover.
+3. Entender la kernelización y el ancho de árbol como herramientas FPT.
+
+
 ## Intuición
 
 Muchos problemas NP-difíciles son intratables en general pero tienen instancias "pequeñas"
@@ -143,6 +157,12 @@ cada bolsa considerando $2^{|B_i|}$ subconjuntos, dando tiempo $O(2^w \cdot n)$.
 4. ¿Por qué $k$-Clique es W[1]-difícil? Esboza la reducción desde $k$-Independent Set.
 5. Si la ETH es verdadera, ¿puede $k$-Clique resolverse en tiempo $f(k) \cdot n^{k/3}$?
    ¿Y en tiempo $f(k) \cdot n^{\sqrt{k}}$?
+
+## Véase también
+
+- [Aproximación y heurísticas](06-aproximacion-y-heuristicas.md)
+- [ETH y SETH](13-eth-seth-consecuencias.md)
+
 
 ## Referencias
 

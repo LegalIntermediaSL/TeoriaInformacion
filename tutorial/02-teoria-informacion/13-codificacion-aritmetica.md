@@ -1,5 +1,19 @@
 # Codificación aritmética
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Codificación de fuente (Huffman)](03-codificacion-de-fuente.md)
+
+## Objetivos de aprendizaje
+
+1. Explicar el principio de la codificación aritmética mediante subdivsión de [0,1).
+2. Implementar el algoritmo de codificación aritmética paso a paso.
+3. Comparar la longitud media de la codificación aritmética con Huffman.
+
+
 ## Intuición
 
 El código de Huffman asigna un número entero de bits a cada símbolo. Esto introduce un desperdicio inevitable cuando la entropía no es entera: si un símbolo tiene probabilidad 0.9, merece $-\log_2 0.9 \approx 0.15$ bits, pero Huffman le asigna 1 bit. La **codificación aritmética** elimina esa ineficiencia representando un mensaje entero como un único número real dentro del intervalo $[0, 1)$, y puede acercarse arbitrariamente a la entropía de la fuente sin necesidad de símbolo por símbolo.
@@ -123,6 +137,12 @@ Este esquema logra tasas próximas a $H(X)$ **sin conocer de antemano las probab
 3. Demuestra que el intervalo final de la codificación de $x_1 \ldots x_n$ tiene longitud $\prod_{i=1}^n P(x_i)$.
 
 4. ¿Qué ventaja tiene la codificación aritmética adaptativa sobre Huffman adaptativo para alfabetos con alta entropía ($H \approx \log_2 |\Sigma|$)?
+
+## Véase también
+
+- [Codificación de fuente](03-codificacion-de-fuente.md)
+- [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
+
 
 ## Referencias
 

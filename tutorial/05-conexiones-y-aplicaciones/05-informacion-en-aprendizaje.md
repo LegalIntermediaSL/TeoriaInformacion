@@ -1,5 +1,20 @@
 # Información en el Aprendizaje Estadístico
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
+- [Divergencia KL y entropía cruzada](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
+
+## Objetivos de aprendizaje
+
+1. Aplicar la divergencia KL y la información de Fisher al aprendizaje estadístico.
+2. Entender el principio MDL (Minimum Description Length) como selección de modelos.
+3. Relacionar la complejidad del modelo con el sobreajuste desde la perspectiva informacional.
+
+
 ## Intuición
 
 La teoría de la información y el aprendizaje automático están profundamente conectados.

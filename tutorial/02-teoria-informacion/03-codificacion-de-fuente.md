@@ -1,5 +1,8 @@
 # 03 - Codificación de fuente
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 La codificación de fuente estudia cómo representar mensajes de una fuente usando
 símbolos de un código, normalmente bits. Su pregunta principal es:
 
@@ -9,6 +12,18 @@ símbolos de un código, normalmente bits. Su pregunta principal es:
 
 La entropía marca un límite teórico. La codificación busca acercarse a ese
 límite con esquemas concretos.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+- [Información mutua](02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Construir códigos prefijo óptimos con el algoritmo de Huffman.
+2. Demostrar que la longitud media de Huffman está entre H(X) y H(X)+1.
+3. Comprender la distinción entre compresión sin pérdida y compresión de fuente.
+
 
 ## Fuentes y mensajes
 
@@ -151,6 +166,15 @@ La codificación de fuente convierte regularidad probabilística en ahorro de
 bits. La entropía indica el límite; los códigos concretos intentan acercarse a
 él.
 
+## Ideas clave
+
+- El código de Huffman construye un árbol binario óptimo: la longitud media está entre H(X) y H(X)+1 bits/símbolo.
+- Un código prefijo (sin prefijo de un símbolo es prefijo de otro) permite decodificación unívoca sin separadores.
+- La desigualdad de Kraft ∑ 2^{−l_i} ≤ 1 es condición necesaria y suficiente para la existencia de un código prefijo.
+- El primer teorema de Shannon: la longitud media de cualquier código sin pérdida es ≥ H(X).
+- La codificación aritmética supera a Huffman en longitud media acercándose a H(X) con error arbitrariamente pequeño.
+
+
 ## Ejercicios
 
 1. Calcula la longitud media del código fijo de cuatro símbolos.
@@ -159,3 +183,9 @@ bits. La entropía indica el límite; los códigos concretos intentan acercarse 
 3. Calcula la suma de Kraft para las longitudes `1, 2, 3, 3`.
 4. Explica por qué una fuente uniforme ofrece menos margen para códigos de
    longitud variable.
+
+## Véase también
+
+- [Codificación aritmética](13-codificacion-aritmetica.md)
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+

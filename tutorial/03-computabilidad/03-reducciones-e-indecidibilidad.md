@@ -1,10 +1,25 @@
 # 03 - Reducciones e indecidibilidad
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Las reducciones no solo sirven para comparar dificultad computacional. En
 computabilidad son una herramienta fundamental para demostrar que ciertos
 problemas son indecidibles.
 
 La idea es transportar una imposibilidad conocida hacia un problema nuevo.
+
+## Prerrequisitos
+
+- [El problema de la parada](01-problema-de-la-parada.md)
+- [Decidibilidad](02-decidibilidad-y-reconocibilidad.md)
+
+## Objetivos de aprendizaje
+
+1. Construir reducciones de muchos-a-uno entre problemas de decisión.
+2. Demostrar la indecidibilidad de un lenguaje reduciéndolo desde HALT.
+3. Aplicar el teorema de Rice para clasificar propiedades de lenguajes.
+
 
 ## Recordatorio: el problema de la parada
 
@@ -120,6 +135,15 @@ Una reducción de indecidibilidad muestra que resolver un problema nuevo
 permitiría resolver uno que ya sabemos imposible. Así convertimos un límite
 conocido en una familia de límites nuevos.
 
+## Ideas clave
+
+- Una reducción de muchos-a-uno A ≤_m B transforma instancias de A en instancias de B en tiempo computable: si B es decidible, A también lo es.
+- HALT ≤_m E_TM (¿es vacío el lenguaje de M?): la indecidibilidad se propaga por reducción.
+- El teorema de Rice: toda propiedad no trivial del lenguaje de una MT es indecidible.
+- Las reducciones definen un orden parcial en los problemas: el problema más difícil es completo respecto de una clase.
+- La diagonalización y las reducciones son las dos herramientas principales para probar indecidibilidad.
+
+
 ## Ejercicios
 
 1. Explica la forma general de una prueba por reducción de indecidibilidad.
@@ -127,3 +151,9 @@ conocido en una familia de límites nuevos.
 3. Describe un programa `Q` que imprima algo solo si otro programa termina.
 4. Da un ejemplo de propiedad sintáctica decidible y otro de propiedad semántica
    sospechosa de ser indecidible.
+
+## Véase también
+
+- [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
+- [Reducciones polinómicas](../04-complejidad-computacional/02-reducciones-polinomicas.md)
+

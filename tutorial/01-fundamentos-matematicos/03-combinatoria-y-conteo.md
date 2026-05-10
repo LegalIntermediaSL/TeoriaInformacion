@@ -1,5 +1,8 @@
 # 03 - Combinatoria y conteo
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~20 min
+
+
 La combinatoria estudia cómo contar objetos discretos. En este tutorial aparece
 cada vez que queremos saber cuántos mensajes son posibles, cuántas cadenas hay
 de cierta longitud, cuántas configuraciones debe explorar un algoritmo o cuántos
@@ -7,6 +10,17 @@ certificados podrían existir para un problema.
 
 Contar bien es una forma de medir tamaño. Y medir tamaño es el primer paso para
 hablar de información y complejidad.
+
+## Prerrequisitos
+
+- [Logaritmos, probabilidad y crecimiento](01-logaritmos-probabilidad-y-crecimiento.md)
+
+## Objetivos de aprendizaje
+
+1. Calcular permutaciones y combinaciones con y sin repetición.
+2. Aplicar el principio de inclusión-exclusión y el principio del palomar.
+3. Estimar el tamaño de espacios combinatorios relevantes en información y complejidad.
+
 
 ## Regla del producto
 
@@ -156,6 +170,15 @@ Contar posibilidades permite medir información y estimar costes. Cuando el
 número de candidatos crece como `2^n` o `n!`, la búsqueda directa suele volverse
 impracticable.
 
+## Ideas clave
+
+- El principio de la multiplicación: si A tiene m opciones y B tiene n, el total de pares es m·n.
+- Permutaciones (orden importa) y combinaciones (orden no importa) son los dos bloques básicos del conteo.
+- El principio de inclusión-exclusión evita doble conteo: |A∪B| = |A|+|B|−|A∩B|.
+- El principio del palomar: si n+1 objetos caben en n casillas, alguna casilla tiene al menos dos objetos; fundamental en teoría de códigos.
+- El coeficiente binomial C(n,k) cuenta subconjuntos de k elementos; el triángulo de Pascal da su estructura recursiva.
+
+
 ## Ejercicios
 
 1. ¿Cuántas cadenas binarias de longitud 10 existen?
@@ -163,3 +186,9 @@ impracticable.
 3. Calcula `C(5, 2)` e interpreta el resultado.
 4. Explica por qué probar todas las permutaciones de 15 elementos puede ser
    inviable.
+
+## Véase también
+
+- [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+

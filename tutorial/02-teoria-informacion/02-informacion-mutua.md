@@ -1,11 +1,25 @@
 # 02 - Información mutua
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 La entropía mide la incertidumbre de una variable aleatoria. Pero muchas veces
 queremos comparar dos variables: cuánto nos dice una sobre la otra, cuánto se
 solapan sus incertidumbres o cuánta dependencia hay entre ambas.
 
 La información mutua responde a esa pregunta. Mide la reducción promedio de
 incertidumbre sobre una variable cuando observamos otra.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+
+## Objetivos de aprendizaje
+
+1. Calcular la información mutua I(X;Y) entre dos variables aleatorias.
+2. Relacionar la información mutua con la entropía condicional y la KL.
+3. Interpretar I(X;Y) como la reducción de incertidumbre de X al conocer Y.
+
 
 ## Intuición
 
@@ -154,6 +168,15 @@ La información mutua mide relación estadística, no explicación causal.
 La información mutua mide cuánta incertidumbre sobre una variable desaparece al
 observar otra. Si dos variables son independientes, no comparten información.
 
+## Ideas clave
+
+- I(X;Y) = H(X) − H(X|Y) mide cuánta incertidumbre de X se elimina al conocer Y.
+- La información mutua es simétrica: I(X;Y) = I(Y;X), aunque la causalidad no lo sea.
+- I(X;Y) = D_KL(P_{XY} ‖ P_X P_Y): mide cuánto difiere la distribución conjunta del producto de las marginales.
+- La capacidad de canal C = max_P I(X;Y) es la máxima información mutua alcanzable variando la distribución de entrada.
+- El diagrama de Venn de entropías (H(X), H(Y), H(X,Y), H(X|Y), I(X;Y)) resume todas las relaciones de dependencia.
+
+
 ## Ejercicios
 
 1. Si `H(X) = 3` bits y `H(X | Y) = 1` bit, calcula `I(X; Y)`.
@@ -161,3 +184,9 @@ observar otra. Si dos variables son independientes, no comparten información.
 3. Da un ejemplo de dos variables con entropía positiva pero información mutua
    cero.
 4. Explica por qué información mutua no significa necesariamente causalidad.
+
+## Véase también
+
+- [Divergencia KL y entropía cruzada](05-divergencia-kl-y-entropia-cruzada.md)
+- [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
+

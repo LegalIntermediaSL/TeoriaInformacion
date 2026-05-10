@@ -1,5 +1,20 @@
 # Complejidad Aleatoria
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Probabilidad](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+
+## Objetivos de aprendizaje
+
+1. Definir las clases BPP, RP, ZPP y sus relaciones.
+2. Entender por qué se conjetura que BPP = P.
+3. Analizar la derandomización mediante generadores pseudoaleatorios.
+
+
 ## Intuición
 
 Un algoritmo determinista siempre toma el mismo camino para una entrada dada. Un algoritmo **aleatorio** puede lanzar monedas durante su ejecución y elegir distintos caminos en distintas ejecuciones. Sorprendentemente, la aleatoriedad puede hacer que algunos problemas sean mucho más fáciles de resolver en la práctica, aunque no se sabe si añade poder computacional asintótico real.
@@ -94,6 +109,12 @@ Esto significa que cualquier problema en PSPACE puede verificarse en tiempo poli
 3. Describe un escenario práctico donde el lema de Schwartz-Zippel se usa para verificar la multiplicación de matrices (algoritmo de Freivalds).
 4. ¿Por qué la existencia de un PRG seguro implicaría BPP = P? Esboza el argumento.
 5. El problema del isomorfismo de grafos (GI) está en NP pero no se sabe si está en P o es NP-completo. ¿En qué clase de complejidad aleatoria está GI? Justifica.
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [#P y problemas de conteo](11-sharp-p-y-conteo.md)
+
 
 ## Referencias
 

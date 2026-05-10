@@ -1,11 +1,26 @@
 # 01 - P, NP y NP-completitud
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~25 min
+
+
 La complejidad computacional estudia cuántos recursos necesita un algoritmo para
 resolver un problema. Su pregunta central no es solo si algo puede calcularse,
 sino si puede calcularse de manera eficiente.
 
 Entre sus conceptos más conocidos están las clases P y NP, y la noción de
 NP-completitud.
+
+## Prerrequisitos
+
+- [Máquinas de Turing](../03-computabilidad/04-maquinas-de-turing.md)
+- [Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md)
+
+## Objetivos de aprendizaje
+
+1. Definir las clases P y NP mediante máquinas de Turing deterministas y no deterministas.
+2. Demostrar la NP-completitud de SAT con el teorema de Cook-Levin.
+3. Entender el significado de la conjetura P ≠ NP y sus implicaciones.
+
 
 ## Problemas de decisión
 
@@ -122,9 +137,24 @@ P trata de resolver eficientemente. NP trata de verificar eficientemente. La
 NP-completitud identifica problemas que concentran la dificultad de toda la clase
 NP.
 
+## Ideas clave
+
+- P es la clase de problemas decidibles en tiempo polinomial determinista; NP admite verificación de certificados en tiempo polinomial.
+- La pregunta P ≠ NP es el problema abierto más importante de la informática teórica.
+- El teorema de Cook-Levin: SAT es NP-completo; todo problema en NP se reduce a SAT en tiempo polinomial.
+- Un problema es NP-completo si está en NP y todo problema en NP se reduce a él; resolver uno en P resolvería todos.
+- La distinción entre resolver (encontrar solución) y verificar (comprobar solución dada) es el núcleo de la conjetura P ≠ NP.
+
+
 ## Ejercicios
 
 1. Explica la diferencia entre encontrar una solución y verificar una solución.
 2. ¿Por qué todo problema en P pertenece también a NP?
 3. ¿Qué implicaría encontrar un algoritmo polinómico para SAT?
 4. Reformula un problema de optimización como un problema de decisión.
+
+## Véase también
+
+- [Reducciones polinómicas](02-reducciones-polinomicas.md)
+- [SAT y 3-SAT](03-sat-y-3-sat.md)
+

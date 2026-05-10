@@ -1,5 +1,8 @@
 # 02 - Conjuntos, funciones y relaciones
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~20 min
+
+
 La teoría de la información, la computabilidad y la complejidad usan un lenguaje
 común: conjuntos de objetos, funciones entre ellos y relaciones que expresan
 propiedades. Antes de introducir modelos más formales, conviene fijar esta base.
@@ -7,6 +10,17 @@ propiedades. Antes de introducir modelos más formales, conviene fijar esta base
 El objetivo no es desarrollar teoría de conjuntos en profundidad, sino disponer
 de una notación clara para hablar de alfabetos, cadenas, programas, grafos,
 lenguajes y problemas de decisión.
+
+## Prerrequisitos
+
+- [Logaritmos, probabilidad y crecimiento](01-logaritmos-probabilidad-y-crecimiento.md)
+
+## Objetivos de aprendizaje
+
+1. Operar con conjuntos (unión, intersección, complemento, producto cartesiano).
+2. Distinguir funciones inyectivas, sobreyectivas y biyectivas.
+3. Comprender relaciones de equivalencia y de orden.
+
 
 ## Conjuntos
 
@@ -196,6 +210,15 @@ Los conjuntos describen colecciones, las funciones transforman elementos y las
 relaciones comparan objetos. Con esas tres piezas podemos modelar fuentes,
 programas, lenguajes y problemas.
 
+## Ideas clave
+
+- Un conjunto es la noción más básica de colección; operaciones como unión e intersección se usan en la descripción de clases de complejidad.
+- Una función biyectiva establece una correspondencia uno a uno; las bijeaciones cuentan objetos (argumento de diagonalización de Cantor).
+- Las relaciones de equivalencia particionan un conjunto en clases; son la base de los autómatas de estados equivalentes.
+- El producto cartesiano A×B es el conjunto de todos los pares; modela la entrada de funciones de dos variables y tablas de verdad.
+- La cardinalidad infinita (contable vs. incontable) determina la existencia de lenguajes indecidibles: hay más lenguajes que programas.
+
+
 ## Ejercicios
 
 1. Da un ejemplo de conjunto finito y otro infinito.
@@ -204,3 +227,9 @@ programas, lenguajes y problemas.
    total.
 4. Describe como lenguaje el problema "una cadena binaria contiene al menos un
    `1`".
+
+## Véase también
+
+- [Combinatoria y conteo](03-combinatoria-y-conteo.md)
+- [Grafos y estructuras discretas](04-grafos-y-estructuras-discretas.md)
+

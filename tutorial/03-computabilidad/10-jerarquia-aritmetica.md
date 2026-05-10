@@ -1,5 +1,20 @@
 # Jerarquía aritmética
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [El problema de la parada](01-problema-de-la-parada.md)
+- [Decidibilidad](02-decidibilidad-y-reconocibilidad.md)
+
+## Objetivos de aprendizaje
+
+1. Definir los niveles Σ₀, Σ₁, Π₁ y Δ₁ de la jerarquía aritmética.
+2. Clasificar problemas canónicos (parada, TOT, FIN) en la jerarquía.
+3. Entender el operador de salto de Turing y cómo genera la jerarquía.
+
+
 ## Intuición
 
 El problema de la parada es indecidible, pero no todos los problemas indecidibles son igual de difíciles. Algunos son más indecidibles que otros: no se pueden resolver incluso con acceso a un oráculo que decide el problema de la parada. La **jerarquía aritmética** es una clasificación fina de los lenguajes de acuerdo con la complejidad de las fórmulas lógicas que los definen, y captura esta estructura graduada de dificultad.
@@ -128,6 +143,12 @@ La diferencia: en la jerarquía aritmética los cuantificadores cuantifican sobr
 3. ¿Por qué el lenguaje de la verdad aritmética (el conjunto de fórmulas de primer orden verdaderas sobre $\mathbb{N}$) no pertenece a ningún nivel de la jerarquía?
 
 4. Construye explícitamente un lenguaje $\Sigma_2^0$ que no sea $\Sigma_1^0$ usando el oráculo de salto.
+
+## Véase también
+
+- [Oráculos y relativización](11-oráculos-y-relativización.md)
+- [Aleatoriedad algorítmica](12-aleatoriedad-algoritmica.md)
+
 
 ## Referencias
 

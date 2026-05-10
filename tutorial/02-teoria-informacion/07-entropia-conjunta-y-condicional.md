@@ -1,11 +1,26 @@
 # 07 - Entropía conjunta y condicional
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~15 min
+
+
 La entropía de una variable mide su incertidumbre. Pero muchos problemas
 involucran varias variables relacionadas. Para analizarlas necesitamos entropía
 conjunta y entropía condicional.
 
 Estas nociones preparan el terreno para información mutua, canales y modelos
 probabilísticos.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+- [Información mutua](02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Calcular entropía conjunta H(X,Y) y entropía condicional H(X|Y).
+2. Demostrar la regla de la cadena para la entropía.
+3. Aplicar el diagrama de Venn de entropías para visualizar relaciones entre variables.
+
 
 ## Entropía conjunta
 
@@ -127,9 +142,24 @@ mucha incertidumbre residual.
 La entropía conjunta mide incertidumbre total de varias variables. La entropía
 condicional mide incertidumbre restante después de observar información parcial.
 
+## Ideas clave
+
+- H(X,Y) ≤ H(X) + H(Y) con igualdad si y solo si X e Y son independientes.
+- La regla de la cadena: H(X₁,...,Xn) = ∑ H(Xᵢ|X₁,...,Xᵢ₋₁); la entropía se descompone secuencialmente.
+- H(X|Y) ≤ H(X): conocer Y no puede aumentar la incertidumbre de X (el condicionamiento reduce la entropía).
+- El diagrama de Venn de entropías visualiza H(X), H(Y), H(X|Y), H(Y|X), I(X;Y) y H(X,Y) como áreas.
+- La desigualdad de procesamiento de datos: si X→Y→Z es una cadena de Markov, I(X;Z) ≤ I(X;Y).
+
+
 ## Ejercicios
 
 1. Calcula `H(X, Y)` para dos monedas equilibradas independientes.
 2. Si `Y = X`, ¿por qué `H(X, Y)` no es `H(X) + H(Y)`?
 3. Explica la regla de la cadena con tus palabras.
 4. Usa `I(X;Y) = H(X) + H(Y) - H(X,Y)` para explicar información compartida.
+
+## Véase también
+
+- [Información mutua](02-informacion-mutua.md)
+- [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
+

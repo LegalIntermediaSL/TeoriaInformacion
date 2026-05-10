@@ -1,5 +1,20 @@
 # Máquinas de Turing con oráculo y relativización
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Máquinas de Turing](04-maquinas-de-turing.md)
+- [P y NP](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir máquinas de Turing con oráculo y su semántica.
+2. Entender el teorema de Baker-Gill-Solovay y sus consecuencias.
+3. Explicar por qué la diagonalización sola no puede separar P de NP.
+
+
 ## Intuición
 
 ¿Por qué es tan difícil demostrar que P ≠ NP? Una pista viene de la **relativización**: si añadimos a todas las máquinas acceso a un oráculo externo (una caja negra que responde preguntas), las clases de complejidad cambian de manera inconsistente. Para algunos oráculos P^A = NP^A; para otros P^A ≠ NP^A. Esto demuestra que cualquier prueba de P ≠ NP que también valga para todos los oráculos está condenada al fracaso. Este resultado —el teorema de Baker-Gill-Solovay— reorientó durante décadas la investigación en teoría de la complejidad.
@@ -101,6 +116,12 @@ Las MT que deciden con oráculo $K$ resuelven exactamente los problemas de nivel
 3. ¿Por qué el resultado IP = PSPACE (sistemas de prueba interactivos) no se relativiza trivialmente y fue un avance importante?
 
 4. Si la jerarquía polinómica colapsara a $\Sigma_3^P$, ¿qué implicaría eso sobre la relación entre NP y coNP?
+
+## Véase también
+
+- [Jerarquía aritmética](10-jerarquia-aritmetica.md)
+- [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+
 
 ## Referencias
 

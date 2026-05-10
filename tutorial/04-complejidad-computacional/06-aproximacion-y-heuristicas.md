@@ -1,11 +1,25 @@
 # 06 - Aproximación y heurísticas
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Que un problema sea difícil en el peor caso no significa que debamos rendirnos.
 En la práctica, muchas veces aceptamos soluciones aproximadas, algoritmos
 heurísticos o métodos que funcionan bien en ciertas familias de instancias.
 
 La complejidad ayuda a entender cuándo buscamos exactitud y cuándo conviene
 negociar.
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir un algoritmo de aproximación de ratio α y sus garantías.
+2. Analizar el algoritmo greedy para Vertex Cover (ratio 2).
+3. Distinguir entre PTAS, FPTAS y los límites de la aproximabilidad.
+
 
 ## Soluciones exactas
 
@@ -94,9 +108,24 @@ Cuando la solución exacta es demasiado cara, podemos buscar aproximaciones,
 heurísticas o parámetros que hagan útil el problema. La clave es saber qué
 garantías se conservan y cuáles se abandonan.
 
+## Ideas clave
+
+- Un algoritmo de aproximación de ratio α garantiza que su solución está en un factor α del óptimo para toda instancia.
+- Vertex Cover admite un algoritmo greedy de ratio 2 (matching maximal); el teorema PCP y la UGC sugieren que 2−ε es inalcanzable.
+- Un PTAS (Polynomial-Time Approximation Scheme) da ratio 1+ε para cualquier ε>0 fijo, con tiempo polinomial en n.
+- Un FPTAS además es polinomial en 1/ε; existe para Mochila pero no para TSP general (salvo P=NP).
+- El teorema PCP implica que MAX-3SAT, MAX-Clique e IS no pueden aproximarse más allá de ciertos ratios constantes bajo P≠NP.
+
+
 ## Ejercicios
 
 1. Explica la diferencia entre algoritmo exacto y heurística.
 2. ¿Qué significa una aproximación con factor 2?
 3. Da un ejemplo cotidiano de decisión voraz.
 4. ¿Por qué una heurística útil puede no tener garantía de peor caso?
+
+## Véase también
+
+- [El teorema PCP e inaproximabilidad](09-teorema-pcp.md)
+- [Complejidad parametrizada](10-complejidad-parametrizada.md)
+

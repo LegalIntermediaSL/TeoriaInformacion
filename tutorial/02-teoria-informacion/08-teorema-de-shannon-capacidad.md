@@ -1,5 +1,20 @@
 # Teorema de Shannon y Capacidad de Canal
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+
+## Objetivos de aprendizaje
+
+1. Enunciar y entender el teorema de codificación de canal de Shannon.
+2. Distinguir capacidad de canal, tasa y probabilidad de error.
+3. Aplicar el argumento de codificación aleatoria en la prueba del teorema.
+
+
 ## Intuición
 
 Shannon demostró en 1948 algo que parecía imposible: existe un límite preciso y alcanzable para la tasa de transmisión de información sin errores sobre un canal ruidoso. Ese límite es la **capacidad del canal** $C$, y el teorema de codificación de canal garantiza que se puede transmitir a cualquier tasa $R < C$ con probabilidad de error tan pequeña como se quiera, eligiendo el código adecuado.
@@ -104,6 +119,12 @@ Si $H < C$, la transmisión sin error arbitrariamente pequeña es posible. Si $H
 2. Un canal borra cada bit con probabilidad $0.3$ y transmite el resto correctamente. ¿Cuántos bits de mensaje pueden transmitirse por cada 100 usos del canal?
 3. Verificar que el conjunto típico de una fuente uniforme sobre $\{0,1\}^n$ es todo $\{0,1\}^n$. ¿Cuánto vale $H$ en ese caso?
 4. Demostrar que si $R > C$, la probabilidad de error media sobre libros de códigos aleatorios no puede tender a cero. (Pista: usar la desigualdad de Fano.)
+
+## Véase también
+
+- [Teoría de tasa-distorsión](09-teoria-tasa-distorsion.md)
+- [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
+
 
 ## Referencias
 

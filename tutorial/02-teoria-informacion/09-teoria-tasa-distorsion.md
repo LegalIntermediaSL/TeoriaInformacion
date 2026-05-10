@@ -1,5 +1,20 @@
 # Teoría de la Tasa-Distorsión
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+- [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la función de tasa-distorsión R(D) y su interpretación.
+2. Calcular R(D) para la fuente Bernoulli y la fuente gaussiana.
+3. Entender el compromiso fundamental entre tasa de compresión y distorsión.
+
+
 ## Intuición
 
 La codificación de fuente sin pérdida busca comprimir hasta la entropía $H(X)$ sin perder ningún bit. Pero en muchos contextos prácticos —audio, imagen, vídeo— cierta pérdida de calidad es aceptable. La **teoría de la tasa-distorsión** estudia la pregunta: ¿cuántos bits por símbolo se necesitan si se tolera un error de reconstrucción promedio de a lo sumo $D$?
@@ -102,6 +117,12 @@ El paso de cuantización (paso 3) introduce pérdida; el teorema de tasa-distors
 3. ¿Qué ocurre con $R(D)$ cuando $D \geq D_{\max}$? Interpreta el resultado.
 4. Una fuente binaria tiene símbolos 0 y 1 con $p(0) = 3/4$. Con distorsión Hamming, ¿cuántos bits se necesitan para reproducirla con 5% de error?
 5. Explica por qué la cuantización vectorial es asintóticamente óptima mientras que la escalar no lo es.
+
+## Véase también
+
+- [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
+- [Entropía diferencial](10-entropia-diferencial.md)
+
 
 ## Referencias
 

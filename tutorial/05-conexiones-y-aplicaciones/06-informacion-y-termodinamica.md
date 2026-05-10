@@ -1,5 +1,19 @@
 # Información y Termodinámica
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+
+## Objetivos de aprendizaje
+
+1. Demostrar que la entropía de Shannon y la de Boltzmann son la misma cantidad.
+2. Explicar el exorcismo del demonio de Maxwell con el principio de Landauer.
+3. Calcular el coste energético mínimo de borrar 1 bit a temperatura T.
+
+
 ## Intuición
 
 La entropía de Shannon y la entropía de Boltzmann no son una mera analogía
@@ -163,6 +177,12 @@ límite termodinámico, aunque los cálculos intermedios pueden ser reversibles.
    se pierde? ¿Cuánto trabajo mínimo se debe disipar?
 5. Explica intuitivamente por qué el límite de Landauer implica que una computadora
    perfectamente eficiente no puede funcionar a temperatura cero.
+
+## Véase también
+
+- [Información cuántica](04-informacion-cuantica.md)
+- [Entropía diferencial](../02-teoria-informacion/10-entropia-diferencial.md)
+
 
 ## Referencias
 

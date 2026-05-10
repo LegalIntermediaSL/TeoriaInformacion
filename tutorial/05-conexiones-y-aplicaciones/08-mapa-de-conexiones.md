@@ -1,5 +1,19 @@
 # El mapa completo: conexiones entre módulos
 
+> **Dificultad:** ⭐ Básico · **Tiempo de lectura:** ~15 min
+
+
+## Prerrequisitos
+
+Ninguno — este artículo es punto de entrada.
+
+## Objetivos de aprendizaje
+
+1. Identificar las conexiones transversales entre los cinco módulos del tutorial.
+2. Localizar el resultado o herramienta más relevante para un problema dado.
+3. Planificar rutas de profundización tras completar el tutorial.
+
+
 ## Propósito de este artículo
 
 Este artículo de cierre presenta el tutorial como un todo integrado. En lugar de tratar cada módulo de forma independiente, mostramos las conexiones profundas entre teoría de la información, computabilidad y complejidad computacional. Muchos de los resultados más bellos del siglo XX son puentes entre estos mundos.
@@ -146,3 +160,9 @@ El mensaje final es de **unidad**: los mismos conceptos —entropía, indecidibi
 3. El AEP conecta el teorema de Shannon (promedio) con la complejidad de Kolmogorov (individual).
 4. P vs NP es el problema abierto más importante; Baker-Gill-Solovay explica por qué las técnicas estándar fallan.
 5. Las preguntas abiertas más profundas se encuentran en las intersecciones entre módulos.
+
+## Véase también
+
+- [Mapa del territorio](../00-presentacion/01-mapa-del-territorio.md)
+- [Rutas de profundización](../00-presentacion/02-rutas-de-profundizacion.md)
+

@@ -1,5 +1,20 @@
 # Información y biología
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+- [Códigos correctores de errores](../02-teoria-informacion/06-codigos-correctores-de-errores.md)
+
+## Objetivos de aprendizaje
+
+1. Cuantificar la redundancia del código genético como código corrector.
+2. Aplicar la información de Fisher al contexto de la selección natural.
+3. Estimar la entropía del genoma humano y comparar con límites de Shannon.
+
+
 ## Intuición
 
 El ADN es literalmente un código: un alfabeto de 4 letras (A, C, G, T) codifica instrucciones que los ribosomas "leen" para sintetizar proteínas. Esta analogía no es solo metafórica —los conceptos de entropía, redundancia, corrección de errores e información mutua tienen interpretaciones biológicas precisas y medibles. La teoría de la información ilumina preguntas sobre la evolución (¿cuánta información porta el genoma?), la regulación génica (¿cómo lee un factor de transcripción su secuencia diana?) y la evolución molecular (¿por qué el código genético es redundante?).
@@ -119,6 +134,12 @@ Matemáticamente, las neuronas implementan aproximadamente una **independizació
 3. Si un factor de transcripción tiene $R_{\text{total}} = 12$ bits, ¿cuántos sitios de unión esperamos en el genoma humano (3×10⁹ bases)?
 
 4. Dos proteínas homólogas tienen la misma frecuencia de aminoácidos en regiones no funcionales. ¿Qué indica una alta $D_{KL}$ en un dominio específico?
+
+## Véase también
+
+- [Códigos correctores de errores](../02-teoria-informacion/06-codigos-correctores-de-errores.md)
+- [Información y termodinámica](06-informacion-y-termodinamica.md)
+
 
 ## Referencias
 

@@ -1,5 +1,20 @@
 # Complejidad de comunicación
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Información mutua](../02-teoria-informacion/02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Definir el modelo Alice-Bob y la complejidad de comunicación D(f).
+2. Demostrar el lower bound de igualdad Ω(n) con el argumento de rango.
+3. Conectar la complejidad de comunicación con lower bounds de circuitos.
+
+
 ## Intuición
 
 Dos jugadores, Alicia y Bob, tienen entradas $x$ e $y$ respectivamente. Quieren calcular conjuntamente una función $f(x, y)$ intercambiando la menor cantidad posible de bits. La **complejidad de comunicación** estudia cuántos bits necesitan intercambiar en el peor caso, independientemente del poder computacional de cada uno. El modelo es sorprendentemente rico: permite demostrar cotas inferiores para circuitos, memoria de computadores y complejidad espacial que serían muy difíciles de obtener de otro modo.
@@ -111,6 +126,12 @@ En el modelo de **streaming** un algoritmo procesa una secuencia de datos con me
 3. ¿Por qué el protocolo de hashing para EQ requiere que $p$ sea mucho mayor que $x$ e $y$? ¿Qué pasa si $p$ es demasiado pequeño?
 
 4. Demuestra que $D(f) \leq \min(|\mathcal{X}|, |\mathcal{Y}|) + 1$ para cualquier función $f$.
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Información mutua](../02-teoria-informacion/02-informacion-mutua.md)
+
 
 ## Referencias
 

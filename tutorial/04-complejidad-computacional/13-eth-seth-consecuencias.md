@@ -1,5 +1,20 @@
 # Hipótesis ETH y SETH: complejidad de grano fino
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [SAT y 3-SAT](03-sat-y-3-sat.md)
+
+## Objetivos de aprendizaje
+
+1. Enunciar la ETH y la SETH y distinguir sus conjeturas.
+2. Derivar lower bounds condicionales para LCS, Edit Distance y Diameter.
+3. Entender qué significa que un algoritmo sea «óptimo» bajo ETH.
+
+
 ## Intuición
 
 NP-completitud dice que un problema es "tan difícil como SAT", pero no dice *cuánto* exactamente. ¿SAT se puede resolver en $2^{0.001n}$? ¿O necesita $2^n$? La **complejidad de grano fino** (*fine-grained complexity*) estudia las constantes en los exponentes, asumiendo hipótesis más fuertes que P ≠ NP. La **hipótesis del tiempo exponencial** (ETH) y su forma fuerte (SETH) conectan problemas aparentemente dispares bajo una misma red de reducciones que preservan exponentes exactos.
@@ -99,6 +114,12 @@ Bajo esta hipótesis (implicada por SETH para grafos densos), se demuestran cota
 3. El algoritmo de Floyd-Warshall para APSP tarda $O(n^3)$. ¿Qué hipótesis adicional se necesita para conjeturar que es óptimo?
 
 4. ¿Puede ETH ser cierta y P = NP al mismo tiempo? Justifica.
+
+## Véase también
+
+- [Complejidad parametrizada](10-complejidad-parametrizada.md)
+- [SAT y 3-SAT](03-sat-y-3-sat.md)
+
 
 ## Referencias
 

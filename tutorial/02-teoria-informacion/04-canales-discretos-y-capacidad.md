@@ -1,10 +1,24 @@
 # 04 - Canales discretos y capacidad
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Un canal de comunicación modela cómo se transforma un símbolo enviado en un
 símbolo recibido. Puede introducir ruido, errores o pérdida de información.
 
 La teoría de la información permite preguntar cuánto puede transmitirse de forma
 fiable a través de un canal.
+
+## Prerrequisitos
+
+- [Información mutua](02-informacion-mutua.md)
+
+## Objetivos de aprendizaje
+
+1. Modelar un canal de comunicación ruidoso con una matriz de transición.
+2. Calcular la capacidad de canal C = max I(X;Y).
+3. Aplicar el límite de Shannon a canales binarios simétricos.
+
 
 ## Entrada y salida
 
@@ -107,6 +121,15 @@ Este resultado separa lo posible de lo imposible en comunicación con ruido.
 Un canal ruidoso reduce la información que la salida conserva sobre la entrada.
 La capacidad mide el máximo ritmo fiable de transmisión que el canal permite.
 
+## Ideas clave
+
+- Un canal discreto sin memoria se describe por su probabilidad de transición P(y|x) entre entrada x y salida y.
+- La capacidad C = max_{P(x)} I(X;Y) es la máxima tasa de información transmisible con error arbitrariamente pequeño.
+- El canal binario simétrico (BSC) con crossover p tiene capacidad C = 1 − H_b(p) bits por uso.
+- El canal de borrado binario (BEC) con probabilidad ε tiene capacidad C = 1−ε; ideal para analizar LDPC.
+- La capacidad es una propiedad del canal, no del código; el teorema de Shannon garantiza que existe un código que la alcanza.
+
+
 ## Ejercicios
 
 1. ¿Qué ocurre con la capacidad de un canal binario simétrico cuando `p = 0`?
@@ -114,3 +137,9 @@ La capacidad mide el máximo ritmo fiable de transmisión que el canal permite.
    simétrico?
 3. Explica la diferencia entre añadir redundancia y añadir información nueva.
 4. Da un ejemplo cotidiano de canal con ruido.
+
+## Véase también
+
+- [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
+- [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
+

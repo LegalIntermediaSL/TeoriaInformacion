@@ -1,5 +1,19 @@
 # Procesos estocásticos y fuentes con memoria
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
+
+## Objetivos de aprendizaje
+
+1. Definir fuentes estacionarias y ergódicas y su tasa de entropía.
+2. Calcular la entropía de fuentes de Markov de orden k.
+3. Entender el teorema de Shannon-McMillan-Breiman para fuentes ergódicas.
+
+
 ## Intuición
 
 Hasta ahora hemos tratado las fuentes de información como secuencias de símbolos independientes e idénticamente distribuidos (i.i.d.). Pero el lenguaje natural, el genoma, el audio y la mayoría de las señales reales exhiben **memoria**: el símbolo actual depende de los anteriores. Este artículo generaliza la teoría a fuentes con dependencia temporal, definiendo la entropía de un proceso y estudiando cuándo tiene sentido hablar de una "tasa de información" estable.
@@ -128,6 +142,12 @@ donde $\bar{I}(X;Y) = \lim_{n \to \infty} \frac{1}{n} I(X_1^n; Y_1^n)$ es la tas
 3. Estima la tasa de entropía del texto de un artículo web contando bigramas y trigramas. ¿Cuál da menor estimación? ¿Por qué?
 
 4. Enuncia y demuestra que la sucesión $H(X_n | X_1, \ldots, X_{n-1})$ es monótona decreciente en $n$ para cualquier proceso estacionario.
+
+## Véase también
+
+- [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
+- [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
+
 
 ## Referencias
 

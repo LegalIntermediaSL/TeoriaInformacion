@@ -1,5 +1,8 @@
 # 02 - Reducciones polinómicas
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
 Las reducciones son una herramienta para comparar problemas. Permiten decir que
 un problema no es más difícil que otro, o que un problema concentra la dificultad
 de muchos otros.
@@ -7,6 +10,17 @@ de muchos otros.
 En complejidad computacional, las reducciones polinómicas son esenciales para
 definir NP-completitud y para transportar resultados de dificultad entre
 problemas.
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Construir reducciones polinómicas de muchos-a-uno entre problemas NP.
+2. Demostrar la NP-completitud de Clique, Vertex Cover e Independent Set.
+3. Distinguir entre reducción Karp y reducción Cook (con oráculo).
+
 
 ## La idea básica
 
@@ -132,6 +146,15 @@ Reducir `A` a `B` significa resolver `A` usando un solucionador de `B`. Si la
 traducción es polinómica, la eficiencia se conserva. Por eso las reducciones son
 el lenguaje central para comparar dificultad.
 
+## Ideas clave
+
+- Una reducción polinomial A ≤_p B es una función f computable en tiempo polinomial tal que x∈A ↔ f(x)∈B.
+- Si A ≤_p B y B ∈ P, entonces A ∈ P; si A es NP-difícil y A ≤_p B, entonces B es NP-difícil.
+- Las reducciones canónicas (SAT → 3-SAT → Clique → VC → IS) son el vocabulario de la complejidad.
+- Una reducción correcta debe preservar tanto las instancias positivas como las negativas del problema.
+- Las reducciones se componen: si A ≤_p B y B ≤_p C, entonces A ≤_p C.
+
+
 ## Ejercicios
 
 1. Si `A <=p B` y `B` está en P, ¿qué puedes concluir sobre `A`?
@@ -141,3 +164,9 @@ el lenguaje central para comparar dificultad.
    pertenencia a P.
 4. Da un ejemplo informal de dos problemas que puedan verse como traducciones
    uno del otro.
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [SAT y 3-SAT](03-sat-y-3-sat.md)
+

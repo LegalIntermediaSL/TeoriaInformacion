@@ -1,5 +1,20 @@
 # Entropía Diferencial y Fuentes Continuas
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](01-entropia-incertidumbre.md)
+- [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la entropía diferencial h(X) para variables continuas.
+2. Calcular h(X) para distribuciones gaussianas y uniformes.
+3. Explicar por qué h(X) puede ser negativa y cómo difiere de H(X).
+
+
 ## Intuición
 
 La entropía de Shannon se definió para variables aleatorias discretas. Las fuentes reales —audio,
@@ -160,6 +175,12 @@ se necesitan $\approx n(h(X) + \log(1/\epsilon))$ bits.
    $N$ por separado?
 5. La desigualdad de Cramér-Rao establece $\text{Var}[\hat{\mu}] \geq 1/J(\mu)$. Para una
    Gaussiana, ¿qué estimador alcanza esta cota?
+
+## Véase también
+
+- [Teoría de tasa-distorsión](09-teoria-tasa-distorsion.md)
+- [Información y termodinámica](../05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md)
+
 
 ## Referencias
 

@@ -1,5 +1,19 @@
 # #P y problemas de conteo
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la clase #P y su relación con el permanente.
+2. Enunciar el teorema de Toda: PH ⊆ P^{#P}.
+3. Entender por qué contar soluciones es estrictamente más difícil que decidir.
+
+
 ## Intuición
 
 NP pregunta si *existe* una solución; #P pregunta *cuántas* soluciones existen. Esta diferencia parece menor, pero resulta dramática: contar soluciones es mucho más difícil que verificar que hay alguna. El ejemplo más impactante es el permanente de una matriz 0-1: decidir si el permanente es mayor que cero es fácil (en P), pero calcular su valor exacto es #P-completo. El teorema de Toda (1991) conecta #P con toda la jerarquía polinómica, mostrando que el conteo captura una forma de poder computacional que supera a NP.
@@ -113,6 +127,12 @@ sobre configuraciones $\sigma$ es exactamente un problema de conteo ponderado. E
 3. Explica por qué la suma del permanente y el determinante de una matriz 0-1 es siempre par.
 
 4. Si existiera un algoritmo en tiempo polinomial para #SAT, ¿qué implicaría sobre NP? ¿Sobre PH?
+
+## Véase también
+
+- [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
+- [Complejidad aleatoria (BPP, RP)](08-complejidad-aleatoria.md)
+
 
 ## Referencias
 

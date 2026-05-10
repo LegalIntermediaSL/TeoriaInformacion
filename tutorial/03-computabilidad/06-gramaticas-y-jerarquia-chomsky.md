@@ -1,5 +1,19 @@
 # Gramáticas y la Jerarquía de Chomsky
 
+> **Dificultad:** ⭐⭐ Intermedio · **Tiempo de lectura:** ~20 min
+
+
+## Prerrequisitos
+
+- [Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md)
+
+## Objetivos de aprendizaje
+
+1. Distinguir los cuatro tipos de gramáticas en la jerarquía de Chomsky.
+2. Relacionar cada nivel de la jerarquía con su clase de autómata correspondiente.
+3. Demostrar que los lenguajes regulares son un subconjunto propio de los CFL.
+
+
 ## Intuición
 
 ¿Cuánta potencia computacional necesita un modelo para reconocer un lenguaje? Chomsky clasificó los lenguajes formales en cuatro niveles según la complejidad de las gramáticas que los generan. Esta jerarquía conecta directamente con la jerarquía de máquinas: autómatas finitos, autómatas de pila, máquinas de Turing linealmente acotadas y máquinas de Turing generales.

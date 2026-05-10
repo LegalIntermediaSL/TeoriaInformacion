@@ -1,11 +1,26 @@
 # 02 - Criptografía y complejidad
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~25 min
+
+
 La criptografía moderna depende de una idea delicada: algunas tareas deben ser
 fáciles para quien tiene cierta información secreta y difíciles para quien no la
 tiene.
 
 Por eso la complejidad computacional es una parte central del lenguaje
 criptográfico.
+
+## Prerrequisitos
+
+- [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+- [Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md)
+
+## Objetivos de aprendizaje
+
+1. Entender OTP, RSA y Diffie-Hellman desde el punto de vista de la complejidad.
+2. Relacionar la seguridad criptográfica con problemas computacionalmente difíciles.
+3. Comprender el rol de las funciones de un solo sentido en la criptografía moderna.
+
 
 ## Fácil en una dirección, difícil en la inversa
 
@@ -120,6 +135,15 @@ La criptografía vive entre información y complejidad: una clave debe ocultar
 incertidumbre, y un atacante debe enfrentarse a problemas computacionalmente
 difíciles.
 
+## Ideas clave
+
+- El OTP (One-Time Pad) ofrece seguridad perfecta de Shannon: ningún adversario con cómputo ilimitado puede romperlo.
+- RSA se basa en la dificultad de factorizar enteros grandes; su seguridad es condicional a que factorización ∉ P.
+- Diffie-Hellman permite intercambiar un secreto en un canal público usando el problema del logaritmo discreto.
+- Una función de un solo sentido es fácil de evaluar (P) pero difícil de invertir; su existencia equivale a P ≠ NP.
+- Los SNARKs (succinct non-interactive arguments) permiten verificar computaciones complejas con pruebas de kilobytes, usando ideas de PCP.
+
+
 ## Ejercicios
 
 1. Explica la diferencia entre seguridad perfecta y seguridad computacional.
@@ -127,3 +151,9 @@ difíciles.
 3. ¿Qué diferencia hay entre dificultad en peor caso y dificultad promedio?
 4. ¿Por qué la computación cuántica obliga a revisar ciertas hipótesis
    criptográficas?
+
+## Véase también
+
+- [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
+- [Información cuántica](04-informacion-cuantica.md)
+

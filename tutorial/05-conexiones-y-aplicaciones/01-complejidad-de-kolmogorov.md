@@ -1,11 +1,26 @@
 # 01 - Complejidad de Kolmogorov
 
+> **Dificultad:** ⭐⭐⭐ Avanzado · **Tiempo de lectura:** ~20 min
+
+
 La entropía de Shannon mide incertidumbre promedio respecto de una fuente
 probabilística. La complejidad de Kolmogorov, en cambio, pregunta por la cantidad
 de información contenida en un objeto individual.
 
 La idea central es sorprendentemente directa: una cadena contiene poca
 información si puede describirse mediante un programa corto.
+
+## Prerrequisitos
+
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+- [Máquinas de Turing](../03-computabilidad/04-maquinas-de-turing.md)
+
+## Objetivos de aprendizaje
+
+1. Definir la complejidad de Kolmogorov K(x) mediante el programa más corto.
+2. Entender la invarianza de K respecto de la máquina universal de referencia.
+3. Demostrar que K no es computable y relacionarlo con el problema de la parada.
+
 
 ## Descripción mínima
 
@@ -152,6 +167,15 @@ La complejidad de Kolmogorov mide la longitud de la mejor descripción efectiva
 de un objeto. Una cadena es simple si tiene una explicación corta; parece
 aleatoria si ninguna descripción corta la reproduce.
 
+## Ideas clave
+
+- K(x) es la longitud del programa más corto que produce x; formaliza la complejidad de un objeto individual.
+- K(x) es invariante salvo una constante aditiva respecto de la máquina universal de referencia.
+- K(x) no es computable: no existe un algoritmo que, dado x, calcule K(x) exactamente.
+- Una cadena x es algorítmicamente aleatoria si K(x) ≥ |x| − c; la mayoría de las cadenas lo son.
+- El valor esperado 𝔼[K(X)] para X de una fuente Bernoulli(p) satisface 𝔼[K(X)] ≈ nH(p), conectando K con Shannon.
+
+
 ## Ejercicios
 
 1. Propón una descripción corta para una cadena de 100 ceros.
@@ -159,3 +183,9 @@ aleatoria si ninguna descripción corta la reproduce.
 3. Explica la diferencia entre entropía de Shannon y complejidad de Kolmogorov.
 4. ¿Por qué calcular exactamente `K(x)` entra en conflicto con los límites de la
    computabilidad?
+
+## Véase también
+
+- [Aleatoriedad algorítmica](../03-computabilidad/12-aleatoriedad-algoritmica.md)
+- [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
+
