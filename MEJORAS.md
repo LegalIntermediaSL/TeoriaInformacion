@@ -184,3 +184,130 @@ Problemas detectados que afectan a la coherencia del conjunto:
 | **Total** | **60** | **60** |
 
 > Actualizar la tabla de resumen al completar ítems.
+
+---
+
+## Segunda ronda — Sugerencias (0/40)
+
+El plan original de 60 ítems está completado al 100 %. Las siguientes sugerencias
+amplían el tutorial con contenido nuevo, cierran huecos de cobertura detectados
+y mejoran la experiencia de lectura y práctica.
+
+---
+
+### 8. Huecos de cobertura detectados
+
+#### 8a. Archivo roto — alta prioridad
+
+| Estado | Problema | Archivo |
+|--------|----------|---------|
+| [ ] | **`propuestos/computabilidad.md` no existe** pero el README lo enlaza: enlace roto visible para cualquier lector | `tutorial/ejercicios/propuestos/computabilidad.md` |
+
+#### 8b. Ejercicios propuestos incompletos
+
+Los módulos 01 y 05 no tienen ningún archivo de enunciados sin solución.
+El módulo 03 tiene el enlace roto (véase 8a).
+
+| Estado | Mejora | Archivo destino |
+|--------|--------|-----------------|
+| [ ] | Crear `propuestos/computabilidad.md` con enunciados de los artículos 03/01-12 | `ejercicios/propuestos/computabilidad.md` |
+| [ ] | Crear `propuestos/fundamentos.md` con enunciados de módulo 01 (logaritmos, conjuntos, combinatoria, grafos, lógica) | `ejercicios/propuestos/fundamentos.md` |
+| [ ] | Crear `propuestos/conexiones.md` con enunciados de módulo 05 (Kolmogorov, criptografía, cuántica, termodinámica, biología) | `ejercicios/propuestos/conexiones.md` |
+
+#### 8c. Artículos nuevos sin ningún notebook
+
+Cuatro artículos creados en la segunda ronda carecen de notebook de ejemplo o de ejercicio.
+
+| Estado | Artículo | Notebook propuesto |
+|--------|----------|--------------------|
+| [ ] | `03/11-oráculos-y-relativización` | `ejemplos/26-oráculos-relativización.ipynb`: simular oráculo de SAT, comparar P^SAT vs NP^SAT conceptualmente |
+| [ ] | `04/13-eth-seth-consecuencias` | `ejemplos/27-eth-seth-lower-bounds.ipynb`: lower bounds condicionales para LCS y Edit Distance |
+| [ ] | `05/07-informacion-y-biologia` | `ejemplos/28-codigo-genetico-entropia.ipynb`: calcular entropía del código genético, redundancia, información de Fisher |
+| [ ] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | `ejemplos/29-fuentes-con-memoria.ipynb`: fuentes de Markov de orden k, tasa de entropía, comparación con i.i.d. |
+
+#### 8d. Ejercicios resueltos faltantes
+
+Hay 26 artículos sin `ejercicios/resueltos/` asociado. Los de mayor impacto pedagógico:
+
+| Estado | Tema | Artículo |
+|--------|------|----------|
+| [ ] | Codificación aritmética | `02/13` → `resueltos/28-codificacion-aritmetica.md` |
+| [ ] | Procesos estocásticos y fuentes con memoria | `02/14` → `resueltos/29-procesos-estocasticos.md` |
+| [ ] | Oráculos y relativización | `03/11` → `resueltos/30-oráculos-y-relativización.md` |
+| [ ] | Aleatoriedad algorítmica (Chaitin, Martin-Löf) | `03/12` → `resueltos/31-aleatoriedad-algoritmica.md` |
+| [ ] | #P y conteo | `04/11` → `resueltos/32-sharp-p-y-conteo.md` |
+| [ ] | Complejidad de comunicación | `04/12` → `resueltos/33-complejidad-comunicacion.md` |
+| [ ] | ETH/SETH y consecuencias | `04/13` → `resueltos/34-eth-seth-consecuencias.md` |
+| [ ] | Información y biología | `05/07` → `resueltos/35-informacion-y-biologia.md` |
+
+#### 8e. Tests automáticos en notebooks de ejemplo y ejercicios 01-16
+
+Las celdas `assert` solo existen en los notebooks de ejercicio 17-21.
+Los notebooks 01-16 no tienen ninguna validación automática.
+
+| Estado | Mejora | Archivos afectados |
+|--------|--------|--------------------|
+| [ ] | Añadir celda `assert` a notebooks de ejercicio 01-16 | `cuadernos/ejercicios/01-*.ipynb` … `16-*.ipynb` |
+| [ ] | Añadir celda `assert` a notebooks de ejemplo seleccionados (los que implementan funciones verificables) | `cuadernos/ejemplos/` — prioridad 01, 03, 04, 08, 11, 12, 13 |
+
+---
+
+### 9. Recursos de referencia nuevos
+
+| Estado | Recurso | Descripción | Archivo destino |
+|--------|---------|-------------|-----------------|
+| [ ] | **Glosario de términos** | Definición breve de cada símbolo y concepto técnico del tutorial: entropía, KL, NP, BPP, treewidth, etc. Ordenado alfabéticamente con enlace al artículo donde se introduce. | `tutorial/referencias/glosario.md` |
+| [ ] | **Índice de notación matemática** | Tabla de todos los símbolos usados (H, I, K, D_KL, Σ, Π, Δ, ρ, S(ρ)…) con su definición y referencia al artículo. | `tutorial/referencias/notacion.md` |
+| [ ] | **Tabla de complejidad unificada** | Una única tabla que cruza: problema / clase / mejor algoritmo conocido / cota inferior / referencia. Ampliación de la tabla del artículo 05/08. | `tutorial/referencias/tabla-complejidad.md` |
+| [ ] | **Mapa de dependencias entre artículos** (SVG) | Grafo dirigido que muestra qué artículo requiere cuáles; generado desde los metadatos de Prerrequisitos. | `tutorial/imagenes/mapa-dependencias.svg` |
+
+---
+
+### 10. Mejoras de infraestructura y CI
+
+| Estado | Mejora | Descripción | Prioridad |
+|--------|--------|-------------|-----------|
+| [ ] | **CI: validar estructura de artículos** | Extender `test_notebooks.yml` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) usando `scripts/validar_repositorio.py` | Alta |
+| [ ] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen | Alta |
+| [ ] | **GitHub Pages** | Publicar el tutorial como sitio estático con MkDocs o Quarto; añadir `mkdocs.yml` o `_quarto.yml` y configurar el flujo de despliegue | Media |
+| [ ] | **Exportación a PDF** | Script que genera un PDF por módulo usando Pandoc, útil para estudio offline | Baja |
+| [ ] | **Script `generar_mapa_dependencias.py`** | Lee los metadatos de Prerrequisitos de cada artículo y genera automáticamente el SVG del grafo de dependencias | Media |
+
+---
+
+### 11. Contenido avanzado — artículos opcionales
+
+Artículos que cubren temas que quedan fuera del tutorial actual pero son extensiones naturales del nivel avanzado:
+
+| Estado | Artículo propuesto | Módulo | Motivación |
+|--------|-------------------|--------|------------|
+| [ ] | **Códigos de Reed-Solomon y aplicaciones** | 02 | Los LDPC y turbo son modernos, pero RS domina almacenamiento (CD, QR codes); cierra el círculo de teoría clásica |
+| [ ] | **Complejidad cuántica: BQP y QMA** | 04 | Extensión natural de 05/04 (información cuántica) hacia la complejidad; algoritmo de Shor, Grover |
+| [ ] | **Teoría de juegos e información** | 05 | Equilibrios de Nash, información asimétrica (Lemon market), mecanismos con información privada |
+| [ ] | **Aprendizaje profundo desde la teoría de la información** | 05 | Cuello de botella de información (Tishby), teorema PAC-Bayes, generalización en redes sobreajustadas |
+| [ ] | **Privacidad diferencial** | 05 | Conexión con la entropía de Rényi; protocolo de Laplace; aplicaciones prácticas en IA y datos |
+
+---
+
+### 12. Internacionalización y accesibilidad
+
+| Estado | Mejora | Descripción |
+|--------|--------|-------------|
+| [ ] | **Resumen en inglés** de cada artículo (abstract de 3 líneas) | Permitiría indexación en buscadores internacionales y uso en contextos bilingües |
+| [ ] | **Texto alternativo detallado para todos los SVG** | Los 7 SVG actuales no tienen `alt` text accesible; añadir descripción en el markdown |
+| [ ] | **Versión ligera sin LaTeX** de los artículos más matemáticos | Para lectores que acceden desde entornos sin renderizado de fórmulas (GitHub mobile, algunos lectores RSS) |
+
+---
+
+## Resumen de estado (segunda ronda)
+
+| Categoría | Total ítems | Completados |
+|-----------|-------------|-------------|
+| **Primera ronda (completada)** | **60** | **60** |
+| Huecos de cobertura (8a-8e) | 18 | 0 |
+| Recursos de referencia (9) | 4 | 0 |
+| Infraestructura y CI (10) | 5 | 0 |
+| Contenido avanzado (11) | 5 | 0 |
+| Accesibilidad (12) | 3 | 0 |
+| **Total segunda ronda** | **35** | **0** |
+| **Total acumulado** | **95** | **60** |
