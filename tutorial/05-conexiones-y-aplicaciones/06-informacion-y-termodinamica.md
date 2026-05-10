@@ -34,6 +34,8 @@ perspectivas distintas.
 
 ## El demonio de Maxwell
 
+![El demonio de Maxwell y el principio de Landauer](../imagenes/maxwell-demon.svg)
+
 En 1867, James Clerk Maxwell propuso un experimento mental: un ser diminuto (luego
 llamado "demonio de Maxwell") vigila las moléculas de un gas dividido en dos
 compartimentos por una pared con una compuerta. El demonio abre y cierra la compuerta

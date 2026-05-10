@@ -25,6 +25,8 @@ conteo de aristas).
 
 ### Representación bipartita: grafo de Tanner
 
+![Grafo de Tanner de un código LDPC pequeño](../imagenes/tanner-graph-ldpc.svg)
+
 El código se visualiza como un **grafo bipartito** (Tanner graph) con:
 - **Nodos variable** $v_1, \ldots, v_n$: un nodo por cada bit del codeword.
 - **Nodos restricción** $c_1, \ldots, c_m$: un nodo por cada ecuación de paridad.
@@ -90,6 +92,8 @@ El entrelazador es crucial: rompe las correlaciones entre los dos decodificadore
 permitiendo que cada uno "descubra" errores que el otro no puede ver.
 
 ## Códigos polares
+
+![Árbol de polarización de canales para n=4](../imagenes/polar-code-polarization.svg)
 
 Los **códigos polares** (Arıkan, 2009) son la única familia de códigos de corrección
 de errores que **alcanza exactamente** la capacidad de canal con complejidad $O(n \log n)$.

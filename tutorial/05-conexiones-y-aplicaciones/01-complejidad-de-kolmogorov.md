@@ -76,6 +76,32 @@ Esto conecta aleatoriedad con ausencia de patrones efectivos. No basta con que
 una cadena "parezca desordenada"; la cuestión es si existe un procedimiento corto
 que la genere.
 
+## Ejemplo numérico: cotando K(x) para cadenas concretas
+
+Fijamos $n = 32$ y comparamos tres cadenas de longitud 32:
+
+| Cadena $x$ | Patrón | Descripción compacta | $\|d(x)\|$ (bits aprox.) |
+|---|---|---|---|
+| $\underbrace{00\cdots0}_{32}$ | Todo ceros | `print('0'*32)` → `rep(0,32)` | $\approx 10$ |
+| $\underbrace{01\cdots01}_{32}$ | Alternado | `print('01'*16)` → `rep(01,16)` | $\approx 12$ |
+| `01101011100101000110101110100110` | Sin patrón obvio | Copiar literalmente | $\approx 32$ |
+
+**Cota superior para la cadena de ceros:** el programa `print('0'*32)` tiene unos 15 caracteres (≈15 bytes ≈ 120 bits en ASCII). En una máquina universal binaria compacta, basta con algo como el par $(k, n) = (0, 32)$ codificado en $O(\log n)$ bits, así que $K(0^{32}) \leq 2\log_2 32 + c = 10 + c$ para alguna constante $c$.
+
+**Cota inferior para cualquier cadena:** existen $2^n$ cadenas de longitud $n$, pero solo $2^k - 1$ programas de longitud $< k$. Si $k < n$, al menos $2^n - 2^k + 1 > 2^n / 2$ cadenas no tienen descripción de longitud $< n$. En particular:
+
+$$\Pr_{x \sim U\{0,1\}^n}[K(x) < n - c] \leq 2^{-c}$$
+
+Para $c = 5$: solo $1/32$ de las cadenas de 32 bits tienen $K(x) < 27$. **La cadena típica es casi incompresible.**
+
+**Cálculo para la tercera cadena:** si `01101011...0110` es una muestra aleatoria de $\{0,1\}^{32}$, esperamos $K(x) \approx 32$ bits (más una constante de descripción de la máquina). El mejor compresor práctico (LZ77, BZIP2) tampoco la reduciría significativamente, lo que es consistente con $K(x) \approx n$.
+
+**Relación con la entropía:** una fuente Bernoulli(1/2) produce cadenas con entropía $H = 1$ bit/símbolo. El valor esperado $\mathbb{E}[K(X)]$ para $X \sim \text{Bernoulli}(1/2)^n$ satisface:
+
+$$n - O(\log n) \leq \mathbb{E}[K(X)] \leq n + O(1)$$
+
+Para fuentes sesgadas Bernoulli($p$) con $p \neq 1/2$, las cadenas típicas tienen $K(x) \approx nH(p)$ bits, exactamente como predice Shannon.
+
 ## Relación con Shannon
 
 La entropía de Shannon habla de fuentes y promedios:

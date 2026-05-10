@@ -69,6 +69,17 @@ $$\text{NP} = \exists\text{SO}$$
 Un lenguaje está en NP si y solo si puede expresarse como: "existe una relación $R$ tal que
 la estructura extendida con $R$ satisface una propiedad de primer orden."
 
+### Ejemplo numérico: 3-colorabilidad en ∃SO
+
+El lenguaje 3-COLOR = $\{G : G \text{ es 3-coloreable}\}$ está en NP. Veamos su fórmula ∃SO:
+
+$$\exists C_1 \exists C_2 \exists C_3 \;\Big[\underbrace{\forall x\,(C_1(x) \lor C_2(x) \lor C_3(x))}_{\text{todo vértice tiene color}} \;\land\; \underbrace{\forall x\,\neg(C_1(x) \land C_2(x))}_{\text{colores exclusivos}}\cdots\land\; \underbrace{\forall x\,\forall y\,(E(x,y) \to \neg\text{IgualColor}(x,y))}_{\text{aristas: colores distintos}}\Big]$$
+
+**Estructura concreta:** para el triángulo $K_3 = \{1,2,3\}$ con aristas $\{(1,2),(2,3),(1,3)\}$:
+- Asignamos $C_1 = \{1\}$, $C_2 = \{2\}$, $C_3 = \{3\}$.
+- La fórmula se satisface: cada vértice tiene exactamente un color y no hay arista monocromática.
+- Por tanto $K_3 \in$ 3-COLOR y la fórmula ∃SO es un certificado de su pertenencia a NP.
+
 **Ejemplo:** 3-colorabilidad de grafos:
 
 $$\exists C_1 \exists C_2 \exists C_3 \Bigl[ \forall x (C_1(x) \vee C_2(x) \vee C_3(x)) \wedge \forall x (\neg(C_1(x) \wedge C_2(x))) \wedge \ldots \wedge \forall x y (E(x,y) \to \neg \exists i (C_i(x) \wedge C_i(y))) \Bigr]$$

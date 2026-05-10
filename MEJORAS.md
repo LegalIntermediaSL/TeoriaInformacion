@@ -113,8 +113,8 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 | Estado | Mejora | Archivo afectado |
 |--------|--------|------------------|
 | [x] | **Carpeta `ejercicios/propuestos/`**: enunciados sin solución extraídos de las secciones "Ejercicios" de cada artículo, para uso en clase o examen | `ejercicios/propuestos/` creado con enunciados de módulos 02 y 04 |
-| [ ] | **Tests automáticos en notebooks de ejercicio**: añadir celda final con `assert resultado_alumno == resultado_ref` para hacer los ejercicios autoevaluables sin necesidad de leer la solución | todos los `.ipynb` de `cuadernos/ejercicios/` |
-| [ ] | **Ejemplos numéricos guiados** en los artículos que solo tienen teoría y ejercicios abstractos: 03/08 (complejidad descriptiva), 04/09 (PCP), 05/01 (Kolmogorov) | artículos individuales |
+| [x] | **Tests automáticos en notebooks de ejercicio**: añadir celda final con `assert resultado_alumno == resultado_ref` para hacer los ejercicios autoevaluables sin necesidad de leer la solución | todos los `.ipynb` de `cuadernos/ejercicios/` |
+| [x] | **Ejemplos numéricos guiados** en los artículos que solo tienen teoría y ejercicios abstractos: 03/08 (complejidad descriptiva), 04/09 (PCP), 05/01 (Kolmogorov) | artículos individuales |
 | [ ] | **Sección "Prerrequisitos"** al inicio de cada artículo con enlaces a los artículos previos que se necesitan entender | todos los artículos |
 
 ### Baja prioridad
@@ -135,13 +135,13 @@ Los artículos son solo texto y fórmulas. Algunas visualizaciones añadirían m
 
 | Estado | Diagrama | Artículo | Descripción |
 |--------|----------|----------|-------------|
-| [ ] | Grafo de Tanner con 6 nodos variable y 3 restricción | 02/11 LDPC | Imagen SVG del grafo bipartito del código ejemplo |
-| [ ] | Diagrama de la jerarquía de Chomsky (4 niveles anidados) | 03/06 + 03/09 | Anillo de contenidos: Regular ⊂ CFL ⊂ CSL ⊂ RE |
-| [ ] | Diagrama de clases de complejidad anidadas | 04/01 P/NP | P ⊆ NP ⊆ PSPACE ⊆ EXP con los problemas canónicos de cada nivel |
-| [ ] | Curva de tasa-distorsión R(D) para Bernoulli y Gaussiana | 02/09 | Gráfico comparativo de ambas curvas |
-| [ ] | Árbol de búsqueda acotado para k-Vertex Cover k=3 | 04/10 | Árbol binario de branching con 8 hojas |
-| [ ] | Diagrama del demonio de Maxwell | 05/06 | Dos compartimentos + compuerta + molécula rápida/lenta |
-| [ ] | Polarización de canal para códigos polares (n=4) | 02/11 | Árbol de canales sintéticos buenos/malos |
+| [x] | Grafo de Tanner con 6 nodos variable y 3 restricción | 02/11 LDPC | Imagen SVG del grafo bipartito del código ejemplo |
+| [x] | Diagrama de la jerarquía de Chomsky (4 niveles anidados) | 03/06 + 03/09 | Anillo de contenidos: Regular ⊂ CFL ⊂ CSL ⊂ RE |
+| [x] | Diagrama de clases de complejidad anidadas | 04/01 P/NP | P ⊆ NP ⊆ PSPACE ⊆ EXP con los problemas canónicos de cada nivel |
+| [x] | Curva de tasa-distorsión R(D) para Bernoulli y Gaussiana | 02/09 | Gráfico comparativo de ambas curvas |
+| [x] | Árbol de búsqueda acotado para k-Vertex Cover k=3 | 04/10 | Árbol binario de branching con 8 hojas |
+| [x] | Diagrama del demonio de Maxwell | 05/06 | Dos compartimentos + compuerta + molécula rápida/lenta |
+| [x] | Polarización de canal para códigos polares (n=4) | 02/11 | Árbol de canales sintéticos buenos/malos |
 
 ---
 
@@ -177,10 +177,10 @@ Problemas detectados que afectan a la coherencia del conjunto:
 | Artículos nuevos | 10 | 10 |
 | Ejercicios resueltos | 15 | 15 |
 | Notebooks nuevos | 8 | 8 |
-| Calidad estructural | 11 | 4 |
-| Diagramas | 7 | 0 |
+| Calidad estructural | 11 | 6 |
+| Diagramas | 7 | 7 |
 | Coherencia interna | 4 | 4 |
 | Infraestructura | 5 | 5 |
-| **Total** | **60** | **46** |
+| **Total** | **60** | **55** |
 
 > Actualizar la tabla de resumen al completar ítems.

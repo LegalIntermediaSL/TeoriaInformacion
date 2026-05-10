@@ -72,6 +72,8 @@ el algoritmo CYK.
 
 ## Equivalencia PDA ↔ CFG
 
+![Posición de los CFL en la jerarquía de Chomsky](../imagenes/chomsky-hierarchy.svg)
+
 **Teorema:** un lenguaje es independiente del contexto si y solo si es reconocido
 por algún PDA.
 

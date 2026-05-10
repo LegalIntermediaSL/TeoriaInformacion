@@ -40,6 +40,8 @@ La demostración de alcanzabilidad usa codebooks aleatorios: se eligen $2^{nR}$ 
 
 ## Ejemplos canónicos
 
+![Curva de tasa-distorsión R(D) para Bernoulli y Gaussiana](../imagenes/rate-distortion-curve.svg)
+
 ### Fuente Bernoulli con distorsión Hamming
 
 Sea $X \sim \text{Ber}(1/2)$ y $d$ la distorsión Hamming. Entonces:

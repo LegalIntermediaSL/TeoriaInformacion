@@ -24,6 +24,9 @@ al menos un extremo en $S$.)
 El problema es NP-completo en general. Pero admite un algoritmo FPT sencillo:
 
 **Árbol de búsqueda acotado:**
+
+![Árbol de búsqueda acotado para k-Vertex Cover con k=3](../imagenes/bounded-search-tree-vc.svg)
+
 - Si la instancia tiene una arista $(u,v)$, al menos uno de $u,v$ debe estar en el cover.
 - Branching: incluir $u$ (reduce $k$ en 1) o incluir $v$ (reduce $k$ en 1).
 - El árbol tiene $2^k$ ramas y cada rama procesa el grafo en $O(n)$.

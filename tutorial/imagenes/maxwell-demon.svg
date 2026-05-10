@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 370" width="500" height="370" font-family="serif" font-size="13">
+  <text x="250" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">El demonio de Maxwell</text>
+  <text x="250" y="40" text-anchor="middle" font-size="11" fill="#555">Borrar información tiene un coste energético mínimo: kT ln 2 por bit (principio de Landauer)</text>
+
+  <!-- Caja izquierda: moléculas rápidas (calientes) -->
+  <rect x="40" y="65" width="175" height="210" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="127" y="88" text-anchor="middle" font-size="12" font-weight="bold" fill="#c2410c">Compartimento A</text>
+  <text x="127" y="103" text-anchor="middle" font-size="11" fill="#ea580c">(moléculas rápidas → caliente)</text>
+
+  <!-- Moléculas rápidas (flechas largas) -->
+  <circle cx="85" cy="135" r="8" fill="#f97316" opacity="0.85"/>
+  <line x1="85" y1="135" x2="110" y2="118" stroke="#f97316" stroke-width="2"/>
+  <polygon points="110,118 104,126 116,124" fill="#f97316"/>
+
+  <circle cx="155" cy="160" r="8" fill="#f97316" opacity="0.85"/>
+  <line x1="155" y1="160" x2="130" y2="143" stroke="#f97316" stroke-width="2"/>
+  <polygon points="130,143 138,150 136,139" fill="#f97316"/>
+
+  <circle cx="95" cy="200" r="8" fill="#f97316" opacity="0.85"/>
+  <line x1="95" y1="200" x2="75" y2="175" stroke="#f97316" stroke-width="2"/>
+  <polygon points="75,175 82,183 72,182" fill="#f97316"/>
+
+  <circle cx="150" cy="230" r="8" fill="#f97316" opacity="0.85"/>
+  <line x1="150" y1="230" x2="175" y2="210" stroke="#f97316" stroke-width="2"/>
+  <polygon points="175,210 167,218 175,220" fill="#f97316"/>
+
+  <text x="127" y="265" text-anchor="middle" font-size="13" fill="#c2410c">T_A &gt; T_B</text>
+
+  <!-- Caja derecha: moléculas lentas (frías) -->
+  <rect x="285" y="65" width="175" height="210" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="372" y="88" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8">Compartimento B</text>
+  <text x="372" y="103" text-anchor="middle" font-size="11" fill="#2563eb">(moléculas lentas → frío)</text>
+
+  <!-- Moléculas lentas (flechas cortas) -->
+  <circle cx="330" cy="140" r="8" fill="#60a5fa" opacity="0.85"/>
+  <line x1="330" y1="140" x2="342" y2="132" stroke="#60a5fa" stroke-width="2"/>
+  <polygon points="342,132 337,140 344,140" fill="#60a5fa"/>
+
+  <circle cx="400" cy="165" r="8" fill="#60a5fa" opacity="0.85"/>
+  <line x1="400" y1="165" x2="388" y2="158" stroke="#60a5fa" stroke-width="2"/>
+  <polygon points="388,158 394,166 386,164" fill="#60a5fa"/>
+
+  <circle cx="340" cy="200" r="8" fill="#60a5fa" opacity="0.85"/>
+  <line x1="340" y1="200" x2="330" y2="193" stroke="#60a5fa" stroke-width="2"/>
+  <polygon points="330,193 337,201 330,201" fill="#60a5fa"/>
+
+  <circle cx="395" cy="230" r="8" fill="#60a5fa" opacity="0.85"/>
+  <line x1="395" y1="230" x2="408" y2="222" stroke="#60a5fa" stroke-width="2"/>
+  <polygon points="408,222 402,230 408,231" fill="#60a5fa"/>
+
+  <text x="372" y="265" text-anchor="middle" font-size="13" fill="#1d4ed8">T_B &lt; T_A</text>
+
+  <!-- Pared divisoria con compuerta -->
+  <line x1="215" y1="65" x2="215" y2="155" stroke="#334155" stroke-width="3"/>
+  <line x1="215" y1="195" x2="215" y2="275" stroke="#334155" stroke-width="3"/>
+
+  <!-- Compuerta (rectángulo en medio) -->
+  <rect x="208" y="155" width="14" height="40" rx="3" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+
+  <!-- Demonio sobre la compuerta -->
+  <circle cx="250" cy="148" r="18" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <text x="250" y="145" text-anchor="middle" font-size="11" fill="#92400e">👿</text>
+  <text x="250" y="160" text-anchor="middle" font-size="9" fill="#92400e">demonio</text>
+
+  <!-- Flecha: demonio observa y decide -->
+  <path d="M 236,160 Q 228,165 222,168" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="222,168 226,161 230,169" fill="#d97706"/>
+
+  <!-- Resultado: flujo de calor invertido -->
+  <path d="M 215,310 Q 250,295 285,310" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowR)"/>
+  <defs>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <text x="250" y="330" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="bold">Calor fluye de frío a caliente (?)</text>
+  <text x="250" y="348" text-anchor="middle" font-size="11" fill="#475569">Resolución (Landauer 1961): borrar 1 bit del demonio</text>
+  <text x="250" y="362" text-anchor="middle" font-size="11" fill="#475569">disipa al menos kT ln 2 de calor → 2ª ley conservada</text>
+</svg>

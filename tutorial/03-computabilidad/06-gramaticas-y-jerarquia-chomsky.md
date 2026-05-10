@@ -18,6 +18,8 @@ El **lenguaje** $L(G)$ es el conjunto de cadenas de terminales que se pueden der
 
 ## Los cuatro niveles
 
+![Jerarquía de Chomsky: cuatro niveles de lenguajes formales](../imagenes/chomsky-hierarchy.svg)
+
 ### Tipo 3 — Lenguajes regulares
 
 **Gramáticas regulares:** cada regla tiene la forma $A \to aB$ o $A \to a$ (regular a derecha) o $A \to Ba$ o $A \to a$ (regular a izquierda), donde $A, B \in V$ y $a \in \Sigma$.

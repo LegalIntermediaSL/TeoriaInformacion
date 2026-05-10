@@ -40,7 +40,22 @@ con solo $O(\log m)$ monedas y $O(1)$ consultas a la prueba.
 
 ## Consecuencia inmediata: Max-3SAT
 
-Consideremos el problema de optimización **Max-3SAT**: dada una fórmula 3-CNF, encontrar una
+### Ejemplo numérico: inaproximabilidad de Max-3SAT
+
+Consideramos la fórmula $\phi = (x_1 \lor x_2 \lor x_3) \land (\neg x_1 \lor x_2 \lor \neg x_3) \land (x_1 \lor \neg x_2 \lor x_3) \land (\neg x_1 \lor \neg x_2 \lor \neg x_3)$ con 4 cláusulas.
+
+| Asignación | Cláusulas satisfechas | Fracción |
+|---|---|---|
+| $(0,0,0)$ | 3 de 4 | 0.75 |
+| $(1,0,0)$ | 3 de 4 | 0.75 |
+| $(1,1,0)$ | 4 de 4 | **1.0** |
+| $(0,0,1)$ | 3 de 4 | 0.75 |
+
+La asignación óptima satisface $4/4 = 100\%$ de las cláusulas. El algoritmo aleatorio simple (asignar cada variable independientemente con $P(x_i=1)=1/2$) satisface en esperanza $7/8$ de las cláusulas por cláusula, ya que cada cláusula de 3 literales se viola con probabilidad $(1/2)^3 = 1/8$.
+
+**Consecuencia del teorema PCP:** ningún algoritmo en tiempo polinomial puede satisfacer más de $7/8 + \varepsilon$ de las cláusulas para todo $\varepsilon > 0$, salvo que P = NP (Håstad, 1997). El algoritmo aleatorio es por tanto **óptimo** entre los algoritmos eficientes.
+
+Consideramos el problema de optimización **Max-3SAT**: dada una fórmula 3-CNF, encontrar una
 asignación que satisfaga el mayor número posible de cláusulas.
 
 El teorema PCP implica:

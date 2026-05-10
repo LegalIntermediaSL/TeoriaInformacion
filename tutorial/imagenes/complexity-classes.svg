@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400" font-family="serif">
+  <text x="260" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Clases de complejidad computacional</text>
+
+  <!-- EXP -->
+  <ellipse cx="260" cy="215" rx="238" ry="162" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+  <text x="50" y="135" font-size="13" font-weight="bold" fill="#92400e">EXP</text>
+  <text x="44" y="151" font-size="11" fill="#92400e">tiempo 2^{p(n)}</text>
+
+  <!-- PSPACE -->
+  <ellipse cx="263" cy="220" rx="185" ry="125" fill="#d1fae5" stroke="#059669" stroke-width="2.5"/>
+  <text x="95" y="160" font-size="13" font-weight="bold" fill="#065f46">PSPACE</text>
+  <text x="91" y="176" font-size="11" fill="#065f46">espacio polinomial</text>
+
+  <!-- NP ∩ coNP zone -->
+  <ellipse cx="266" cy="224" rx="130" ry="88" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="148" y="185" font-size="13" font-weight="bold" fill="#1e40af">NP</text>
+  <text x="146" y="200" font-size="11" fill="#1e40af">certificado</text>
+  <text x="146" y="213" font-size="11" fill="#1e40af">verificable</text>
+
+  <!-- P -->
+  <ellipse cx="270" cy="228" rx="65" ry="44" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="245" y="226" font-size="13" font-weight="bold" fill="#4c1d95">P</text>
+  <text x="236" y="241" font-size="10" fill="#4c1d95">tiempo poly</text>
+
+  <!-- Problemas etiquetados -->
+  <!-- En EXP pero (posiblemente) fuera de PSPACE -->
+  <text x="385" y="95" font-size="11" fill="#92400e" font-style="italic">EXP-completo:</text>
+  <text x="385" y="108" font-size="11" fill="#92400e" font-style="italic">Go, Chess</text>
+
+  <!-- En PSPACE pero (posiblemente) fuera de NP -->
+  <text x="70" y="240" font-size="11" fill="#065f46" font-style="italic">PSPACE-completo:</text>
+  <text x="72" y="253" font-size="11" fill="#065f46" font-style="italic">TQBF</text>
+
+  <!-- En NP pero (posiblemente) fuera de P -->
+  <text x="370" y="200" font-size="11" fill="#1e40af" font-style="italic">NP-completo:</text>
+  <text x="370" y="213" font-size="11" fill="#1e40af" font-style="italic">SAT, TSP,</text>
+  <text x="370" y="226" font-size="11" fill="#1e40af" font-style="italic">3-COLOR</text>
+
+  <!-- En P -->
+  <text x="380" y="285" font-size="11" fill="#4c1d95" font-style="italic">En P:</text>
+  <text x="380" y="298" font-size="11" fill="#4c1d95" font-style="italic">SORT, MST,</text>
+  <text x="380" y="311" font-size="11" fill="#4c1d95" font-style="italic">PRIMES, LP</text>
+
+  <!-- Flechas de ejemplo -->
+  <line x1="378" y1="203" x2="348" y2="210" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="378" y1="290" x2="334" y2="250" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Nota P vs NP -->
+  <text x="260" y="385" text-anchor="middle" font-size="12" fill="#444">¿P = NP? — La pregunta del millón. Se conjetura P ≠ NP pero no está probado.</text>
+</svg>

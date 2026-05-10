@@ -52,6 +52,8 @@ verificar si satisface la fórmula es directo.
 
 ## P frente a NP
 
+![Clases de complejidad: P ⊆ NP ⊆ PSPACE ⊆ EXP](../imagenes/complexity-classes.svg)
+
 Todo problema en P está también en NP: si podemos resolverlo eficientemente,
 también podemos verificar una solución eficientemente.
 
