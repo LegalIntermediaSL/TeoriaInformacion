@@ -44,6 +44,10 @@ Práctica recomendada:
 - [Divergencia KL y entropía cruzada](02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Códigos correctores de errores](02-teoria-informacion/06-codigos-correctores-de-errores.md)
 - [Teorema de Shannon y capacidad de canal](02-teoria-informacion/08-teorema-de-shannon-capacidad.md)
+- [Teoría de la tasa-distorsión](02-teoria-informacion/09-teoria-tasa-distorsion.md)
+- [Entropía diferencial y fuentes continuas](02-teoria-informacion/10-entropia-diferencial.md)
+- [Códigos LDPC y Turbo: hacia la capacidad de Shannon](02-teoria-informacion/11-codigos-ldpc-y-turbo.md)
+- [Cadenas de Markov y tasa de entropía](02-teoria-informacion/12-cadenas-de-markov-y-tasa-de-entropia.md)
 
 Práctica recomendada:
 
@@ -51,7 +55,10 @@ Práctica recomendada:
 - [Información mutua y entropía condicional](cuadernos/ejemplos/05-informacion-mutua-entropia-condicional.ipynb)
 - [Códigos prefijo y longitud media](cuadernos/ejemplos/04-codigos-prefijo-longitud-media.ipynb)
 - [Código de repetición y corrección de errores](cuadernos/ejemplos/08-codigos-repeticion-correccion.ipynb)
+- [Cadenas de Markov y tasa de entropía](cuadernos/ejemplos/20-cadenas-de-markov-tasa-entropia.ipynb)
+- [Tasa-distorsión](cuadernos/ejercicios/14-tasa-distorsion.ipynb)
 - [Entropía de fuentes discretas](ejercicios/resueltos/01-entropia-fuentes-discretas.md)
+- [Tasa-distorsión: ejercicios resueltos](ejercicios/resueltos/14-tasa-distorsion.md)
 
 ### Nivel 3 - Computabilidad y complejidad
 
@@ -65,6 +72,7 @@ Práctica recomendada:
 - [Autómatas de pila y lenguajes independientes del contexto](03-computabilidad/09-automatas-de-pila-y-lenguajes-contexto-libre.md)
 - [P, NP y NP-completitud](04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [SAT y 3-SAT](04-complejidad-computacional/03-sat-y-3-sat.md)
+- [Complejidad parametrizada](04-complejidad-computacional/10-complejidad-parametrizada.md)
 - [Complejidad temporal de algoritmos](04-complejidad-computacional/05-complejidad-temporal-de-algoritmos.md)
 - [Circuitos booleanos y complejidad de circuitos](04-complejidad-computacional/07-circuitos-booleanos.md)
 - [Complejidad aleatoria](04-complejidad-computacional/08-complejidad-aleatoria.md)

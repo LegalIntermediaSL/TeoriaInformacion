@@ -25,6 +25,12 @@ razonamiento.
 - [KL y entropía cruzada](10-kl-y-entropia-cruzada.md)
 - [Máquinas de Turing](11-maquinas-de-turing.md)
 - [Autómatas finitos y lenguajes regulares](12-automatas-finitos.md)
+- [Cadenas de Markov y tasa de entropía](13-cadenas-de-markov.md)
+- [Teoría de la tasa-distorsión](14-tasa-distorsion.md)
+- [Complejidad aleatoria y Miller-Rabin](15-complejidad-aleatoria.md)
+- [Autómatas de pila y lenguajes independientes del contexto](16-automatas-de-pila.md)
+- [Complejidad parametrizada y kernelización](17-complejidad-parametrizada.md)
+- [Universalidad, quines y teorema de Rice](18-universalidad-y-quines.md)
 
 ## Relación con cuadernos
 

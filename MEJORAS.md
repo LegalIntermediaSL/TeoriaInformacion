@@ -53,12 +53,12 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 
 | Estado | Tema | Artículo | Notebook ejercicio |
 |--------|------|----------|--------------------|
-| [ ] | Tasa-distorsión | 02/09 | ✓ ejercicios/14 |
-| [ ] | Complejidad aleatoria | 04/08 | ✓ ejercicios/13 |
-| [ ] | Complejidad parametrizada | 04/10 | ✓ ejercicios/16 |
-| [ ] | Autómatas de pila / CFL | 03/09 | ✓ ejemplos/21 |
-| [ ] | Cadenas de Markov y tasa de entropía | 02/12 | ✓ ejemplos/20 |
-| [ ] | Universalidad y quines | 03/07 | ✓ ejercicios/15 |
+| [x] | Tasa-distorsión | 02/09 | ✓ ejercicios/14 |
+| [x] | Complejidad aleatoria | 04/08 | ✓ ejercicios/13 |
+| [x] | Complejidad parametrizada | 04/10 | ✓ ejercicios/16 |
+| [x] | Autómatas de pila / CFL | 03/09 | ✓ ejemplos/21 |
+| [x] | Cadenas de Markov y tasa de entropía | 02/12 | ✓ ejemplos/20 |
+| [x] | Universalidad y quines | 03/07 | ✓ ejercicios/15 |
 
 ### Sin ninguna práctica asociada (prioridad media)
 
@@ -104,9 +104,9 @@ Artículos o notebooks sin `.md` de ejercicios resueltos asociado:
 
 | Estado | Mejora | Archivo afectado |
 |--------|--------|------------------|
-| [ ] | **`referencias/por-articulo.md`**: el archivo llega solo hasta 05/04 (información cuántica); faltan las entradas de los ~20 artículos creados en sesiones posteriores (02/09-12, 03/07-09, 04/08-10, 05/05-06) | `tutorial/referencias/por-articulo.md` |
-| [ ] | **Ruta de estudio Nivel 2** en el README principal: lista 8 artículos pero el módulo 02 tiene 12; faltan tasa-distorsión (09), entropía diferencial (10), LDPC (11), cadenas de Markov (12) | `tutorial/README.md` |
-| [ ] | **Ruta de estudio Nivel 3** en el README principal: falta el artículo de autómatas de pila (03/09) que se añadió en la quinta ronda | `tutorial/README.md` |
+| [x] | **`referencias/por-articulo.md`**: el archivo llega solo hasta 05/04 (información cuántica); faltan las entradas de los ~20 artículos creados en sesiones posteriores (02/09-12, 03/07-09, 04/08-10, 05/05-06) | `tutorial/referencias/por-articulo.md` |
+| [x] | **Ruta de estudio Nivel 2** en el README principal: lista 8 artículos pero el módulo 02 tiene 12; faltan tasa-distorsión (09), entropía diferencial (10), LDPC (11), cadenas de Markov (12) | `tutorial/README.md` |
+| [x] | **Ruta de estudio Nivel 3** en el README principal: falta el artículo de autómatas de pila (03/09) que se añadió en la quinta ronda | `tutorial/README.md` |
 
 ### Media prioridad
 
@@ -175,12 +175,12 @@ Problemas detectados que afectan a la coherencia del conjunto:
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | Artículos nuevos | 10 | 0 |
-| Ejercicios resueltos | 15 | 0 |
+| Ejercicios resueltos | 15 | 6 |
 | Notebooks nuevos | 8 | 0 |
-| Calidad estructural | 11 | 0 |
+| Calidad estructural | 11 | 3 |
 | Diagramas | 7 | 0 |
 | Coherencia interna | 4 | 0 |
 | Infraestructura | 5 | 0 |
-| **Total** | **60** | **0** |
+| **Total** | **60** | **9** |
 
 > Actualizar la tabla de resumen al completar ítems.

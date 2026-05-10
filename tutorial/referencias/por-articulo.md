@@ -218,3 +218,90 @@ se organizan como apoyo directo, no como bibliografía exhaustiva.
   Information*.
 - John Watrous, *The Theory of Quantum Information*.
 - Scott Aaronson, *Quantum Computing since Democritus*.
+
+### Información en el aprendizaje estadístico
+
+- Jorma Rissanen, *Stochastic Complexity in Statistical Inquiry*. World Scientific, 1989.
+- Naftali Tishby, Fernando Pereira y William Bialek, "The information bottleneck method". *Allerton Conference*, 1999.
+- Mohamed Ishmael Belghazi et al., "MINE: Mutual Information Neural Estimation". *ICML*, 2018.
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, capítulo 5.
+- Vladimir Vapnik, *The Nature of Statistical Learning Theory*. Springer, 1995.
+
+### Información y termodinámica
+
+- Rolf Landauer, "Irreversibility and heat generation in the computing process". *IBM J. Res. Dev.*, 1961.
+- Charles H. Bennett, "The thermodynamics of computation". *Int. J. Theor. Phys.*, 1982.
+- Leo Szilard, "Über die Entropieverminderung in einem thermodynamischen System". *Z. Phys.*, 1929.
+- Edward Fredkin y Tommaso Toffoli, "Conservative logic". *Int. J. Theor. Phys.*, 1982.
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, capítulo 9.
+
+## Artículos añadidos en el módulo 02 (sesiones posteriores)
+
+### Teoría de la tasa-distorsión
+
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, capítulos 10-11.
+- Robert M. Gray, *Source Coding Theory*. Springer, 1990.
+- Toby Berger, *Rate Distortion Theory*. Prentice-Hall, 1971.
+
+### Entropía diferencial y fuentes continuas
+
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, capítulos 8-9.
+- Robert G. Gallager, *Information Theory and Reliable Communication*. Wiley, 1968.
+- Imre Csiszár y János Körner, *Information Theory: Coding Theorems for Discrete Memoryless Systems*.
+
+### Códigos LDPC y Turbo: hacia la capacidad de Shannon
+
+- Robert G. Gallager, "Low-density parity-check codes". *IRE Trans. Information Theory*, 1962.
+- Claude Berrou, Alain Glavieux y Punya Thitimajshima, "Near Shannon limit error-correcting coding". *ICC*, 1993.
+- Thomas Richardson y Rüdiger Urbanke, *Modern Coding Theory*. Cambridge University Press, 2008.
+- Erdal Arıkan, "Channel polarization: A method for constructing capacity-achieving codes". *IEEE Trans. IT*, 2009.
+
+### Cadenas de Markov y tasa de entropía
+
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, capítulos 4 y 16.
+- Claude E. Shannon, "Prediction and entropy of printed English". *Bell System Technical Journal*, 1951.
+- Brockwell McMillan, "The basic theorems of information theory". *Ann. Math. Stat.*, 1953.
+- Jacob Ziv y Abraham Lempel, "Compression of individual sequences via variable-rate coding". *IEEE Trans. IT*, 1978.
+
+## Artículos añadidos en el módulo 03 (sesiones posteriores)
+
+### Universalidad y autorreferencia
+
+- Hartley Rogers, *Theory of Recursive Functions and Effective Computability*. MIT Press, 1987.
+- George Boolos, John Burgess y Richard Jeffrey, *Computability and Logic*. Cambridge, 2007.
+- Stephen Kleene, "On the forms of the predicates in the theory of constructive ordinals". *Amer. J. Math.*, 1944.
+
+### Complejidad descriptiva
+
+- Neil Immerman, *Descriptive Complexity*. Springer, 1999.
+- Ronald Fagin, "Generalized first-order spectra and polynomial-time recognizable sets". *SIAM-AMS Proc.*, 1974.
+- Leonid Libkin, *Elements of Finite Model Theory*. Springer, 2004.
+
+### Autómatas de pila y lenguajes independientes del contexto
+
+- Michael Sipser, *Introduction to the Theory of Computation*, capítulo 2. Cengage, 2013.
+- John Hopcroft, Rajeev Motwani y Jeffrey Ullman, *Introduction to Automata Theory*. Pearson, 2006.
+- Noam Chomsky, "Three models for the description of language". *IRE Trans. IT*, 1956.
+- John Cocke y Jacob T. Schwartz, *Programming Languages and Their Compilers*. Courant Institute, 1970.
+
+## Artículos añadidos en el módulo 04 (sesiones posteriores)
+
+### Complejidad aleatoria
+
+- Rajeev Motwani y Prabhakar Raghavan, *Randomized Algorithms*. Cambridge University Press, 1995.
+- Michael Sipser, *Introduction to the Theory of Computation*, capítulo 10.
+- Russell Impagliazzo y Avi Wigderson, "P = BPP unless E has subexponential circuits". *STOC*, 1997.
+
+### El teorema PCP y la dureza de aproximación
+
+- Sanjeev Arora et al., "Proof verification and the hardness of approximation problems". *JACM*, 1998.
+- Irit Dinur, "The PCP theorem by gap amplification". *JACM*, 2007.
+- Subhash Khot, "On the power of unique 2-prover 1-round games". *STOC*, 2002.
+- Sanjeev Arora y Boaz Barak, *Computational Complexity: A Modern Approach*, capítulo 11.
+
+### Complejidad parametrizada
+
+- Marek Cygan et al., *Parameterized Algorithms*. Springer, 2015.
+- Rodney Downey y Michael Fellows, *Fundamentals of Parameterized Complexity*. Springer, 2013.
+- Bruno Courcelle, "The monadic second-order logic of graphs I". *Information and Computation*, 1990.
+- Russell Impagliazzo y Ramamohan Paturi, "On the complexity of k-SAT". *J. Comput. Syst. Sci.*, 2001.
