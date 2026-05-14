@@ -44,15 +44,25 @@ Módulo 01: Fundamentos matemáticos
 | Teorema de Shannon (fuente) | 02 | Entropía $H$ = tasa de compresión óptima | Conecta con Kolmogorov (05/01) |
 | Teorema de Shannon (canal) | 02 | Capacidad $C$ = tasa máxima con error→0 | Límite fundamental de comunicación |
 | AEP (Shannon-McMillan-Breiman) | 02/03 | Conjuntos típicos de tamaño $\approx 2^{nH}$ | Base del lema de Yao en complejidad |
+| Codificación aritmética | 02/13 | Longitud media óptima $H(X) + O(1)$ bits/bloque | Implementa el teorema de fuente de Shannon |
+| Tasa de entropía de Markov | 02/12, 02/14 | $\bar{H} = -\sum_i \pi_i H(\text{fila}_i)$ | Conecta procesos estocásticos con compresión (LZ78) |
+| Tasa-distorsión $R(D)$ | 02/09 | Mínima tasa con distorsión $\leq D$ | Dualidad con la capacidad de canal |
 | Teorema de la parada | 03 | Decidir si $M(w) \downarrow$ es irresoluble | Reduce a toda la jerarquía aritmética |
+| Jerarquía aritmética | 03/10 | $\Sigma_1^0 = RE$, oráculo de salto $\emptyset'$ | Estructura fina por encima de RE |
+| Baker-Gill-Solovay | 03/11 | Oráculos que colapsan y separan P y NP | Muestra límites de diagonalización |
+| Aleatoriedad algorítmica ($\Omega$ de Chaitin) | 03/12 | $\Omega$ es algorítmicamente aleatorio e incomputable | Concentra toda la información de HALT |
 | Teorema de Rice | 03 | Propiedades semánticas no triviales son indecidibles | Conecta con límites de verificación (04) |
 | Teorema de Cook-Levin | 04 | SAT es NP-completo | Punto de partida de reducciones |
-| Teorema PCP | 04 | NP = PCP(log n, O(1)) | Implica inaproximabilidad de MAX-SAT |
-| Teorema de Toda | 04 | PH ⊆ P^#P | Conecta conteo con jerarquía polinómica |
-| Baker-Gill-Solovay | 03/04 | Oráculos que colapsan y separan P y NP | Muestra límites de diagonalización |
+| Teorema PCP | 04/09 | NP = PCP(log n, O(1)) | Implica inaproximabilidad de MAX-SAT |
+| Permanente #P-completo | 04/11 | perm(A) tan difícil como contar soluciones SAT | Contrasta con determinante (en P) |
+| Teorema de Toda | 04/11 | PH ⊆ P^#P | Conecta conteo (#P) con jerarquía polinómica |
+| Lower bounds ETH/SETH | 04/13 | LCS y Edit Distance son $\Omega(n^2)$ bajo SETH | Cuantifica la dificultad de problemas "fáciles" |
+| Complejidad de comunicación | 04/12 | $D(EQ_n) = n$; $R(EQ_n) = O(\log n)$ | Lower bounds para algoritmos de streaming |
 | IP = PSPACE | 04 | Pruebas interactivas = espacio polinomial | No relativiza; base de ZK proofs |
-| Landauer | 05 | Borrar un bit cuesta $k_BT\ln 2$ | Conecta entropía de Shannon con entropía de Boltzmann |
-| Complejidad de Kolmogorov | 05 | $K(x)$ ≈ longitud del programa más corto para $x$ | Versión individual del AEP |
+| Landauer | 05/06 | Borrar un bit cuesta $k_BT\ln 2$ | Conecta entropía de Shannon con entropía de Boltzmann |
+| Complejidad de Kolmogorov | 05/01 | $K(x)$ ≈ longitud del programa más corto para $x$ | Versión individual del AEP |
+| Cuello de botella informacional | 05/05 | $\min I(X;T)$ s.t. $I(T;Y)\geq r$ | Conecta entropía con generalización en ML |
+| Información de Fisher en evolución | 05/07 | $I(\theta)$ cuantifica la eficiencia de la selección | Cota de Cramér-Rao como límite de adaptación |
 
 ## Los grandes puentes entre módulos
 

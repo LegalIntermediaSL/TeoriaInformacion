@@ -5,6 +5,8 @@ Valida la coherencia del repositorio:
 - Todos los archivos .md en módulos están listados en su README.
 - Todos los notebooks referenciados existen.
 - Los ejercicios resueltos listados en su README existen.
+- Todos los artículos tienen las secciones obligatorias.
+- Los ejercicios propuestos no tienen enlaces rotos.
 """
 import re
 import sys
@@ -136,6 +138,39 @@ for mod_dir in MODULES.values():
                 link_path.exists(),
                 f"Enlace roto en {art.relative_to(ROOT)}: {link}"
             )
+
+
+# --- 6. Validar secciones obligatorias en artículos ---
+SECCIONES_OBLIGATORIAS = ["## Ideas clave", "## Ejercicios"]
+SECCIONES_RECOMENDADAS = ["## Prerrequisitos", "## Objetivos", "## Véase también"]
+
+for mod_dir in MODULES.values():
+    for art in mod_dir.glob("[0-9]*.md"):
+        text = art.read_text(encoding="utf-8")
+        for seccion in SECCIONES_OBLIGATORIAS:
+            check(
+                seccion in text,
+                f"Artículo sin sección obligatoria '{seccion}': {art.relative_to(ROOT)}"
+            )
+        for seccion in SECCIONES_RECOMENDADAS:
+            check(
+                seccion in text,
+                f"Artículo sin sección recomendada '{seccion}': {art.relative_to(ROOT)}",
+                "warning"
+            )
+
+
+# --- 7. Validar ejercicios propuestos ---
+propuestos_dir = TUTORIAL / "ejercicios" / "propuestos"
+propuestos_readme = propuestos_dir / "README.md"
+if propuestos_readme.exists():
+    readme_text = propuestos_readme.read_text(encoding="utf-8")
+    for link in extract_md_links(readme_text):
+        link_path = propuestos_dir / link
+        check(
+            link_path.exists(),
+            f"Enlace roto en propuestos/README.md: {link}"
+        )
 
 
 # --- Reporte ---

@@ -203,8 +203,8 @@ Verificado 2026-05-14: el directorio `propuestos/` contiene solo `README.md`, `c
 
 | Estado | Problema | Archivo |
 |--------|----------|---------|
-| [ ] | **`propuestos/computabilidad.md` no existe** pero el README lo enlaza (módulo 03): enlace roto visible para cualquier lector | `tutorial/ejercicios/propuestos/computabilidad.md` |
-| [ ] | **`propuestos/aplicaciones.md` no existe** pero el README lo enlaza (módulo 05): segundo enlace roto, no recogido en la primera detección | `tutorial/ejercicios/propuestos/aplicaciones.md` |
+| [x] | **`propuestos/computabilidad.md` no existe** pero el README lo enlaza (módulo 03): enlace roto visible para cualquier lector | `tutorial/ejercicios/propuestos/computabilidad.md` |
+| [x] | **`propuestos/aplicaciones.md` no existe** pero el README lo enlaza (módulo 05): segundo enlace roto, no recogido en la primera detección | `tutorial/ejercicios/propuestos/aplicaciones.md` |
 
 #### 8b. Ejercicios propuestos incompletos
 
@@ -213,9 +213,9 @@ Los módulos 03 y 05 tienen los enlaces rotos (véase 8a).
 
 | Estado | Mejora | Archivo destino |
 |--------|--------|-----------------|
-| [ ] | Crear `propuestos/computabilidad.md` con enunciados de los artículos 03/01-12 | `ejercicios/propuestos/computabilidad.md` |
-| [ ] | Crear `propuestos/fundamentos.md` con enunciados de módulo 01 (logaritmos, conjuntos, combinatoria, grafos, lógica) | `ejercicios/propuestos/fundamentos.md` |
-| [ ] | Crear `propuestos/aplicaciones.md` con enunciados de módulo 05 (Kolmogorov, criptografía, cuántica, termodinámica, biología) | `ejercicios/propuestos/aplicaciones.md` |
+| [x] | Crear `propuestos/computabilidad.md` con enunciados de los artículos 03/01-12 | `ejercicios/propuestos/computabilidad.md` |
+| [x] | Crear `propuestos/fundamentos.md` con enunciados de módulo 01 (logaritmos, conjuntos, combinatoria, grafos, lógica) | `ejercicios/propuestos/fundamentos.md` |
+| [x] | Crear `propuestos/aplicaciones.md` con enunciados de módulo 05 (Kolmogorov, criptografía, cuántica, termodinámica, biología) | `ejercicios/propuestos/aplicaciones.md` |
 
 #### 8c. Artículos nuevos sin ningún notebook
 
@@ -223,10 +223,10 @@ Cuatro artículos creados en la segunda ronda carecen de notebook de ejemplo o d
 
 | Estado | Artículo | Notebook propuesto |
 |--------|----------|--------------------|
-| [ ] | `03/11-oráculos-y-relativización` | `ejemplos/26-oráculos-relativización.ipynb`: simular oráculo de SAT, comparar P^SAT vs NP^SAT conceptualmente |
-| [ ] | `04/13-eth-seth-consecuencias` | `ejemplos/27-eth-seth-lower-bounds.ipynb`: lower bounds condicionales para LCS y Edit Distance |
-| [ ] | `05/07-informacion-y-biologia` | `ejemplos/28-codigo-genetico-entropia.ipynb`: calcular entropía del código genético, redundancia, información de Fisher |
-| [ ] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | `ejemplos/29-fuentes-con-memoria.ipynb`: fuentes de Markov de orden k, tasa de entropía, comparación con i.i.d. |
+| [x] | `03/11-oráculos-y-relativización` | `ejemplos/26-oráculos-relativización.ipynb`: simular oráculo de SAT, comparar P^SAT vs NP^SAT conceptualmente |
+| [x] | `04/13-eth-seth-consecuencias` | `ejemplos/27-eth-seth-lower-bounds.ipynb`: lower bounds condicionales para LCS y Edit Distance |
+| [x] | `05/07-informacion-y-biologia` | `ejemplos/28-codigo-genetico-entropia.ipynb`: calcular entropía del código genético, redundancia, información de Fisher |
+| [x] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | `ejemplos/29-fuentes-con-memoria.ipynb`: fuentes de Markov de orden k, tasa de entropía, comparación con i.i.d. |
 
 #### 8d. Ejercicios resueltos faltantes
 
@@ -234,14 +234,14 @@ Hay 26 artículos sin `ejercicios/resueltos/` asociado. Los de mayor impacto ped
 
 | Estado | Tema | Artículo |
 |--------|------|----------|
-| [ ] | Codificación aritmética | `02/13` → `resueltos/28-codificacion-aritmetica.md` |
-| [ ] | Procesos estocásticos y fuentes con memoria | `02/14` → `resueltos/29-procesos-estocasticos.md` |
-| [ ] | Oráculos y relativización | `03/11` → `resueltos/30-oráculos-y-relativización.md` |
-| [ ] | Aleatoriedad algorítmica (Chaitin, Martin-Löf) | `03/12` → `resueltos/31-aleatoriedad-algoritmica.md` |
-| [ ] | #P y conteo | `04/11` → `resueltos/32-sharp-p-y-conteo.md` |
-| [ ] | Complejidad de comunicación | `04/12` → `resueltos/33-complejidad-comunicacion.md` |
-| [ ] | ETH/SETH y consecuencias | `04/13` → `resueltos/34-eth-seth-consecuencias.md` |
-| [ ] | Información y biología | `05/07` → `resueltos/35-informacion-y-biologia.md` |
+| [x] | Codificación aritmética | `02/13` → `resueltos/28-codificacion-aritmetica.md` |
+| [x] | Procesos estocásticos y fuentes con memoria | `02/14` → `resueltos/29-procesos-estocasticos.md` |
+| [x] | Oráculos y relativización | `03/11` → `resueltos/30-oráculos-y-relativización.md` |
+| [x] | Aleatoriedad algorítmica (Chaitin, Martin-Löf) | `03/12` → `resueltos/31-aleatoriedad-algoritmica.md` |
+| [x] | #P y conteo | `04/11` → `resueltos/32-sharp-p-y-conteo.md` |
+| [x] | Complejidad de comunicación | `04/12` → `resueltos/33-complejidad-comunicacion.md` |
+| [x] | ETH/SETH y consecuencias | `04/13` → `resueltos/34-eth-seth-consecuencias.md` |
+| [x] | Información y biología | `05/07` → `resueltos/35-informacion-y-biologia.md` |
 
 #### 8e. Tests automáticos en notebooks de ejemplo y ejercicios 01-16
 
@@ -249,8 +249,8 @@ Verificado 2026-05-14: los notebooks 06 y 12 tienen 1 celda `assert` cada uno; l
 
 | Estado | Mejora | Archivos afectados |
 |--------|--------|--------------------|
-| [ ] | Añadir celda `assert` a notebooks de ejercicio 01-05, 07-11, 13-16 (14 notebooks sin ningún assert) | `cuadernos/ejercicios/01-*.ipynb` … `16-*.ipynb` (excluir 06 y 12 que ya tienen) |
-| [ ] | Añadir celda `assert` a notebooks de ejemplo seleccionados (los que implementan funciones verificables) | `cuadernos/ejemplos/` — prioridad 01, 03, 04, 08, 11, 12, 13 |
+| [x] | Añadir celda `assert` a notebooks de ejercicio 01-05, 07-11, 13-16 (14 notebooks sin ningún assert) | `cuadernos/ejercicios/01-*.ipynb` … `16-*.ipynb` (excluir 06 y 12 que ya tienen) |
+| [x] | Añadir celda `assert` a notebooks de ejemplo seleccionados (los que implementan funciones verificables) | `cuadernos/ejemplos/` — prioridad 01, 03, 04, 08, 11, 12, 13 |
 
 ---
 
@@ -258,9 +258,9 @@ Verificado 2026-05-14: los notebooks 06 y 12 tienen 1 celda `assert` cada uno; l
 
 | Estado | Recurso | Descripción | Archivo destino |
 |--------|---------|-------------|-----------------|
-| [ ] | **Glosario de términos** | Definición breve de cada símbolo y concepto técnico del tutorial: entropía, KL, NP, BPP, treewidth, etc. Ordenado alfabéticamente con enlace al artículo donde se introduce. | `tutorial/referencias/glosario.md` |
-| [ ] | **Índice de notación matemática** | Tabla de todos los símbolos usados (H, I, K, D_KL, Σ, Π, Δ, ρ, S(ρ)…) con su definición y referencia al artículo. | `tutorial/referencias/notacion.md` |
-| [ ] | **Tabla de complejidad unificada** | Una única tabla que cruza: problema / clase / mejor algoritmo conocido / cota inferior / referencia. Ampliación de la tabla del artículo 05/08. | `tutorial/referencias/tabla-complejidad.md` |
+| [x] | **Glosario de términos** | Definición breve de cada símbolo y concepto técnico del tutorial: entropía, KL, NP, BPP, treewidth, etc. Ordenado alfabéticamente con enlace al artículo donde se introduce. | `tutorial/referencias/glosario.md` |
+| [x] | **Índice de notación matemática** | Tabla de todos los símbolos usados (H, I, K, D_KL, Σ, Π, Δ, ρ, S(ρ)…) con su definición y referencia al artículo. | `tutorial/referencias/notacion.md` |
+| [x] | **Tabla de complejidad unificada** | Una única tabla que cruza: problema / clase / mejor algoritmo conocido / cota inferior / referencia. Ampliación de la tabla del artículo 05/08. | `tutorial/referencias/tabla-complejidad.md` |
 | [ ] | **Mapa de dependencias entre artículos** (SVG) | Grafo dirigido que muestra qué artículo requiere cuáles; generado desde los metadatos de Prerrequisitos. | `tutorial/imagenes/mapa-dependencias.svg` |
 
 ---
@@ -271,11 +271,11 @@ Verificado 2026-05-14: `test_notebooks.yml` existe y ejecuta `scripts/validar_re
 
 | Estado | Mejora | Descripción | Prioridad |
 |--------|--------|-------------|-----------|
-| [ ] | **CI: validar estructura de artículos** | Extender `scripts/validar_repositorio.py` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) e invocar desde `test_notebooks.yml` | Alta |
-| [ ] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen (habría detectado los dos enlaces rotos de `propuestos/`) | Alta |
+| [x] | **CI: validar estructura de artículos** | Extender `scripts/validar_repositorio.py` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) e invocar desde `test_notebooks.yml` | Alta |
+| [x] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen (habría detectado los dos enlaces rotos de `propuestos/`) | Alta |
 | [ ] | **GitHub Pages** | Publicar el tutorial como sitio estático con MkDocs o Quarto; añadir `mkdocs.yml` o `_quarto.yml` y configurar el flujo de despliegue | Media |
 | [ ] | **Exportación a PDF** | Script que genera un PDF por módulo usando Pandoc, útil para estudio offline | Baja |
-| [ ] | **Script `generar_mapa_dependencias.py`** | Lee los metadatos de Prerrequisitos de cada artículo y genera automáticamente el SVG del grafo de dependencias | Media |
+| [x] | **Script `generar_mapa_dependencias.py`** | Lee los metadatos de Prerrequisitos de cada artículo y genera automáticamente el SVG del grafo de dependencias | Media |
 
 ---
 
@@ -285,11 +285,11 @@ Artículos que cubren temas que quedan fuera del tutorial actual pero son extens
 
 | Estado | Artículo propuesto | Módulo | Motivación |
 |--------|-------------------|--------|------------|
-| [ ] | **Códigos de Reed-Solomon y aplicaciones** | 02 | Los LDPC y turbo son modernos, pero RS domina almacenamiento (CD, QR codes); cierra el círculo de teoría clásica |
-| [ ] | **Complejidad cuántica: BQP y QMA** | 04 | Extensión natural de 05/04 (información cuántica) hacia la complejidad; algoritmo de Shor, Grover |
-| [ ] | **Teoría de juegos e información** | 05 | Equilibrios de Nash, información asimétrica (Lemon market), mecanismos con información privada |
-| [ ] | **Aprendizaje profundo desde la teoría de la información** | 05 | Cuello de botella de información (Tishby), teorema PAC-Bayes, generalización en redes sobreajustadas |
-| [ ] | **Privacidad diferencial** | 05 | Conexión con la entropía de Rényi; protocolo de Laplace; aplicaciones prácticas en IA y datos |
+| [x] | **Códigos de Reed-Solomon y aplicaciones** | 02 | Los LDPC y turbo son modernos, pero RS domina almacenamiento (CD, QR codes); cierra el círculo de teoría clásica |
+| [x] | **Complejidad cuántica: BQP y QMA** | 04 | Extensión natural de 05/04 (información cuántica) hacia la complejidad; algoritmo de Shor, Grover |
+| [x] | **Teoría de juegos e información** | 05 | Equilibrios de Nash, información asimétrica (Lemon market), mecanismos con información privada |
+| [x] | **Aprendizaje profundo desde la teoría de la información** | 05 | Cuello de botella de información (Tishby), teorema PAC-Bayes, generalización en redes sobreajustadas |
+| [x] | **Privacidad diferencial** | 05 | Conexión con la entropía de Rényi; protocolo de Laplace; aplicaciones prácticas en IA y datos |
 
 ---
 
@@ -310,13 +310,13 @@ Verificado 2026-05-14. Todos los ítems de la segunda ronda siguen pendientes.
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
-| Huecos de cobertura (8a-8e) | 19 | 0 |
-| Recursos de referencia (9) | 4 | 0 |
-| Infraestructura y CI (10) | 5 | 0 |
-| Contenido avanzado (11) | 5 | 0 |
+| Huecos de cobertura (8a-8e) | 19 | 19 |
+| Recursos de referencia (9) | 4 | 3 |
+| Infraestructura y CI (10) | 5 | 3 |
+| Contenido avanzado (11) | 5 | 5 |
 | Accesibilidad (12) | 3 | 0 |
-| **Total segunda ronda** | **36** | **0** |
-| **Total acumulado** | **96** | **60** |
+| **Total segunda ronda** | **36** | **30** |
+| **Total acumulado** | **96** | **90** |
 
 > Nota: el total de huecos (8a-8e) pasa de 18 a 19 al incorporar el segundo enlace roto (`propuestos/aplicaciones.md`).
 
@@ -336,17 +336,17 @@ El ítem de la primera ronda (§4 alta prioridad) lo actualizó hasta los artíc
 
 | Estado | Artículo sin referencias | Sección a añadir en `por-articulo.md` |
 |--------|--------------------------|---------------------------------------|
-| [ ] | `02/13-codificacion-aritmetica` | Witten, Neal y Cleary (1987); Moffat, Neal y Witten (1998); Salomon (2007) |
-| [ ] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | Gray (1988) *Entropy and Information Theory*; Billingsley (1965) *Ergodic Theory and Information* |
-| [ ] | `03/10-jerarquia-aritmetica` | Rogers (1967) *Theory of Recursive Functions*; Soare (1987) *Recursively Enumerable Sets* |
-| [ ] | `03/11-oráculos-y-relativización` | Baker, Gill y Solovay (1975); Arora y Barak cap. 3 |
-| [ ] | `03/12-aleatoriedad-algoritmica` | Li y Vitányi (2008) *Kolmogorov Complexity*; Nies (2009) *Computability and Randomness* |
-| [ ] | `04/11-sharp-p-y-conteo` | Valiant (1979); Toda (1991); Jerrum y Sinclair (1989) |
-| [ ] | `04/12-complejidad-de-comunicacion` | Kushilevitz y Nisan (1997) *Communication Complexity* |
-| [ ] | `04/13-eth-seth-consecuencias` | Impagliazzo y Paturi (2001); Cygan et al. (2016) *Parameterized Algorithms* cap. 14 |
-| [ ] | `05/07-informacion-y-biologia` | Gatlin (1972); Adami (2004); Wagner (2011) |
-| [ ] | `05/08-mapa-de-conexiones` | No requiere nuevas fuentes; verificar que enlaza todos los artículos de la segunda ronda |
-| [ ] | `00/02-rutas-de-profundizacion` | Actualizar con lecturas para los temas avanzados (segunda ronda) |
+| [x] | `02/13-codificacion-aritmetica` | Witten, Neal y Cleary (1987); Moffat, Neal y Witten (1998); Salomon (2007) |
+| [x] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | Gray (1988) *Entropy and Information Theory*; Billingsley (1965) *Ergodic Theory and Information* |
+| [x] | `03/10-jerarquia-aritmetica` | Rogers (1967) *Theory of Recursive Functions*; Soare (1987) *Recursively Enumerable Sets* |
+| [x] | `03/11-oráculos-y-relativización` | Baker, Gill y Solovay (1975); Arora y Barak cap. 3 |
+| [x] | `03/12-aleatoriedad-algoritmica` | Li y Vitányi (2008) *Kolmogorov Complexity*; Nies (2009) *Computability and Randomness* |
+| [x] | `04/11-sharp-p-y-conteo` | Valiant (1979); Toda (1991); Jerrum y Sinclair (1989) |
+| [x] | `04/12-complejidad-de-comunicacion` | Kushilevitz y Nisan (1997) *Communication Complexity* |
+| [x] | `04/13-eth-seth-consecuencias` | Impagliazzo y Paturi (2001); Cygan et al. (2016) *Parameterized Algorithms* cap. 14 |
+| [x] | `05/07-informacion-y-biologia` | Gatlin (1972); Adami (2004); Wagner (2011) |
+| [x] | `05/08-mapa-de-conexiones` | No requiere nuevas fuentes; verificar que enlaza todos los artículos de la segunda ronda |
+| [x] | `00/02-rutas-de-profundizacion` | Actualizar con lecturas para los temas avanzados (segunda ronda) |
 
 #### 13b. `05/08-mapa-de-conexiones` — coherencia con la segunda ronda
 
@@ -354,7 +354,7 @@ El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos 
 
 | Estado | Mejora | Archivo |
 |--------|--------|---------|
-| [ ] | Verificar y actualizar el artículo `05/08-mapa-de-conexiones.md` para que incluya los artículos de la segunda ronda (02/13-14, 03/10-12, 04/11-13, 05/07) en la tabla de conexiones | `05-conexiones-y-aplicaciones/08-mapa-de-conexiones.md` |
+| [x] | Verificar y actualizar el artículo `05/08-mapa-de-conexiones.md` para que incluya los artículos de la segunda ronda (02/13-14, 03/10-12, 04/11-13, 05/07) en la tabla de conexiones | `05-conexiones-y-aplicaciones/08-mapa-de-conexiones.md` |
 
 ---
 
@@ -362,8 +362,8 @@ El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos 
 
 | Estado | Mejora | Descripción | Prioridad |
 |--------|--------|-------------|-----------|
-| [ ] | **Ampliar `scripts/estadisticas.py`** | Añadir al informe actual: (1) % de artículos con ejercicio resuelto asociado, (2) % de notebooks de ejercicio con celda `assert`, (3) artículos sin entrada en `por-articulo.md`. Convierte la cobertura en un número medible. | Alta |
-| [ ] | **Script `scripts/validar_enlaces.py`** | Nuevo script independiente que recorre todos los `.md` del repositorio y verifica que cada enlace relativo `[texto](ruta)` apunta a un archivo existente. Integrar en CI. Habría detectado los dos enlaces rotos de `propuestos/`. | Alta |
+| [x] | **Ampliar `scripts/estadisticas.py`** | Añadir al informe actual: (1) % de artículos con ejercicio resuelto asociado, (2) % de notebooks de ejercicio con celda `assert`, (3) artículos sin entrada en `por-articulo.md`. Convierte la cobertura en un número medible. | Alta |
+| [x] | **Script `scripts/validar_enlaces.py`** | Nuevo script independiente que recorre todos los `.md` del repositorio y verifica que cada enlace relativo `[texto](ruta)` apunta a un archivo existente. Integrar en CI. Habría detectado los dos enlaces rotos de `propuestos/`. | Alta |
 | [ ] | **`scripts/estadisticas.py` — salida en Markdown** | Añadir opción `--md` que vuelca el informe en `ESTADISTICAS.md` (en raíz del repo) para que sea visible en GitHub sin ejecutar Python. | Baja |
 
 ---
@@ -385,9 +385,9 @@ El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos 
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
 | **Segunda ronda (pendiente)** | **36** | **0** |
-| Referencias `por-articulo.md` (13a) | 11 | 0 |
-| Coherencia mapa de conexiones (13b) | 1 | 0 |
-| Infraestructura métricas (14) | 3 | 0 |
+| Referencias `por-articulo.md` (13a) | 11 | 11 |
+| Coherencia mapa de conexiones (13b) | 1 | 1 |
+| Infraestructura métricas (14) | 3 | 2 |
 | Calidad de contenido (15) | 4 | 0 |
-| **Total tercera ronda** | **19** | **0** |
-| **Total acumulado** | **115** | **60** |
+| **Total tercera ronda** | **19** | **14** |
+| **Total acumulado** | **115** | **104** |

@@ -4,11 +4,13 @@ on:
   push:
     branches: [main]
     paths:
-      - 'tutorial/cuadernos/**/*.ipynb'
+      - 'tutorial/**'
+      - 'scripts/**'
   pull_request:
     branches: [main]
     paths:
-      - 'tutorial/cuadernos/**/*.ipynb'
+      - 'tutorial/**'
+      - 'scripts/**'
   workflow_dispatch:
 
 jobs:
@@ -50,3 +52,6 @@ jobs:
 
       - name: Validate repository structure
         run: python scripts/validar_repositorio.py
+
+      - name: Validate internal links
+        run: python scripts/validar_enlaces.py --dir tutorial

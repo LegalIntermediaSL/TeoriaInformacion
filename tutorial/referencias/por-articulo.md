@@ -305,3 +305,89 @@ se organizan como apoyo directo, no como bibliografía exhaustiva.
 - Rodney Downey y Michael Fellows, *Fundamentals of Parameterized Complexity*. Springer, 2013.
 - Bruno Courcelle, "The monadic second-order logic of graphs I". *Information and Computation*, 1990.
 - Russell Impagliazzo y Ramamohan Paturi, "On the complexity of k-SAT". *J. Comput. Syst. Sci.*, 2001.
+
+## Artículos añadidos en el módulo 02 (segunda ronda)
+
+### Codificación aritmética
+
+- Ian H. Witten, Radford Neal y John G. Cleary, "Arithmetic coding for data compression". *Commun. ACM*, 1987.
+- Alistair Moffat, Radford Neal y Ian H. Witten, "Arithmetic coding revisited". *ACM Trans. Inf. Syst.*, 1998.
+- David Salomon, *Variable-length Codes for Data Compression*. Springer, 2007.
+- Peter Elias, "Universal codeword sets and representations of the integers". *IEEE Trans. Inf. Theory*, 1975.
+
+### Procesos estocásticos y fuentes con memoria
+
+- Robert M. Gray, *Entropy and Information Theory*. Springer, 1990 (2.ª ed. 2011, acceso libre).
+- Patrick Billingsley, *Ergodic Theory and Information*. Wiley, 1965.
+- Imre Csiszár y Paul Shields, "Information theory and statistics: A tutorial". *Foundations and Trends in Commun. Inf. Theory*, 2004.
+- Solomon Golomb, "Sources which maximize the choice of a Huffman coding tree". *Inf. Control*, 1980.
+
+## Artículos añadidos en el módulo 03 (segunda ronda)
+
+### Jerarquía aritmética
+
+- Hartley Rogers, *Theory of Recursive Functions and Effective Computability*. MIT Press, 1987. Cap. 14.
+- Robert Soare, *Recursively Enumerable Sets and Degrees*. Springer, 1987.
+- Peter Hinman, *Recursion-Theoretic Hierarchies*. Springer, 1978.
+
+### Oráculos y relativización
+
+- Theodore Baker, John Gill y Robert Solovay, "Relativizations of the P=?NP question". *SIAM J. Comput.*, 1975.
+- Sanjeev Arora y Boaz Barak, *Computational Complexity: A Modern Approach*. Cambridge University Press, 2009. Cap. 3.
+- Scott Aaronson y Avi Wigderson, "Algebrization: A new barrier in complexity theory". *ACM Trans. Comput. Theory*, 2009.
+
+### Aleatoriedad algorítmica
+
+- Ming Li y Paul Vitányi, *An Introduction to Kolmogorov Complexity and Its Applications*. Springer, 2008.
+- André Nies, *Computability and Randomness*. Oxford University Press, 2009.
+- Gregory Chaitin, "A theory of program size formally identical to information theory". *J. ACM*, 1975.
+- Per Martin-Löf, "The definition of random sequences". *Inf. Control*, 1966.
+
+## Artículos añadidos en el módulo 04 (segunda ronda)
+
+### #P y problemas de conteo
+
+- Leslie G. Valiant, "The complexity of computing the permanent". *Theor. Comput. Sci.*, 1979.
+- Seinosuke Toda, "PP is as hard as the polynomial-time hierarchy". *SIAM J. Comput.*, 1991.
+- Mark Jerrum y Alistair Sinclair, "Approximating the permanent". *SIAM J. Comput.*, 1989.
+- Russ Bubley y Martin Dyer, "Path coupling: A technique for proving rapid mixing in Markov chains". *FOCS*, 1997.
+
+### Complejidad de comunicación
+
+- Eyal Kushilevitz y Noam Nisan, *Communication Complexity*. Cambridge University Press, 1997.
+- Alexander Razborov, "On the distributional complexity of disjointness". *Theor. Comput. Sci.*, 1992.
+- Ran Raz, "Exponential separation of quantum and classical communication complexity". *STOC*, 1999.
+- Andrew Yao, "Some complexity questions related to distributed computing". *STOC*, 1979.
+
+### ETH, SETH y consecuencias
+
+- Russell Impagliazzo y Ramamohan Paturi, "On the complexity of k-SAT". *J. Comput. Syst. Sci.*, 2001.
+- Arturs Backurs y Piotr Indyk, "Edit distance cannot be computed in strongly subquadratic time (unless SETH is false)". *STOC*, 2015.
+- Virginia Vassilevska Williams, "Hardness of easy problems: Basing hardness on popular conjectures such as the strong exponential time hypothesis". *IPEC*, 2015.
+- Marek Cygan et al., *Parameterized Algorithms*. Springer, 2015. Cap. 14 (fine-grained complexity).
+
+## Artículos añadidos en el módulo 05 (segunda ronda)
+
+### Información y biología
+
+- Ruth Lorraine Gatlin, *Information Theory and the Living System*. Columbia University Press, 1972.
+- Christoph Adami, "Information theory in molecular biology". *Physics of Life Reviews*, 2004.
+- Andreas Wagner, *The Origins of Evolutionary Innovations*. Oxford University Press, 2011.
+- Thomas D. Schneider y R. M. Stephens, "Sequence logos: a new way to display consensus sequences". *Nucleic Acids Research*, 1990.
+
+### El mapa completo (síntesis)
+
+- Thomas Cover y Joy Thomas, *Elements of Information Theory*. Wiley, 2006. Cap. 1 (visión de conjunto).
+- Sanjeev Arora y Boaz Barak, *Computational Complexity*. Cambridge, 2009. Prefacio.
+- Scott Aaronson, *Quantum Computing Since Democritus*. Cambridge University Press, 2013.
+- Cristopher Moore y Stephan Mertens, *The Nature of Computation*. Oxford University Press, 2011.
+
+## Artículo en módulo 00 (segunda ronda)
+
+### Rutas de profundización
+
+- Thomas Cover y Joy Thomas, *Elements of Information Theory*. Wiley, 2006.
+- Michael Sipser, *Introduction to the Theory of Computation*. Cengage, 2013.
+- Sanjeev Arora y Boaz Barak, *Computational Complexity: A Modern Approach*. Cambridge, 2009.
+- David MacKay, *Information Theory, Inference, and Learning Algorithms*. Cambridge, 2003 (acceso libre en línea).
+- Scott Aaronson, *Quantum Computing Since Democritus*. Cambridge University Press, 2013.
