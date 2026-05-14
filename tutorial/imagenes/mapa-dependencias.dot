@@ -41,6 +41,7 @@ digraph dependencias {
     13_codificacion_aritmetica [label="codificacion aritmetica" fillcolor="#34d39944"];
     14_procesos_estocasticos_y_fuentes_con_memoria [label="procesos estocasticos y fuen…" fillcolor="#34d39944"];
     15_codigos_reed_solomon [label="codigos reed solomon" fillcolor="#34d39944"];
+    16_teoria_informacion_en_redes [label="teoria informacion en redes" fillcolor="#34d39944"];
   }
 
   subgraph cluster_03 {
@@ -96,6 +97,8 @@ digraph dependencias {
     09_teoria_de_juegos_e_informacion [label="teoria de juegos e informaci…" fillcolor="#a78bfa44"];
     10_aprendizaje_profundo_desde_la_informacion [label="aprendizaje profundo desde l…" fillcolor="#a78bfa44"];
     11_privacidad_diferencial [label="privacidad diferencial" fillcolor="#a78bfa44"];
+    12_geometria_de_la_informacion [label="geometria de la informacion" fillcolor="#a78bfa44"];
+    13_mdl_y_seleccion_de_modelos [label="mdl y seleccion de modelos" fillcolor="#a78bfa44"];
   }
 
   02_conjuntos_funciones_y_relaciones -> 01_logaritmos_probabilidad_y_crecimiento;
@@ -127,6 +130,9 @@ digraph dependencias {
   15_codigos_reed_solomon -> 06_codigos_correctores_de_errores;
   15_codigos_reed_solomon -> 03_combinatoria_y_conteo;
   15_codigos_reed_solomon -> 04_grafos_y_estructuras_discretas;
+  16_teoria_informacion_en_redes -> 04_canales_discretos_y_capacidad;
+  16_teoria_informacion_en_redes -> 07_entropia_conjunta_y_condicional;
+  16_teoria_informacion_en_redes -> 08_teorema_de_shannon_capacidad;
   01_problema_de_la_parada -> 02_conjuntos_funciones_y_relaciones;
   02_decidibilidad_y_reconocibilidad -> 01_problema_de_la_parada;
   03_reducciones_e_indecidibilidad -> 01_problema_de_la_parada;
@@ -191,4 +197,7 @@ digraph dependencias {
   11_privacidad_diferencial -> 05_divergencia_kl_y_entropia_cruzada;
   11_privacidad_diferencial -> 02_criptografia_y_complejidad;
   11_privacidad_diferencial -> 01_entropia_incertidumbre;
+  12_geometria_de_la_informacion -> 05_divergencia_kl_y_entropia_cruzada;
+  12_geometria_de_la_informacion -> 01_complejidad_de_kolmogorov;
+  13_mdl_y_seleccion_de_modelos -> 01_complejidad_de_kolmogorov;
 }

@@ -391,3 +391,32 @@ se organizan como apoyo directo, no como bibliografía exhaustiva.
 - Sanjeev Arora y Boaz Barak, *Computational Complexity: A Modern Approach*. Cambridge, 2009.
 - David MacKay, *Information Theory, Inference, and Learning Algorithms*. Cambridge, 2003 (acceso libre en línea).
 - Scott Aaronson, *Quantum Computing Since Democritus*. Cambridge University Press, 2013.
+
+## Artículos añadidos (tercera ronda — expansión de contenido)
+
+### Teoría de la información en redes (02/16)
+
+- Thomas Cover y Joy Thomas, *Elements of Information Theory*, 2ª ed. Wiley, 2006. Caps. 14 (múltiple acceso), 15 (broadcast), 16 (canales con estado) y 17 (red).
+- Abbas El Gamal y Young-Han Kim, *Network Information Theory*. Cambridge University Press, 2011. — La referencia definitiva.
+- David Slepian y Jack K. Wolf, "Noiseless coding of correlated information sources". *IEEE Trans. Inf. Theory*, 19(4), 1973.
+- Aaron D. Wyner, "The wire-tap channel". *Bell System Technical Journal*, 54(8), 1975.
+- Rudolf Ahlswede, "Multi-way communication channels". *Proc. 2nd Int. Symp. Inf. Theory*, 1971.
+- Cover, T. (1972). Broadcast channels. *IEEE Trans. Inf. Theory*, 18(1), 2–14.
+
+### Geometría de la información (05/12)
+
+- Shun-ichi Amari, *Information Geometry and Its Applications*. Springer, 2016. — Referencia principal.
+- Shun-ichi Amari y Hiroshi Nagaoka, *Methods of Information Geometry*. AMS/Oxford, 2000.
+- Nikolai N. Čencov, *Statistical Decision Rules and Optimal Inference*. AMS, 1982.
+- Frank Nielsen, "An elementary introduction to information geometry". *Entropy*, 22(10), 2020.
+- James Martens, "New insights and perspectives on the natural gradient method". *JMLR*, 21, 2020.
+- Shun-ichi Amari, "Natural gradient works efficiently in learning". *Neural Computation*, 10(2), 1998.
+
+### MDL y selección de modelos (05/13)
+
+- Jorma Rissanen, "Modeling by shortest data description". *Automatica*, 14(5), 465–471, 1978.
+- Jorma Rissanen, "Stochastic complexity and modeling". *Annals of Statistics*, 14(3), 1080–1100, 1986.
+- Peter Grünwald, *The Minimum Description Length Principle*. MIT Press, 2007. — Tratamiento completo.
+- Peter Grünwald y Paul Vitányi, "Shannon information and Kolmogorov complexity". ArXiv:cs/0410002, 2004.
+- Andrew Barron, Jorma Rissanen y Bin Yu, "The minimum description length principle in coding and modeling". *IEEE Trans. Inf. Theory*, 44(6), 2743–2760, 1998.
+- Gideon Schwarz, "Estimating the dimension of a model". *Annals of Statistics*, 6(2), 461–464, 1978. (BIC)

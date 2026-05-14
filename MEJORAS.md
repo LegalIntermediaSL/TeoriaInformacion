@@ -398,3 +398,19 @@ Actualizado 2026-05-14.
 | Ítem | Sección | Complejidad |
 |------|---------|-------------|
 | Resumen en inglés por artículo (abstract de 3 líneas × 59 artículos) | §12 | Alta (excluido explícitamente) |
+
+---
+
+## Cuarta ronda — Ampliación de contenido
+
+Añadidos 2026-05-15. Tres artículos que cubrían huecos sustanciales del tutorial.
+
+| Estado | Artículo | Módulo | Huecos cubiertos |
+|--------|----------|--------|-----------------|
+| [x] | **Teoría de la información en redes** (`02/16`) | 02 | MAC, broadcast, relay, Slepian-Wolf, wiretap de Wyner |
+| [x] | **Geometría de la información** (`05/12`) | 05 | Métrica Fisher-Rao, familias exponenciales, α-conexiones, gradiente natural |
+| [x] | **MDL y selección de modelos** (`05/13`) | 05 | Principio MDL de Rissanen, NML, conexión con Kolmogorov y BIC |
+
+Ejercicios resueltos asociados: 36, 37, 38.
+
+**Total acumulado: 62 artículos, 24 notebooks de ejemplo, 21 notebooks de ejercicio, 38 ejercicios resueltos.**
