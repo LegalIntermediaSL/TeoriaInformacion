@@ -299,7 +299,7 @@ Artículos que cubren temas que quedan fuera del tutorial actual pero son extens
 |--------|--------|-------------|
 | [ ] | **Resumen en inglés** de cada artículo (abstract de 3 líneas) | Permitiría indexación en buscadores internacionales y uso en contextos bilingües |
 | [x] | **Texto alternativo detallado para todos los SVG** | Los 7 SVG actuales no tienen `alt` text accesible; añadir descripción en el markdown |
-| [ ] | **Versión ligera sin LaTeX** de los artículos más matemáticos | Para lectores que acceden desde entornos sin renderizado de fórmulas (GitHub mobile, algunos lectores RSS) |
+| [x] | **Versión ligera sin LaTeX** de los artículos más matemáticos | Para lectores que acceden desde entornos sin renderizado de fórmulas (GitHub mobile, algunos lectores RSS) |
 
 ---
 
@@ -385,17 +385,16 @@ Actualizado 2026-05-14.
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
-| **Segunda ronda (completada)** | **36** | **34** |
+| **Segunda ronda (completada)** | **36** | **35** |
 | Referencias `por-articulo.md` (13a) | 11 | 11 |
 | Coherencia mapa de conexiones (13b) | 1 | 1 |
 | Infraestructura métricas (14) | 4 | 4 |
 | Calidad de contenido (15) | 4 | 4 |
 | **Total tercera ronda** | **20** | **20** |
-| **Total acumulado** | **116** | **114** |
+| **Total acumulado** | **116** | **115** |
 
-### Pendiente (2 ítems — alcance muy alto)
+### Pendiente (1 ítem — alcance muy alto)
 
 | Ítem | Sección | Complejidad |
 |------|---------|-------------|
-| Resumen en inglés por artículo (abstract de 3 líneas × 59 artículos) | §12 | Alta |
-| Versión ligera sin LaTeX de los artículos matemáticos | §12 | Alta |
+| Resumen en inglés por artículo (abstract de 3 líneas × 59 artículos) | §12 | Alta (excluido explícitamente) |
