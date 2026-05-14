@@ -197,22 +197,25 @@ y mejoran la experiencia de lectura y práctica.
 
 ### 8. Huecos de cobertura detectados
 
-#### 8a. Archivo roto — alta prioridad
+#### 8a. Archivos rotos — alta prioridad
+
+Verificado 2026-05-14: el directorio `propuestos/` contiene solo `README.md`, `complejidad.md` y `teoria-informacion.md`. El README enlaza a dos archivos que no existen:
 
 | Estado | Problema | Archivo |
 |--------|----------|---------|
-| [ ] | **`propuestos/computabilidad.md` no existe** pero el README lo enlaza: enlace roto visible para cualquier lector | `tutorial/ejercicios/propuestos/computabilidad.md` |
+| [ ] | **`propuestos/computabilidad.md` no existe** pero el README lo enlaza (módulo 03): enlace roto visible para cualquier lector | `tutorial/ejercicios/propuestos/computabilidad.md` |
+| [ ] | **`propuestos/aplicaciones.md` no existe** pero el README lo enlaza (módulo 05): segundo enlace roto, no recogido en la primera detección | `tutorial/ejercicios/propuestos/aplicaciones.md` |
 
 #### 8b. Ejercicios propuestos incompletos
 
 Los módulos 01 y 05 no tienen ningún archivo de enunciados sin solución.
-El módulo 03 tiene el enlace roto (véase 8a).
+Los módulos 03 y 05 tienen los enlaces rotos (véase 8a).
 
 | Estado | Mejora | Archivo destino |
 |--------|--------|-----------------|
 | [ ] | Crear `propuestos/computabilidad.md` con enunciados de los artículos 03/01-12 | `ejercicios/propuestos/computabilidad.md` |
 | [ ] | Crear `propuestos/fundamentos.md` con enunciados de módulo 01 (logaritmos, conjuntos, combinatoria, grafos, lógica) | `ejercicios/propuestos/fundamentos.md` |
-| [ ] | Crear `propuestos/conexiones.md` con enunciados de módulo 05 (Kolmogorov, criptografía, cuántica, termodinámica, biología) | `ejercicios/propuestos/conexiones.md` |
+| [ ] | Crear `propuestos/aplicaciones.md` con enunciados de módulo 05 (Kolmogorov, criptografía, cuántica, termodinámica, biología) | `ejercicios/propuestos/aplicaciones.md` |
 
 #### 8c. Artículos nuevos sin ningún notebook
 
@@ -242,12 +245,11 @@ Hay 26 artículos sin `ejercicios/resueltos/` asociado. Los de mayor impacto ped
 
 #### 8e. Tests automáticos en notebooks de ejemplo y ejercicios 01-16
 
-Las celdas `assert` solo existen en los notebooks de ejercicio 17-21.
-Los notebooks 01-16 no tienen ninguna validación automática.
+Verificado 2026-05-14: los notebooks 06 y 12 tienen 1 celda `assert` cada uno; los 14 restantes (01-05, 07-11, 13-16) tienen cero validaciones automáticas.
 
 | Estado | Mejora | Archivos afectados |
 |--------|--------|--------------------|
-| [ ] | Añadir celda `assert` a notebooks de ejercicio 01-16 | `cuadernos/ejercicios/01-*.ipynb` … `16-*.ipynb` |
+| [ ] | Añadir celda `assert` a notebooks de ejercicio 01-05, 07-11, 13-16 (14 notebooks sin ningún assert) | `cuadernos/ejercicios/01-*.ipynb` … `16-*.ipynb` (excluir 06 y 12 que ya tienen) |
 | [ ] | Añadir celda `assert` a notebooks de ejemplo seleccionados (los que implementan funciones verificables) | `cuadernos/ejemplos/` — prioridad 01, 03, 04, 08, 11, 12, 13 |
 
 ---
@@ -265,10 +267,12 @@ Los notebooks 01-16 no tienen ninguna validación automática.
 
 ### 10. Mejoras de infraestructura y CI
 
+Verificado 2026-05-14: `test_notebooks.yml` existe y ejecuta `scripts/validar_repositorio.py`. El script actual comprueba que los artículos listados en READMEs existen en disco, pero **no** valida secciones obligatorias dentro de los artículos ni comprueba enlaces internos entre archivos.
+
 | Estado | Mejora | Descripción | Prioridad |
 |--------|--------|-------------|-----------|
-| [ ] | **CI: validar estructura de artículos** | Extender `test_notebooks.yml` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) usando `scripts/validar_repositorio.py` | Alta |
-| [ ] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen | Alta |
+| [ ] | **CI: validar estructura de artículos** | Extender `scripts/validar_repositorio.py` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) e invocar desde `test_notebooks.yml` | Alta |
+| [ ] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen (habría detectado los dos enlaces rotos de `propuestos/`) | Alta |
 | [ ] | **GitHub Pages** | Publicar el tutorial como sitio estático con MkDocs o Quarto; añadir `mkdocs.yml` o `_quarto.yml` y configurar el flujo de despliegue | Media |
 | [ ] | **Exportación a PDF** | Script que genera un PDF por módulo usando Pandoc, útil para estudio offline | Baja |
 | [ ] | **Script `generar_mapa_dependencias.py`** | Lee los metadatos de Prerrequisitos de cada artículo y genera automáticamente el SVG del grafo de dependencias | Media |
@@ -301,13 +305,89 @@ Artículos que cubren temas que quedan fuera del tutorial actual pero son extens
 
 ## Resumen de estado (segunda ronda)
 
+Verificado 2026-05-14. Todos los ítems de la segunda ronda siguen pendientes.
+
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
-| Huecos de cobertura (8a-8e) | 18 | 0 |
+| Huecos de cobertura (8a-8e) | 19 | 0 |
 | Recursos de referencia (9) | 4 | 0 |
 | Infraestructura y CI (10) | 5 | 0 |
 | Contenido avanzado (11) | 5 | 0 |
 | Accesibilidad (12) | 3 | 0 |
-| **Total segunda ronda** | **35** | **0** |
-| **Total acumulado** | **95** | **60** |
+| **Total segunda ronda** | **36** | **0** |
+| **Total acumulado** | **96** | **60** |
+
+> Nota: el total de huecos (8a-8e) pasa de 18 a 19 al incorporar el segundo enlace roto (`propuestos/aplicaciones.md`).
+
+---
+
+## Tercera ronda — Sugerencias (0/12)
+
+Huecos y mejoras detectados en la verificación del 2026-05-14.
+
+---
+
+### 13. Huecos detectados en la verificación
+
+#### 13a. `referencias/por-articulo.md` desactualizado
+
+El ítem de la primera ronda (§4 alta prioridad) lo actualizó hasta los artículos de la quinta sesión de la primera ronda (02/12, 03/09). Los artículos de la **segunda ronda** siguen sin entradas bibliográficas: 11 artículos sin referencias.
+
+| Estado | Artículo sin referencias | Sección a añadir en `por-articulo.md` |
+|--------|--------------------------|---------------------------------------|
+| [ ] | `02/13-codificacion-aritmetica` | Witten, Neal y Cleary (1987); Moffat, Neal y Witten (1998); Salomon (2007) |
+| [ ] | `02/14-procesos-estocasticos-y-fuentes-con-memoria` | Gray (1988) *Entropy and Information Theory*; Billingsley (1965) *Ergodic Theory and Information* |
+| [ ] | `03/10-jerarquia-aritmetica` | Rogers (1967) *Theory of Recursive Functions*; Soare (1987) *Recursively Enumerable Sets* |
+| [ ] | `03/11-oráculos-y-relativización` | Baker, Gill y Solovay (1975); Arora y Barak cap. 3 |
+| [ ] | `03/12-aleatoriedad-algoritmica` | Li y Vitányi (2008) *Kolmogorov Complexity*; Nies (2009) *Computability and Randomness* |
+| [ ] | `04/11-sharp-p-y-conteo` | Valiant (1979); Toda (1991); Jerrum y Sinclair (1989) |
+| [ ] | `04/12-complejidad-de-comunicacion` | Kushilevitz y Nisan (1997) *Communication Complexity* |
+| [ ] | `04/13-eth-seth-consecuencias` | Impagliazzo y Paturi (2001); Cygan et al. (2016) *Parameterized Algorithms* cap. 14 |
+| [ ] | `05/07-informacion-y-biologia` | Gatlin (1972); Adami (2004); Wagner (2011) |
+| [ ] | `05/08-mapa-de-conexiones` | No requiere nuevas fuentes; verificar que enlaza todos los artículos de la segunda ronda |
+| [ ] | `00/02-rutas-de-profundizacion` | Actualizar con lecturas para los temas avanzados (segunda ronda) |
+
+#### 13b. `05/08-mapa-de-conexiones` — coherencia con la segunda ronda
+
+El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos añadidos en la segunda ronda, el mapa puede estar incompleto.
+
+| Estado | Mejora | Archivo |
+|--------|--------|---------|
+| [ ] | Verificar y actualizar el artículo `05/08-mapa-de-conexiones.md` para que incluya los artículos de la segunda ronda (02/13-14, 03/10-12, 04/11-13, 05/07) en la tabla de conexiones | `05-conexiones-y-aplicaciones/08-mapa-de-conexiones.md` |
+
+---
+
+### 14. Infraestructura — cobertura y métricas
+
+| Estado | Mejora | Descripción | Prioridad |
+|--------|--------|-------------|-----------|
+| [ ] | **Ampliar `scripts/estadisticas.py`** | Añadir al informe actual: (1) % de artículos con ejercicio resuelto asociado, (2) % de notebooks de ejercicio con celda `assert`, (3) artículos sin entrada en `por-articulo.md`. Convierte la cobertura en un número medible. | Alta |
+| [ ] | **Script `scripts/validar_enlaces.py`** | Nuevo script independiente que recorre todos los `.md` del repositorio y verifica que cada enlace relativo `[texto](ruta)` apunta a un archivo existente. Integrar en CI. Habría detectado los dos enlaces rotos de `propuestos/`. | Alta |
+| [ ] | **`scripts/estadisticas.py` — salida en Markdown** | Añadir opción `--md` que vuelca el informe en `ESTADISTICAS.md` (en raíz del repo) para que sea visible en GitHub sin ejecutar Python. | Baja |
+
+---
+
+### 15. Calidad de contenido — mejoras específicas
+
+| Estado | Mejora | Descripción | Artículo afectado |
+|--------|--------|-------------|-------------------|
+| [ ] | **Ejemplo numérico completo en `03/11`** | El artículo de oráculos y relativización es muy abstracto; añadir una traza concreta del teorema de Baker-Gill-Solovay con un oráculo simple | `03/11-oráculos-y-relativización.md` |
+| [ ] | **Tabla resumen de clases en `03/10`** | La jerarquía aritmética introduce muchos símbolos (Σ₁, Π₁, Δ₁, Σ₂…); añadir una tabla con nombre, definición informal, ejemplo canónico y posición en la jerarquía | `03/10-jerarquia-aritmetica.md` |
+| [ ] | **Conectar `02/14` con `02/12`** | El artículo de procesos estocásticos generaliza el de cadenas de Markov; añadir sección "Relación con el artículo anterior" que señale explícitamente qué se generaliza y por qué | `02/14-procesos-estocasticos-y-fuentes-con-memoria.md` |
+| [ ] | **Ejercicio de síntesis en `05/08`** | El artículo de cierre no tiene ejercicios propios; añadir 3-4 preguntas transversales que obliguen a conectar resultados de distintos módulos | `05/08-mapa-de-conexiones.md` |
+
+---
+
+## Resumen de estado (tercera ronda)
+
+| Categoría | Total ítems | Completados |
+|-----------|-------------|-------------|
+| **Primera ronda (completada)** | **60** | **60** |
+| **Segunda ronda (pendiente)** | **36** | **0** |
+| Referencias `por-articulo.md` (13a) | 11 | 0 |
+| Coherencia mapa de conexiones (13b) | 1 | 0 |
+| Infraestructura métricas (14) | 3 | 0 |
+| Calidad de contenido (15) | 4 | 0 |
+| **Total tercera ronda** | **19** | **0** |
+| **Total acumulado** | **115** | **60** |
