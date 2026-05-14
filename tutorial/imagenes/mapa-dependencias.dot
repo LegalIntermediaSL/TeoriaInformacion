@@ -1,0 +1,194 @@
+digraph dependencias {
+  rankdir=LR;
+  node [shape=box style=filled fontname="Helvetica" fontsize=10 margin="0.1,0.05"];
+  edge [color="#888888" arrowsize=0.7];
+
+  subgraph cluster_00 {
+    label="00 — Presentación";
+    color="#94a3b8";
+    fontcolor="#94a3b8";
+    01_mapa_del_territorio [label="mapa del territorio" fillcolor="#94a3b844"];
+    02_rutas_de_profundizacion [label="rutas de profundizacion" fillcolor="#94a3b844"];
+  }
+
+  subgraph cluster_01 {
+    label="01 — Fundamentos";
+    color="#60a5fa";
+    fontcolor="#60a5fa";
+    01_logaritmos_probabilidad_y_crecimiento [label="logaritmos probabilidad y cr…" fillcolor="#60a5fa44"];
+    02_conjuntos_funciones_y_relaciones [label="conjuntos funciones y relaci…" fillcolor="#60a5fa44"];
+    03_combinatoria_y_conteo [label="combinatoria y conteo" fillcolor="#60a5fa44"];
+    04_grafos_y_estructuras_discretas [label="grafos y estructuras discret…" fillcolor="#60a5fa44"];
+    05_logica_booleana_y_proposicional [label="logica booleana y proposicio…" fillcolor="#60a5fa44"];
+  }
+
+  subgraph cluster_02 {
+    label="02 — Teoría info.";
+    color="#34d399";
+    fontcolor="#34d399";
+    01_entropia_incertidumbre [label="entropia incertidumbre" fillcolor="#34d39944"];
+    02_informacion_mutua [label="informacion mutua" fillcolor="#34d39944"];
+    03_codificacion_de_fuente [label="codificacion de fuente" fillcolor="#34d39944"];
+    04_canales_discretos_y_capacidad [label="canales discretos y capacida…" fillcolor="#34d39944"];
+    05_divergencia_kl_y_entropia_cruzada [label="divergencia kl y entropia cr…" fillcolor="#34d39944"];
+    06_codigos_correctores_de_errores [label="codigos correctores de error…" fillcolor="#34d39944"];
+    07_entropia_conjunta_y_condicional [label="entropia conjunta y condicio…" fillcolor="#34d39944"];
+    08_teorema_de_shannon_capacidad [label="teorema de shannon capacidad" fillcolor="#34d39944"];
+    09_teoria_tasa_distorsion [label="teoria tasa distorsion" fillcolor="#34d39944"];
+    10_entropia_diferencial [label="entropia diferencial" fillcolor="#34d39944"];
+    11_codigos_ldpc_y_turbo [label="codigos ldpc y turbo" fillcolor="#34d39944"];
+    12_cadenas_de_markov_y_tasa_de_entropia [label="cadenas de markov y tasa de …" fillcolor="#34d39944"];
+    13_codificacion_aritmetica [label="codificacion aritmetica" fillcolor="#34d39944"];
+    14_procesos_estocasticos_y_fuentes_con_memoria [label="procesos estocasticos y fuen…" fillcolor="#34d39944"];
+    15_codigos_reed_solomon [label="codigos reed solomon" fillcolor="#34d39944"];
+  }
+
+  subgraph cluster_03 {
+    label="03 — Computabilidad";
+    color="#f59e0b";
+    fontcolor="#f59e0b";
+    01_problema_de_la_parada [label="problema de la parada" fillcolor="#f59e0b44"];
+    02_decidibilidad_y_reconocibilidad [label="decidibilidad y reconocibili…" fillcolor="#f59e0b44"];
+    03_reducciones_e_indecidibilidad [label="reducciones e indecidibilida…" fillcolor="#f59e0b44"];
+    04_maquinas_de_turing [label="maquinas de turing" fillcolor="#f59e0b44"];
+    05_automatas_finitos_y_lenguajes_regulares [label="automatas finitos y lenguaje…" fillcolor="#f59e0b44"];
+    06_gramaticas_y_jerarquia_chomsky [label="gramaticas y jerarquia choms…" fillcolor="#f59e0b44"];
+    07_universalidad_y_autorreferencia [label="universalidad y autorreferen…" fillcolor="#f59e0b44"];
+    08_complejidad_descriptiva [label="complejidad descriptiva" fillcolor="#f59e0b44"];
+    09_automatas_de_pila_y_lenguajes_contexto_libre [label="automatas de pila y lenguaje…" fillcolor="#f59e0b44"];
+    10_jerarquia_aritmetica [label="jerarquia aritmetica" fillcolor="#f59e0b44"];
+    11_oraculos_y_relativizacion [label="oráculos y relativización" fillcolor="#f59e0b44"];
+    12_aleatoriedad_algoritmica [label="aleatoriedad algoritmica" fillcolor="#f59e0b44"];
+  }
+
+  subgraph cluster_04 {
+    label="04 — Complejidad";
+    color="#f87171";
+    fontcolor="#f87171";
+    01_p_np_y_np_completitud [label="p np y np completitud" fillcolor="#f8717144"];
+    02_reducciones_polinomicas [label="reducciones polinomicas" fillcolor="#f8717144"];
+    03_sat_y_3_sat [label="sat y 3 sat" fillcolor="#f8717144"];
+    04_complejidad_espacial [label="complejidad espacial" fillcolor="#f8717144"];
+    05_complejidad_temporal_de_algoritmos [label="complejidad temporal de algo…" fillcolor="#f8717144"];
+    06_aproximacion_y_heuristicas [label="aproximacion y heuristicas" fillcolor="#f8717144"];
+    07_circuitos_booleanos [label="circuitos booleanos" fillcolor="#f8717144"];
+    08_complejidad_aleatoria [label="complejidad aleatoria" fillcolor="#f8717144"];
+    09_teorema_pcp [label="teorema pcp" fillcolor="#f8717144"];
+    10_complejidad_parametrizada [label="complejidad parametrizada" fillcolor="#f8717144"];
+    11_sharp_p_y_conteo [label="sharp p y conteo" fillcolor="#f8717144"];
+    12_complejidad_de_comunicacion [label="complejidad de comunicacion" fillcolor="#f8717144"];
+    13_eth_seth_consecuencias [label="eth seth consecuencias" fillcolor="#f8717144"];
+    14_complejidad_cuantica_bqp_qma [label="complejidad cuantica bqp qma" fillcolor="#f8717144"];
+  }
+
+  subgraph cluster_05 {
+    label="05 — Conexiones";
+    color="#a78bfa";
+    fontcolor="#a78bfa";
+    01_complejidad_de_kolmogorov [label="complejidad de kolmogorov" fillcolor="#a78bfa44"];
+    02_criptografia_y_complejidad [label="criptografia y complejidad" fillcolor="#a78bfa44"];
+    03_aprendizaje_automatico_e_informacion [label="aprendizaje automatico e inf…" fillcolor="#a78bfa44"];
+    04_informacion_cuantica [label="informacion cuantica" fillcolor="#a78bfa44"];
+    05_informacion_en_aprendizaje [label="informacion en aprendizaje" fillcolor="#a78bfa44"];
+    06_informacion_y_termodinamica [label="informacion y termodinamica" fillcolor="#a78bfa44"];
+    07_informacion_y_biologia [label="informacion y biologia" fillcolor="#a78bfa44"];
+    08_mapa_de_conexiones [label="mapa de conexiones" fillcolor="#a78bfa44"];
+    09_teoria_de_juegos_e_informacion [label="teoria de juegos e informaci…" fillcolor="#a78bfa44"];
+    10_aprendizaje_profundo_desde_la_informacion [label="aprendizaje profundo desde l…" fillcolor="#a78bfa44"];
+    11_privacidad_diferencial [label="privacidad diferencial" fillcolor="#a78bfa44"];
+  }
+
+  02_conjuntos_funciones_y_relaciones -> 01_logaritmos_probabilidad_y_crecimiento;
+  03_combinatoria_y_conteo -> 01_logaritmos_probabilidad_y_crecimiento;
+  04_grafos_y_estructuras_discretas -> 02_conjuntos_funciones_y_relaciones;
+  05_logica_booleana_y_proposicional -> 02_conjuntos_funciones_y_relaciones;
+  01_entropia_incertidumbre -> 01_logaritmos_probabilidad_y_crecimiento;
+  02_informacion_mutua -> 01_entropia_incertidumbre;
+  03_codificacion_de_fuente -> 01_entropia_incertidumbre;
+  03_codificacion_de_fuente -> 02_informacion_mutua;
+  04_canales_discretos_y_capacidad -> 02_informacion_mutua;
+  05_divergencia_kl_y_entropia_cruzada -> 01_entropia_incertidumbre;
+  05_divergencia_kl_y_entropia_cruzada -> 02_informacion_mutua;
+  06_codigos_correctores_de_errores -> 04_canales_discretos_y_capacidad;
+  07_entropia_conjunta_y_condicional -> 01_entropia_incertidumbre;
+  07_entropia_conjunta_y_condicional -> 02_informacion_mutua;
+  08_teorema_de_shannon_capacidad -> 04_canales_discretos_y_capacidad;
+  08_teorema_de_shannon_capacidad -> 07_entropia_conjunta_y_condicional;
+  09_teoria_tasa_distorsion -> 07_entropia_conjunta_y_condicional;
+  09_teoria_tasa_distorsion -> 08_teorema_de_shannon_capacidad;
+  10_entropia_diferencial -> 01_entropia_incertidumbre;
+  10_entropia_diferencial -> 07_entropia_conjunta_y_condicional;
+  11_codigos_ldpc_y_turbo -> 06_codigos_correctores_de_errores;
+  11_codigos_ldpc_y_turbo -> 04_canales_discretos_y_capacidad;
+  12_cadenas_de_markov_y_tasa_de_entropia -> 01_entropia_incertidumbre;
+  12_cadenas_de_markov_y_tasa_de_entropia -> 07_entropia_conjunta_y_condicional;
+  13_codificacion_aritmetica -> 03_codificacion_de_fuente;
+  14_procesos_estocasticos_y_fuentes_con_memoria -> 12_cadenas_de_markov_y_tasa_de_entropia;
+  15_codigos_reed_solomon -> 06_codigos_correctores_de_errores;
+  15_codigos_reed_solomon -> 03_combinatoria_y_conteo;
+  15_codigos_reed_solomon -> 04_grafos_y_estructuras_discretas;
+  01_problema_de_la_parada -> 02_conjuntos_funciones_y_relaciones;
+  02_decidibilidad_y_reconocibilidad -> 01_problema_de_la_parada;
+  03_reducciones_e_indecidibilidad -> 01_problema_de_la_parada;
+  03_reducciones_e_indecidibilidad -> 02_decidibilidad_y_reconocibilidad;
+  04_maquinas_de_turing -> 01_problema_de_la_parada;
+  05_automatas_finitos_y_lenguajes_regulares -> 02_conjuntos_funciones_y_relaciones;
+  06_gramaticas_y_jerarquia_chomsky -> 05_automatas_finitos_y_lenguajes_regulares;
+  07_universalidad_y_autorreferencia -> 04_maquinas_de_turing;
+  07_universalidad_y_autorreferencia -> 01_problema_de_la_parada;
+  08_complejidad_descriptiva -> 04_maquinas_de_turing;
+  08_complejidad_descriptiva -> 01_p_np_y_np_completitud;
+  09_automatas_de_pila_y_lenguajes_contexto_libre -> 06_gramaticas_y_jerarquia_chomsky;
+  09_automatas_de_pila_y_lenguajes_contexto_libre -> 05_automatas_finitos_y_lenguajes_regulares;
+  10_jerarquia_aritmetica -> 01_problema_de_la_parada;
+  10_jerarquia_aritmetica -> 02_decidibilidad_y_reconocibilidad;
+  11_oraculos_y_relativizacion -> 04_maquinas_de_turing;
+  11_oraculos_y_relativizacion -> 01_p_np_y_np_completitud;
+  12_aleatoriedad_algoritmica -> 01_complejidad_de_kolmogorov;
+  12_aleatoriedad_algoritmica -> 04_maquinas_de_turing;
+  01_p_np_y_np_completitud -> 04_maquinas_de_turing;
+  01_p_np_y_np_completitud -> 05_complejidad_temporal_de_algoritmos;
+  02_reducciones_polinomicas -> 01_p_np_y_np_completitud;
+  03_sat_y_3_sat -> 01_p_np_y_np_completitud;
+  03_sat_y_3_sat -> 05_logica_booleana_y_proposicional;
+  04_complejidad_espacial -> 01_p_np_y_np_completitud;
+  05_complejidad_temporal_de_algoritmos -> 01_logaritmos_probabilidad_y_crecimiento;
+  06_aproximacion_y_heuristicas -> 01_p_np_y_np_completitud;
+  07_circuitos_booleanos -> 05_logica_booleana_y_proposicional;
+  07_circuitos_booleanos -> 01_p_np_y_np_completitud;
+  08_complejidad_aleatoria -> 01_p_np_y_np_completitud;
+  08_complejidad_aleatoria -> 01_logaritmos_probabilidad_y_crecimiento;
+  09_teorema_pcp -> 02_reducciones_polinomicas;
+  09_teorema_pcp -> 06_aproximacion_y_heuristicas;
+  10_complejidad_parametrizada -> 01_p_np_y_np_completitud;
+  11_sharp_p_y_conteo -> 01_p_np_y_np_completitud;
+  12_complejidad_de_comunicacion -> 01_p_np_y_np_completitud;
+  12_complejidad_de_comunicacion -> 02_informacion_mutua;
+  13_eth_seth_consecuencias -> 01_p_np_y_np_completitud;
+  13_eth_seth_consecuencias -> 03_sat_y_3_sat;
+  14_complejidad_cuantica_bqp_qma -> 01_p_np_y_np_completitud;
+  14_complejidad_cuantica_bqp_qma -> 08_complejidad_aleatoria;
+  14_complejidad_cuantica_bqp_qma -> 13_eth_seth_consecuencias;
+  01_complejidad_de_kolmogorov -> 01_entropia_incertidumbre;
+  01_complejidad_de_kolmogorov -> 04_maquinas_de_turing;
+  02_criptografia_y_complejidad -> 01_p_np_y_np_completitud;
+  02_criptografia_y_complejidad -> 01_complejidad_de_kolmogorov;
+  03_aprendizaje_automatico_e_informacion -> 01_entropia_incertidumbre;
+  03_aprendizaje_automatico_e_informacion -> 02_informacion_mutua;
+  04_informacion_cuantica -> 01_entropia_incertidumbre;
+  04_informacion_cuantica -> 02_conjuntos_funciones_y_relaciones;
+  05_informacion_en_aprendizaje -> 03_aprendizaje_automatico_e_informacion;
+  05_informacion_en_aprendizaje -> 05_divergencia_kl_y_entropia_cruzada;
+  06_informacion_y_termodinamica -> 01_entropia_incertidumbre;
+  07_informacion_y_biologia -> 01_entropia_incertidumbre;
+  07_informacion_y_biologia -> 06_codigos_correctores_de_errores;
+  09_teoria_de_juegos_e_informacion -> 01_logaritmos_probabilidad_y_crecimiento;
+  09_teoria_de_juegos_e_informacion -> 05_divergencia_kl_y_entropia_cruzada;
+  09_teoria_de_juegos_e_informacion -> 03_aprendizaje_automatico_e_informacion;
+  10_aprendizaje_profundo_desde_la_informacion -> 05_divergencia_kl_y_entropia_cruzada;
+  10_aprendizaje_profundo_desde_la_informacion -> 03_aprendizaje_automatico_e_informacion;
+  10_aprendizaje_profundo_desde_la_informacion -> 05_informacion_en_aprendizaje;
+  11_privacidad_diferencial -> 05_divergencia_kl_y_entropia_cruzada;
+  11_privacidad_diferencial -> 02_criptografia_y_complejidad;
+  11_privacidad_diferencial -> 01_entropia_incertidumbre;
+}

@@ -55,7 +55,7 @@ La demostración de alcanzabilidad usa codebooks aleatorios: se eligen $2^{nR}$ 
 
 ## Ejemplos canónicos
 
-![Curva de tasa-distorsión R(D) para Bernoulli y Gaussiana](../imagenes/rate-distortion-curve.svg)
+![Curva de tasa-distorsión R(D): eje X es la distorsión permitida D (de 0 a D_max), eje Y es la tasa mínima de compresión R en bits/símbolo. La curva decrece monótonamente y es convexa. Se muestran dos curvas: Bernoulli(1/2) con hamming distortion (R(D)=1-H_b(D) para 0≤D≤1/2) y Gaussiana(0,σ²) con error cuadrático (R(D)=½·log(σ²/D) para D≤σ²). Ambas alcanzan R=0 en D=D_max.](../imagenes/rate-distortion-curve.svg)
 
 ### Fuente Bernoulli con distorsión Hamming
 

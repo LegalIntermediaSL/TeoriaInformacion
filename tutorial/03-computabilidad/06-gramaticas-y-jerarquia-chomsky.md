@@ -32,7 +32,7 @@ El **lenguaje** $L(G)$ es el conjunto de cadenas de terminales que se pueden der
 
 ## Los cuatro niveles
 
-![Jerarquía de Chomsky: cuatro niveles de lenguajes formales](../imagenes/chomsky-hierarchy.svg)
+![Jerarquía de Chomsky representada como cuatro óvalos concéntricos: el más interior contiene los lenguajes regulares (reconocidos por autómatas finitos), el siguiente los lenguajes libres de contexto (autómatas de pila), luego los lenguajes dependientes del contexto (máquinas de Turing acotadas en espacio), y el exterior los lenguajes recursivamente enumerables (máquinas de Turing generales).](../imagenes/chomsky-hierarchy.svg)
 
 ### Tipo 3 — Lenguajes regulares
 

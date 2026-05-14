@@ -87,7 +87,7 @@ el algoritmo CYK.
 
 ## Equivalencia PDA ↔ CFG
 
-![Posición de los CFL en la jerarquía de Chomsky](../imagenes/chomsky-hierarchy.svg)
+![Jerarquía de Chomsky con los lenguajes libres de contexto (CFL) resaltados: óvalos concéntricos que muestran Regulares ⊂ CFL ⊂ Dependientes del contexto ⊂ Recursivamente enumerables. Los CFL están marcados con ejemplos canónicos: {aⁿbⁿ} y expresiones aritméticas balanceadas.](../imagenes/chomsky-hierarchy.svg)
 
 **Teorema:** un lenguaje es independiente del contexto si y solo si es reconocido
 por algún PDA.

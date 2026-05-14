@@ -40,7 +40,7 @@ conteo de aristas).
 
 ### Representación bipartita: grafo de Tanner
 
-![Grafo de Tanner de un código LDPC pequeño](../imagenes/tanner-graph-ldpc.svg)
+![Grafo de Tanner bipartito para un código LDPC pequeño. Capa superior: nodos de bits (variables) v₁…v₆. Capa inferior: nodos de comprobación (check nodes) c₁…c₃. Aristas conectan cada check node con los bits de su ecuación de paridad. La estructura dispersa (pocos aristas por nodo) permite la decodificación eficiente por propagación de creencias (belief propagation).](../imagenes/tanner-graph-ldpc.svg)
 
 El código se visualiza como un **grafo bipartito** (Tanner graph) con:
 - **Nodos variable** $v_1, \ldots, v_n$: un nodo por cada bit del codeword.
@@ -108,7 +108,7 @@ permitiendo que cada uno "descubra" errores que el otro no puede ver.
 
 ## Códigos polares
 
-![Árbol de polarización de canales para n=4](../imagenes/polar-code-polarization.svg)
+![Árbol de polarización para código polar con n=4 canales sintéticos. La raíz es el canal original W. En cada nivel, cada canal W_N^(i) se divide en dos hijos: W_{2N}^{(2i-1)} (canal peor, más ruidoso) y W_{2N}^{(2i)} (canal mejor, más confiable). Tras dos niveles aparecen cuatro canales W_4^(1)…W_4^(4), ordenados de más ruidoso a más confiable de izquierda a derecha.](../imagenes/polar-code-polarization.svg)
 
 Los **códigos polares** (Arıkan, 2009) son la única familia de códigos de corrección
 de errores que **alcanza exactamente** la capacidad de canal con complejidad $O(n \log n)$.

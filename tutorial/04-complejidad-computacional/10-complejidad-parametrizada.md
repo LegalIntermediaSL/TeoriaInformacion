@@ -39,7 +39,7 @@ El problema es NP-completo en general. Pero admite un algoritmo FPT sencillo:
 
 **Árbol de búsqueda acotado:**
 
-![Árbol de búsqueda acotado para k-Vertex Cover con k=3](../imagenes/bounded-search-tree-vc.svg)
+![Árbol de búsqueda acotado para k-Vertex Cover con k=3: la raíz representa el grafo original. Cada nivel divide por arista {u,v}: la rama izquierda incluye u en el cubrimiento (k disminuye en 1), la rama derecha incluye v. El árbol tiene profundidad k=3 y como máximo 2^3=8 hojas. Las ramas que exceden k quedan podadas.](../imagenes/bounded-search-tree-vc.svg)
 
 - Si la instancia tiene una arista $(u,v)$, al menos uno de $u,v$ debe estar en el cover.
 - Branching: incluir $u$ (reduce $k$ en 1) o incluir $v$ (reduce $k$ en 1).

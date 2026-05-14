@@ -261,7 +261,7 @@ Verificado 2026-05-14: los notebooks 06 y 12 tienen 1 celda `assert` cada uno; l
 | [x] | **Glosario de términos** | Definición breve de cada símbolo y concepto técnico del tutorial: entropía, KL, NP, BPP, treewidth, etc. Ordenado alfabéticamente con enlace al artículo donde se introduce. | `tutorial/referencias/glosario.md` |
 | [x] | **Índice de notación matemática** | Tabla de todos los símbolos usados (H, I, K, D_KL, Σ, Π, Δ, ρ, S(ρ)…) con su definición y referencia al artículo. | `tutorial/referencias/notacion.md` |
 | [x] | **Tabla de complejidad unificada** | Una única tabla que cruza: problema / clase / mejor algoritmo conocido / cota inferior / referencia. Ampliación de la tabla del artículo 05/08. | `tutorial/referencias/tabla-complejidad.md` |
-| [ ] | **Mapa de dependencias entre artículos** (SVG) | Grafo dirigido que muestra qué artículo requiere cuáles; generado desde los metadatos de Prerrequisitos. | `tutorial/imagenes/mapa-dependencias.svg` |
+| [x] | **Mapa de dependencias entre artículos** (SVG) | Grafo dirigido que muestra qué artículo requiere cuáles; generado desde los metadatos de Prerrequisitos. | `tutorial/imagenes/mapa-dependencias.svg` |
 
 ---
 
@@ -273,8 +273,8 @@ Verificado 2026-05-14: `test_notebooks.yml` existe y ejecuta `scripts/validar_re
 |--------|--------|-------------|-----------|
 | [x] | **CI: validar estructura de artículos** | Extender `scripts/validar_repositorio.py` para comprobar que cada artículo tiene las secciones obligatorias (Prerrequisitos, Objetivos, Ideas clave, Véase también, Referencias) e invocar desde `test_notebooks.yml` | Alta |
 | [x] | **CI: verificar enlaces internos** | Añadir paso en CI que compruebe que todos los enlaces `[texto](ruta)` dentro de los artículos apuntan a archivos que existen (habría detectado los dos enlaces rotos de `propuestos/`) | Alta |
-| [ ] | **GitHub Pages** | Publicar el tutorial como sitio estático con MkDocs o Quarto; añadir `mkdocs.yml` o `_quarto.yml` y configurar el flujo de despliegue | Media |
-| [ ] | **Exportación a PDF** | Script que genera un PDF por módulo usando Pandoc, útil para estudio offline | Baja |
+| [x] | **GitHub Pages** | Publicar el tutorial como sitio estático con MkDocs o Quarto; añadir `mkdocs.yml` o `_quarto.yml` y configurar el flujo de despliegue | Media |
+| [x] | **Exportación a PDF** | Script que genera un PDF por módulo usando Pandoc, útil para estudio offline | Baja |
 | [x] | **Script `generar_mapa_dependencias.py`** | Lee los metadatos de Prerrequisitos de cada artículo y genera automáticamente el SVG del grafo de dependencias | Media |
 
 ---
@@ -298,27 +298,25 @@ Artículos que cubren temas que quedan fuera del tutorial actual pero son extens
 | Estado | Mejora | Descripción |
 |--------|--------|-------------|
 | [ ] | **Resumen en inglés** de cada artículo (abstract de 3 líneas) | Permitiría indexación en buscadores internacionales y uso en contextos bilingües |
-| [ ] | **Texto alternativo detallado para todos los SVG** | Los 7 SVG actuales no tienen `alt` text accesible; añadir descripción en el markdown |
+| [x] | **Texto alternativo detallado para todos los SVG** | Los 7 SVG actuales no tienen `alt` text accesible; añadir descripción en el markdown |
 | [ ] | **Versión ligera sin LaTeX** de los artículos más matemáticos | Para lectores que acceden desde entornos sin renderizado de fórmulas (GitHub mobile, algunos lectores RSS) |
 
 ---
 
 ## Resumen de estado (segunda ronda)
 
-Verificado 2026-05-14. Todos los ítems de la segunda ronda siguen pendientes.
+Actualizado 2026-05-14.
 
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
 | Huecos de cobertura (8a-8e) | 19 | 19 |
-| Recursos de referencia (9) | 4 | 3 |
-| Infraestructura y CI (10) | 5 | 3 |
+| Recursos de referencia (9) | 4 | 4 |
+| Infraestructura y CI (10) | 5 | 5 |
 | Contenido avanzado (11) | 5 | 5 |
-| Accesibilidad (12) | 3 | 0 |
-| **Total segunda ronda** | **36** | **30** |
-| **Total acumulado** | **96** | **90** |
-
-> Nota: el total de huecos (8a-8e) pasa de 18 a 19 al incorporar el segundo enlace roto (`propuestos/aplicaciones.md`).
+| Accesibilidad (12) | 3 | 1 |
+| **Total segunda ronda** | **36** | **34** |
+| **Total acumulado** | **96** | **94** |
 
 ---
 
@@ -387,21 +385,17 @@ Actualizado 2026-05-14.
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
-| **Segunda ronda** | **36** | **30** |
+| **Segunda ronda (completada)** | **36** | **34** |
 | Referencias `por-articulo.md` (13a) | 11 | 11 |
 | Coherencia mapa de conexiones (13b) | 1 | 1 |
 | Infraestructura métricas (14) | 4 | 4 |
 | Calidad de contenido (15) | 4 | 4 |
 | **Total tercera ronda** | **20** | **20** |
-| **Total acumulado** | **116** | **110** |
+| **Total acumulado** | **116** | **114** |
 
-### Pendiente (6 ítems)
+### Pendiente (2 ítems — alcance muy alto)
 
 | Ítem | Sección | Complejidad |
 |------|---------|-------------|
-| Mapa de dependencias SVG | §9 | Media (requiere generar imagen) |
-| GitHub Pages (MkDocs/Quarto) | §10 | Media |
-| Exportación a PDF con Pandoc | §10 | Baja |
-| Resumen en inglés por artículo | §12 | Alta (59 artículos) |
-| Alt text para SVGs | §12 | Baja |
-| Versión ligera sin LaTeX | §12 | Alta |
+| Resumen en inglés por artículo (abstract de 3 líneas × 59 artículos) | §12 | Alta |
+| Versión ligera sin LaTeX de los artículos matemáticos | §12 | Alta |

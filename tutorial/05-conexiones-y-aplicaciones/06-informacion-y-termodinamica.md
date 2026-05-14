@@ -48,7 +48,7 @@ perspectivas distintas.
 
 ## El demonio de Maxwell
 
-![El demonio de Maxwell y el principio de Landauer](../imagenes/maxwell-demon.svg)
+![Diagrama del demonio de Maxwell: un ser inteligente abre una trampilla entre dos compartimentos de gas. Izquierda — partículas rápidas; derecha — partículas lentas. Una flecha lateral muestra el coste de Landauer: borrar el bit de memoria del demonio cuesta k_B·T·ln2 julios, preservando el segundo principio de la termodinámica.](../imagenes/maxwell-demon.svg)
 
 En 1867, James Clerk Maxwell propuso un experimento mental: un ser diminuto (luego
 llamado "demonio de Maxwell") vigila las moléculas de un gas dividido en dos
