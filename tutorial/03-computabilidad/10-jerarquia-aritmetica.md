@@ -19,6 +19,22 @@
 
 El problema de la parada es indecidible, pero no todos los problemas indecidibles son igual de difíciles. Algunos son más indecidibles que otros: no se pueden resolver incluso con acceso a un oráculo que decide el problema de la parada. La **jerarquía aritmética** es una clasificación fina de los lenguajes de acuerdo con la complejidad de las fórmulas lógicas que los definen, y captura esta estructura graduada de dificultad.
 
+## Tabla resumen de la jerarquía aritmética
+
+| Clase | Cuantificadores | Nombre informal | Ejemplo canónico | Oráculo equivalente |
+|-------|----------------|-----------------|-----------------|---------------------|
+| $\Delta_0^0 = \Sigma_0^0 = \Pi_0^0$ | Ninguno (acotados) | Decidible / computable | "¿es $n$ primo?" | — |
+| $\Sigma_1^0$ | $\exists$ (existencial) | Reconocible (RE) | Problema de la parada $\{\langle M,w\rangle : M(w)\downarrow\}$ | — |
+| $\Pi_1^0$ | $\forall$ (universal) | Co-reconocible (coRE) | "$M$ no se detiene en $w$" | — |
+| $\Delta_1^0$ | $\exists \cap \forall$ | Decidible (clasif. exacta) | Todos los lenguajes regulares | $\emptyset$ |
+| $\Sigma_2^0$ | $\exists\forall$ | RE relativo a $\emptyset'$ | "$M$ se detiene en infinitas entradas" | $\emptyset'$ (HALT) |
+| $\Pi_2^0$ | $\forall\exists$ | coRE relativo a $\emptyset'$ | $\text{TOT}$: "$M$ se detiene en toda entrada" | $\emptyset'$ |
+| $\Delta_2^0$ | $\exists\forall \cap \forall\exists$ | Decidible con HALT | Problema de la parada con tiempo acotado | $\emptyset'$ |
+| $\Sigma_3^0$ | $\exists\forall\exists$ | RE relativo a $\emptyset''$ | "$L(M)$ es infinito" | $\emptyset''$ |
+| $\Sigma_n^0$ | $n$ alternaciones ($\exists$ primero) | RE relativo a $\emptyset^{(n-1)}$ | — | $\emptyset^{(n-1)}$ |
+| $\Pi_n^0$ | $n$ alternaciones ($\forall$ primero) | coRE relativo a $\emptyset^{(n-1)}$ | — | $\emptyset^{(n-1)}$ |
+| $\Delta_n^0$ | Intersección | Decidible con oráculo nivel $n-1$ | — | $\emptyset^{(n-1)}$ |
+
 ## Definiciones básicas
 
 Un lenguaje $L \subseteq \{0,1\}^*$ es **aritméticamente definible** si se puede expresar mediante una fórmula de primer orden sobre los naturales con cuantificadores sobre enteros y predicados computables.

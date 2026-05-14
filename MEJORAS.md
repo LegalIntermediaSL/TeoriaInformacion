@@ -364,7 +364,8 @@ El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos 
 |--------|--------|-------------|-----------|
 | [x] | **Ampliar `scripts/estadisticas.py`** | Añadir al informe actual: (1) % de artículos con ejercicio resuelto asociado, (2) % de notebooks de ejercicio con celda `assert`, (3) artículos sin entrada en `por-articulo.md`. Convierte la cobertura en un número medible. | Alta |
 | [x] | **Script `scripts/validar_enlaces.py`** | Nuevo script independiente que recorre todos los `.md` del repositorio y verifica que cada enlace relativo `[texto](ruta)` apunta a un archivo existente. Integrar en CI. Habría detectado los dos enlaces rotos de `propuestos/`. | Alta |
-| [ ] | **`scripts/estadisticas.py` — salida en Markdown** | Añadir opción `--md` que vuelca el informe en `ESTADISTICAS.md` (en raíz del repo) para que sea visible en GitHub sin ejecutar Python. | Baja |
+| [x] | **`scripts/estadisticas.py` — salida en Markdown** | Añadir opción `--md` que vuelca el informe en `ESTADISTICAS.md` (en raíz del repo) para que sea visible en GitHub sin ejecutar Python. | Baja |
+| [x] | **Script `scripts/validar_asserts.py`** | Nuevo script dedicado que verifica que cada notebook de ejercicios tiene al menos una celda con `assert`; muestra cobertura y acepta `--strict` para CI. | Media |
 
 ---
 
@@ -372,22 +373,35 @@ El artículo de síntesis fue creado en la primera ronda. Con los 11 artículos 
 
 | Estado | Mejora | Descripción | Artículo afectado |
 |--------|--------|-------------|-------------------|
-| [ ] | **Ejemplo numérico completo en `03/11`** | El artículo de oráculos y relativización es muy abstracto; añadir una traza concreta del teorema de Baker-Gill-Solovay con un oráculo simple | `03/11-oráculos-y-relativización.md` |
-| [ ] | **Tabla resumen de clases en `03/10`** | La jerarquía aritmética introduce muchos símbolos (Σ₁, Π₁, Δ₁, Σ₂…); añadir una tabla con nombre, definición informal, ejemplo canónico y posición en la jerarquía | `03/10-jerarquia-aritmetica.md` |
-| [ ] | **Conectar `02/14` con `02/12`** | El artículo de procesos estocásticos generaliza el de cadenas de Markov; añadir sección "Relación con el artículo anterior" que señale explícitamente qué se generaliza y por qué | `02/14-procesos-estocasticos-y-fuentes-con-memoria.md` |
-| [ ] | **Ejercicio de síntesis en `05/08`** | El artículo de cierre no tiene ejercicios propios; añadir 3-4 preguntas transversales que obliguen a conectar resultados de distintos módulos | `05/08-mapa-de-conexiones.md` |
+| [x] | **Ejemplo numérico completo en `03/11`** | El artículo de oráculos y relativización es muy abstracto; añadir una traza concreta del teorema de Baker-Gill-Solovay con un oráculo simple | `03/11-oráculos-y-relativización.md` |
+| [x] | **Tabla resumen de clases en `03/10`** | La jerarquía aritmética introduce muchos símbolos (Σ₁, Π₁, Δ₁, Σ₂…); añadir una tabla con nombre, definición informal, ejemplo canónico y posición en la jerarquía | `03/10-jerarquia-aritmetica.md` |
+| [x] | **Conectar `02/14` con `02/12`** | El artículo de procesos estocásticos generaliza el de cadenas de Markov; añadir sección "Relación con el artículo anterior" que señale explícitamente qué se generaliza y por qué | `02/14-procesos-estocasticos-y-fuentes-con-memoria.md` |
+| [x] | **Ejercicio de síntesis en `05/08`** | El artículo de cierre no tiene ejercicios propios; añadir 3-4 preguntas transversales que obliguen a conectar resultados de distintos módulos | `05/08-mapa-de-conexiones.md` |
 
 ---
 
 ## Resumen de estado (tercera ronda)
 
+Actualizado 2026-05-14.
+
 | Categoría | Total ítems | Completados |
 |-----------|-------------|-------------|
 | **Primera ronda (completada)** | **60** | **60** |
-| **Segunda ronda (pendiente)** | **36** | **0** |
+| **Segunda ronda** | **36** | **30** |
 | Referencias `por-articulo.md` (13a) | 11 | 11 |
 | Coherencia mapa de conexiones (13b) | 1 | 1 |
-| Infraestructura métricas (14) | 3 | 2 |
-| Calidad de contenido (15) | 4 | 0 |
-| **Total tercera ronda** | **19** | **14** |
-| **Total acumulado** | **115** | **104** |
+| Infraestructura métricas (14) | 4 | 4 |
+| Calidad de contenido (15) | 4 | 4 |
+| **Total tercera ronda** | **20** | **20** |
+| **Total acumulado** | **116** | **110** |
+
+### Pendiente (6 ítems)
+
+| Ítem | Sección | Complejidad |
+|------|---------|-------------|
+| Mapa de dependencias SVG | §9 | Media (requiere generar imagen) |
+| GitHub Pages (MkDocs/Quarto) | §10 | Media |
+| Exportación a PDF con Pandoc | §10 | Baja |
+| Resumen en inglés por artículo | §12 | Alta (59 artículos) |
+| Alt text para SVGs | §12 | Baja |
+| Versión ligera sin LaTeX | §12 | Alta |

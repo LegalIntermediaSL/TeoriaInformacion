@@ -18,6 +18,29 @@
 
 Hasta ahora hemos tratado las fuentes de información como secuencias de símbolos independientes e idénticamente distribuidos (i.i.d.). Pero el lenguaje natural, el genoma, el audio y la mayoría de las señales reales exhiben **memoria**: el símbolo actual depende de los anteriores. Este artículo generaliza la teoría a fuentes con dependencia temporal, definiendo la entropía de un proceso y estudiando cuándo tiene sentido hablar de una "tasa de información" estable.
 
+## Relación con el artículo anterior (02/12)
+
+El artículo [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md) introduce el caso especial más importante de fuente con memoria: una cadena de Markov de **orden 1** sobre un alfabeto finito, con una única distribución estacionaria $\pi$ y matriz de transición $P$. Su tasa de entropía es la fórmula cerrada:
+
+$$\bar{H}_{\text{Markov-1}} = -\sum_{i} \pi_i \sum_{j} P_{ij} \log_2 P_{ij} = \sum_i \pi_i H(\text{fila}_i)$$
+
+Este artículo **generaliza ese resultado en tres direcciones**:
+
+| Generalización | Artículo 02/12 | Este artículo (02/14) |
+|---------------|---------------|----------------------|
+| Orden de memoria | Orden 1 (depende de $X_{t-1}$) | Orden $k$ arbitrario (depende de $X_{t-1}, \ldots, X_{t-k}$) |
+| Tipo de proceso | Solo cadenas de Markov | Cualquier proceso estacionario ergódico |
+| Convergencia del límite | Garantizada por estacionariedad + irreducibilidad | Garantizada por el teorema de Breiman (más general) |
+| AEP | Conjunto típico i.i.d.: $\approx 2^{nH}$ secuencias | Conjunto típico ergódico: $\approx 2^{n\bar{H}}$ secuencias |
+
+**Por qué Markov-1 es un caso especial.** La definición de tasa de entropía en este artículo,
+
+$$\bar{H} = \lim_{n \to \infty} H(X_n \mid X_{n-1}, \ldots, X_1)$$
+
+se reduce a $H(X_t \mid X_{t-1})$ cuando el proceso es Markov de orden 1, recuperando exactamente la fórmula de 02/12. La convergencia del límite —que en 02/12 se demuestra directamente usando la distribución estacionaria— aquí se garantiza por la monotonicidad de $H(X_n \mid X_1, \ldots, X_{n-1})$ combinada con el teorema ergódico de Birkhoff.
+
+**Cuándo usar cada artículo.** Si el modelo es una cadena de Markov de orden 1 con matriz de transición conocida, las fórmulas de 02/12 son suficientes y computacionalmente directas. Si el proceso tiene memoria de orden superior, no es Markov, o se conoce solo a través de datos empíricos, las herramientas de este artículo (estimación por $k$-gramas, estimación por compresión, Shannon-McMillan-Breiman) son necesarias.
+
 ## Procesos estocásticos discretos
 
 Un **proceso estocástico** es una familia indexada de variables aleatorias $\{X_t\}_{t \geq 1}$ sobre el mismo espacio de probabilidad. Nos restringimos a:

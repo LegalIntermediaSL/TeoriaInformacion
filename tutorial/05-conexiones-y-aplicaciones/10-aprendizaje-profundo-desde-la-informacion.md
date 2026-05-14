@@ -5,7 +5,7 @@
 
 ## Prerrequisitos
 
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 - [Información en aprendizaje estadístico](05-informacion-en-aprendizaje.md)
 
@@ -172,7 +172,7 @@ que aproxima $I(X;T) = \sup_{f} \mathbb{E}_{p(x,t)}[f] - \log \mathbb{E}_{p(x)p(
 
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 - [Información en aprendizaje estadístico](05-informacion-en-aprendizaje.md)
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Privacidad diferencial](11-privacidad-diferencial.md)
 
 ## Referencias

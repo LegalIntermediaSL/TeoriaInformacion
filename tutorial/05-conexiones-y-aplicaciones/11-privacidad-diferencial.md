@@ -5,9 +5,9 @@
 
 ## Prerrequisitos
 
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Criptografía y complejidad](02-criptografia-y-complejidad.md)
-- [Entropía de Shannon](../02-entropía-y-divergencias/01-entropia-de-shannon.md)
+- [Entropía de Shannon](../02-teoria-informacion/01-entropia-incertidumbre.md)
 
 ## Objetivos de aprendizaje
 
@@ -180,7 +180,7 @@ no de los datos publicados.
 
 ## Véase también
 
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Criptografía y complejidad](02-criptografia-y-complejidad.md)
 - [Aprendizaje profundo desde la información](10-aprendizaje-profundo-desde-la-informacion.md)
 - [Teoría de juegos e información asimétrica](09-teoria-de-juegos-e-informacion.md)

@@ -5,8 +5,8 @@
 ## Prerrequisitos
 
 - [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
-- [Combinatoria y principio de inclusión-exclusión](../01-fundamentos-matematicos/03-combinatoria.md)
-- [Grafos y árboles](../01-fundamentos-matematicos/04-grafos.md)
+- [Combinatoria y conteo](../01-fundamentos-matematicos/03-combinatoria-y-conteo.md)
+- [Grafos y estructuras discretas](../01-fundamentos-matematicos/04-grafos-y-estructuras-discretas.md)
 
 ## Objetivos de aprendizaje
 

@@ -59,6 +59,32 @@ sea difícil para P^B pero fácil para NP^B. El argumento es:
 
 El argumento es una diagonalización que mezcla la potencia exponencial de NP (puede adivinar y verificar una cadena de longitud $n$ en tiempo polinomial) con la incapacidad de P para explorar los $2^n$ candidatos.
 
+## Traza concreta: construyendo el oráculo B para n = 3
+
+El argumento diagonal para el oráculo $B$ que separa se entiende mejor con un ejemplo numérico. Fijemos $n = 3$: queremos que $L_B = \{1^3\} \in \text{NP}^B \setminus \text{P}^B$.
+
+**Paso 1 — Candidatos de longitud 3.** Hay $2^3 = 8$ cadenas de longitud 3:
+
+```
+000  001  010  011  100  101  110  111
+```
+
+Inicialmente, ninguna pertenece a $B$.
+
+**Paso 2 — La MT determinista $M_1$ hace consultas en tiempo polinomial.** Supongamos que $M_1$, la primera MT de la enumeración, ejecuta en $n^2 = 9$ pasos sobre entrada $1^3$ y realiza a lo sumo $\lfloor 2^{3/2} \rfloor = 2$ consultas (cota de la construcción: $< 2^{n/2}$ consultas).
+
+Supón que $M_1$ consulta `010` y `101`. Decide que $1^3 \notin L_B$ (output 0).
+
+**Paso 3 — Ajuste de $B$.** Las 6 cadenas de longitud 3 no consultadas son: `000`, `001`, `011`, `100`, `110`, `111`. Elegimos **poner `011` en $B$** (cualquiera de las no consultadas sirve). Ahora $\exists x \in \{0,1\}^3 : x \in B$ (a saber, `011`), así que $1^3$ *debería* estar en $L_B$.
+
+Pero $M_1$ nunca consultó `011`, de modo que su respuesta (output 0) es **incorrecta**: $M_1$ rechaza $1^3$ aunque $1^3 \in L_B$. Diagonalizamos: $M_1$ falla en la longitud $n = 3$.
+
+**Paso 4 — NP^B acepta trivialmente.** La MT no determinista adivina $x = \text{`011'}$ y consulta $B$: `011` ∈ B → acepta. Un paso de oráculo.
+
+**Paso 5 — Iteración.** Se repite para $n = 4, 5, \ldots$ con la siguiente MT $M_2, M_3, \ldots$ de la enumeración. En cada ronda $n$, la MT determinista $M_n$ hace $< 2^{n/2}$ consultas, dejando al menos $2^n - 2^{n/2}$ cadenas de longitud $n$ sin examinar; se pone una en $B$ (o no, según sea necesario para que la MT falle). El conjunto $B$ resultante es un oráculo perfectamente definido.
+
+**Conclusión numérica.** Con $n = 3$ y $M_1$ haciendo 2 consultas, bastó **1 cadena** añadida a $B$ para que $M_1$ fallara. Esto ilustra la asimetría central: NP^B puede verificar en 1 paso no determinista lo que P^B no puede encontrar en tiempo polinomial.
+
 ## ¿Qué implica la relativización para P vs NP?
 
 El teorema de Baker-Gill-Solovay no prueba ni que P = NP ni que P ≠ NP. Su implicación es **metalógica**:

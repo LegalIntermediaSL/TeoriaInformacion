@@ -171,6 +171,18 @@ El mensaje final es de **unidad**: los mismos conceptos —entropía, indecidibi
 4. P vs NP es el problema abierto más importante; Baker-Gill-Solovay explica por qué las técnicas estándar fallan.
 5. Las preguntas abiertas más profundas se encuentran en las intersecciones entre módulos.
 
+## Ejercicios de síntesis transversal
+
+Los siguientes ejercicios requieren conectar resultados de distintos módulos. No tienen respuesta única — se valoran la claridad del razonamiento y la precisión en las conexiones.
+
+1. **Kolmogorov y Shannon.** Sea $X_1, X_2, \ldots, X_n$ una secuencia i.i.d. con $H(X_1) = 1.5$ bits. El AEP garantiza que con alta probabilidad $K(X_1 \ldots X_n) \approx n \cdot H(X_1)$. (a) ¿Qué sucede si el proceso es Markov de orden 1 con tasa de entropía $\bar{H} = 0.8$ bits/símbolo? Enuncia la extensión del AEP aplicable (Shannon-McMillan-Breiman) y escribe la aproximación de $K$. (b) ¿Por qué $K$ no es computable aunque $H$ sí lo es?
+
+2. **Landauer y NP.** El principio de Landauer dice que borrar 1 bit cuesta al menos $k_B T \ln 2$ julios. Considera un verificador NP que comprueba una solución de SAT con $n$ variables. (a) ¿Cuánta energía mínima consume si borra todos sus bits de trabajo al terminar? Expresa la respuesta en función de $n$, $k_B$ y $T$. (b) ¿Existe algún problema de complejidad que este límite físico ayude a separar? Razona por qué o por qué no.
+
+3. **Baker-Gill-Solovay y la jerarquía aritmética.** El teorema de BGS dice que ninguna prueba que "relativice" puede resolver P vs NP. Considera la jerarquía aritmética: $\Sigma_1^0 = RE$, $\Sigma_2^0 = RE^{\text{HALT}}$, etc. (a) ¿El argumento diagonal de Cantor (que demuestra $\Sigma_1^0 \neq \Pi_1^0$) relativiza? (b) ¿Por qué la separación de la jerarquía aritmética se puede demostrar sin problema (usando diagonalización) mientras que P vs NP no? Identifica la diferencia estructural clave.
+
+4. **El cuello de botella y el No Free Lunch.** El Information Bottleneck ($\min I(X;T)$ sujeto a $I(T;Y) \geq r$) y el teorema No Free Lunch (cualquier aprendizaje que ayuda en unas distribuciones falla en otras) se refieren ambos a los límites del aprendizaje. Construye una cadena de implicaciones que conecte: $H(Y|X)$ (ruido irreducible del canal) → $C$ (capacidad) → tasa de compresión óptima → cota de generalización vía IB. ¿En qué punto entra el NFL?
+
 ## Véase también
 
 - [Mapa del territorio](../00-presentacion/01-mapa-del-territorio.md)

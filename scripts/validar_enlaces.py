@@ -60,7 +60,10 @@ def main():
         print(f"Error: directorio {scan_dir} no existe")
         sys.exit(2)
 
-    md_files = sorted(scan_dir.rglob("*.md"))
+    EXCLUIR = {"_plantilla-articulo.md"}
+    md_files = sorted(
+        f for f in scan_dir.rglob("*.md") if f.name not in EXCLUIR
+    )
     print(f"Escaneando {len(md_files)} archivos .md en {scan_dir.relative_to(ROOT)}/")
     print("=" * 60)
 

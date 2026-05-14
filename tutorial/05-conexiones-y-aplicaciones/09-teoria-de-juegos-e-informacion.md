@@ -5,8 +5,8 @@
 
 ## Prerrequisitos
 
-- [Combinatoria y entropía](../01-fundamentos-matematicos/01-combinatoria-y-entropia.md)
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Logaritmos, probabilidad y crecimiento](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 
 ## Objetivos de aprendizaje
@@ -152,7 +152,7 @@ donde $v_{(n)}$ es el máximo de las valoraciones y $F$ es su distribución com�
 
 ## Véase también
 
-- [Divergencia KL y divergencias de información](../02-entropía-y-divergencias/05-divergencia-kl.md)
+- [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md)
 - [Privacidad diferencial](11-privacidad-diferencial.md)
 - [Información en aprendizaje estadístico](05-informacion-en-aprendizaje.md)
