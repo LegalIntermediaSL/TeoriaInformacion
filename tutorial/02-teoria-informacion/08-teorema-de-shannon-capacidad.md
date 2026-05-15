@@ -76,7 +76,7 @@ La clave es el **teorema de equipartición asintótica (AEP)**: para una fuente 
 Sea $\epsilon > 0$. El conjunto típico $A_\epsilon^{(n)}$ de la fuente i.i.d. $p(x)$ con entropía $H(X)$ es:
 
 $$
-A_\epsilon^{(n)} = \left\{ x^n : \left| -\frac{1}{n}\log p(x^n) - H(X) \right| < \epsilon \right\}
+A_\epsilon^{(n)} = \left\lbrace x^n : \left| -\frac{1}{n}\log p(x^n) - H(X) \right| < \epsilon \right\rbrace
 $$
 
 Propiedades:
