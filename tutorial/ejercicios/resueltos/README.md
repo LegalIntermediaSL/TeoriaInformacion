@@ -40,6 +40,21 @@ razonamiento.
 - [Complejidad de Kolmogorov y MDL](25-complejidad-kolmogorov.md)
 - [Criptografía y complejidad](26-criptografia-y-complejidad.md)
 - [Información cuántica](27-informacion-cuantica.md)
+- [Codificación aritmética](28-codificacion-aritmetica.md)
+- [Procesos estocásticos y fuentes con memoria](29-procesos-estocasticos.md)
+- [Oráculos y relativización](30-oráculos-y-relativización.md)
+- [Aleatoriedad algorítmica](31-aleatoriedad-algoritmica.md)
+- [#P y problemas de conteo](32-sharp-p-y-conteo.md)
+- [Complejidad de comunicación](33-complejidad-comunicacion.md)
+- [ETH, SETH y consecuencias](34-eth-seth-consecuencias.md)
+- [Información y biología](35-informacion-y-biologia.md)
+- [Teoría de la información en redes](36-teoria-informacion-redes.md)
+- [Geometría de la información](37-geometria-informacion.md)
+- [MDL y selección de modelos](38-mdl-seleccion-modelos.md)
+- [Códigos polares](39-codigos-polares.md)
+- [Canal con estado: Gel'fand-Pinsker](40-canal-gelfand-pinsker.md)
+- [Códigos turbo y algoritmo BCJR](41-codigos-turbo-bcjr.md)
+- [El cuello de botella de la información](42-cuello-de-botella-informacion.md)
 
 ## Relación con cuadernos
 

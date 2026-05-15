@@ -145,7 +145,11 @@ for mod_dir in MODULES.values():
 SECCIONES_OBLIGATORIAS = ["## Ideas clave", "## Ejercicios"]
 SECCIONES_RECOMENDADAS = ["## Prerrequisitos", "## Objetivos", "## Véase también"]
 
-for mod_dir in MODULES.values():
+EXCLUIR_MODULOS_SECCIONES = {"00"}  # artículos de orientación, sin ejercicios propios
+
+for mod_id, mod_dir in MODULES.items():
+    if mod_id in EXCLUIR_MODULOS_SECCIONES:
+        continue
     for art in mod_dir.glob("[0-9]*.md"):
         text = art.read_text(encoding="utf-8")
         for seccion in SECCIONES_OBLIGATORIAS:

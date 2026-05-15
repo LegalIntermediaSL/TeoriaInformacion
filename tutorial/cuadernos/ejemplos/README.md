@@ -29,6 +29,10 @@ Cuadernos demostrativos para acompañar los artículos del tutorial.
 - [Codificación aritmética desde cero](23-codificacion-aritmetica.ipynb)
 - [Complejidad de comunicación: protocolo Alice-Bob](24-complejidad-comunicacion.ipynb)
 - [Aleatoriedad algorítmica: Kolmogorov y tests de aleatoriedad](25-aleatoriedad-algoritmica.ipynb)
+- [Oráculos y relativización en complejidad](26-oráculos-relativización.ipynb)
+- [ETH y SETH: cotas inferiores experimentales](27-eth-seth-lower-bounds.ipynb)
+- [Código genético y entropía](28-codigo-genetico-entropia.ipynb)
+- [Fuentes con memoria: modelos y simulación](29-fuentes-con-memoria.ipynb)
 
 ## Ideas iniciales
 

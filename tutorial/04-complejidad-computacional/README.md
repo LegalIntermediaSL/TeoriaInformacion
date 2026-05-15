@@ -44,6 +44,7 @@ computacionales.
 - [#P y problemas de conteo](11-sharp-p-y-conteo.md)
 - [Complejidad de comunicación](12-complejidad-de-comunicacion.md)
 - [Hipótesis ETH y SETH: consecuencias](13-eth-seth-consecuencias.md)
+- [Complejidad cuántica: BQP y QMA](14-complejidad-cuantica-bqp-qma.md)
 
 ## Resultado esperado
 
