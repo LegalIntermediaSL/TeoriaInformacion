@@ -206,7 +206,7 @@ Los turbo codes han sido reemplazados en 5G NR por LDPC (canal de datos) y polar
 <!-- nav-start -->
 
 ---
-← [Canal con Estado: Teorema de Gel'fand-Pinsker](18-canal-con-estado-gelfand-pinsker.md) · [01 - El problema de la parada](../03-computabilidad/01-problema-de-la-parada.md) →
+← [Canal con Estado: Teorema de Gel'fand-Pinsker](18-canal-con-estado-gelfand-pinsker.md) · [Codificación Universal: Lempel-Ziv](20-codificacion-universal-lempel-ziv.md) →
 
 <!-- nav-end -->
 ## Referencias

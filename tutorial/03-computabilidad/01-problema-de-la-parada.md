@@ -140,6 +140,6 @@ general. La computabilidad estudia exactamente esa frontera.
 <!-- nav-start -->
 
 ---
-← [Códigos Turbo y el Algoritmo BCJR](../02-teoria-informacion/19-codigos-turbo.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
+← [Codificación Universal: Lempel-Ziv](../02-teoria-informacion/20-codificacion-universal-lempel-ziv.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
 
 <!-- nav-end -->

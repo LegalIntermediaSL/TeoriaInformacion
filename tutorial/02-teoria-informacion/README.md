@@ -49,6 +49,7 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Códigos polares: el primer código que alcanza la capacidad de Shannon](17-codigos-polares.md)
 - [Canal con estado: teorema de Gel'fand-Pinsker](18-canal-con-estado-gelfand-pinsker.md)
 - [Códigos turbo y el algoritmo BCJR](19-codigos-turbo.md)
+- [Codificación universal: Lempel-Ziv](20-codificacion-universal-lempel-ziv.md)
 
 ## Resultado esperado
 

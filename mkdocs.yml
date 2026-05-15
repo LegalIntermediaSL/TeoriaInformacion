@@ -86,6 +86,7 @@ nav:
     - "Códigos polares": 02-teoria-informacion/17-codigos-polares.md
     - "Canal con estado (Gel'fand-Pinsker)": 02-teoria-informacion/18-canal-con-estado-gelfand-pinsker.md
     - "Códigos turbo y BCJR": 02-teoria-informacion/19-codigos-turbo.md
+    - "Codificación universal: Lempel-Ziv": 02-teoria-informacion/20-codificacion-universal-lempel-ziv.md
   - "03 — Computabilidad":
     - "El problema de la parada": 03-computabilidad/01-problema-de-la-parada.md
     - "Decidibilidad": 03-computabilidad/02-decidibilidad-y-reconocibilidad.md
