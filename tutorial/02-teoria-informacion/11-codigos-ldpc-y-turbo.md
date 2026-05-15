@@ -87,24 +87,11 @@ Los códigos LDPC irregulares optimizados vía DE llegan a $< 0.01$ dB del lími
 
 ## Códigos turbo
 
-Los **códigos turbo** (Berrou, Glavieux, Thitimajshima, 1993) consisten en:
+Los **códigos turbo** (Berrou, Glavieux, Thitimajshima, 1993) son la concatenación paralela de dos codificadores convolucionales recursivos sistemáticos (RSC) separados por un entrelazador pseudoaleatorio. Operan a menos de 0.5 dB de la capacidad de Shannon.
 
-1. **Dos codificadores convolucionales** de tasa $1/2$ conectados por un entrelazador
-   (permutación pseudoaleatoria de los bits de información).
-2. La secuencia transmitida incluye los bits de información y las paridades de ambos
-   codificadores (tasa total $\approx 1/3$).
+Cada componente se decodifica con el algoritmo **BCJR** (Bahl-Cocke-Jelinek-Raviv), que calcula las probabilidades a posteriori exactas recorriendo el treillis en dos pasadas (forward-backward). Los decodificadores se pasan mutuamente la **información extrínseca** — lo que cada uno aprende de un bit *a través de los demás bits* — evitando contar dos veces la misma evidencia. Las iteraciones convergen en 6–10 rondas.
 
-**Decodificación iterativa:**
-1. El decodificador 1 calcula probabilidades suaves usando el canal y la información
-   extrínseca del decodificador 2.
-2. El decodificador 2 refina esas probabilidades usando la permutación inversa.
-3. Las iteraciones se repiten hasta convergencia.
-
-Cada decodificador usa el algoritmo **BCJR** (Bahl-Cocke-Jelinek-Raviv), que calcula
-las probabilidades a posteriori óptimas para un código convolucional.
-
-El entrelazador es crucial: rompe las correlaciones entre los dos decodificadores,
-permitiendo que cada uno "descubra" errores que el otro no puede ver.
+Para una cobertura completa del algoritmo BCJR, la información extrínseca, las curvas EXIT y el puncturing, véase [Códigos Turbo y el Algoritmo BCJR](19-codigos-turbo.md).
 
 ## Códigos polares
 
@@ -154,6 +141,8 @@ Los códigos polares son el estándar en 5G (control plane, canal de control de 
 
 ## Véase también
 
+- [Códigos Turbo y el Algoritmo BCJR](19-codigos-turbo.md)
+- [Códigos Polares](17-codigos-polares.md)
 - [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
 - [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
 

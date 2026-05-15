@@ -140,6 +140,6 @@ general. La computabilidad estudia exactamente esa frontera.
 <!-- nav-start -->
 
 ---
-← [Canal con Estado: Teorema de Gel'fand-Pinsker](../02-teoria-informacion/18-canal-con-estado-gelfand-pinsker.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
+← [Códigos Turbo y el Algoritmo BCJR](../02-teoria-informacion/19-codigos-turbo.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
 
 <!-- nav-end -->

@@ -252,7 +252,7 @@ En redes heterogéneas donde la estación base conoce la interferencia que gener
 <!-- nav-start -->
 
 ---
-← [Códigos Polares: El Primer Código que Alcanza la Capacidad de Shannon](17-codigos-polares.md) · [01 - El problema de la parada](../03-computabilidad/01-problema-de-la-parada.md) →
+← [Códigos Polares: El Primer Código que Alcanza la Capacidad de Shannon](17-codigos-polares.md) · [Códigos Turbo y el Algoritmo BCJR](19-codigos-turbo.md) →
 
 <!-- nav-end -->
 ## Referencias
