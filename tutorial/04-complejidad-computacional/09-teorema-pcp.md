@@ -33,13 +33,13 @@ que, dado $x$ y acceso aleatorio a una prueba $\pi$:
 3. Si $x \in L$: existe $\pi$ tal que $V$ acepta con probabilidad 1.
 4. Si $x \notin L$: para toda $\pi$, $V$ acepta con probabilidad $\leq 1/2$.
 
-La clase PCP$(r, q)$ contiene todos los lenguajes con verificadores de este tipo.
+La clase $\text{PCP}(r, q)$ contiene todos los lenguajes con verificadores de este tipo.
 
 **Observaciones:**
 
-- PCP$(0, \text{poly})$ = NP: sin aleatoriedad, leer la prueba completa.
-- PCP$(\text{poly}, 0)$ = P: sin leer la prueba, decidir directamente.
-- PCP$(\log n, 1)$ es la clase "interesante" que aparece en el teorema.
+- $\text{PCP}(0, \text{poly})$ = NP: sin aleatoriedad, leer la prueba completa.
+- $\text{PCP}(\text{poly}, 0)$ = P: sin leer la prueba, decidir directamente.
+- $\text{PCP}(\log n, 1)$ es la clase "interesante" que aparece en el teorema.
 
 ## El teorema PCP
 
@@ -87,7 +87,7 @@ es **óptimo**: no se puede hacer mejor en tiempo polinomial.
 
 La conexión entre el teorema PCP y la aproximación funciona así:
 
-1. Por el teorema PCP, NP ⊆ PCP$(log n, 1)$.
+1. Por el teorema PCP, $\text{NP} \subseteq \text{PCP}(\log n, 1)$.
 2. El verificador PCP puede modelarse como una instancia de un juego de **constraint satisfaction**.
 3. Si la instancia es satisfacible (el problema original está en L), existe prueba que hace
    pasar todas las restricciones.
@@ -151,7 +151,7 @@ Los sistemas PCP tienen conexiones profundas con la **criptografía**:
 
 ## Ideas clave
 
-- El teorema PCP (NP = PCP$(log n, 1)$) establece que las demostraciones de NP pueden
+- El teorema PCP ($\text{NP} = \text{PCP}(\log n, 1)$) establece que las demostraciones de NP pueden
   verificarse con aleatoriedad logarítmica y consultas constantes.
 - La consecuencia directa es que Max-3SAT y otros problemas tienen cotas de inaproximabilidad
   que coinciden con los mejores algoritmos conocidos.
