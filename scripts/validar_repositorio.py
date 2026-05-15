@@ -7,6 +7,7 @@ Valida la coherencia del repositorio:
 - Los ejercicios resueltos listados en su README existen.
 - Todos los artículos tienen las secciones obligatorias.
 - Los ejercicios propuestos no tienen enlaces rotos.
+- Los artículos no contienen patrones LaTeX incompatibles con MathJax/MkDocs.
 """
 import re
 import sys
@@ -171,6 +172,30 @@ if propuestos_readme.exists():
             link_path.exists(),
             f"Enlace roto en propuestos/README.md: {link}"
         )
+
+
+# --- 8. Validar patrones LaTeX incompatibles con MathJax/MkDocs ---
+# \left\{ y \right\} pierden la llave en el pipeline Python-Markdown;
+# deben escribirse como \left\lbrace / \right\rbrace.
+LATEX_PROBLEMATICOS = [
+    (r'\left\{',  r'\left\lbrace',  "\\left\\{ → usar \\left\\lbrace"),
+    (r'\right\}', r'\right\rbrace', "\\right\\} → usar \\right\\rbrace"),
+]
+
+EXCLUIR_DIRS_LATEX = {"sin-formulas"}  # copias derivadas sin LaTeX
+
+for mod_dir in MODULES.values():
+    for art in mod_dir.glob("[0-9]*.md"):
+        if any(d in art.parts for d in EXCLUIR_DIRS_LATEX):
+            continue
+        text = art.read_text(encoding="utf-8")
+        for patron, _, descripcion in LATEX_PROBLEMATICOS:
+            if patron in text:
+                check(
+                    False,
+                    f"Patrón LaTeX incompatible con MathJax ({descripcion}): "
+                    f"{art.relative_to(ROOT)}"
+                )
 
 
 # --- Reporte ---
