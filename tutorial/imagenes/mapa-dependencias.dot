@@ -42,6 +42,9 @@ digraph dependencias {
     14_procesos_estocasticos_y_fuentes_con_memoria [label="procesos estocasticos y fuen…" fillcolor="#34d39944"];
     15_codigos_reed_solomon [label="codigos reed solomon" fillcolor="#34d39944"];
     16_teoria_informacion_en_redes [label="teoria informacion en redes" fillcolor="#34d39944"];
+    17_codigos_polares [label="codigos polares" fillcolor="#34d39944"];
+    18_canal_con_estado_gelfand_pinsker [label="canal con estado gelfand pin…" fillcolor="#34d39944"];
+    19_codigos_turbo [label="codigos turbo" fillcolor="#34d39944"];
   }
 
   subgraph cluster_03 {
@@ -99,6 +102,7 @@ digraph dependencias {
     11_privacidad_diferencial [label="privacidad diferencial" fillcolor="#a78bfa44"];
     12_geometria_de_la_informacion [label="geometria de la informacion" fillcolor="#a78bfa44"];
     13_mdl_y_seleccion_de_modelos [label="mdl y seleccion de modelos" fillcolor="#a78bfa44"];
+    14_cuello_de_botella_de_la_informacion [label="cuello de botella de la info…" fillcolor="#a78bfa44"];
   }
 
   02_conjuntos_funciones_y_relaciones -> 01_logaritmos_probabilidad_y_crecimiento;
@@ -133,6 +137,13 @@ digraph dependencias {
   16_teoria_informacion_en_redes -> 04_canales_discretos_y_capacidad;
   16_teoria_informacion_en_redes -> 07_entropia_conjunta_y_condicional;
   16_teoria_informacion_en_redes -> 08_teorema_de_shannon_capacidad;
+  17_codigos_polares -> 08_teorema_de_shannon_capacidad;
+  17_codigos_polares -> 06_codigos_correctores_de_errores;
+  18_canal_con_estado_gelfand_pinsker -> 08_teorema_de_shannon_capacidad;
+  18_canal_con_estado_gelfand_pinsker -> 07_entropia_conjunta_y_condicional;
+  19_codigos_turbo -> 06_codigos_correctores_de_errores;
+  19_codigos_turbo -> 04_canales_discretos_y_capacidad;
+  19_codigos_turbo -> 07_entropia_conjunta_y_condicional;
   01_problema_de_la_parada -> 02_conjuntos_funciones_y_relaciones;
   02_decidibilidad_y_reconocibilidad -> 01_problema_de_la_parada;
   03_reducciones_e_indecidibilidad -> 01_problema_de_la_parada;
@@ -197,7 +208,13 @@ digraph dependencias {
   11_privacidad_diferencial -> 05_divergencia_kl_y_entropia_cruzada;
   11_privacidad_diferencial -> 02_criptografia_y_complejidad;
   11_privacidad_diferencial -> 01_entropia_incertidumbre;
+  12_geometria_de_la_informacion -> 02_informacion_mutua;
   12_geometria_de_la_informacion -> 05_divergencia_kl_y_entropia_cruzada;
   12_geometria_de_la_informacion -> 01_complejidad_de_kolmogorov;
   13_mdl_y_seleccion_de_modelos -> 01_complejidad_de_kolmogorov;
+  13_mdl_y_seleccion_de_modelos -> 03_codificacion_de_fuente;
+  13_mdl_y_seleccion_de_modelos -> 05_divergencia_kl_y_entropia_cruzada;
+  14_cuello_de_botella_de_la_informacion -> 09_teoria_tasa_distorsion;
+  14_cuello_de_botella_de_la_informacion -> 02_informacion_mutua;
+  14_cuello_de_botella_de_la_informacion -> 03_aprendizaje_automatico_e_informacion;
 }

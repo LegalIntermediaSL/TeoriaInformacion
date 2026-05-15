@@ -82,6 +82,10 @@ nav:
     - "Codificación aritmética": 02-teoria-informacion/13-codificacion-aritmetica.md
     - "Procesos estocásticos": 02-teoria-informacion/14-procesos-estocasticos-y-fuentes-con-memoria.md
     - "Códigos Reed-Solomon": 02-teoria-informacion/15-codigos-reed-solomon.md
+    - "Teoría de la información en redes": 02-teoria-informacion/16-teoria-informacion-en-redes.md
+    - "Códigos polares": 02-teoria-informacion/17-codigos-polares.md
+    - "Canal con estado (Gel'fand-Pinsker)": 02-teoria-informacion/18-canal-con-estado-gelfand-pinsker.md
+    - "Códigos turbo y BCJR": 02-teoria-informacion/19-codigos-turbo.md
   - "03 — Computabilidad":
     - "El problema de la parada": 03-computabilidad/01-problema-de-la-parada.md
     - "Decidibilidad": 03-computabilidad/02-decidibilidad-y-reconocibilidad.md
@@ -122,6 +126,9 @@ nav:
     - "Teoría de juegos e información": 05-conexiones-y-aplicaciones/09-teoria-de-juegos-e-informacion.md
     - "Deep learning desde la información": 05-conexiones-y-aplicaciones/10-aprendizaje-profundo-desde-la-informacion.md
     - "Privacidad diferencial": 05-conexiones-y-aplicaciones/11-privacidad-diferencial.md
+    - "Geometría de la información": 05-conexiones-y-aplicaciones/12-geometria-de-la-informacion.md
+    - "MDL y selección de modelos": 05-conexiones-y-aplicaciones/13-mdl-y-seleccion-de-modelos.md
+    - "Cuello de botella de la información": 05-conexiones-y-aplicaciones/14-cuello-de-botella-de-la-informacion.md
   - "Referencias":
     - "Glosario": referencias/glosario.md
     - "Notación matemática": referencias/notacion.md

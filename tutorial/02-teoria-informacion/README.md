@@ -44,6 +44,11 @@ Módulo dedicado a los conceptos fundamentales de la teoría de la información.
 - [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
 - [Codificación aritmética](13-codificacion-aritmetica.md)
 - [Procesos estocásticos y fuentes con memoria](14-procesos-estocasticos-y-fuentes-con-memoria.md)
+- [Códigos Reed-Solomon y aplicaciones](15-codigos-reed-solomon.md)
+- [Teoría de la información en redes](16-teoria-informacion-en-redes.md)
+- [Códigos polares: el primer código que alcanza la capacidad de Shannon](17-codigos-polares.md)
+- [Canal con estado: teorema de Gel'fand-Pinsker](18-canal-con-estado-gelfand-pinsker.md)
+- [Códigos turbo y el algoritmo BCJR](19-codigos-turbo.md)
 
 ## Resultado esperado
 

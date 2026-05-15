@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1390 816" width="1390" height="816" font-family="ui-monospace,monospace" font-size="11">
-<rect width="1390" height="816" fill="#0f172a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1390 954" width="1390" height="954" font-family="ui-monospace,monospace" font-size="11">
+<rect width="1390" height="954" fill="#0f172a"/>
 <defs>
   <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
     <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
@@ -7,15 +7,15 @@
 </defs>
 <text x="112.0" y="22" text-anchor="middle" fill="#94a3b8" font-weight="bold" font-size="13">00 — Presentación</text>
 <text x="342.0" y="22" text-anchor="middle" fill="#60a5fa" font-weight="bold" font-size="13">01 — Fundamentos</text>
-<line x1="235.0" y1="30" x2="235.0" y2="806" stroke="#1e293b" stroke-width="1"/>
+<line x1="235.0" y1="30" x2="235.0" y2="944" stroke="#1e293b" stroke-width="1"/>
 <text x="572.0" y="22" text-anchor="middle" fill="#34d399" font-weight="bold" font-size="13">02 — Teoría info.</text>
-<line x1="465.0" y1="30" x2="465.0" y2="806" stroke="#1e293b" stroke-width="1"/>
+<line x1="465.0" y1="30" x2="465.0" y2="944" stroke="#1e293b" stroke-width="1"/>
 <text x="802.0" y="22" text-anchor="middle" fill="#f59e0b" font-weight="bold" font-size="13">03 — Computabilidad</text>
-<line x1="695.0" y1="30" x2="695.0" y2="806" stroke="#1e293b" stroke-width="1"/>
+<line x1="695.0" y1="30" x2="695.0" y2="944" stroke="#1e293b" stroke-width="1"/>
 <text x="1032.0" y="22" text-anchor="middle" fill="#f87171" font-weight="bold" font-size="13">04 — Complejidad</text>
-<line x1="925.0" y1="30" x2="925.0" y2="806" stroke="#1e293b" stroke-width="1"/>
+<line x1="925.0" y1="30" x2="925.0" y2="944" stroke="#1e293b" stroke-width="1"/>
 <text x="1262.0" y="22" text-anchor="middle" fill="#a78bfa" font-weight="bold" font-size="13">05 — Conexiones</text>
-<line x1="1155.0" y1="30" x2="1155.0" y2="806" stroke="#1e293b" stroke-width="1"/>
+<line x1="1155.0" y1="30" x2="1155.0" y2="944" stroke="#1e293b" stroke-width="1"/>
 <path d="M342.0,120.0 C342.0,120.0 342.0,170.0 342.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M342.0,166.0 C342.0,166.0 342.0,170.0 342.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M342.0,212.0 C342.0,212.0 342.0,216.0 342.0,216.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
@@ -48,6 +48,13 @@
 <path d="M572.0,764.0 C572.0,764.0 572.0,308.0 572.0,308.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M572.0,764.0 C572.0,764.0 572.0,446.0 572.0,446.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M572.0,764.0 C572.0,764.0 572.0,492.0 572.0,492.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,810.0 C572.0,810.0 572.0,492.0 572.0,492.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,810.0 C572.0,810.0 572.0,400.0 572.0,400.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,856.0 C572.0,856.0 572.0,492.0 572.0,492.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,856.0 C572.0,856.0 572.0,446.0 572.0,446.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,902.0 C572.0,902.0 572.0,400.0 572.0,400.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,902.0 C572.0,902.0 572.0,308.0 572.0,308.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M572.0,902.0 C572.0,902.0 572.0,446.0 572.0,446.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M802.0,74.0 C572.0,74.0 572.0,110.4 437.5,110.4" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M802.0,120.0 C802.0,120.0 802.0,170.0 802.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M802.0,166.0 C802.0,166.0 802.0,170.0 802.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
@@ -112,9 +119,15 @@
 <path d="M1262.0,534.0 C917.0,534.0 917.0,293.7 661.1,293.7" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M1262.0,534.0 C1262.0,534.0 1262.0,216.0 1262.0,216.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M1262.0,534.0 C917.0,534.0 917.0,127.3 651.9,127.3" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,580.0 C917.0,580.0 917.0,173.3 651.9,173.3" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M1262.0,580.0 C917.0,580.0 917.0,298.6 659.0,298.6" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M1262.0,580.0 C1262.0,580.0 1262.0,170.0 1262.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <path d="M1262.0,626.0 C1262.0,626.0 1262.0,170.0 1262.0,170.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,626.0 C917.0,626.0 917.0,219.3 651.9,219.3" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,626.0 C917.0,626.0 917.0,303.2 656.7,303.2" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,672.0 C917.0,672.0 917.0,472.4 663.1,472.4" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,672.0 C917.0,672.0 917.0,180.0 647.0,180.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M1262.0,672.0 C1262.0,672.0 1262.0,262.0 1262.0,262.0" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr)"/>
 <rect x="20" y="60" width="184" height="28" rx="4" ry="4" fill="#94a3b822" stroke="#94a3b8" stroke-width="1.2"/>
 <text x="26" y="71" fill="#94a3b8" font-size="9" opacity="0.7">00/01</text>
 <text x="26" y="81" fill="#e2e8f0" font-size="10">mapa del territorio</text>
@@ -184,6 +197,15 @@
 <rect x="480" y="750" width="184" height="28" rx="4" ry="4" fill="#34d39922" stroke="#34d399" stroke-width="1.2"/>
 <text x="486" y="761" fill="#34d399" font-size="9" opacity="0.7">02/16</text>
 <text x="486" y="771" fill="#e2e8f0" font-size="10">teoria informacion en redes</text>
+<rect x="480" y="796" width="184" height="28" rx="4" ry="4" fill="#34d39922" stroke="#34d399" stroke-width="1.2"/>
+<text x="486" y="807" fill="#34d399" font-size="9" opacity="0.7">02/17</text>
+<text x="486" y="817" fill="#e2e8f0" font-size="10">codigos polares</text>
+<rect x="480" y="842" width="184" height="28" rx="4" ry="4" fill="#34d39922" stroke="#34d399" stroke-width="1.2"/>
+<text x="486" y="853" fill="#34d399" font-size="9" opacity="0.7">02/18</text>
+<text x="486" y="863" fill="#e2e8f0" font-size="10">canal con estado gelfand pin…</text>
+<rect x="480" y="888" width="184" height="28" rx="4" ry="4" fill="#34d39922" stroke="#34d399" stroke-width="1.2"/>
+<text x="486" y="899" fill="#34d399" font-size="9" opacity="0.7">02/19</text>
+<text x="486" y="909" fill="#e2e8f0" font-size="10">codigos turbo</text>
 <rect x="710" y="60" width="184" height="28" rx="4" ry="4" fill="#f59e0b22" stroke="#f59e0b" stroke-width="1.2"/>
 <text x="716" y="71" fill="#f59e0b" font-size="9" opacity="0.7">03/01</text>
 <text x="716" y="81" fill="#e2e8f0" font-size="10">problema de la parada</text>
@@ -301,4 +323,7 @@
 <rect x="1170" y="612" width="184" height="28" rx="4" ry="4" fill="#a78bfa22" stroke="#a78bfa" stroke-width="1.2"/>
 <text x="1176" y="623" fill="#a78bfa" font-size="9" opacity="0.7">05/13</text>
 <text x="1176" y="633" fill="#e2e8f0" font-size="10">mdl y seleccion de modelos</text>
+<rect x="1170" y="658" width="184" height="28" rx="4" ry="4" fill="#a78bfa22" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="1176" y="669" fill="#a78bfa" font-size="9" opacity="0.7">05/14</text>
+<text x="1176" y="679" fill="#e2e8f0" font-size="10">cuello de botella de la info…</text>
 </svg>

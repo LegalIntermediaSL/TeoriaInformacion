@@ -36,6 +36,12 @@ complejidad con otros campos.
 - [Información y termodinámica](06-informacion-y-termodinamica.md)
 - [Información y biología](07-informacion-y-biologia.md)
 - [El mapa de conexiones](08-mapa-de-conexiones.md)
+- [Teoría de juegos e información](09-teoria-de-juegos-e-informacion.md)
+- [Aprendizaje profundo desde la información](10-aprendizaje-profundo-desde-la-informacion.md)
+- [Privacidad diferencial](11-privacidad-diferencial.md)
+- [Geometría de la información](12-geometria-de-la-informacion.md)
+- [MDL y selección de modelos](13-mdl-y-seleccion-de-modelos.md)
+- [El cuello de botella de la información](14-cuello-de-botella-de-la-informacion.md)
 
 ## Resultado esperado
 
