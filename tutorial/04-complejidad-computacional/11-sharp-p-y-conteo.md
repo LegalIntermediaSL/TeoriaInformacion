@@ -37,7 +37,7 @@ Es decir, $f(x)$ cuenta el número de certificados (testigos) de longitud polino
 
 ## #P-completitud
 
-Un problema $f \in \#P$ es **#P-completo** si todo problema de #P se reduce a $f$ mediante una reducción Turing de tiempo polinomial (posiblemente con consultas adaptativas a $f$).
+Un problema $f \in \\#P$ es **#P-completo** si todo problema de #P se reduce a $f$ mediante una reducción Turing de tiempo polinomial (posiblemente con consultas adaptativas a $f$).
 
 ### El permanente
 
@@ -55,11 +55,11 @@ Esto contrasta con el **determinante** ($\det A = \sum_\sigma \text{sgn}(\sigma)
 
 ### #SAT es #P-completo
 
-Cualquier función $f \in \#P$ puede reducirse a #SAT: dado $x$, construir una fórmula $\phi_x$ cuyas asignaciones satisfacientes correspondan biyectivamente a los testigos de $f(x)$. Esta construcción es análoga a la reducción de Cook-Levin para NP.
+Cualquier función $f \in \\#P$ puede reducirse a #SAT: dado $x$, construir una fórmula $\phi_x$ cuyas asignaciones satisfacientes correspondan biyectivamente a los testigos de $f(x)$. Esta construcción es análoga a la reducción de Cook-Levin para NP.
 
 ## El teorema de Toda (1991)
 
-**Teorema de Toda.** $\text{PH} \subseteq \text{P}^{\#P}$.
+**Teorema de Toda.** $\text{PH} \subseteq \text{P}^{\\#P}$.
 
 Es decir, toda la jerarquía polinómica puede resolverse con una sola consulta a un oráculo #P. Esto implica que:
 
@@ -68,7 +68,7 @@ Es decir, toda la jerarquía polinómica puede resolverse con una sola consulta 
 
 **Esquema de la demostración.** Se basa en dos ingredientes:
 1. $\oplus P$ (decidir paridad del número de soluciones) es difícil para PH (via randomización y el lema de Valiant-Vazirani).
-2. $\oplus P \subseteq \text{P}^{\#P}$ (calcular el conteo permite determinar la paridad).
+2. $\oplus P \subseteq \text{P}^{\\#P}$ (calcular el conteo permite determinar la paridad).
 
 ## Aproximación para problemas de conteo
 
