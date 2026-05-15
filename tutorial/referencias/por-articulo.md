@@ -420,3 +420,47 @@ se organizan como apoyo directo, no como bibliografía exhaustiva.
 - Peter Grünwald y Paul Vitányi, "Shannon information and Kolmogorov complexity". ArXiv:cs/0410002, 2004.
 - Andrew Barron, Jorma Rissanen y Bin Yu, "The minimum description length principle in coding and modeling". *IEEE Trans. Inf. Theory*, 44(6), 2743–2760, 1998.
 - Gideon Schwarz, "Estimating the dimension of a model". *Annals of Statistics*, 6(2), 461–464, 1978. (BIC)
+
+## Artículos añadidos (cuarta ronda — gaps de contenido)
+
+### Códigos polares (02/17)
+
+- Erdal Arıkan, "Channel polarization: A method for constructing capacity-achieving codes for symmetric binary-input memoryless channels". *IEEE Trans. Information Theory*, 55(7), 3051–3073, 2009. — El artículo original.
+- Ido Tal y Alexander Vardy, "List decoding of polar codes". *IEEE Trans. Information Theory*, 61(5), 2428–2451, 2015. — Decodificación SCL.
+- Rüdiger Urbanke y Emre Telatar, "Polar codes: Speed of polarization and polynomial gap to capacity". *IEEE Trans. Information Theory*, 59(11), 2013.
+- Thomas Richardson y Rüdiger Urbanke, *Modern Coding Theory*. Cambridge University Press, 2008. — Marco general de códigos de capacidad.
+- 3GPP TS 38.212 — 5G NR multiplexing and channel coding (especificación de uso en control plane).
+
+### Canal con estado: Gel'fand-Pinsker y Dirty Paper Coding (02/18)
+
+- Sergei I. Gel'fand y Mark S. Pinsker, "Coding for channel with random parameters". *Problems of Control and Information Theory*, 9(1), 19–31, 1980. — Teorema original.
+- Max H. M. Costa, "Writing on dirty paper". *IEEE Trans. Information Theory*, 29(3), 439–441, 1983. — DPC gaussiano.
+- Claude E. Shannon, "Channels with side information at the transmitter". *IBM J. Res. Dev.*, 2(4), 289–293, 1958. — Caso causal.
+- Giuseppe Caire y Shlomo Shamai, "On the achievable throughput of a multiantenna Gaussian broadcast channel". *IEEE Trans. Information Theory*, 49(7), 1691–1706, 2003.
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, 2ª ed. Wiley, 2006. Cap. 7 (canales con estado).
+
+### Códigos turbo y el algoritmo BCJR (02/19)
+
+- Claude Berrou, Alain Glavieux y Punya Thitimajshima, "Near Shannon limit error-correcting coding and decoding: Turbo-codes". *Proc. IEEE ICC*, 1993. — El artículo fundacional.
+- Luc R. Bahl, John Cocke, Frederick Jelinek y Josef Raviv, "Optimal decoding of linear codes for minimizing symbol error rate". *IEEE Trans. Information Theory*, 20(2), 284–287, 1974. — Algoritmo BCJR.
+- Sergio Benedetto y Guido Montorsi, "Unveiling turbo codes: Some results on parallel concatenated coding schemes". *IEEE Trans. Information Theory*, 42(2), 409–428, 1996.
+- Stephan ten Brink, "Convergence behavior of iteratively decoded parallel concatenated codes". *IEEE Trans. Communications*, 49(10), 1727–1737, 2001. — Curvas EXIT.
+- Thomas Richardson y Rüdiger Urbanke, *Modern Coding Theory*. Cambridge University Press, 2008. Cap. 6.
+
+### El cuello de botella de la información (05/14)
+
+- Naftali Tishby, Fernando Pereira y William Bialek, "The information bottleneck method". *Proc. 37th Allerton Conference*, 1999. — Artículo fundacional.
+- Alexander A. Alemi, Ian Fischer, Joshua V. Dillon y Kevin Murphy, "Deep variational information bottleneck". *ICLR*, 2017. — VIB.
+- Ravid Shwartz-Ziv y Naftali Tishby, "Opening the black box of deep neural networks via information". arXiv:1703.00810, 2017. — Hipótesis IB en redes profundas.
+- Andrew M. Saxe et al., "On the information bottleneck theory of deep learning". *ICLR*, 2018. — Debate y refutación parcial.
+- Ziv Goldfeld y Yury Polyanskiy, "The information bottleneck problem and its applications in machine learning". *IEEE J. Sel. Areas Inf. Theory*, 1(1), 2020.
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, 2ª ed. Cap. 2 y 10. (tasa-distorsión como caso especial).
+
+### Codificación universal: Lempel-Ziv (02/20)
+
+- Jacob Ziv y Abraham Lempel, "A universal algorithm for sequential data compression". *IEEE Trans. Information Theory*, 23(3), 337–343, 1977. — LZ77.
+- Abraham Lempel y Jacob Ziv, "Compression of individual sequences via variable-rate coding". *IEEE Trans. Information Theory*, 24(5), 530–536, 1978. — LZ78, teorema de universalidad.
+- Terry A. Welch, "A technique for high-performance data compression". *IEEE Computer*, 17(6), 8–19, 1984. — LZW.
+- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*, 2ª ed. Wiley, 2006. Cap. 13 (codificación universal).
+- Peter Deutsch, *DEFLATE Compressed Data Format Specification*. RFC 1951, IETF, 1996.
+- Rudi Cilibrasi y Paul Vitányi, "Clustering by compression". *IEEE Trans. Information Theory*, 51(4), 1523–1545, 2005. — NCD y distancia de compresión.

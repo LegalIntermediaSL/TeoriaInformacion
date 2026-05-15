@@ -1,32 +1,11 @@
 # Referencias
 
-Bibliografía y recursos recomendados para ampliar el tutorial.
+Recursos de lectura y bibliografía curada para ampliar el tutorial.
 
-## Mapas de lectura
+## Índice
 
-- [Referencias por artículo](por-articulo.md)
-
-## Teoría de la información
-
-- Thomas M. Cover y Joy A. Thomas, *Elements of Information Theory*.
-- David J. C. MacKay, *Information Theory, Inference, and Learning Algorithms*.
-- Claude E. Shannon, "A Mathematical Theory of Communication".
-
-## Computabilidad
-
-- Michael Sipser, *Introduction to the Theory of Computation*.
-- Martin Davis, *Computability and Unsolvability*.
-- Hartley Rogers Jr., *Theory of Recursive Functions and Effective
-  Computability*.
-
-## Complejidad computacional
-
-- Sanjeev Arora y Boaz Barak, *Computational Complexity: A Modern Approach*.
-- Christos H. Papadimitriou, *Computational Complexity*.
-- Oded Goldreich, *Computational Complexity: A Conceptual Perspective*.
-
-## Pendientes
-
-- Clasificar referencias por nivel: introductorio, intermedio y avanzado.
-- Añadir recursos abiertos y materiales complementarios.
-- Ampliar las referencias por artículo con recursos abiertos cuando proceda.
+- [Referencias por artículo](por-articulo.md) — lecturas específicas para cada uno de los 67 artículos del tutorial.
+- [Bibliografía ampliada](bibliografia.md) — selección curada por tema y nivel: libros de texto, artículos fundacionales y recursos libres en línea.
+- [Glosario](glosario.md) — definiciones de los términos clave.
+- [Notación matemática](notacion.md) — guía de la notación usada en el tutorial.
+- [Tabla de complejidad](tabla-complejidad.md) — clases de complejidad, sus relaciones y problemas completos.
