@@ -188,6 +188,13 @@ y verifica numéricamente para $n = 10$ que $\log_2 C_n \approx \tfrac{1}{2}\log
 - [Información en aprendizaje estadístico](05-informacion-en-aprendizaje.md)
 - [Mapa de conexiones](08-mapa-de-conexiones.md)
 
+
+<!-- nav-start -->
+
+---
+← [Geometría de la Información](12-geometria-de-la-informacion.md) · →
+
+<!-- nav-end -->
 ## Referencias
 
 - Rissanen, J. (1978). Modeling by shortest data description. *Automatica*, 14(5), 465–471.

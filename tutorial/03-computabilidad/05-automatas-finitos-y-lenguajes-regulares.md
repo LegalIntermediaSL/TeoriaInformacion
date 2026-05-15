@@ -134,3 +134,9 @@ menos poderoso que una máquina de Turing, pero mucho más manejable.
 - [Gramáticas y jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md)
 - [Autómatas de pila y lenguajes libres de contexto](09-automatas-de-pila-y-lenguajes-contexto-libre.md)
 
+<!-- nav-start -->
+
+---
+← [04 - Máquinas de Turing](04-maquinas-de-turing.md) · [Gramáticas y la Jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md) →
+
+<!-- nav-end -->

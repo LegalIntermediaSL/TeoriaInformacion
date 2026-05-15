@@ -145,3 +145,9 @@ tiene baja entropía; una fuente impredecible tiene alta entropía.
 - [Información mutua y divergencia KL](02-informacion-mutua.md)
 - [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
 
+<!-- nav-start -->
+
+---
+← [05 - Lógica booleana y proposicional](../01-fundamentos-matematicos/05-logica-booleana-y-proposicional.md) · [02 - Información mutua](02-informacion-mutua.md) →
+
+<!-- nav-end -->

@@ -192,3 +192,9 @@ impracticable.
 - [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
 - [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
 
+<!-- nav-start -->
+
+---
+← [02 - Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md) · [04 - Grafos y estructuras discretas](04-grafos-y-estructuras-discretas.md) →
+
+<!-- nav-end -->

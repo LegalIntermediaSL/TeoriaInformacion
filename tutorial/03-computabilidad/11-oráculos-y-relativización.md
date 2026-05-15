@@ -149,6 +149,13 @@ Las MT que deciden con oráculo $K$ resuelven exactamente los problemas de nivel
 - [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Jerarquía aritmética](10-jerarquia-aritmetica.md) · [Aleatoriedad algorítmica](12-aleatoriedad-algoritmica.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Baker, T., Gill, J. y Solovay, R. (1975). Relativizations of the P=?NP question. *SIAM J. Computing*, 4(4), 431–442.

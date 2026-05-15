@@ -157,3 +157,9 @@ difíciles.
 - [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
 - [Información cuántica](04-informacion-cuantica.md)
 
+<!-- nav-start -->
+
+---
+← [01 - Complejidad de Kolmogorov](01-complejidad-de-kolmogorov.md) · [03 - Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md) →
+
+<!-- nav-end -->

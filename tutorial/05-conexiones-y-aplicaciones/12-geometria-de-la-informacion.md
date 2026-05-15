@@ -186,6 +186,13 @@ Esto justifica usar KL como función de coste en problemas de optimización sobr
 - [Aprendizaje profundo desde la información](10-aprendizaje-profundo-desde-la-informacion.md)
 - [Privacidad diferencial](11-privacidad-diferencial.md)
 
+
+<!-- nav-start -->
+
+---
+← [Privacidad Diferencial](11-privacidad-diferencial.md) · [13 - MDL y selección de modelos](13-mdl-y-seleccion-de-modelos.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Amari, S. (2016). *Information Geometry and Its Applications*. Springer.

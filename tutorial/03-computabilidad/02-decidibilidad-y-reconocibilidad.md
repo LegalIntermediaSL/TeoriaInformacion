@@ -155,3 +155,9 @@ parte de la teoría de la computabilidad.
 - [El problema de la parada](01-problema-de-la-parada.md)
 - [Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md)
 
+<!-- nav-start -->
+
+---
+← [01 - El problema de la parada](01-problema-de-la-parada.md) · [03 - Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md) →
+
+<!-- nav-end -->

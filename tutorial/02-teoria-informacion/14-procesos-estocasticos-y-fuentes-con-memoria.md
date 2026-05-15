@@ -172,6 +172,13 @@ donde $\bar{I}(X;Y) = \lim_{n \to \infty} \frac{1}{n} I(X_1^n; Y_1^n)$ es la tas
 - [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Codificación aritmética](13-codificacion-aritmetica.md) · [Códigos de Reed-Solomon y aplicaciones](15-codigos-reed-solomon.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T.M. y Thomas, J.A. (2006). *Elements of Information Theory*, 2ª ed., cap. 4 y 16. Wiley.

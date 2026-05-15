@@ -189,3 +189,9 @@ bits. La entropía indica el límite; los códigos concretos intentan acercarse 
 - [Codificación aritmética](13-codificacion-aritmetica.md)
 - [Entropía e incertidumbre](01-entropia-incertidumbre.md)
 
+<!-- nav-start -->
+
+---
+← [02 - Información mutua](02-informacion-mutua.md) · [04 - Canales discretos y capacidad](04-canales-discretos-y-capacidad.md) →
+
+<!-- nav-end -->

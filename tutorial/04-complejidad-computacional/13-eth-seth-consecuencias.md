@@ -121,6 +121,13 @@ Bajo esta hipótesis (implicada por SETH para grafos densos), se demuestran cota
 - [SAT y 3-SAT](03-sat-y-3-sat.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Complejidad de comunicación](12-complejidad-de-comunicacion.md) · [Complejidad cuántica: BQP y QMA](14-complejidad-cuantica-bqp-qma.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Impagliazzo, R. y Paturi, R. (2001). On the complexity of k-SAT. *Journal of Computer and System Sciences*, 62(2), 367–375.

@@ -118,3 +118,10 @@ Si terminas el tutorial sin especialización clara, la lectura con mayor relaci�
 3. **Aaronson, *Quantum Computing Since Democritus***: perspectiva unificadora.
 
 Juntos dan una base suficiente para leer artículos de investigación en cualquiera de las áreas del tutorial.
+
+<!-- nav-start -->
+
+---
+← [01 - Mapa del territorio: información, cálculo y dificultad](01-mapa-del-territorio.md) · [01 - Logaritmos, probabilidad y crecimiento](../01-fundamentos-matematicos/01-logaritmos-probabilidad-y-crecimiento.md) →
+
+<!-- nav-end -->

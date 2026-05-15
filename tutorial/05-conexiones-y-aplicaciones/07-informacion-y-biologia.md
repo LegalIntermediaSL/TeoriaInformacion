@@ -141,6 +141,13 @@ Matemáticamente, las neuronas implementan aproximadamente una **independizació
 - [Información y termodinámica](06-informacion-y-termodinamica.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Información y Termodinámica](06-informacion-y-termodinamica.md) · [El mapa completo: conexiones entre módulos](08-mapa-de-conexiones.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Schneider, T.D. y Stephens, R.M. (1990). Sequence logos: a new way to display consensus sequences. *Nucleic Acids Research*, 18(20), 6097–6100.

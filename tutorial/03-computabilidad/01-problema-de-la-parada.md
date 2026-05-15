@@ -137,3 +137,9 @@ general. La computabilidad estudia exactamente esa frontera.
 - [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
 - [Máquinas de Turing](04-maquinas-de-turing.md)
 
+<!-- nav-start -->
+
+---
+← [Teoría de la Información en Redes](../02-teoria-informacion/16-teoria-informacion-en-redes.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
+
+<!-- nav-end -->

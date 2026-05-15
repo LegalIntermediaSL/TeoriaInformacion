@@ -158,6 +158,13 @@ Los códigos polares son el estándar en 5G (control plane, canal de control de 
 - [Teorema de Shannon](08-teorema-de-shannon-capacidad.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Entropía Diferencial y Fuentes Continuas](10-entropia-diferencial.md) · [Cadenas de Markov y Tasa de Entropía](12-cadenas-de-markov-y-tasa-de-entropia.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Gallager, R. G. (1962). Low-density parity-check codes. *IRE Trans. Information Theory*.

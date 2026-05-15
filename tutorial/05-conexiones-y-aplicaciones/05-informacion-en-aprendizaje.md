@@ -162,6 +162,13 @@ la regularización o el kernel— es lo que permite la generalización. Sin comp
 5. ¿Qué implicaciones tiene el Teorema de No Free Lunch para el diseño de algoritmos
    de aprendizaje? ¿Contradice la efectividad del aprendizaje profundo en la práctica?
 
+
+<!-- nav-start -->
+
+---
+← [04 - Información cuántica](04-informacion-cuantica.md) · [Información y Termodinámica](06-informacion-y-termodinamica.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Rissanen, J. (1978). Modeling by shortest data description. *Automatica*.

@@ -157,3 +157,9 @@ conocido en una familia de límites nuevos.
 - [Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md)
 - [Reducciones polinómicas](../04-complejidad-computacional/02-reducciones-polinomicas.md)
 
+<!-- nav-start -->
+
+---
+← [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) · [04 - Máquinas de Turing](04-maquinas-de-turing.md) →
+
+<!-- nav-end -->

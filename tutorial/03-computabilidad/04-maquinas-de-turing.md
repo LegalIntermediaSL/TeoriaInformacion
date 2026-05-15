@@ -138,3 +138,9 @@ programas como objetos matemáticos.
 - [El problema de la parada](01-problema-de-la-parada.md)
 - [Universalidad y autorreferencia](07-universalidad-y-autorreferencia.md)
 
+<!-- nav-start -->
+
+---
+← [03 - Reducciones e indecidibilidad](03-reducciones-e-indecidibilidad.md) · [05 - Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md) →
+
+<!-- nav-end -->

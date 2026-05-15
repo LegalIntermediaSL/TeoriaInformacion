@@ -175,6 +175,13 @@ que aproxima $I(X;T) = \sup_{f} \mathbb{E}_{p(x,t)}[f] - \log \mathbb{E}_{p(x)p(
 - [Divergencia KL y divergencias de información](../02-teoria-informacion/05-divergencia-kl-y-entropia-cruzada.md)
 - [Privacidad diferencial](11-privacidad-diferencial.md)
 
+
+<!-- nav-start -->
+
+---
+← [Teoría de Juegos e Información Asimétrica](09-teoria-de-juegos-e-informacion.md) · [Privacidad Diferencial](11-privacidad-diferencial.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Tishby, N. y Zaslavsky, N. (2015). Deep learning and the information bottleneck principle. *IEEE ITW*.

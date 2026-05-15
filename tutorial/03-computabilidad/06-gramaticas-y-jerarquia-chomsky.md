@@ -137,6 +137,13 @@ Ejemplo: la expresión regular `(a|b)*abb` describe el lenguaje de cadenas sobre
 4. Diseñar un PDA que reconozca el lenguaje de paréntesis bien anidados sobre `{(, )}`.
 5. ¿Cuál es el nivel mínimo en la jerarquía de Chomsky del lenguaje $\{ww : w \in \{a,b\}^*\}$? Justificar.
 
+
+<!-- nav-start -->
+
+---
+← [05 - Autómatas finitos y lenguajes regulares](05-automatas-finitos-y-lenguajes-regulares.md) · [Universalidad y Autorreferencia](07-universalidad-y-autorreferencia.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Sipser, M. (2013). *Introduction to the Theory of Computation*, 3ª ed., capítulos 1, 2 y 5.

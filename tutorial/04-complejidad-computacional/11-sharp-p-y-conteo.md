@@ -134,6 +134,13 @@ sobre configuraciones $\sigma$ es exactamente un problema de conteo ponderado. E
 - [Complejidad aleatoria (BPP, RP)](08-complejidad-aleatoria.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Complejidad Parametrizada](10-complejidad-parametrizada.md) · [Complejidad de comunicación](12-complejidad-de-comunicacion.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Valiant, L.G. (1979). The complexity of computing the permanent. *Theoretical Computer Science*, 8(2), 189–201.

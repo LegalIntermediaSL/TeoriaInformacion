@@ -150,6 +150,13 @@ La dureza de LWE frente a computadores cuánticos se sustenta en reducciones de 
 5. Considera el esquema ML-KEM (CRYSTALS-Kyber). El parámetro de seguridad es $q = 3329$, $n = 256$. ¿Cómo afectaría un hipotético algoritmo cuántico para LWE en tiempo $O(2^{n/2})$ a la seguridad de nivel 1 (equivalente a AES-128)?
 6. El oráculo de Raz-Tal (2019) separa BQP de PH relativamente. ¿Qué implica esta separación sobre la posibilidad de demostrar $\mathbf{BQP} \subseteq \mathbf{PH}$ de forma incondicional con las técnicas actuales?
 
+
+<!-- nav-start -->
+
+---
+← [Hipótesis ETH y SETH: complejidad de grano fino](13-eth-seth-consecuencias.md) · [01 - Complejidad de Kolmogorov](../05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Shor, P. W. (1997). Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer. *SIAM Journal on Computing*, 26(5), 1484–1509.

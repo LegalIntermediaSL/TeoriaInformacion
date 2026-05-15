@@ -163,3 +163,9 @@ condicional mide incertidumbre restante después de observar información parcia
 - [Información mutua](02-informacion-mutua.md)
 - [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
 
+<!-- nav-start -->
+
+---
+← [06 - Códigos correctores de errores](06-codigos-correctores-de-errores.md) · [Teorema de Shannon y Capacidad de Canal](08-teorema-de-shannon-capacidad.md) →
+
+<!-- nav-end -->

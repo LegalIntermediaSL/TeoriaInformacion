@@ -164,6 +164,13 @@ cada bolsa considerando $2^{|B_i|}$ subconjuntos, dando tiempo $O(2^w \cdot n)$.
 - [ETH y SETH](13-eth-seth-consecuencias.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [El Teorema PCP y la Dureza de Aproximación](09-teorema-pcp.md) · [#P y problemas de conteo](11-sharp-p-y-conteo.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cygan, M. et al. (2015). *Parameterized Algorithms*. Springer. Disponible en línea.

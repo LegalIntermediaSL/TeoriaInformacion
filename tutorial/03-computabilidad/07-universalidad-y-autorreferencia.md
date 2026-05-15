@@ -140,6 +140,13 @@ El problema de determinar si una MT de 2 estados y 3 símbolos es universal fue 
 - [Complejidad de Kolmogorov](../05-conexiones-y-aplicaciones/01-complejidad-de-kolmogorov.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Gramáticas y la Jerarquía de Chomsky](06-gramaticas-y-jerarquia-chomsky.md) · [Complejidad Descriptiva](08-complejidad-descriptiva.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Sipser, M. (2013). *Introduction to the Theory of Computation*, 3ª ed., capítulos 3-5.

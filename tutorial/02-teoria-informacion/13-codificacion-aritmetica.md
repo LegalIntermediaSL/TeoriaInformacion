@@ -144,6 +144,13 @@ Este esquema logra tasas próximas a $H(X)$ **sin conocer de antemano las probab
 - [Cadenas de Markov y tasa de entropía](12-cadenas-de-markov-y-tasa-de-entropia.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Cadenas de Markov y Tasa de Entropía](12-cadenas-de-markov-y-tasa-de-entropia.md) · [Procesos estocásticos y fuentes con memoria](14-procesos-estocasticos-y-fuentes-con-memoria.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T.M. y Thomas, J.A. (2006). *Elements of Information Theory*, 2ª ed., cap. 5. Wiley.

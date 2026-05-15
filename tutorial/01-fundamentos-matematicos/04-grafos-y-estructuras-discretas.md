@@ -184,3 +184,9 @@ conectividad o estructuras dentro de grafos.
 - [Combinatoria y conteo](03-combinatoria-y-conteo.md)
 - [P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md)
 
+<!-- nav-start -->
+
+---
+← [03 - Combinatoria y conteo](03-combinatoria-y-conteo.md) · [05 - Lógica booleana y proposicional](05-logica-booleana-y-proposicional.md) →
+
+<!-- nav-end -->

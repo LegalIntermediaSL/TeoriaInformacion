@@ -133,6 +133,13 @@ En el modelo de **streaming** un algoritmo procesa una secuencia de datos con me
 - [Información mutua](../02-teoria-informacion/02-informacion-mutua.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [#P y problemas de conteo](11-sharp-p-y-conteo.md) · [Hipótesis ETH y SETH: complejidad de grano fino](13-eth-seth-consecuencias.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Kushilevitz, E. y Nisan, N. (1997). *Communication Complexity*. Cambridge University Press.

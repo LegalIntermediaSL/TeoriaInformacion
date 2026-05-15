@@ -184,6 +184,13 @@ límite termodinámico, aunque los cálculos intermedios pueden ser reversibles.
 - [Entropía diferencial](../02-teoria-informacion/10-entropia-diferencial.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Información en el Aprendizaje Estadístico](05-informacion-en-aprendizaje.md) · [Información y biología](07-informacion-y-biologia.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM J. Res. Dev.*

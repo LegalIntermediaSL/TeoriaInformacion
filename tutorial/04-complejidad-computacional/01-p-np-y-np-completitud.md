@@ -158,3 +158,9 @@ NP.
 - [Reducciones polinómicas](02-reducciones-polinomicas.md)
 - [SAT y 3-SAT](03-sat-y-3-sat.md)
 
+<!-- nav-start -->
+
+---
+← [Aleatoriedad algorítmica](../03-computabilidad/12-aleatoriedad-algoritmica.md) · [02 - Reducciones polinómicas](02-reducciones-polinomicas.md) →
+
+<!-- nav-end -->

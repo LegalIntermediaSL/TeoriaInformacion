@@ -156,6 +156,13 @@ En transmisión sobre canal AWGN a tasas próximas a la capacidad de Shannon, LD
 5. Compara $RS(255, 223)$ y $RS(255, 191)$: ¿cuál tiene mayor capacidad de corrección? ¿Cuál tiene mayor tasa de información? Calcula $R = k/n$ y $t$ para ambos.
 6. El algoritmo de Berlekamp-Massey construye el LFSR más corto que genera la secuencia de síndromes. Explica, en términos de grado del polinomio de conexión, por qué su complejidad es $O(t^2)$ y no $O(t)$.
 
+
+<!-- nav-start -->
+
+---
+← [Procesos estocásticos y fuentes con memoria](14-procesos-estocasticos-y-fuentes-con-memoria.md) · [Teoría de la Información en Redes](16-teoria-informacion-en-redes.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Reed, I. S. y Solomon, G. (1960). Polynomial codes over certain finite fields. *Journal of the Society for Industrial and Applied Mathematics*, 8(2), 300–304.

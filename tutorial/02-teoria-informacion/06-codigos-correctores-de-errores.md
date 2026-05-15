@@ -153,3 +153,9 @@ ven como usos complementarios de la información.
 - [Códigos LDPC y turbo](11-codigos-ldpc-y-turbo.md)
 - [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
 
+<!-- nav-start -->
+
+---
+← [05 - Divergencia KL y entropía cruzada](05-divergencia-kl-y-entropia-cruzada.md) · [07 - Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md) →
+
+<!-- nav-end -->

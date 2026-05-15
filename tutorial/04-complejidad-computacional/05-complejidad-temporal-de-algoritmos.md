@@ -158,3 +158,9 @@ cómo crecerá su coste mañana cuando la entrada sea mucho mayor.
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
 - [Combinatoria y conteo](../01-fundamentos-matematicos/03-combinatoria-y-conteo.md)
 
+<!-- nav-start -->
+
+---
+← [04 - Complejidad espacial](04-complejidad-espacial.md) · [06 - Aproximación y heurísticas](06-aproximacion-y-heuristicas.md) →
+
+<!-- nav-end -->

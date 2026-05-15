@@ -129,3 +129,9 @@ garantías se conservan y cuáles se abandonan.
 - [El teorema PCP e inaproximabilidad](09-teorema-pcp.md)
 - [Complejidad parametrizada](10-complejidad-parametrizada.md)
 
+<!-- nav-start -->
+
+---
+← [05 - Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md) · [Circuitos Booleanos y Complejidad de Circuitos](07-circuitos-booleanos.md) →
+
+<!-- nav-end -->

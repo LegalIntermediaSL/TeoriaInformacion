@@ -189,3 +189,9 @@ aleatoria si ninguna descripción corta la reproduce.
 - [Aleatoriedad algorítmica](../03-computabilidad/12-aleatoriedad-algoritmica.md)
 - [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
 
+<!-- nav-start -->
+
+---
+← [Complejidad cuántica: BQP y QMA](../04-complejidad-computacional/14-complejidad-cuantica-bqp-qma.md) · [02 - Criptografía y complejidad](02-criptografia-y-complejidad.md) →
+
+<!-- nav-end -->

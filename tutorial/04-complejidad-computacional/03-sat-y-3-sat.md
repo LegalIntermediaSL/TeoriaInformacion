@@ -160,3 +160,9 @@ difícil.
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
 - [El teorema PCP](09-teorema-pcp.md)
 
+<!-- nav-start -->
+
+---
+← [02 - Reducciones polinómicas](02-reducciones-polinomicas.md) · [04 - Complejidad espacial](04-complejidad-espacial.md) →
+
+<!-- nav-end -->

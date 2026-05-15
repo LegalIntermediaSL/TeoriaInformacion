@@ -135,6 +135,13 @@ La complejidad de Kolmogorov y la entropía de Shannon están relacionadas pero 
 - [Jerarquía aritmética](10-jerarquia-aritmetica.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Máquinas de Turing con oráculo y relativización](11-oráculos-y-relativización.md) · [01 - P, NP y NP-completitud](../04-complejidad-computacional/01-p-np-y-np-completitud.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Martin-Löf, P. (1966). The definition of random sequences. *Information and Control*, 9(6), 602–619.

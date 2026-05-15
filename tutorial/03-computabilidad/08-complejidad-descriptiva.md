@@ -182,6 +182,13 @@ reconocibles por autómatas sin ciclos.
 - [El teorema PCP](../04-complejidad-computacional/09-teorema-pcp.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Universalidad y Autorreferencia](07-universalidad-y-autorreferencia.md) · [Autómatas de Pila y Lenguajes Independientes del Contexto](09-automatas-de-pila-y-lenguajes-contexto-libre.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Immerman, N. (1999). *Descriptive Complexity*. Springer.

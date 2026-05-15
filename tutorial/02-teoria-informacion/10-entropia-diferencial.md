@@ -182,6 +182,13 @@ se necesitan $\approx n(h(X) + \log(1/\epsilon))$ bits.
 - [Información y termodinámica](../05-conexiones-y-aplicaciones/06-informacion-y-termodinamica.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Teoría de la Tasa-Distorsión](09-teoria-tasa-distorsion.md) · [Códigos LDPC y Turbo: Hacia la Capacidad de Shannon](11-codigos-ldpc-y-turbo.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T. y Thomas, J. (2006). *Elements of Information Theory*, 2ª ed., capítulos 8-9.

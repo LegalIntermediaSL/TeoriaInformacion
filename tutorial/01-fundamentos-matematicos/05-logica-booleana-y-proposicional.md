@@ -185,3 +185,9 @@ condiciones que pueden satisfacerse o no.
 - [SAT y 3-SAT](../04-complejidad-computacional/03-sat-y-3-sat.md)
 - [Circuitos booleanos](../04-complejidad-computacional/07-circuitos-booleanos.md)
 
+<!-- nav-start -->
+
+---
+← [04 - Grafos y estructuras discretas](04-grafos-y-estructuras-discretas.md) · [01 - Entropía: medir incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md) →
+
+<!-- nav-end -->

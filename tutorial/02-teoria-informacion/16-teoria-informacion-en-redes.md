@@ -207,6 +207,13 @@ La codificación que logra $C_s$ usa **binning estocástico**: Alice transmite a
 - [Teorema de Shannon y capacidad de canal](08-teorema-de-shannon-capacidad.md)
 - [Teoría tasa-distorsión](09-teoria-tasa-distorsion.md)
 
+
+<!-- nav-start -->
+
+---
+← [Códigos de Reed-Solomon y aplicaciones](15-codigos-reed-solomon.md) · [01 - El problema de la parada](../03-computabilidad/01-problema-de-la-parada.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T. M. & Thomas, J. A. (2006). *Elements of Information Theory* (2ª ed.). Wiley-Interscience. Caps. 14-17.

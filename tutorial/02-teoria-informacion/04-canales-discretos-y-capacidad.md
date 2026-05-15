@@ -143,3 +143,9 @@ La capacidad mide el máximo ritmo fiable de transmisión que el canal permite.
 - [Teorema de Shannon y capacidad](08-teorema-de-shannon-capacidad.md)
 - [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
 
+<!-- nav-start -->
+
+---
+← [03 - Codificación de fuente](03-codificacion-de-fuente.md) · [05 - Divergencia KL y entropía cruzada](05-divergencia-kl-y-entropia-cruzada.md) →
+
+<!-- nav-end -->

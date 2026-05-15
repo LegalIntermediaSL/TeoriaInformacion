@@ -133,6 +133,13 @@ Para sumar dos números de $n$ bits encadenando $n$ sumadores completos se obtie
 - [Complejidad descriptiva](../03-computabilidad/08-complejidad-descriptiva.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [06 - Aproximación y heurísticas](06-aproximacion-y-heuristicas.md) · [Complejidad Aleatoria](08-complejidad-aleatoria.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Arora, S. y Barak, B. (2009). *Computational Complexity: A Modern Approach*, capítulo 6. Disponible en línea.

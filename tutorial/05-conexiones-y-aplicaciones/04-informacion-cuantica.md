@@ -137,3 +137,9 @@ procesamiento y transmisión.
 - [Criptografía y complejidad](02-criptografia-y-complejidad.md)
 - [Información y termodinámica](06-informacion-y-termodinamica.md)
 
+<!-- nav-start -->
+
+---
+← [03 - Aprendizaje automático e información](03-aprendizaje-automatico-e-informacion.md) · [Información en el Aprendizaje Estadístico](05-informacion-en-aprendizaje.md) →
+
+<!-- nav-end -->

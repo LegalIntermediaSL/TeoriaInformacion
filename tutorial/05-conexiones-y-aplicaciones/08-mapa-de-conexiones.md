@@ -188,3 +188,9 @@ Los siguientes ejercicios requieren conectar resultados de distintos módulos. N
 - [Mapa del territorio](../00-presentacion/01-mapa-del-territorio.md)
 - [Rutas de profundización](../00-presentacion/02-rutas-de-profundizacion.md)
 
+<!-- nav-start -->
+
+---
+← [Información y biología](07-informacion-y-biologia.md) · [Teoría de Juegos e Información Asimétrica](09-teoria-de-juegos-e-informacion.md) →
+
+<!-- nav-end -->

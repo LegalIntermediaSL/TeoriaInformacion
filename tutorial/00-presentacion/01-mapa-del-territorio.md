@@ -132,3 +132,9 @@ lenguaje formal necesario para hablar de todo ello con precisión.
 - Cada módulo tiene un artículo de apertura que sirve de mapa local; léelo antes de adentrarte en los detalles.
 - Las conexiones entre módulos (complejidad descriptiva, SNARKs, Kolmogorov) son tan importantes como los contenidos de cada módulo por separado.
 
+<!-- nav-start -->
+
+---
+← · [Guía de rutas de profundización](02-rutas-de-profundizacion.md) →
+
+<!-- nav-end -->

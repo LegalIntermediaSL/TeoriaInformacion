@@ -126,6 +126,13 @@ Si $H < C$, la transmisión sin error arbitrariamente pequeña es posible. Si $H
 - [Códigos correctores de errores](06-codigos-correctores-de-errores.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [07 - Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md) · [Teoría de la Tasa-Distorsión](09-teoria-tasa-distorsion.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Shannon, C.E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27, 379–423.

@@ -162,3 +162,9 @@ La divergencia KL mide el exceso de coste frente al modelo ideal.
 - [Información mutua](02-informacion-mutua.md)
 - [Aprendizaje automático e información](../05-conexiones-y-aplicaciones/03-aprendizaje-automatico-e-informacion.md)
 
+<!-- nav-start -->
+
+---
+← [04 - Canales discretos y capacidad](04-canales-discretos-y-capacidad.md) · [06 - Códigos correctores de errores](06-codigos-correctores-de-errores.md) →
+
+<!-- nav-end -->

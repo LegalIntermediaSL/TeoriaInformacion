@@ -116,6 +116,13 @@ Esto significa que cualquier problema en PSPACE puede verificarse en tiempo poli
 - [#P y problemas de conteo](11-sharp-p-y-conteo.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Circuitos Booleanos y Complejidad de Circuitos](07-circuitos-booleanos.md) · [El Teorema PCP y la Dureza de Aproximación](09-teorema-pcp.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Sipser, M. (2013). *Introduction to the Theory of Computation*, 3ª ed., capítulo 10.

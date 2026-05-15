@@ -180,6 +180,13 @@ Los sistemas PCP tienen conexiones profundas con la **criptografía**:
 - [Complejidad descriptiva](../03-computabilidad/08-complejidad-descriptiva.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Complejidad Aleatoria](08-complejidad-aleatoria.md) · [Complejidad Parametrizada](10-complejidad-parametrizada.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Arora, S. y Barak, B. (2009). *Computational Complexity: A Modern Approach*, capítulo 11.

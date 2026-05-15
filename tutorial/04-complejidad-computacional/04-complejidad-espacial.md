@@ -145,3 +145,9 @@ algoritmo, sino cuánta información necesita mantener mientras trabaja.
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
 - [Circuitos booleanos](07-circuitos-booleanos.md)
 
+<!-- nav-start -->
+
+---
+← [03 - SAT y 3-SAT](03-sat-y-3-sat.md) · [05 - Complejidad temporal de algoritmos](05-complejidad-temporal-de-algoritmos.md) →
+
+<!-- nav-end -->

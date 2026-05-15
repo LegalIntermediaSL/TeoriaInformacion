@@ -233,3 +233,9 @@ programas, lenguajes y problemas.
 - [Combinatoria y conteo](03-combinatoria-y-conteo.md)
 - [Grafos y estructuras discretas](04-grafos-y-estructuras-discretas.md)
 
+<!-- nav-start -->
+
+---
+← [01 - Logaritmos, probabilidad y crecimiento](01-logaritmos-probabilidad-y-crecimiento.md) · [03 - Combinatoria y conteo](03-combinatoria-y-conteo.md) →
+
+<!-- nav-end -->

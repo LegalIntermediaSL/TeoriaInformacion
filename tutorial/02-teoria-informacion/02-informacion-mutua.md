@@ -190,3 +190,9 @@ observar otra. Si dos variables son independientes, no comparten información.
 - [Divergencia KL y entropía cruzada](05-divergencia-kl-y-entropia-cruzada.md)
 - [Canales discretos y capacidad](04-canales-discretos-y-capacidad.md)
 
+<!-- nav-start -->
+
+---
+← [01 - Entropía: medir incertidumbre](01-entropia-incertidumbre.md) · [03 - Codificación de fuente](03-codificacion-de-fuente.md) →
+
+<!-- nav-end -->

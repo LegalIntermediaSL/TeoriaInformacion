@@ -124,6 +124,13 @@ El paso de cuantización (paso 3) introduce pérdida; el teorema de tasa-distors
 - [Entropía diferencial](10-entropia-diferencial.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Teorema de Shannon y Capacidad de Canal](08-teorema-de-shannon-capacidad.md) · [Entropía Diferencial y Fuentes Continuas](10-entropia-diferencial.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T. y Thomas, J. (2006). *Elements of Information Theory*, 2ª ed., capítulo 10.

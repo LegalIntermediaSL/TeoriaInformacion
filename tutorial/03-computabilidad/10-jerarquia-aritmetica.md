@@ -166,6 +166,13 @@ La diferencia: en la jerarquía aritmética los cuantificadores cuantifican sobr
 - [Aleatoriedad algorítmica](12-aleatoriedad-algoritmica.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Autómatas de Pila y Lenguajes Independientes del Contexto](09-automatas-de-pila-y-lenguajes-contexto-libre.md) · [Máquinas de Turing con oráculo y relativización](11-oráculos-y-relativización.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Soare, R.I. (2016). *Turing Computability: Theory and Applications*. Springer.

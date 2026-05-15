@@ -171,6 +171,13 @@ de régimen (intrusión en red, fallo en sensor, cambio de idioma).
 - [Entropía conjunta y condicional](07-entropia-conjunta-y-condicional.md)
 
 
+
+<!-- nav-start -->
+
+---
+← [Códigos LDPC y Turbo: Hacia la Capacidad de Shannon](11-codigos-ldpc-y-turbo.md) · [Codificación aritmética](13-codificacion-aritmetica.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Cover, T. y Thomas, J. (2006). *Elements of Information Theory*, capítulos 4 y 16.

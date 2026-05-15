@@ -154,3 +154,9 @@ recorrido.
 - [Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md)
 - [Entropía e incertidumbre](../02-teoria-informacion/01-entropia-incertidumbre.md)
 
+<!-- nav-start -->
+
+---
+← [Guía de rutas de profundización](../00-presentacion/02-rutas-de-profundizacion.md) · [02 - Conjuntos, funciones y relaciones](02-conjuntos-funciones-y-relaciones.md) →
+
+<!-- nav-end -->

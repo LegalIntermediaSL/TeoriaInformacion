@@ -195,6 +195,13 @@ Recursivamente enumerables (Tipo 0) — Máquinas de Turing
 5. Demuestra que la intersección de dos CFL no es necesariamente CFL usando
    $L_1 = \{a^n b^n c^m\}$ y $L_2 = \{a^m b^n c^n\}$.
 
+
+<!-- nav-start -->
+
+---
+← [Complejidad Descriptiva](08-complejidad-descriptiva.md) · [Jerarquía aritmética](10-jerarquia-aritmetica.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Sipser, M. (2013). *Introduction to the Theory of Computation*, capítulo 2.

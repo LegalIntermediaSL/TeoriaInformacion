@@ -185,6 +185,13 @@ no de los datos publicados.
 - [Aprendizaje profundo desde la información](10-aprendizaje-profundo-desde-la-informacion.md)
 - [Teoría de juegos e información asimétrica](09-teoria-de-juegos-e-informacion.md)
 
+
+<!-- nav-start -->
+
+---
+← [Aprendizaje Profundo desde la Teoría de la Información](10-aprendizaje-profundo-desde-la-informacion.md) · [Geometría de la Información](12-geometria-de-la-informacion.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Dwork, C. et al. (2006). Calibrating noise to sensitivity in private data analysis. *TCC 2006*, LNCS 3876, 265–284.

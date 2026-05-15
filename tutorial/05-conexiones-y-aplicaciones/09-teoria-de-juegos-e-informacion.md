@@ -157,6 +157,13 @@ donde $v_{(n)}$ es el máximo de las valoraciones y $F$ es su distribución com�
 - [Privacidad diferencial](11-privacidad-diferencial.md)
 - [Información en aprendizaje estadístico](05-informacion-en-aprendizaje.md)
 
+
+<!-- nav-start -->
+
+---
+← [El mapa completo: conexiones entre módulos](08-mapa-de-conexiones.md) · [Aprendizaje Profundo desde la Teoría de la Información](10-aprendizaje-profundo-desde-la-informacion.md) →
+
+<!-- nav-end -->
 ## Referencias
 
 - Akerlof, G. A. (1970). The market for "lemons". *Quarterly Journal of Economics*, 84(3), 488–500.

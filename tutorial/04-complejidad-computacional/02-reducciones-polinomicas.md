@@ -170,3 +170,9 @@ el lenguaje central para comparar dificultad.
 - [P, NP y NP-completitud](01-p-np-y-np-completitud.md)
 - [SAT y 3-SAT](03-sat-y-3-sat.md)
 
+<!-- nav-start -->
+
+---
+← [01 - P, NP y NP-completitud](01-p-np-y-np-completitud.md) · [03 - SAT y 3-SAT](03-sat-y-3-sat.md) →
+
+<!-- nav-end -->
