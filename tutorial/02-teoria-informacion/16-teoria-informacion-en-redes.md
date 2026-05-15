@@ -211,7 +211,7 @@ La codificación que logra $C_s$ usa **binning estocástico**: Alice transmite a
 <!-- nav-start -->
 
 ---
-← [Códigos de Reed-Solomon y aplicaciones](15-codigos-reed-solomon.md) · [01 - El problema de la parada](../03-computabilidad/01-problema-de-la-parada.md) →
+← [Códigos de Reed-Solomon y aplicaciones](15-codigos-reed-solomon.md) · [Códigos Polares: El Primer Código que Alcanza la Capacidad de Shannon](17-codigos-polares.md) →
 
 <!-- nav-end -->
 ## Referencias

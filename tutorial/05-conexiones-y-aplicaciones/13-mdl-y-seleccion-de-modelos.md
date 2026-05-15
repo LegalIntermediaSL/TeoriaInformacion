@@ -192,7 +192,7 @@ y verifica numéricamente para $n = 10$ que $\log_2 C_n \approx \tfrac{1}{2}\log
 <!-- nav-start -->
 
 ---
-← [Geometría de la Información](12-geometria-de-la-informacion.md) · →
+← [Geometría de la Información](12-geometria-de-la-informacion.md) · [14 - El cuello de botella de la información](14-cuello-de-botella-de-la-informacion.md) →
 
 <!-- nav-end -->
 ## Referencias

@@ -140,6 +140,6 @@ general. La computabilidad estudia exactamente esa frontera.
 <!-- nav-start -->
 
 ---
-← [Teoría de la Información en Redes](../02-teoria-informacion/16-teoria-informacion-en-redes.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
+← [Canal con Estado: Teorema de Gel'fand-Pinsker](../02-teoria-informacion/18-canal-con-estado-gelfand-pinsker.md) · [02 - Decidibilidad y reconocibilidad](02-decidibilidad-y-reconocibilidad.md) →
 
 <!-- nav-end -->
