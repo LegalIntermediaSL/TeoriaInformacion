@@ -116,7 +116,7 @@ En el **canal de relevo** (*relay channel*) hay una fuente, un nodo relevo y un 
 **Decode-and-forward (DF):** El relevo decodifica el mensaje de la fuente completamente y lo reenvía al destino. La cota de tasa alcanzable es:
 
 $$
-R_\text{DF} = \max_{p(x_1, x_2)} \min\!\left\{I(X_1; Y_2 \mid X_2),\; I(X_1, X_2; Y_3)\right\}
+R_\text{DF} = \max_{p(x_1, x_2)} \min\!\left\lbraceI(X_1; Y_2 \mid X_2),\; I(X_1, X_2; Y_3)\right\rbrace
 $$
 
 donde $X_1$ es la entrada de la fuente, $X_2$ la del relevo, $Y_2$ la salida en el relevo y $Y_3$ la salida en el destino. El mínimo refleja el cuello de botella: o la fuente no puede comunicar al relevo (primer término) o el par fuente-relevo no puede llegar al destino (segundo término).
